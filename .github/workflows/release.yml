@@ -1,0 +1,23 @@
+---
+name: "release"
+on:  
+  push:
+    tags: [ "*" ]
+jobs:
+  do-release:
+    runs-on: "ubuntu-latest"
+    steps:
+    - uses: actions/checkout@master
+    - name: "compile"
+      uses: thedoctor0/zip-release@main
+      with:
+        type: "zip"
+        filename: "gamula.zip"
+        exclusions: "*.git*"
+    - name: "fetch hash"
+      run: "shasum gamula.zip | cut -d \" \" -f 1 > hash.txt"
+    - name: "clean & finish"
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "gamula.zip,hash.txt"
+        token: ${{ secrets.GITHUB_TOKEN }}
