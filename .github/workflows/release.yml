@@ -13,7 +13,7 @@ jobs:
       with:
         type: "zip"
         filename: "gamula.zip"
-        exclusions: "*.git*"
+        exclusions: "*.git* *notes*"
     - name: "fetch hash"
       run: "shasum gamula.zip | cut -d \" \" -f 1 > hash.txt"
     - name: "clean & finish"
