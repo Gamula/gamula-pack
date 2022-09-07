@@ -200,11 +200,38 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_island_top.png",
+      "file": "gamula/ui/gui/islands/gui_island_top.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
         "⼌"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "口"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_settings_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "回"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_settings.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "品"
       ],
       "height": 256
     },
