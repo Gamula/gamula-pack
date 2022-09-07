@@ -1,0 +1,3 @@
+git commit -am <reason> # modify reason for push
+git tag <version> # modify tag with release version
+git push && git push --tags
