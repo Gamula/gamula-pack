@@ -4,6 +4,7 @@
 	  "layer0": "item/leather_horse_armor"
 	},
 	"overrides": [
+	  {"predicate": {"custom_model_data": 5},"model": "item/custom/icons/tint_tone"},
 	  {"predicate": {"custom_model_data": 10001},"model": "item/custom/cosmetics/backblings/basic_backpack"},
 	  {"predicate": {"custom_model_data": 10002},"model": "item/custom/cosmetics/backblings/brown_bear_tail"},
 	  {"predicate": {"custom_model_data": 10003},"model": "item/custom/cosmetics/backblings/burger_suit"},

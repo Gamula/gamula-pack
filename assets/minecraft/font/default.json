@@ -429,8 +429,8 @@
       "chars": [
         ""
       ],
-      "height": 255,
-      "ascent": 59,
+      "height": 256,
+      "ascent": 29,
       "type": "bitmap"
     },
     {
@@ -836,7 +836,7 @@
       "ascent": 8,
       "type": "bitmap",
       "chars": [
-        ""
+        "净"
       ],
       "height": 9
     },
