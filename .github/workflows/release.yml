@@ -1,23 +1,25 @@
----
-name: "release"
+name: "Build & Release"
 on:  
   push:
-    tags: [ "*" ]
+    tags: ["*"]
+
 jobs:
-  do-release:
-    runs-on: "ubuntu-latest"
+  exec:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: "compile"
+    - uses: actions/checkout@v2
+    - name: Build
       uses: thedoctor0/zip-release@main
       with:
-        type: "zip"
-        filename: "gamula.zip"
+        type: zip
+        filename: gamula.zip
         exclusions: "*.git* *notes*"
-    - name: "fetch hash"
-      run: "shasum gamula.zip | cut -d \" \" -f 1 > hash.txt"
-    - name: "clean & finish"
+    - name: Fetch Hash
+      run: shasum gamula.zip | cut -d " " -f 1 > hash.txt
+    - name: Configure Git
+      run: git config --global user.email "no-reply@github.com" && git config --global user.name "Github Actions"
+    - name: Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "gamula.zip,hash.txt"
+        artifacts: gamula.zip,hash.txt
         token: ${{ secrets.GITHUB_TOKEN }}
