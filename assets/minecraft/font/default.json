@@ -434,6 +434,60 @@
       "type": "bitmap"
     },
     {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_hats.png",
+      "chars": [
+        "冰"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_props.png",
+      "chars": [
+        "论"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_backbling.png",
+      "chars": [
+        "退"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_balloon.png",
+      "chars": [
+        "吗"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_sprays.png",
+      "chars": [
+        "哈"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_selector.png",
+      "chars": [
+        "边"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_trade.png",
       "chars": [
         ""
@@ -945,6 +999,24 @@
       "type": "bitmap",
       "chars": [
         "ళ"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_locked.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "况"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_unlocked.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "汉"
       ],
       "height": 9
     },
