@@ -1,6 +1,1 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/icons/gui_island_menu_portal"
-    }
-}
+{"textures":{"particle":"gamula/icons/gui_island_menu_portal"},"elements":[{"from":[0,0,0],"to":[15.5,16,0],"faces":{"north":{"uv":[0,0,16,16],"texture":"#particle"}}}],"gui_light":"front","display":{"gui":{"rotation":[0,-180,0],"translation":[-12.25,8,0],"scale":[2,2,2]}}}
