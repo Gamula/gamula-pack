@@ -56,42 +56,6 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/gui_auction_categories.png",
-      "ascent": 30,
-      "type": "bitmap",
-      "chars": [
-        "⋉"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_auction_confirm.png",
-      "ascent": 30,
-      "type": "bitmap",
-      "chars": [
-        "⼛"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_auction_expired.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼠"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_auction_generic.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⋈"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/gui_blueprints.png",
       "ascent": 29,
       "type": "bitmap",
@@ -205,6 +169,42 @@
       "type": "bitmap",
       "chars": [
         "⼣"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_categories.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "⋉"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_confirm.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "⼛"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_expired.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼠"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⋈"
       ],
       "height": 256
     },
