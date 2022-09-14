@@ -27,6 +27,8 @@
     {"predicate": {"custom_model_data": 113},"model": "item/custom/keys/magma_key"},
     {"predicate": {"custom_model_data": 114},"model": "item/custom/keys/void_key"},
     {"predicate": {"custom_model_data": 115},"model": "item/custom/keys/vote_key"},
-    {"predicate": {"custom_model_data": 116},"model": "item/custom/icons/gui_island_menu_portal"}
+    {"predicate": {"custom_model_data": 116},"model": "item/custom/icons/gui_island_menu_portal"},
+    {"predicate": {"custom_model_data": 117},"model": "item/custom/sprays/dino"},
+    {"predicate": {"custom_model_data": 118},"model": "item/custom/sprays/pepefrog"}
    ]
 }
