@@ -103,6 +103,7 @@
 	  {"predicate": {"custom_model_data": 20063},"model": "item/custom/cosmetics/hats/witchhat"},
 	  {"predicate": {"custom_model_data": 20064},"model": "item/custom/cosmetics/hats/wizard_hat"},
 	  {"predicate": {"custom_model_data": 20065},"model": "item/custom/cosmetics/hats/wizard_hat_tint"},
+	  {"predicate": {"custom_model_data": 20066},"model": "item/custom/cosmetics/hats/rgb_headset_pink"},
 	  {"predicate": {"custom_model_data": 30001},"model": "item/custom/cosmetics/props/brown_bear_claw"},
 	  {"predicate": {"custom_model_data": 30002},"model": "item/custom/cosmetics/props/knight_sword"},
 	  {"predicate": {"custom_model_data": 30003},"model": "item/custom/cosmetics/props/krusty_krab_spatula"},
