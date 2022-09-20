@@ -29,6 +29,13 @@
     {"predicate": {"custom_model_data": 115},"model": "item/custom/keys/vote_key"},
     {"predicate": {"custom_model_data": 116},"model": "item/custom/icons/gui_island_menu_portal"},
     {"predicate": {"custom_model_data": 117},"model": "item/custom/sprays/dino"},
-    {"predicate": {"custom_model_data": 118},"model": "item/custom/sprays/pepefrog"}
-   ]
+    {"predicate": {"custom_model_data": 118},"model": "item/custom/sprays/pepefrog"},
+    {"predicate": {"custom_model_data": 10001}, "model": "item/custom/models/adventurerhelmet"},
+		{"predicate": {"custom_model_data": 10002}, "model": "item/custom/models/kingsceptre"},
+		{"predicate": {"custom_model_data": 10003}, "model": "item/custom/models/minerhelmet"},
+		{"predicate": {"custom_model_data": 10004}, "model": "item/custom/models/minerpack"},
+		{"predicate": {"custom_model_data": 10005}, "model": "item/custom/models/mug"},
+    {"predicate": {"custom_model_data": 10006}, "model": "item/custom/models/medusa_head"},
+    {"predicate": {"custom_model_data": 10007}, "model": "item/custom/models/amethystshard"}
+  ]
 }

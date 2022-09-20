@@ -1,0 +1,23 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+    "layer0": "minecraft:item/ink_sac"
+	},
+    "overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/custom/models/troll_spear"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/custom/models/troll_spear_ground"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/custom/models/voodoo_skull"},
+		{"predicate": {"custom_model_data": 4}, "model": "item/custom/models/troll_chief_helm"},
+		{"predicate": {"custom_model_data": 5}, "model": "item/custom/models/troll_elite_helm"},
+		{"predicate": {"custom_model_data": 6}, "model": "item/custom/models/troll_kopesh"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/custom/models/troll_mask"},
+		{"predicate": {"custom_model_data": 8}, "model": "item/custom/models/troll_voodoo_staff"},
+		{"predicate": {"custom_model_data": 9}, "model": "item/custom/models/coconut"},
+		{"predicate": {"custom_model_data": 10}, "model": "item/custom/models/zahar_guts"},
+		{"predicate": {"custom_model_data": 11}, "model": "item/custom/models/zahar_metal"},
+		{"predicate": {"custom_model_data": 12}, "model": "item/custom/models/lr_anubis_laser"},
+		{"predicate": {"custom_model_data": 13}, "model": "item/custom/models/lr_anubis_bullethell"},
+		{"predicate": {"custom_model_data": 14}, "model": "item/custom/models/lr_anubisslasheffect"},
+		{"predicate": {"custom_model_data": 15}, "model": "item/custom/models/anubis_staff"}
+        ]
+}

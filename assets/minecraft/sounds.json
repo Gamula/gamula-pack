@@ -1,0 +1,602 @@
+{
+	"littleroom.amethystgolem.stomp": {
+		"sounds": [
+			"littleroom/amethystgolem/stomp"
+		]
+	},
+	"littleroom.amethystgolem.shardgrab": {
+		"sounds": [
+			"littleroom/amethystgolem/shardgrab"
+		]
+	},
+	"littleroom.amethystgolem.death": {
+		"sounds": [
+			"littleroom/amethystgolem/death"
+		]
+	},
+	"littleroom.amethystgolem.armslam": {
+		"sounds": [
+			"littleroom/amethystgolem/armslam"
+		]
+	},
+	"littleroom.amethystgolem.shardout": {
+		"sounds": [
+			"littleroom/amethystgolem/shardout"
+		]
+	},
+	"littleroom.zahar.abomination_grab": {
+		"sounds": [
+			"littleroom/zahar/abomination_grab"
+		]
+	},
+	"littleroom.zahar.abomination_impact1": {
+		"sounds": [
+			"littleroom/zahar/abomination_impact1"
+		]
+	},
+	"littleroom.zahar.abomination_impact2": {
+		"sounds": [
+			"littleroom/zahar/abomination_impact2"
+		]
+	},
+	"littleroom.zahar.abomination_scream1": {
+		"sounds": [
+			"littleroom/zahar/abomination_scream1"
+		]
+	},
+	"littleroom.zahar.abomination_scream2": {
+		"sounds": [
+			"littleroom/zahar/abomination_scream2"
+		]
+	},
+	"littleroom.zahar.abomination_scream3": {
+		"sounds": [
+			"littleroom/zahar/abomination_scream3"
+		]
+	},
+	"littleroom.zahar.abomination_spawn": {
+		"sounds": [
+			"littleroom/zahar/abomination_spawn"
+		]
+	},
+	"littleroom.zahar.bottle_foley1": {
+		"sounds": [
+			"littleroom/zahar/bottle_foley1"
+		]
+	},
+	"littleroom.zahar.bottle_foley2": {
+		"sounds": [
+			"littleroom/zahar/bottle_foley2"
+		]
+	},
+	"littleroom.zahar.bottle_foley3": {
+		"sounds": [
+			"littleroom/zahar/bottle_foley3"
+		]
+	},
+	"littleroom.zahar.bottle_slurp": {
+		"sounds": [
+			"littleroom/zahar/bottle_slurp"
+		]
+	},
+	"littleroom.zahar.cloth_foley1": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley1"
+		]
+	},
+	"littleroom.zahar.cloth_foley2": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley2"
+		]
+	},
+	"littleroom.zahar.cloth_foley3": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley3"
+		]
+	},
+	"littleroom.zahar.cloth_foley4": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley4"
+		]
+	},
+	"littleroom.zahar.cloth_foley5": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley5"
+		]
+	},
+	"littleroom.zahar.cloth_foley6": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley6"
+		]
+	},
+	"littleroom.zahar.impact1": {
+		"sounds": [
+			"littleroom/zahar/impact1"
+		]
+	},
+	"littleroom.zahar.impact2": {
+		"sounds": [
+			"littleroom/zahar/impact2"
+		]
+	},
+	"littleroom.zahar.impact3": {
+		"sounds": [
+			"littleroom/zahar/impact3"
+		]
+	},
+	"littleroom.zahar.impact4": {
+		"sounds": [
+			"littleroom/zahar/impact4"
+		]
+	},
+	"littleroom.zahar.swing1": {
+		"sounds": [
+			"littleroom/zahar/swing1"
+		]
+	},
+	"littleroom.zahar.swing2": {
+		"sounds": [
+			"littleroom/zahar/swing2"
+		]
+	},
+	"littleroom.zahar.swing3": {
+		"sounds": [
+			"littleroom/zahar/swing3"
+		]
+	},
+	"littleroom.zahar.zahar_die": {
+		"sounds": [
+			"littleroom/zahar/zahar_die"
+		]
+	},
+	"littleroom.zahar.zahar_stun": {
+		"sounds": [
+			"littleroom/zahar/zahar_stun"
+		]
+	},
+	"littleroom.zahar.summon_circle": {
+		"sounds": [
+			"littleroom/zahar/summon_circle"
+		]
+	},
+	"littleroom.anubis.groundcrack1": {
+		"sounds": [
+			"littleroom/anubis/groundcrack1"
+		]
+	},
+	"littleroom.anubis.groundcrack2": {
+		"sounds": [
+			"littleroom/anubis/groundcrack2"
+		]
+	},
+	"littleroom.anubis.groundcrack3": {
+		"sounds": [
+			"littleroom/anubis/groundcrack3"
+		]
+	},
+	"littleroom.anubis.obeliskdeath": {
+		"sounds": [
+			"littleroom/anubis/obeliskdeath"
+		]
+	},
+	"littleroom.anubis.obeliskfire": {
+		"sounds": [
+			"littleroom/anubis/obeliskfire"
+		]
+	},
+	"littleroom.anubis.obeliskimpact1": {
+		"sounds": [
+			"littleroom/anubis/obeliskimpact1"
+		]
+	},
+	"littleroom.anubis.obeliskimpact2": {
+		"sounds": [
+			"littleroom/anubis/obeliskimpact2"
+		]
+	},
+	"littleroom.anubis.obeliskimpact3": {
+		"sounds": [
+			"littleroom/anubis/obeliskimpact3"
+		]
+	},
+	"littleroom.anubis.obeliskrise1": {
+		"sounds": [
+			"littleroom/anubis/obeliskrise1"
+		]
+	},
+	"littleroom.anubis.obeliskrise2": {
+		"sounds": [
+			"littleroom/anubis/obeliskrise2"
+		]
+	},
+	"littleroom.anubis.anubispain1": {
+		"sounds": [
+			"littleroom/anubis/anubispain1"
+		]
+	},
+	"littleroom.anubis.anubispain2": {
+		"sounds": [
+			"littleroom/anubis/anubispain2"
+		]
+	},
+	"littleroom.anubis.anubispain3": {
+		"sounds": [
+			"littleroom/anubis/anubispain3"
+		]
+	},
+	"littleroom.anubis.anubisidle1": {
+		"sounds": [
+			"littleroom/anubis/anubisidle1"
+		]
+	},
+	"littleroom.anubis.anubisidle2": {
+		"sounds": [
+			"littleroom/anubis/anubisidle2"
+		]
+	},
+	"littleroom.anubis.anubisidle3": {
+		"sounds": [
+			"littleroom/anubis/anubisidle3"
+		]
+	},
+	"littleroom.anubis.anubisidle4": {
+		"sounds": [
+			"littleroom/anubis/anubisidle4"
+		]
+	},
+	"littleroom.anubis.anubisidle5": {
+		"sounds": [
+			"littleroom/anubis/anubisidle5"
+		]
+	},
+	"littleroom.anubis.anubisidle6": {
+		"sounds": [
+			"littleroom/anubis/anubisidle6"
+		]
+	},
+	"littleroom.anubis.groundimpact1": {
+		"sounds": [
+			"littleroom/anubis/groundimpact1"
+		]
+	},
+	"littleroom.anubis.groundimpact2": {
+		"sounds": [
+			"littleroom/anubis/groundimpact2"
+		]
+	},
+	"littleroom.anubis.impact1": {
+		"sounds": [
+			"littleroom/anubis/impact1"
+		]
+	},
+	"littleroom.anubis.impact2": {
+		"sounds": [
+			"littleroom/anubis/impact2"
+		]
+	},
+	"littleroom.anubis.impact3": {
+		"sounds": [
+			"littleroom/anubis/impact3"
+		]
+	},
+	"littleroom.anubis.impact4": {
+		"sounds": [
+			"littleroom/anubis/impact4"
+		]
+	},
+	"littleroom.anubis.mummyswing1": {
+		"sounds": [
+			"littleroom/anubis/mummyswing1"
+		]
+	},
+	"littleroom.anubis.mummyswing2": {
+		"sounds": [
+			"littleroom/anubis/mummyswing2"
+		]
+	},
+	"littleroom.anubis.mummyswing3": {
+		"sounds": [
+			"littleroom/anubis/mummyswing3"
+		]
+	},
+	"littleroom.anubis.mummyswing4": {
+		"sounds": [
+			"littleroom/anubis/mummyswing4"
+		]
+	},
+	"littleroom.anubis.staffimpact1": {
+		"sounds": [
+			"littleroom/anubis/staffimpact1"
+		]
+	},
+	"littleroom.anubis.staffimpact2": {
+		"sounds": [
+			"littleroom/anubis/staffimpact2"
+		]
+	},
+	"littleroom.anubis.staffimpact3": {
+		"sounds": [
+			"littleroom/anubis/staffimpact3"
+		]
+	},
+	"littleroom.anubis.swing1": {
+		"sounds": [
+			"littleroom/anubis/swing1"
+		]
+	},
+	"littleroom.anubis.swing2": {
+		"sounds": [
+			"littleroom/anubis/swing2"
+		]
+	},
+	"littleroom.anubis.swing3": {
+		"sounds": [
+			"littleroom/anubis/swing3"
+		]
+	},
+	"littleroom.anubis.swing4": {
+		"sounds": [
+			"littleroom/anubis/swing4"
+		]
+	},
+	"littleroom.anubis.anubisfoot3": {
+		"sounds": [
+			"littleroom/anubis/anubisfoot3"
+		]
+	},
+	"littleroom.anubis.anubisfoot2": {
+		"sounds": [
+			"littleroom/anubis/anubisfoot2"
+		]
+	},
+	"littleroom.anubis.anubisfoot1": {
+		"sounds": [
+			"littleroom/anubis/anubisfoot1"
+		]
+	},
+	"littleroom.anubis.anubisdarkmode": {
+		"sounds": [
+			"littleroom/anubis/anubisdarkmode"
+		]
+	},
+	"littleroom.anubis.whoosh1": {
+		"sounds": [
+			"littleroom/anubis/whoosh1"
+		]
+	},
+	"littleroom.anubis.whoosh2": {
+		"sounds": [
+			"littleroom/anubis/whoosh2"
+		]
+	},
+	"littleroom.anubis.whoosh3": {
+		"sounds": [
+			"littleroom/anubis/whoosh3"
+		]
+	},
+	"littleroom.anubis.whoosh4": {
+		"sounds": [
+			"littleroom/anubis/whoosh4"
+		]
+	},
+	"littleroom.anubis.anubisremove": {
+		"sounds": [
+			"littleroom/anubis/anubisremove"
+		]
+	},
+	"littleroom.anubis.anubissummon": {
+		"sounds": [
+			"littleroom/anubis/anubissummon"
+		]
+	},
+	"littleroom.anubis.mummyidle1": {
+		"sounds": [
+			"littleroom/anubis/mummyidle1"
+		]
+	},
+	"littleroom.anubis.mummyidle2": {
+		"sounds": [
+			"littleroom/anubis/mummyidle2"
+		]
+	},
+	"littleroom.anubis.mummyidle3": {
+		"sounds": [
+			"littleroom/anubis/mummyidle3"
+		]
+	},
+	"littleroom.anubis.mummyidle4": {
+		"sounds": [
+			"littleroom/anubis/mummyidle4"
+		]
+	},
+	"littleroom.anubis.mummyidle5": {
+		"sounds": [
+			"littleroom/anubis/mummyidle5"
+		]
+	},
+	"littleroom.medusa.death": {
+		"sounds": [
+			"littleroom/medusa/death"
+		]
+	},
+	"littleroom.medusa.deathfall": {
+		"sounds": [
+			"littleroom/medusa/deathfall"
+		]
+	},
+	"littleroom.medusa.glare": {
+		"sounds": [
+			"littleroom/medusa/glare"
+		]
+	},
+	"littleroom.medusa.rockbreak1": {
+		"sounds": [
+			"littleroom/medusa/rockbreak1"
+		]
+	},
+	"littleroom.medusa.rockbreak2": {
+		"sounds": [
+			"littleroom/medusa/rockbreak2"
+		]
+	},
+	"littleroom.medusa.rockbreak3": {
+		"sounds": [
+			"littleroom/medusa/rockbreak3"
+		]
+	},
+	"littleroom.medusa.shoot": {
+		"sounds": [
+			"littleroom/medusa/shoot"
+		]
+	},
+	"littleroom.medusa.spin": {
+		"sounds": [
+			"littleroom/medusa/spin"
+		]
+	},
+	"littleroom.medusa.step1": {
+		"sounds": [
+			"littleroom/medusa/step1"
+		]
+	},
+	"littleroom.medusa.step2": {
+		"sounds": [
+			"littleroom/medusa/step2"
+		]
+	},
+	"littleroom.medusa.swipe": {
+		"sounds": [
+			"littleroom/medusa/swipe"
+		]
+	},
+	"littleroom.medusa.twinsnakes": {
+		"sounds": [
+			"littleroom/medusa/twinsnakes"
+		]
+	},
+	"littleroom.tortus.death": {
+		"sounds": [
+			"littleroom/tortus/death"
+		]
+	},
+	"littleroom.tortus.emerge": {
+		"sounds": [
+			"littleroom/tortus/emerge"
+		]
+	},
+	"littleroom.tortus.idle1": {
+		"sounds": [
+			"littleroom/tortus/idle1"
+		]
+	},
+	"littleroom.tortus.idle2": {
+		"sounds": [
+			"littleroom/tortus/idle2"
+		]
+	},
+	"littleroom.tortus.idle3": {
+		"sounds": [
+			"littleroom/tortus/idle3"
+		]
+	},
+	"littleroom.tortus.impact": {
+		"sounds": [
+			"littleroom/tortus/impact"
+		]
+	},
+	"littleroom.tortus.impact2": {
+		"sounds": [
+			"littleroom/tortus/impact2"
+		]
+	},
+	"littleroom.tortus.impact3": {
+		"sounds": [
+			"littleroom/tortus/impact3"
+		]
+	},
+	"littleroom.tortus.impact4": {
+		"sounds": [
+			"littleroom/tortus/impact4"
+		]
+	},
+	"littleroom.tortus.swing1": {
+		"sounds": [
+			"littleroom/tortus/swing1"
+		]
+	},
+	"littleroom.tortus.swing2": {
+		"sounds": [
+			"littleroom/tortus/swing2"
+		]
+	},
+	"littleroom.tortus.spin": {
+		"sounds": [
+			"littleroom/tortus/spin"
+		]
+	},
+	"littleroom.trollpack.greetings": {
+		"sounds": [
+			"littleroom/trollpack/greetings"
+		]
+	},
+	"littleroom.trollpack.heal": {
+		"sounds": [
+			"littleroom/trollpack/heal"
+		]
+	},
+	"littleroom.trollpack.impact1": {
+		"sounds": [
+			"littleroom/trollpack/impact1"
+		]
+	},
+	"littleroom.trollpack.impact2": {
+		"sounds": [
+			"littleroom/trollpack/impact2"
+		]
+	},
+	"littleroom.trollpack.impact3": {
+		"sounds": [
+			"littleroom/trollpack/impact3"
+		]
+	},
+	"littleroom.trollpack.impact4": {
+		"sounds": [
+			"littleroom/trollpack/impact4"
+		]
+	},
+	"littleroom.trollpack.jump": {
+		"sounds": [
+			"littleroom/trollpack/jump"
+		]
+	},
+	"littleroom.trollpack.swing1": {
+		"sounds": [
+			"littleroom/trollpack/swing1"
+		]
+	},
+	"littleroom.trollpack.swing2": {
+		"sounds": [
+			"littleroom/trollpack/swing2"
+		]
+	},
+	"littleroom.trollpack.swing3": {
+		"sounds": [
+			"littleroom/trollpack/swing3"
+		]
+	},
+	"littleroom.trollpack.swing4": {
+		"sounds": [
+			"littleroom/trollpack/swing4"
+		]
+	},
+	"littleroom.trollpack.swing5": {
+		"sounds": [
+			"littleroom/trollpack/swing5"
+		]
+	},
+	"littleroom.trollpack.spell_attack": {
+		"sounds": [
+			"littleroom/trollpack/spell_attack"
+		]
+	}
+}
