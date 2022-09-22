@@ -36,6 +36,10 @@
 		{"predicate": {"custom_model_data": 10004}, "model": "item/custom/models/minerpack"},
 		{"predicate": {"custom_model_data": 10005}, "model": "item/custom/models/mug"},
     {"predicate": {"custom_model_data": 10006}, "model": "item/custom/models/medusa_head"},
-    {"predicate": {"custom_model_data": 10007}, "model": "item/custom/models/amethystshard"}
+    {"predicate": {"custom_model_data": 10007}, "model": "item/custom/models/amethystshard"},
+		{"predicate": {"custom_model_data": 10008}, "model": "item/custom/models/axolotl_hat"},
+		{"predicate": {"custom_model_data": 10009}, "model": "item/custom/models/fire_axolotl_hat"},
+    {"predicate": {"custom_model_data": 10010}, "model": "item/custom/models/diverhelmet"},
+    {"predicate": {"custom_model_data": 10011}, "model": "item/custom/models/horns"}
   ]
 }

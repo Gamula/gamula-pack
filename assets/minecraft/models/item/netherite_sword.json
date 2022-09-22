@@ -5,6 +5,10 @@
   },
     "overrides": [
 		{"predicate": {"custom_model_data":1}, "model": "item/custom/models/amethystsword"},
-    {"predicate": {"custom_model_data":2}, "model": "item/custom/models/adventurersword"}
+    {"predicate": {"custom_model_data":2}, "model": "item/custom/models/adventurersword"},
+    {"predicate": {"custom_model_data":3}, "model": "item/custom/models/chitin_spear"},
+    {"predicate": {"custom_model_data":4}, "model": "item/custom/models/hook"},
+    {"predicate": {"custom_model_data":5}, "model": "item/custom/models/scythe"},
+    {"predicate": {"custom_model_data":6}, "model": "item/custom/models/gigasclaw"}
   ]
 }
