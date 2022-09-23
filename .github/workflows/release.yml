@@ -1,20 +1,27 @@
 name: "Build & Release"
 on:  
   push:
-    tags: ["*"]
+    tags: ["**"]
 
 jobs:
   exec:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      uses: thedoctor0/zip-release@main
+    - name: Clone
+      uses: actions/checkout@v3
       with:
-        type: zip
-        filename: gamula.zip
-        exclusions: "*.git* *notes*"
-    - name: Fetch Hash
+        fetch-depth: 0
+    - name: Build
+      uses: ComunidadAylas/PackSquash-action@v3
+      with:
+        artifact_name: gamula
+    - name: Fetch
+      uses: actions/download-artifact@v3
+      with:
+        name: gamula
+    - name: Rename
+      run: mv pack.zip gamula.zip
+    - name: Hash
       run: shasum gamula.zip | cut -d " " -f 1 > hash.txt
     - name: Configure Git
       run: git config --global user.email "no-reply@github.com" && git config --global user.name "Github Actions"
