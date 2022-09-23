@@ -16,6 +16,7 @@ jobs:
       with:
         artifact_name: gamula
         allow_optifine_mod: true
+        minify_shaders: false
     - name: Fetch
       uses: actions/download-artifact@v3
       with:
