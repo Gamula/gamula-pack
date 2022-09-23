@@ -15,7 +15,7 @@ jobs:
       uses: ComunidadAylas/PackSquash-action@v3
       with:
         artifact_name: gamula
-        audio_sampling_frequency: 48000
+        allow_optifine_mod: true
     - name: Fetch
       uses: actions/download-artifact@v3
       with:
