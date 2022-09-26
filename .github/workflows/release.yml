@@ -12,17 +12,11 @@ jobs:
       with:
         fetch-depth: 0
     - name: Build
-      uses: ComunidadAylas/PackSquash-action@v3
+      uses: thedoctor0/zip-release@main
       with:
-        artifact_name: gamula
-        allow_optifine_mod: true
-        minify_shaders: false
-    - name: Fetch
-      uses: actions/download-artifact@v3
-      with:
-        name: gamula
-    - name: Rename
-      run: mv pack.zip gamula.zip
+        type: zip
+        filename: gamula.zip
+        exclusions: "*.git* *notes*"
     - name: Hash
       run: shasum gamula.zip | cut -d " " -f 1 > hash.txt
     - name: Configure Git
