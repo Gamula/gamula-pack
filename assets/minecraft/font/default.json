@@ -237,7 +237,7 @@
     },
 		{
 			"file": "gamula/ui/gui/gui_fisherman.png",
-			"ascent": 28,
+			"ascent": 30,
 			"type": "bitmap",
 			"chars": [
         "鱲"
