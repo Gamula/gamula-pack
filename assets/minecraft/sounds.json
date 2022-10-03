@@ -1,4 +1,9 @@
 {
+	"littleroom.mist.traverse":{
+		"sounds": [
+		   "littleroom/mist/traverse"
+		]
+    },
 	"littleroom.phoenix.death":{
 		"sounds": [
 		   "littleroom/phoenix/death"
