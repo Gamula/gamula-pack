@@ -21,7 +21,7 @@ jobs:
       run: |
         HASH=$(shasum gamula.zip | cut -d " " -f 1)
         echo "Exporting pack hash to $HASH"
-        echo "::set-env name=PACK_HASH::$HASH"
+        echo "::set-output name=pack_hash::$HASH"
     - name: Configure Git
       run: git config --global user.email "no-reply@github.com" && git config --global user.name "Github Actions"
     - name: Release
@@ -29,4 +29,4 @@ jobs:
       with:
         artifacts: gamula.zip,hash.txt
         token: ${{ secrets.GITHUB_TOKEN }}
-        body: "${{ github.event.commits[0].message }}\n\n${{ env.RELEASE_BODY }}"
+        body: "${{ github.event.commits[0].message }}\n\n${{ steps.prep.outputs.pack_hash }}"
