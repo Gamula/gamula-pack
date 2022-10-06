@@ -18,6 +18,7 @@ jobs:
         filename: gamula.zip
         exclusions: "*.git* *notes*"
     - name: Hash
+      id: hash
       run: |
         HASH=$(shasum gamula.zip | cut -d " " -f 1)
         echo "Exporting pack hash to $HASH"
@@ -29,4 +30,4 @@ jobs:
       with:
         artifacts: gamula.zip
         token: ${{ secrets.GITHUB_TOKEN }}
-        body: ${{ steps.prep.outputs.pack_hash }}
+        body: ${{ steps.hash.outputs.pack_hash }}
