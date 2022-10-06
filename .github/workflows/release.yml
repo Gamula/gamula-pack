@@ -30,4 +30,8 @@ jobs:
       with:
         artifacts: gamula.zip
         token: ${{ secrets.GITHUB_TOKEN }}
-        body: "${{ github.event.commits[0].message }}\n\nhash: ${{ steps.hash.outputs.pack_hash }}"
+        body: |
+          ${{ github.event.head_commit.message }}
+
+
+          > hash: ${{ steps.hash.outputs.pack_hash }}
