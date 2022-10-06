@@ -31,7 +31,5 @@ jobs:
         artifacts: gamula.zip
         token: ${{ secrets.GITHUB_TOKEN }}
         body: |
-          ${{ github.event.head_commit.message }}
-
-
+          **changelog:** ${{ github.event.head_commit.message }}\n\n
           > hash: ${{ steps.hash.outputs.pack_hash }}
