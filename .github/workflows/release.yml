@@ -27,6 +27,6 @@ jobs:
     - name: Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: gamula.zip,hash.txt
+        artifacts: gamula.zip
         token: ${{ secrets.GITHUB_TOKEN }}
-        body: "${{ github.event.commits[0].message }}\n\n${{ steps.prep.outputs.pack_hash }}"
+        body: ${{ steps.prep.outputs.pack_hash }}
