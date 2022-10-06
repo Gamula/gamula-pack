@@ -26,3 +26,4 @@ jobs:
       with:
         artifacts: gamula.zip,hash.txt
         token: ${{ secrets.GITHUB_TOKEN }}
+        body: 'test????'
