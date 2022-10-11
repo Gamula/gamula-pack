@@ -29,6 +29,15 @@
       "height": 53
     },
     {
+      "file": "gamula/ui/ui_exit_screen_gamula_disconnect.png",
+      "ascent": 7,
+      "type": "bitmap",
+      "chars": [
+        "ⶭ"
+      ],
+      "height": 7
+    },
+    {
       "file": "gamula/ui/ui_overlay_fade.png",
       "chars": [
         ""
@@ -55,105 +64,105 @@
       "height": 8,
       "type": "bitmap"
     },
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/speech1.png",
-			"height": 180,
-			"ascent": 90,
-			"chars": [
-				"迷"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/speech2.png",
-			"height": 180,
-			"ascent": 90,
-			"chars": [
-				"迫"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/speech3.png",
-			"height": 180,
-			"ascent": 90,
-			"chars": [
-				"认"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/troll_elite.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"迅"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/troll_chief.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"返"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/troll_voodoo.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"连"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "gamula/icons/heads/adventurerhead.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"这"
-			]
-		},
     {
-			"type": "bitmap",
-			"file": "gamula/icons/heads/kinghead.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"运"
-			]
-		},
+      "type": "bitmap",
+      "file": "gamula/icons/heads/speech1.png",
+      "height": 180,
+      "ascent": 90,
+      "chars": [
+        "迷"
+      ]
+    },
     {
-			"type": "bitmap",
-			"file": "gamula/icons/heads/minerhead.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"送"
-			]
-		},
+      "type": "bitmap",
+      "file": "gamula/icons/heads/speech2.png",
+      "height": 180,
+      "ascent": 90,
+      "chars": [
+        "迫"
+      ]
+    },
     {
-			"type": "bitmap",
-			"file": "gamula/icons/heads/piratehead.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"选"
-			]
-		},
+      "type": "bitmap",
+      "file": "gamula/icons/heads/speech3.png",
+      "height": 180,
+      "ascent": 90,
+      "chars": [
+        "认"
+      ]
+    },
     {
-			"type": "bitmap",
-			"file": "gamula/icons/heads/tavernhead.png",
-			"height": 48,
-			"ascent": 24,
-			"chars": [
-				"逃"
-			]
-		},
+      "type": "bitmap",
+      "file": "gamula/icons/heads/troll_elite.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "迅"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/troll_chief.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "返"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/troll_voodoo.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "连"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/adventurerhead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "这"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/kinghead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "运"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/minerhead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "送"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/piratehead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "选"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/tavernhead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "逃"
+      ]
+    },
     {
       "file": "gamula/ui/gui/gui_blueprints.png",
       "ascent": 29,
@@ -631,7 +640,6 @@
       "ascent": 98,
       "type": "bitmap"
     },
-
     {
       "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png",
       "chars": [
@@ -650,7 +658,6 @@
       "ascent": -94,
       "type": "bitmap"
     },
-
     {
       "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
       "chars": [
