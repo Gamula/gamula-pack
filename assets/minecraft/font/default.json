@@ -309,7 +309,7 @@
     },
      {
       "file": "gamula/ui/gui/auction/gui_auction_confirm_sell.png",
-      "ascent": 30,
+      "ascent": 29,
       "type": "bitmap",
       "chars": [
         "䶏"
