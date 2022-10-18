@@ -48,12 +48,12 @@
     },
     {
       "file": "gamula/icons/ui_chat_hud.png",
-      "ascent": 8,
+      "ascent": 7,
       "type": "bitmap",
       "chars": [
         "膯"
       ],
-      "height": 8
+      "height": 7
     },
     {
       "ascent": 7,
