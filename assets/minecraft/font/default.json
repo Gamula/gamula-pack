@@ -74,20 +74,11 @@
       "type": "bitmap"
     },
     {
-      "ascent": 2,
-      "chars": [
-        "繵"
-      ],
-      "file": "gamula/icons/symbol_temp.png",
-      "height": 42,
-      "type": "bitmap"
-    },
-    {
       "ascent": 6,
       "chars": [
         "ꌀ"
       ],
-      "file": "gamula/icons/symbol_temp_border.png",
+      "file": "gamula/icons/symbol_fishing.png",
       "height": 50,
       "type": "bitmap"
     },
