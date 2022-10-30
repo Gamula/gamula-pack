@@ -83,6 +83,15 @@
       "type": "bitmap"
     },
     {
+      "ascent": 6,
+      "chars": [
+        "ꌀ"
+      ],
+      "file": "gamula/icons/symbol_temp_border.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
       "type": "bitmap",
       "file": "gamula/icons/heads/speech1.png",
       "height": 180,
