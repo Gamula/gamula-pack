@@ -1,1 +1,27 @@
-{"parent":"minecraft:item/template_spawn_egg","overrides":[{"predicate":{"custom_model_data":1},"model":"item/custom/models/coconut"},{"predicate":{"custom_model_data":2},"model":"item/custom/models/snail_display"},{"predicate":{"custom_model_data":3},"model":"item/custom/models/ladybug_display"},{"predicate":{"custom_model_data":4},"model":"item/custom/models/praying_mantis_display"},{"predicate":{"custom_model_data":5},"model":"item/custom/models/redbutterfly_display"},{"predicate":{"custom_model_data":6},"model":"item/custom/models/bluebutterfly_display"},{"predicate":{"custom_model_data":7},"model":"item/custom/models/yellowbutterfly_display"},{"predicate":{"custom_model_data":8},"model":"item/custom/models/whitebutterfly_display"},{"predicate":{"custom_model_data":9},"model":"item/custom/models/violetbutterfly_display"},{"predicate":{"custom_model_data":10},"model":"item/custom/models/indigobutterfly_display"},{"predicate":{"custom_model_data":11},"model":"item/custom/models/firefly_display"},{"predicate":{"custom_model_data":12},"model":"item/custom/models/dung_beetle_display"},{"predicate":{"custom_model_data":13},"model":"item/custom/models/moth_atlas_display"},{"predicate":{"custom_model_data":14},"model":"item/custom/models/tarantula_display"},{"predicate":{"custom_model_data":15},"model":"item/custom/models/ant_farm"},{"predicate":{"custom_model_data":16},"model":"item/custom/models/skog_bonsai"},{"predicate":{"custom_model_data":17},"model":"item/custom/models/skog_bonsai_birch"},{"predicate":{"custom_model_data":18},"model":"item/custom/models/phoenix_egg"},{"predicate":{"custom_model_data":19},"model":"item/custom/models/pig"},{"predicate":{"custom_model_data":20},"model":"item/custom/models/catapult"},{"predicate":{"custom_model_data":21},"model":"item/custom/models/cannon_box"},{"predicate":{"custom_model_data":22},"model":"item/custom/models/ball_box"}]}
+{
+	"parent": "minecraft:item/template_spawn_egg",
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/custom/models/coconut"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/custom/models/snail_display"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/custom/models/ladybug_display"},
+		{"predicate": {"custom_model_data": 4}, "model": "item/custom/models/praying_mantis_display"},
+		{"predicate": {"custom_model_data": 5}, "model": "item/custom/models/redbutterfly_display"},
+		{"predicate": {"custom_model_data": 6}, "model": "item/custom/models/bluebutterfly_display"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/custom/models/yellowbutterfly_display"},
+		{"predicate": {"custom_model_data": 8}, "model": "item/custom/models/whitebutterfly_display"},
+		{"predicate": {"custom_model_data": 9}, "model": "item/custom/models/violetbutterfly_display"},
+		{"predicate": {"custom_model_data": 10}, "model": "item/custom/models/indigobutterfly_display"},
+		{"predicate": {"custom_model_data": 11}, "model": "item/custom/models/firefly_display"},
+		{"predicate": {"custom_model_data": 12}, "model": "item/custom/models/dung_beetle_display"},
+		{"predicate": {"custom_model_data": 13}, "model": "item/custom/models/moth_atlas_display"},
+		{"predicate": {"custom_model_data": 14}, "model": "item/custom/models/tarantula_display"},
+		{"predicate": {"custom_model_data": 15}, "model": "item/custom/models/ant_farm"},
+		{"predicate": {"custom_model_data": 16}, "model": "item/custom/models/skog_bonsai"},
+		{"predicate": {"custom_model_data": 17}, "model": "item/custom/models/skog_bonsai_birch"},
+		{"predicate": {"custom_model_data": 18}, "model": "item/custom/models/phoenix_egg"},
+		{"predicate": {"custom_model_data": 19}, "model": "item/custom/models/pig"},
+		{"predicate": {"custom_model_data": 20}, "model": "item/custom/models/catapult"},
+		{"predicate": {"custom_model_data": 21}, "model": "item/custom/models/cannon_box"},
+		{"predicate": {"custom_model_data": 22}, "model": "item/custom/models/ball_box"}
+	]
+}

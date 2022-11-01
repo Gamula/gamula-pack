@@ -1,1 +1,6 @@
-{"parent":"item/generated","textures":{"layer0":"gamula/icons/btn_prev"}}
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "gamula/icons/btn_prev"
+    }
+}

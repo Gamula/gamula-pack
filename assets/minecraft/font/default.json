@@ -1,1 +1,1203 @@
-{"providers":[{"ascent":24,"height":80,"chars":["⼉⽐","⽑⽒"],"file":"gamula/ui/ui_gamula_logo.png","type":"bitmap"},{"file":"gamula/ui/ui_exit_screen_gamula.png","ascent":128,"type":"bitmap","chars":["⋶"],"height":256},{"file":"gamula/ui/ui_exit_screen_gamula_alt.png","ascent":32,"type":"bitmap","chars":["⋷"],"height":53},{"file":"gamula/ui/ui_exit_screen_gamula_disconnect.png","ascent":7,"type":"bitmap","chars":["ⶭ"],"height":7},{"file":"gamula/ui/ui_overlay_fade.png","chars":[""],"height":1500,"ascent":250,"type":"bitmap"},{"file":"gamula/icons/ui_chat_hud.png","ascent":7,"type":"bitmap","chars":["膯"],"height":7},{"ascent":7,"chars":["풮"],"file":"gamula/icons/symbol_shield.png","height":8,"type":"bitmap"},{"ascent":7,"chars":["㮉"],"file":"gamula/icons/symbol_goobits.png","height":8,"type":"bitmap"},{"ascent":6,"chars":["ꌀ"],"file":"gamula/icons/symbol_fishing.png","height":50,"type":"bitmap"},{"type":"bitmap","file":"gamula/icons/heads/speech1.png","height":180,"ascent":90,"chars":["迷"]},{"type":"bitmap","file":"gamula/icons/heads/speech2.png","height":180,"ascent":90,"chars":["迫"]},{"type":"bitmap","file":"gamula/icons/heads/speech3.png","height":180,"ascent":90,"chars":["认"]},{"type":"bitmap","file":"gamula/icons/heads/troll_elite.png","height":48,"ascent":24,"chars":["迅"]},{"type":"bitmap","file":"gamula/icons/heads/troll_chief.png","height":48,"ascent":24,"chars":["返"]},{"type":"bitmap","file":"gamula/icons/heads/troll_voodoo.png","height":48,"ascent":24,"chars":["连"]},{"type":"bitmap","file":"gamula/icons/heads/adventurerhead.png","height":48,"ascent":24,"chars":["这"]},{"type":"bitmap","file":"gamula/icons/heads/kinghead.png","height":48,"ascent":24,"chars":["运"]},{"type":"bitmap","file":"gamula/icons/heads/minerhead.png","height":48,"ascent":24,"chars":["送"]},{"type":"bitmap","file":"gamula/icons/heads/piratehead.png","height":48,"ascent":24,"chars":["选"]},{"type":"bitmap","file":"gamula/icons/heads/tavernhead.png","height":48,"ascent":24,"chars":["逃"]},{"file":"gamula/ui/gui/gui_blueprints.png","ascent":29,"type":"bitmap","chars":["⼙"],"height":256},{"file":"gamula/ui/gui/gui_brewing.png","ascent":28,"type":"bitmap","chars":["⼚"],"height":256},{"file":"gamula/ui/gui/gui_calendar.png","ascent":28,"type":"bitmap","chars":["⋊"],"height":256},{"file":"gamula/ui/gui/gui_casino.png","ascent":28,"type":"bitmap","chars":["㰎"],"height":256},{"file":"gamula/ui/gui/gui_casino_limbo.png","ascent":28,"type":"bitmap","chars":["㰐"],"height":256},{"file":"gamula/ui/gui/gui_casino_mines.png","ascent":28,"type":"bitmap","chars":["㰏"],"height":256},{"file":"gamula/ui/gui/gui_crafting.png","ascent":29,"type":"bitmap","chars":["⼜"],"height":256},{"file":"gamula/ui/gui/gui_disenchanting.png","ascent":28,"type":"bitmap","chars":["⼞"],"height":256},{"file":"gamula/ui/gui/gui_enchanting.png","ascent":28,"type":"bitmap","chars":["⼟"],"height":256},{"file":"gamula/ui/gui/gui_fisherman.png","ascent":28,"type":"bitmap","chars":["鱲"],"height":256},{"file":"gamula/ui/gui/gui_hub_selector.png","ascent":29,"type":"bitmap","chars":["⼡"],"height":256},{"file":"gamula/ui/gui/gui_goobits_crates.png","ascent":29,"type":"bitmap","chars":["⼝"],"height":256},{"file":"gamula/ui/gui/gui_goobits_ranks.png","ascent":30,"type":"bitmap","chars":["⼦"],"height":256},{"file":"gamula/ui/gui/gui_goobits_shop.png","ascent":29,"type":"bitmap","chars":["⼣"],"height":256},{"file":"gamula/ui/gui/auction/gui_auction_categories.png","ascent":30,"type":"bitmap","chars":["⋉"],"height":256},{"file":"gamula/ui/gui/auction/gui_auction_confirm.png","ascent":30,"type":"bitmap","chars":["⼛"],"height":256},{"file":"gamula/ui/gui/auction/gui_auction_confirm_sell.png","ascent":28,"type":"bitmap","chars":["䶏"],"height":256},{"file":"gamula/ui/gui/auction/gui_auction_expired.png","ascent":29,"type":"bitmap","chars":["⼠"],"height":256},{"file":"gamula/ui/gui/auction/gui_auction_menu.png","ascent":29,"type":"bitmap","chars":["⋈"],"height":256},{"file":"gamula/ui/gui/islands/gui_island_top.png","ascent":29,"type":"bitmap","chars":["⼌"],"height":256},{"file":"gamula/ui/gui/islands/gui_island_menu.png","ascent":29,"type":"bitmap","chars":["口"],"height":256},{"file":"gamula/ui/gui/islands/gui_island_menu_other.png","ascent":29,"type":"bitmap","chars":["吹"],"height":256},{"file":"gamula/ui/gui/islands/gui_island_settings_main.png","ascent":29,"type":"bitmap","chars":["回"],"height":256},{"file":"gamula/ui/gui/islands/gui_island_settings.png","ascent":29,"type":"bitmap","chars":["品"],"height":256},{"file":"gamula/ui/gui/profiles/gui_profile_main.png","ascent":29,"type":"bitmap","chars":["讲"],"height":256},{"file":"gamula/ui/gui/tasks/gui_tasks_menu.png","ascent":29,"type":"bitmap","chars":["让"],"height":256},{"file":"gamula/ui/gui/gui_missions.png","ascent":29,"type":"bitmap","chars":["⼍"],"height":256},{"file":"gamula/ui/gui/gui_raids.png","ascent":28,"type":"bitmap","chars":["⼥"],"height":256},{"file":"gamula/ui/gui/gui_level_bar.png","ascent":29,"type":"bitmap","chars":["ퟋ"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenant_lancers.png","ascent":29,"type":"bitmap","chars":["⼩"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenant_swordsman.png","ascent":29,"type":"bitmap","chars":["⾡"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenant_viking.png","ascent":29,"type":"bitmap","chars":["⾢"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenants_generic.png","ascent":28,"type":"bitmap","chars":["⼧"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenants_selection.png","ascent":28,"type":"bitmap","chars":["⼈"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenants_shop.png","ascent":29,"type":"bitmap","chars":["⼊"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_covenants_tasks.png","ascent":29,"type":"bitmap","chars":["⼋"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_alchemy.png","ascent":29,"type":"bitmap","chars":["⾣"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_combat.png","ascent":29,"type":"bitmap","chars":["⾤"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_crafting.png","ascent":29,"type":"bitmap","chars":["⾥"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_enchanting.png","ascent":29,"type":"bitmap","chars":["⾦"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_farming.png","ascent":29,"type":"bitmap","chars":["⾧"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_fishing.png","ascent":29,"type":"bitmap","chars":["⾨"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_mining.png","ascent":29,"type":"bitmap","chars":["⾩"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skill_woodcutting.png","ascent":29,"type":"bitmap","chars":["⾪"],"height":256},{"file":"gamula/ui/gui/covenant_skills/gui_skills_generic.png","ascent":28,"type":"bitmap","chars":["⼨"],"height":256},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_selection.png","chars":[""],"height":255,"ascent":45,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_tint.png","chars":[""],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_hats.png","chars":["冰"],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_props.png","chars":["论"],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_backbling.png","chars":["退"],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_balloon.png","chars":["吗"],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_sprays.png","chars":["哈"],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_selector.png","chars":["边"],"height":256,"ascent":29,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/gui_cosmetic_trade.png","chars":[""],"height":255,"ascent":98,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png","chars":["쌃"],"height":23,"ascent":-4,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png","chars":[""],"height":20,"ascent":-94,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png","chars":["쌥"],"height":32,"ascent":-40,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png","chars":["쌦"],"height":32,"ascent":-58,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png","chars":["쌧"],"height":32,"ascent":-76,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png","chars":["쌨"],"height":32,"ascent":-94,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png","chars":["쌉"],"height":32,"ascent":-3,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png","chars":["쌊"],"height":32,"ascent":-21,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png","chars":["쌋"],"height":32,"ascent":-39,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png","chars":["쌌"],"height":32,"ascent":-57,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png","chars":["쌍"],"height":32,"ascent":-75,"type":"bitmap"},{"file":"gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png","chars":["쌎"],"height":32,"ascent":-93,"type":"bitmap"},{"file":"gamula/ui/gui/crate/gui_crate_opening_crimson.png","ascent":28,"type":"bitmap","chars":["⼏"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_opening_crystal.png","ascent":28,"type":"bitmap","chars":["⼐"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_opening_magma.png","ascent":28,"type":"bitmap","chars":["⼑"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_opening_void.png","ascent":28,"type":"bitmap","chars":["⼒"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_opening_vote.png","ascent":28,"type":"bitmap","chars":["⼓"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_preview_crimson.png","ascent":28,"type":"bitmap","chars":["⼔"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_preview_crystal.png","ascent":28,"type":"bitmap","chars":["⼕"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_preview_magma.png","ascent":28,"type":"bitmap","chars":["⼖"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_preview_void.png","ascent":28,"type":"bitmap","chars":["⼗"],"height":256},{"file":"gamula/ui/gui/crate/gui_crate_preview_vote.png","ascent":28,"type":"bitmap","chars":["⼘"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_blocks.png","ascent":29,"type":"bitmap","chars":["ꀎ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_colors.png","ascent":29,"type":"bitmap","chars":["ꀏ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_confirm_btn_sellall.png","ascent":30,"type":"bitmap","chars":["ퟤ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_confirm.png","ascent":30,"type":"bitmap","chars":["ퟥ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_crops.png","ascent":29,"type":"bitmap","chars":["ꀀ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_dyes.png","ascent":29,"type":"bitmap","chars":["ꀒ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_flowers.png","ascent":29,"type":"bitmap","chars":["ꀓ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_food.png","ascent":29,"type":"bitmap","chars":["ꀔ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_generic.png","ascent":29,"type":"bitmap","chars":["⼎"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_misc.png","ascent":29,"type":"bitmap","chars":["⼤"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_mob_loot.png","ascent":29,"type":"bitmap","chars":["ꀕ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_more.png","ascent":29,"type":"bitmap","chars":["ퟦ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_ores.png","ascent":29,"type":"bitmap","chars":["ꀖ"],"height":256},{"file":"gamula/ui/gui/shop/gui_shop_redstone.png","ascent":29,"type":"bitmap","chars":["ꀗ"],"height":256},{"file":"gamula/ranks/title_admin.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_helper.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_mod.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_user.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_basic.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_blitz.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_brawl.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_common.png","ascent":8,"type":"bitmap","chars":["净"],"height":9},{"file":"gamula/ranks/title_developer.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_epic.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_exotic.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_hydep.png","ascent":8,"type":"bitmap","chars":[""],"height":9},{"file":"gamula/ranks/title_legendary.png","ascent":8,"type":"bitmap","chars":["ఙ"],"height":9},{"file":"gamula/ranks/title_locked.png","ascent":8,"type":"bitmap","chars":["况"],"height":9},{"file":"gamula/ranks/title_mythic.png","ascent":8,"type":"bitmap","chars":["చ"],"height":9},{"file":"gamula/ranks/title_owner.png","ascent":8,"type":"bitmap","chars":["ల"],"height":9},{"file":"gamula/ranks/title_paintable.png","ascent":8,"type":"bitmap","chars":["汗"],"height":9},{"file":"gamula/ranks/title_puff.png","ascent":8,"type":"bitmap","chars":["ద"],"height":9},{"file":"gamula/ranks/title_rare.png","ascent":8,"type":"bitmap","chars":["ᎅ"],"height":9},{"file":"gamula/ranks/title_smash.png","ascent":8,"type":"bitmap","chars":["ర"],"height":9},{"file":"gamula/ranks/title_srmod.png","ascent":8,"type":"bitmap","chars":["ఱ"],"height":9},{"file":"gamula/ranks/title_twist.png","ascent":8,"type":"bitmap","chars":["ళ"],"height":9},{"file":"gamula/ranks/title_unlocked.png","ascent":8,"type":"bitmap","chars":["汉"],"height":9},{"file":"gamula/ui/splits/black_pixel.png","chars":[""],"height":5,"ascent":-5000,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box.png","height":1500,"type":"bitmap"},{"ascent":10,"chars":[""],"file":"gamula/ui/splits/black_box.png","height":300,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box_30.png","height":1200,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box_70.png","height":1200,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-3,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-4,"ascent":-32678,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-5,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-6,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-7,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-8,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-9,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-10,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-18,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-34,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-66,"ascent":-32768,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-8,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-9,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-10,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-18,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-34,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-66,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-130,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-258,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-514,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-1026,"type":"bitmap"},{"ascent":-32770,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-32770,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":0,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":1,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":2,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":15,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":31,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":63,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":127,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":255,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":511,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":1023,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":32767,"type":"bitmap"},{"ascent":-32768,"chars":["ퟣ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-4,"type":"bitmap"},{"ascent":-32768,"chars":["ퟨ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-8,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-9,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-10,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-18,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-34,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-66,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-130,"type":"bitmap"},{"ascent":-32768,"chars":["ퟡ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-163,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-258,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-514,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-1026,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":0,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":1,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":2,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":15,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":31,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":63,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":127,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":255,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":511,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":1023,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":32767,"type":"bitmap"}]}
+{
+  "providers": [
+    {
+      "ascent": 24,
+      "height": 80,
+      "chars": [
+        "⼉⽐",
+        "⽑⽒"
+      ],
+      "file": "gamula/ui/ui_gamula_logo.png",
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/ui_exit_screen_gamula.png",
+      "ascent": 128,
+      "type": "bitmap",
+      "chars": [
+        "⋶"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/ui_exit_screen_gamula_alt.png",
+      "ascent": 32,
+      "type": "bitmap",
+      "chars": [
+        "⋷"
+      ],
+      "height": 53
+    },
+    {
+      "file": "gamula/ui/ui_exit_screen_gamula_disconnect.png",
+      "ascent": 7,
+      "type": "bitmap",
+      "chars": [
+        "ⶭ"
+      ],
+      "height": 7
+    },
+    {
+      "file": "gamula/ui/ui_overlay_fade.png",
+      "chars": [
+        ""
+      ],
+      "height": 1500,
+      "ascent": 250,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/icons/ui_chat_hud.png",
+      "ascent": 7,
+      "type": "bitmap",
+      "chars": [
+        "膯"
+      ],
+      "height": 7
+    },
+    {
+      "ascent": 7,
+      "chars": [
+        "풮"
+      ],
+      "file": "gamula/icons/symbol_shield.png",
+      "height": 8,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 7,
+      "chars": [
+        "㮉"
+      ],
+      "file": "gamula/icons/symbol_goobits.png",
+      "height": 8,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
+        "ꌀ"
+      ],
+      "file": "gamula/icons/symbol_fishing.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/speech1.png",
+      "height": 180,
+      "ascent": 90,
+      "chars": [
+        "迷"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/speech2.png",
+      "height": 180,
+      "ascent": 90,
+      "chars": [
+        "迫"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/speech3.png",
+      "height": 180,
+      "ascent": 90,
+      "chars": [
+        "认"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/troll_elite.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "迅"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/troll_chief.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "返"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/troll_voodoo.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "连"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/adventurerhead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "这"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/kinghead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "运"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/minerhead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "送"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/piratehead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "选"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "gamula/icons/heads/tavernhead.png",
+      "height": 48,
+      "ascent": 24,
+      "chars": [
+        "逃"
+      ]
+    },
+    {
+      "file": "gamula/ui/gui/gui_blueprints.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼙"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_brewing.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼚"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_calendar.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⋊"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_casino.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㰎"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_casino_limbo.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㰐"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_casino_mines.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㰏"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_crafting.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼜"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_disenchanting.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼞"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_enchanting.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼟"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_fisherman.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "鱲"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_hub_selector.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼡"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_goobits_crates.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼝"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_goobits_ranks.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "⼦"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_goobits_shop.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼣"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_categories.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "⋉"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_confirm.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "⼛"
+      ],
+      "height": 256
+    },
+     {
+      "file": "gamula/ui/gui/auction/gui_auction_confirm_sell.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "䶏"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_expired.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼠"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/auction/gui_auction_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⋈"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_top.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼌"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "口"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_menu_other.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "吹"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_settings_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "回"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_settings.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "品"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/profiles/gui_profile_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "讲"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/tasks/gui_tasks_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "让"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_missions.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼍"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_raids.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼥"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_level_bar.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ퟋ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenant_lancers.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼩"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenant_swordsman.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾡"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenant_viking.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾢"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenants_generic.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼧"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenants_selection.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼈"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenants_shop.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼊"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_covenants_tasks.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼋"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_alchemy.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾣"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_combat.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾤"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_crafting.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾥"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_enchanting.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾦"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_farming.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾧"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_fishing.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾨"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_mining.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾩"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skill_woodcutting.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⾪"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skills_generic.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼨"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_selection.png",
+      "chars": [
+        ""
+      ],
+      "height": 255,
+      "ascent": 45,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_tint.png",
+      "chars": [
+        ""
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_hats.png",
+      "chars": [
+        "冰"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_props.png",
+      "chars": [
+        "论"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_backbling.png",
+      "chars": [
+        "退"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_balloon.png",
+      "chars": [
+        "吗"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_sprays.png",
+      "chars": [
+        "哈"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_selector.png",
+      "chars": [
+        "边"
+      ],
+      "height": 256,
+      "ascent": 29,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_trade.png",
+      "chars": [
+        ""
+      ],
+      "height": 255,
+      "ascent": 98,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png",
+      "chars": [
+        "쌃"
+      ],
+      "height": 23,
+      "ascent": -4,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png",
+      "chars": [
+        ""
+      ],
+      "height": 20,
+      "ascent": -94,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
+      "chars": [
+        "쌥"
+      ],
+      "height": 32,
+      "ascent": -40,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
+      "chars": [
+        "쌦"
+      ],
+      "height": 32,
+      "ascent": -58,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
+      "chars": [
+        "쌧"
+      ],
+      "height": 32,
+      "ascent": -76,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
+      "chars": [
+        "쌨"
+      ],
+      "height": 32,
+      "ascent": -94,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
+      "chars": [
+        "쌉"
+      ],
+      "height": 32,
+      "ascent": -3,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
+      "chars": [
+        "쌊"
+      ],
+      "height": 32,
+      "ascent": -21,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
+      "chars": [
+        "쌋"
+      ],
+      "height": 32,
+      "ascent": -39,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
+      "chars": [
+        "쌌"
+      ],
+      "height": 32,
+      "ascent": -57,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
+      "chars": [
+        "쌍"
+      ],
+      "height": 32,
+      "ascent": -75,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
+      "chars": [
+        "쌎"
+      ],
+      "height": 32,
+      "ascent": -93,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_crimson.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼏"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_crystal.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼐"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_magma.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼑"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_void.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼒"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_vote.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼓"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_crimson.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼔"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_crystal.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼕"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_magma.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼖"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_void.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼗"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_vote.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "⼘"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_blocks.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀎ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_colors.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀏ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_confirm_btn_sellall.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "ퟤ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_confirm.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "ퟥ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_crops.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀀ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_dyes.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀒ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_flowers.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀓ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_food.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀔ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_generic.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼎"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_misc.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "⼤"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_mob_loot.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀕ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_more.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ퟦ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_ores.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀖ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_redstone.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ꀗ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ranks/title_admin.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_helper.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_mod.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_user.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_basic.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_blitz.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_brawl.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_common.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "净"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_developer.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_epic.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_exotic.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_hydep.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_legendary.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ఙ"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_locked.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "况"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_mythic.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "చ"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_owner.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ల"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_paintable.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "汗"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_puff.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ద"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_rare.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ᎅ"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_smash.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ర"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_srmod.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ఱ"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_twist.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "ళ"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_unlocked.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "汉"
+      ],
+      "height": 9
+    },
+    {"file":"gamula/ui/splits/black_pixel.png","chars":[""],"height":5,"ascent":-5000,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box.png","height":1500,"type":"bitmap"},{"ascent":10,"chars":[""],"file":"gamula/ui/splits/black_box.png","height":300,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box_30.png","height":1200,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box_70.png","height":1200,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-3,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-4,"ascent":-32678,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-5,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-6,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-7,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-8,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-9,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-10,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-18,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-34,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-66,"ascent":-32768,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-8,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-9,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-10,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-18,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-34,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-66,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-130,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-258,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-514,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-1026,"type":"bitmap"},{"ascent":-32770,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-32770,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":0,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":1,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":2,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":15,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":31,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":63,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":127,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":255,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":511,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":1023,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":32767,"type":"bitmap"},{"ascent":-32768,"chars":["ퟣ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-4,"type":"bitmap"},{"ascent":-32768,"chars":["ퟨ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-8,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-9,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-10,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-18,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-34,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-66,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-130,"type":"bitmap"},{"ascent":-32768,"chars":["ퟡ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-163,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-258,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-514,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-1026,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":0,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":1,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":2,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":15,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":31,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":63,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":127,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":255,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":511,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":1023,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":32767,"type":"bitmap"}
+  ]
+}

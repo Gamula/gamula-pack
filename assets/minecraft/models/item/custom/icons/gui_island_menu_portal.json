@@ -1,1 +1,31 @@
-{"display":{"gui":{"rotation":[0,-180,0],"scale":[3,3,2]}},"texture_size":[16,32],"textures":{"particle":"gamula/icons/gui_island_menu_portal"},"elements":[{"from":[0,0,0],"to":[15.5,16,0],"faces":{"north":{"uv":[0,0,16,16],"texture":"#particle"}}}],"gui_light":"front"}
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [16, 32],
+	"textures": {
+		"particle": "gamula/icons/gui_island_menu_portal"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [15.5, 16, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#particle"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, -180, 0],
+			"scale": [3, 3, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "gui_island_menu_portal",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
