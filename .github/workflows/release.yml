@@ -12,14 +12,14 @@ jobs:
       with:
         fetch-depth: 0
     - name: Build (fat)
-      if: "contains(github.event.commits[0].message, '[squash-skip]')"
+      if: "startsWith(github.event.commits[0].message, 'squash-skip:')"
       uses: thedoctor0/zip-release@main
       with:
         type: zip
         filename: gamula.zip
         exclusions: "*.git* *notes*"
     - name: Build (squash)
-      if: "!contains(github.event.commits[0].message, '[squash-skip]')"
+      if: "!startsWith(github.event.commits[0].message, 'squash-skip:')"
       uses: ComunidadAylas/PackSquash-action@v3
       with:
         artifact_name: gamula
@@ -44,12 +44,12 @@ jobs:
         work_around_bad_entity_eye_layer_texture_transparency_blending_quirk: true
         automatic_asset_types_mask_detection: true
     - name: Fetch (squash)
-      if: "!contains(github.event.commits[0].message, '[squash-skip]')"
+      if: "!startsWith(github.event.commits[0].message, 'squash-skip:')"
       uses: actions/download-artifact@v3
       with:
         name: gamula
     - name: Rename (squash)
-      if: "!contains(github.event.commits[0].message, '[squash-skip]')"
+      if: "!startsWith(github.event.commits[0].message, 'squash-skip:')"
       run: mv pack.zip gamula.zip
     - name: Hash
       id: hash
