@@ -1,6 +1,1 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "gamula/models/items/crabmeat"
-  }
-}
+{"parent":"item/handheld","textures":{"layer0":"gamula/models/items/crabmeat"}}

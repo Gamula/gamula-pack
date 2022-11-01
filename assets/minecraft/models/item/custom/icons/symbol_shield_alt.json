@@ -1,6 +1,1 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/icons/symbol_shield_alt"
-    }
-}
+{"parent":"item/generated","textures":{"layer0":"gamula/icons/symbol_shield_alt"}}

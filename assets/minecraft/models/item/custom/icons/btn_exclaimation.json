@@ -1,6 +1,1 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/icons/btn_exclaimation"
-    }
-}
+{"parent":"item/generated","textures":{"layer0":"gamula/icons/btn_exclaimation"}}
