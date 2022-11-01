@@ -7,10 +7,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+# clone
     - name: Clone
       uses: actions/checkout@v3
       with:
         fetch-depth: 0
+
+# fat build
     - name: Build (fat)
       if: "startsWith(github.event.head_commit.message, 'squash-skip:')"
       uses: thedoctor0/zip-release@main
@@ -18,6 +21,8 @@ jobs:
         type: zip
         filename: gamula.zip
         exclusions: "*.git* *notes*"
+
+# squash build
     - name: Build (squash)
       if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
       uses: ComunidadAylas/PackSquash-action@v3
@@ -51,6 +56,8 @@ jobs:
     - name: Rename (squash)
       if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
       run: mv pack.zip gamula.zip
+
+# now release
     - name: Hash
       id: hash
       run: |
