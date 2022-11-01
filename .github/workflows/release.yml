@@ -4,14 +4,22 @@ on:
     tags: ["**"]
 
 jobs:
-  exec:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Clone
       uses: actions/checkout@v3
       with:
         fetch-depth: 0
-    - name: Build
+    - name: Build (fat)
+      if: "contains(github.event.commits[0].message, '[squash-skip]')"
+      uses: thedoctor0/zip-release@main
+      with:
+        type: zip
+        filename: gamula.zip
+        exclusions: "*.git* *notes*"
+    - name: Build (squash)
+      if: "!contains(github.event.commits[0].message, '[squash-skip]')"
       uses: ComunidadAylas/PackSquash-action@v3
       with:
         artifact_name: gamula
@@ -35,11 +43,13 @@ jobs:
         work_around_restrictive_banner_layer_texture_format_check_quirk: true
         work_around_bad_entity_eye_layer_texture_transparency_blending_quirk: true
         automatic_asset_types_mask_detection: true
-    - name: Fetch
+    - name: Fetch (squash)
+      if: "!contains(github.event.commits[0].message, '[squash-skip]')"
       uses: actions/download-artifact@v3
       with:
         name: gamula
-    - name: Rename
+    - name: Rename (squash)
+      if: "!contains(github.event.commits[0].message, '[squash-skip]')"
       run: mv pack.zip gamula.zip
     - name: Hash
       id: hash
