@@ -1,4 +1,49 @@
 {
+	"littleroom.goblintektesla.idle1":{
+		"sounds": [
+		   "littleroom/goblintektesla/idle1"
+		]
+    },
+    "littleroom.goblintektesla.idle2":{
+		"sounds": [
+		   "littleroom/goblintektesla/idle2"
+		]
+    },
+    "littleroom.goblintektesla.idle3":{
+		"sounds": [
+		   "littleroom/goblintektesla/idle3"
+		]
+    },
+    "littleroom.goblintektesla.zap":{
+		"sounds": [
+		   "littleroom/goblintektesla/zap"
+		]
+    },
+	"littleroom.cannon.fire":{
+		"sounds": [
+		   "littleroom/cannon/fire"
+		]
+   	},
+  	"littleroom.cannon.openhatch":{
+		"sounds": [
+		   "littleroom/cannon/openhatch"
+		]
+   	},
+  	"littleroom.cannon.closehatch":{
+		"sounds": [
+		   "littleroom/cannon/closehatch"
+		]
+   	},
+  	"littleroom.cannon.fuse":{
+		"sounds": [
+		   "littleroom/cannon/fuse"
+		]
+   	},
+   "littleroom.cannon.ringing":{
+		"sounds": [
+		   "littleroom/cannon/ringing"
+		]
+   	},
 	"littleroom.mist.traverse":{
 		"sounds": [
 		   "littleroom/mist/traverse"
