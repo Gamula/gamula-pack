@@ -20,7 +20,6 @@ jobs:
         recompress_compressed_files: true
         zip_spec_conformance_level: disregard
         zip_compression_iterations: 32
-        skip_image_alpha_optimizations: true
         size_increasing_zip_obfuscation: true
         percentage_of_zip_structures_tuned_for_obfuscation_discretion: 100
         never_store_squash_times: true
