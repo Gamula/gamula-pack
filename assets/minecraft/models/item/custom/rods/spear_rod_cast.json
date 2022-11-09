@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "gamula/rods/spear_rod",
 		"1": "gamula/rods/blood_animation",
-		"particle": "gamula/rods/spear_rod",
+		"particle": "gamula/rods/spear_rod"
 	},
 	"elements": [
 		{
