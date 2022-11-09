@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gamula/rods/dark_blue_rod",
-		"1": "gamula/rods/dark_blue_animated_rod"
+		"1": "gamula/rods/dark_blue_animated_rod",
+		"particle": "gamula/rods/dark_blue_rod"
 	},
 	"elements": [
 		{

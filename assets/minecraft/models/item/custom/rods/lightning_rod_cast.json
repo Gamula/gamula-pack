@@ -5,7 +5,8 @@
 		"0": "gamula/rods/lightning_rod",
 		"1": "gamula/rods/lightning_3",
 		"2": "gamula/rods/lightning_2",
-		"3": "gamula/rods/lightning_1"
+		"3": "gamula/rods/lightning_1",
+		"particle": "gamula/rods/lightning_rod"
 	},
 	"elements": [
 		{

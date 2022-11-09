@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "gamula/rods/pink_rod",
 		"1": "gamula/rods/pink_animated_rod",
-		"particle": "gamula/rods/pink_animated_rod"
+		"particle": "gamula/rods/pink_rod"
 	},
 	"elements": [
 		{

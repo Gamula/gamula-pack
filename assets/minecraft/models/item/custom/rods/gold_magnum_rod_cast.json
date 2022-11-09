@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gamula/rods/magnum_smoke",
-		"1": "gamula/rods/gold_magnum_rod"
+		"1": "gamula/rods/gold_magnum_rod",
+		"particle": "gamula/rods/gold_magnum_rod"
 	},
 	"elements": [
 		{

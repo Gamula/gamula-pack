@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "gamula/rods/yellow_rod",
 		"1": "gamula/rods/yellow_animated_rod",
-		"particle": "gamula/rods/yellow_animated_rod"
+		"particle": "gamula/rods/yellow_rod"
 	},
 	"elements": [
 		{
