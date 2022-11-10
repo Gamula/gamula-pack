@@ -78,7 +78,52 @@
       "chars": [
         "ꌀ"
       ],
-      "file": "gamula/icons/symbol_fishing.png",
+      "file": "gamula/icons/symbol_fishing_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
+        "演"
+      ],
+      "file": "gamula/icons/symbol_crates_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
+        "激"
+      ],
+      "file": "gamula/icons/symbol_discord_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
+        "瀑"
+      ],
+      "file": "gamula/icons/symbol_goobits_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
+        "点"
+      ],
+      "file": "gamula/icons/symbol_info_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
+        "热"
+      ],
+      "file": "gamula/icons/symbol_twitter_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -403,6 +448,51 @@
       "type": "bitmap",
       "chars": [
         "讲"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/skins/gui_skins_armor.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "未"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/skins/gui_skins_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "末"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/skins/gui_skins_picker.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "术"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/skins/gui_skins_tools.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "机"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/skins/gui_skins_weapons.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "杀"
       ],
       "height": 256
     },
@@ -1087,6 +1177,15 @@
       "type": "bitmap",
       "chars": [
         ""
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_glitch.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "泪"
       ],
       "height": 9
     },

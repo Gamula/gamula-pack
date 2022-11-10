@@ -42,13 +42,14 @@
     },
     "overrides": [
         {"predicate": {"blocking": 1}, "model": "item/shield_blocking"},
-        {"predicate": {"custom_model_data":1}, "model": "item/custom/models/troll_shield"},
-        {"predicate": {"custom_model_data":1,  "blocking": 1}, "model": "item/custom/models/troll_shield_blocking"},
-        {"predicate": {"custom_model_data":2}, "model": "item/custom/models/giant_turtle_shield"},
         {"predicate": {"custom_model_data":2,  "blocking": 1}, "model": "item/custom/models/giant_turtle_shield_blocking"},
         {"predicate": {"custom_model_data":3}, "model": "item/custom/models/amethystshield"},
         {"predicate": {"custom_model_data":3,  "blocking": 1}, "model": "item/custom/models/amethystshield_blocking"},
         {"predicate": {"custom_model_data":4}, "model": "item/custom/models/voras_tombstone_shield"},
-        {"predicate": {"custom_model_data":4,  "blocking": 1}, "model": "item/custom/models/voras_tombstone_shield_blocking"}
+        {"predicate": {"custom_model_data":4,  "blocking": 1}, "model": "item/custom/models/voras_tombstone_shield_blocking"},
+        {"predicate": {"custom_model_data":5}, "model": "item/custom/models/enderdragon_shield" },
+		{"predicate": {"custom_model_data":5,  "blocking": 1}, "model": "item/custom/models/enderdragon_shield_blocking" },
+        {"predicate": {"custom_model_data":6}, "model": "item/custom/models/littleduck_shield" },
+		{"predicate": {"custom_model_data":6,  "blocking": 1}, "model": "item/custom/models/littleduck_shield_blocking" }
     ]
 }

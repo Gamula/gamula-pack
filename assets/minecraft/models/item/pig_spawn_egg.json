@@ -21,7 +21,6 @@
 		{"predicate": {"custom_model_data": 18}, "model": "item/custom/models/phoenix_egg"},
 		{"predicate": {"custom_model_data": 19}, "model": "item/custom/models/pig"},
 		{"predicate": {"custom_model_data": 20}, "model": "item/custom/models/catapult"},
-		{"predicate": {"custom_model_data": 21}, "model": "item/custom/models/cannon_box"},
 		{"predicate": {"custom_model_data": 22}, "model": "item/custom/models/ball_box"}
 	]
 }

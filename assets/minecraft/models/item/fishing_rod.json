@@ -54,6 +54,10 @@
         { "predicate": { "custom_model_data":24 }, "model": "item/custom/rods/netherite_magnum_rod" },
         { "predicate": { "custom_model_data":24, "cast": 1 }, "model": "item/custom/rods/netherite_magnum_rod_cast" },
         { "predicate": { "custom_model_data":25 }, "model": "item/custom/rods/sunflower_rod" },
-        { "predicate": { "custom_model_data":25, "cast": 1 }, "model": "item/custom/rods/sunflower_rod_cast" }        
+        { "predicate": { "custom_model_data":25, "cast": 1 }, "model": "item/custom/rods/sunflower_rod_cast" },
+        { "predicate": { "custom_model_data":26 }, "model": "item/custom/rods/enderdragon_fishing_rod" },
+		{ "predicate": { "custom_model_data":26, "cast": 1 }, "model": "item/custom/rods/enderdragon_fishing_rod_cast" },
+        { "predicate": { "custom_model_data":27 }, "model": "item/custom/rods/littleduck_fishing_rod" },
+		{ "predicate": { "custom_model_data":27, "cast": 1 }, "model": "item/custom/rods/littleduck_fishing_rod_cast" }
     ]
 }
