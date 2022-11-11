@@ -74,6 +74,15 @@
       "type": "bitmap"
     },
     {
+      "ascent": 8,
+      "chars": [
+        "鍑"
+      ],
+      "file": "gamula/icons/symbol_streak.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
       "ascent": 6,
       "chars": [
         "ꌀ"
