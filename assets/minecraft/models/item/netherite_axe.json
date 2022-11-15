@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/netherite_axe"
-  },
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_axe"
+    },
     "overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/custom/models/amethystaxe"},
-    {"predicate": {"custom_model_data":2}, "model": "item/custom/models/enderdragon_axe"},
-    {"predicate": {"custom_model_data":3}, "model": "item/custom/models/littleduck_axe" }
-  ]
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/amethystaxe"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/enderdragon_axe"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/custom/models/littleduck_axe"}
+    ]
 }

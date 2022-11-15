@@ -1,8 +1,5 @@
 {
-    "parent": "item/generated",
-    "textures": {
-      "layer0": "item/stone"
-    },
+    "parent": "block/stone",
     "overrides": [
         {"predicate": {"custom_model_data": 20004}, "model": "item/custom/crops/banana/banana_pot"},
         {"predicate": {"custom_model_data": 20012}, "model": "item/custom/crops/cabbage/cabbage_pot"},

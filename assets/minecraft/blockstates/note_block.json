@@ -3,7 +3,6 @@
         {
             "instrument=banjo,note=0,powered=false":{"model":"block/note_block"},
             "instrument=banjo,note=1,powered=false":{"model":"item/custom/crops/pot"},
-            "instrument=banjo,note=2,powered=false":{"model":"item/custom/crops/watered_pot"},
-            "instrument=banjo,note=3,powered=false":{"model":"item/custom/crops/banana/banana_stage_5"}
+            "instrument=banjo,note=2,powered=false":{"model":"item/custom/crops/watered_pot"}
         }
     }
