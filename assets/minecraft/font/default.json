@@ -551,6 +551,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/towergens/gui_towergens_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "퀖"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/towergens/gui_towergens_menu_upgrades.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "큕"
+      ],
+      "height": 256
+    },
+     {
+      "file": "gamula/ui/gui/towergens/gui_towergens_menu_upgrades_loot.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "킼"
+      ],
+      "height": 256
+    },
+     {
+      "file": "gamula/ui/gui/towergens/gui_towergens_menu_upgrades_storage.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "텺"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_missions.png",
       "ascent": 29,
       "type": "bitmap",
