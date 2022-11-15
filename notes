@@ -1,4 +1,4 @@
 git add .
-git commit -m <reason> # modify reason for push
+git commit -m <reason> # modify reason for push (squash-skip: <reason> for fat build)
 git tag <version> -m <reason> # modify tag with release version
 git push && git push --tags
