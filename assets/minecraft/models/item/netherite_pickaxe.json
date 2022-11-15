@@ -1,10 +1,10 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/netherite_pickaxe"
-  },
-  "overrides": [
-    { "predicate": { "custom_model_data": 1 }, "model": "item/custom/models/enderdragon_pickaxe" },
-    { "predicate": { "custom_model_data": 2 }, "model": "item/custom/models/littleduck_pickaxe" }
-  ]
+    "parent": "item/handheld",
+    "textures": {
+      "layer0": "item/netherite_pickaxe"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/enderdragon_pickaxe"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/littleduck_pickaxe"}
+    ]
 }

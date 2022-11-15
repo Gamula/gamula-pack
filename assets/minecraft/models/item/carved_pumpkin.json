@@ -1,10 +1,10 @@
 {
     "parent": "block/carved_pumpkin",
-	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/custom/models/corsair"},
-		{"predicate": {"custom_model_data":2}, "model": "item/custom/models/bandana"},
-		{"predicate": {"custom_model_data":3}, "model": "item/custom/models/direwolfheadforest"},
-		{"predicate": {"custom_model_data":4}, "model": "item/custom/models/direwolfheadtaiga"},
-		{"predicate": {"custom_model_data":5}, "model": "item/custom/models/direwolfheaddesert"}
-	]
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/corsair"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/bandana"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/custom/models/direwolfheadforest"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/custom/models/direwolfheadtaiga"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/custom/models/direwolfheaddesert"}
+    ]
 }

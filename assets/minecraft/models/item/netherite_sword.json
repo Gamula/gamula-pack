@@ -1,16 +1,16 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/netherite_sword"
-  },
+    "parent": "item/handheld",
+    "textures": {
+      "layer0": "item/netherite_sword"
+    },
     "overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/custom/models/amethystsword"},
-    {"predicate": {"custom_model_data":2}, "model": "item/custom/models/adventurersword"},
-    {"predicate": {"custom_model_data":3}, "model": "item/custom/models/chitin_spear"},
-    {"predicate": {"custom_model_data":4}, "model": "item/custom/models/hook"},
-    {"predicate": {"custom_model_data":5}, "model": "item/custom/models/scythe"},
-    {"predicate": {"custom_model_data":6}, "model": "item/custom/models/gigasclaw"},
-    {"predicate": {"custom_model_data":7}, "model": "item/custom/models/enderdragon_sword"},
-    {"predicate": {"custom_model_data":8}, "model": "item/custom/models/littleduck_sword"}
-  ]
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/amethystsword"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/adventurersword"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/custom/models/chitin_spear"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/custom/models/hook"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/custom/models/scythe"},
+        {"predicate": {"custom_model_data": 6}, "model": "item/custom/models/gigasclaw"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/enderdragon_sword"},
+        {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/littleduck_sword"}
+    ]
 }

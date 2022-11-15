@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-      "layer0": "item/carrot"
+        "layer0": "item/carrot"
     },
     "overrides": [
         {"predicate": {"custom_model_data": 20011}, "model": "item/custom/crops/banana/banana"},
