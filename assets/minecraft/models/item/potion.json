@@ -5,6 +5,8 @@
         "layer1": "item/potion"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/mug"}
+		{"predicate": {"custom_model_data": 1}, "model": "item/custom/models/mug"}
+
     ]
 }
+

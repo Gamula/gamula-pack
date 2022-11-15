@@ -1,9 +1,14 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/potato"
-    },
-    "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/crabmeat"}
-    ]
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/potato"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/custom/models/crabmeat"
+    }
+  ]
 }
