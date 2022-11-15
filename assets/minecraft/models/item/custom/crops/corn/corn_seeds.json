@@ -1,0 +1,7 @@
+{
+    "parent": "item/custom/crops/tem_seed",
+    "textures": {
+        "0": "gamula/crops/corn/corn_seeds",
+        "particle": "gamula/crops/corn/corn_seeds"
+    }
+}

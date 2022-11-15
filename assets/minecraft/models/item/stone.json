@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "item/stone"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 20004}, "model": "item/custom/crops/banana/banana_pot"},
+        {"predicate": {"custom_model_data": 20012}, "model": "item/custom/crops/cabbage/cabbage_pot"},
+        {"predicate": {"custom_model_data": 20018}, "model": "item/custom/crops/corn/corn_pot"},
+        {"predicate": {"custom_model_data": 20025}, "model": "item/custom/crops/grape/grape_pot"},
+        {"predicate": {"custom_model_data": 20032}, "model": "item/custom/crops/lemon/lemon_pot"},
+        {"predicate": {"custom_model_data": 20040}, "model": "item/custom/crops/lettuce/lettuce_pot"},
+        {"predicate": {"custom_model_data": 20046}, "model": "item/custom/crops/moolis/moolis_pot"},
+        {"predicate": {"custom_model_data": 20052}, "model": "item/custom/crops/orange/orange_pot"},
+        {"predicate": {"custom_model_data": 20060}, "model": "item/custom/crops/pineapple/pineapple_pot"},
+        {"predicate": {"custom_model_data": 20067}, "model": "item/custom/crops/promegranate/promegranate_pot"},
+        {"predicate": {"custom_model_data": 20075}, "model": "item/custom/crops/strawberry/strawberry_pot"},
+        {"predicate": {"custom_model_data": 20081}, "model": "item/custom/crops/tomato/tomato_pot"}
+    ]
+}

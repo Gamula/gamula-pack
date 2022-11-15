@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "item/carrot"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 20011}, "model": "item/custom/crops/banana/banana"},
+        {"predicate": {"custom_model_data": 20017}, "model": "item/custom/crops/cabbage/cabbage"},
+        {"predicate": {"custom_model_data": 20024}, "model": "item/custom/crops/corn/corn"},
+        {"predicate": {"custom_model_data": 20031}, "model": "item/custom/crops/grape/grape"},
+        {"predicate": {"custom_model_data": 20039}, "model": "item/custom/crops/lemon/lemon"},
+        {"predicate": {"custom_model_data": 20045}, "model": "item/custom/crops/lettuce/lettuce"},
+        {"predicate": {"custom_model_data": 20051}, "model": "item/custom/crops/moolis/moolis"},
+        {"predicate": {"custom_model_data": 20059}, "model": "item/custom/crops/orange/orange"},
+        {"predicate": {"custom_model_data": 20066}, "model": "item/custom/crops/pineapple/pineapple"},
+        {"predicate": {"custom_model_data": 20074}, "model": "item/custom/crops/promegranate/promegranate"},
+        {"predicate": {"custom_model_data": 20080}, "model": "item/custom/crops/strawberry/strawberry"},
+        {"predicate": {"custom_model_data": 20087}, "model": "item/custom/crops/tomato/tomato"}
+    ]
+}
