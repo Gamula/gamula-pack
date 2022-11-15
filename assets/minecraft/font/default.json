@@ -407,6 +407,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/seeds/gui_seeds_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "朵"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/seeds/gui_seeds_plant.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "李"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/seeds/gui_seeds_harvest.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "村"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/seeds/gui_seeds_storage.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "来"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/islands/gui_island_top.png",
       "ascent": 29,
       "type": "bitmap",
