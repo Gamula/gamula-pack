@@ -379,7 +379,7 @@
       ],
       "height": 256
     },
-     {
+    {
       "file": "gamula/ui/gui/auction/gui_auction_confirm_sell.png",
       "ascent": 28,
       "type": "bitmap",
@@ -568,7 +568,7 @@
       ],
       "height": 256
     },
-     {
+    {
       "file": "gamula/ui/gui/towergens/gui_towergens_menu_upgrades_loot.png",
       "ascent": 29,
       "type": "bitmap",
@@ -577,7 +577,7 @@
       ],
       "height": 256
     },
-     {
+    {
       "file": "gamula/ui/gui/towergens/gui_towergens_menu_upgrades_storage.png",
       "ascent": 29,
       "type": "bitmap",
@@ -604,7 +604,7 @@
       ],
       "height": 256
     },
-     {
+    {
       "file": "gamula/ui/gui/gui_timeplayed_milestones.png",
       "ascent": 28,
       "type": "bitmap",
