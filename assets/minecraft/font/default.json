@@ -137,6 +137,15 @@
       "type": "bitmap"
     },
     {
+      "ascent": 6,
+      "chars": [
+        "烈"
+      ],
+      "file": "gamula/icons/symbol_pvpwars_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
       "type": "bitmap",
       "file": "gamula/icons/heads/speech1.png",
       "height": 180,
