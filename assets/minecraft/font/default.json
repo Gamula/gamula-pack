@@ -247,18 +247,36 @@
     {
       "ascent": 8,
       "chars": [
-        "뀊"
+        "㖌"
       ],
-      "file": "gamula/icons/towergen/cobbled_deepslate.png",
+      "file": "gamula/icons/towergen/deepslate_raw.png",
       "height": 9,
       "type": "bitmap"
     },
     {
       "ascent": 8,
       "chars": [
-        "뀋"
+        "뀊"
       ],
-      "file": "gamula/icons/towergen/cobbled_coal_ore.png",
+      "file": "gamula/icons/towergen/deepslate_1.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "㛎"
+      ],
+      "file": "gamula/icons/towergen/deepslate_2.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "㟑"
+      ],
+      "file": "gamula/icons/towergen/deepslate_3.png",
       "height": 9,
       "type": "bitmap"
     },
