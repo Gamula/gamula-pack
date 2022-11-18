@@ -245,6 +245,24 @@
       ]
     },
     {
+      "ascent": 8,
+      "chars": [
+        "뀊"
+      ],
+      "file": "gamula/icons/towergen/cobbled_deepslate.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "뀋"
+      ],
+      "file": "gamula/icons/towergen/cobbled_coal_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
       "file": "gamula/ui/gui/gui_blueprints.png",
       "ascent": 29,
       "type": "bitmap",
