@@ -1,6 +1,231 @@
 {
   "providers": [
     {
+      "ascent": 8,
+      "chars": [
+        "댯"
+      ],
+      "file": "block/cobbled_deepslate.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댰"
+      ],
+      "file": "block/deepslate_coal_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댱"
+      ],
+      "file": "block/deepslate_iron_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댲"
+      ],
+      "file": "block/deepslate_copper_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댳"
+      ],
+      "file": "block/deepslate_lapis_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댴"
+      ],
+      "file": "block/deepslate_redstone_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댵"
+      ],
+      "file": "block/deepslate_gold_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댶"
+      ],
+      "file": "block/deepslate_diamond_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댷"
+      ],
+      "file": "block/deepslate_emerald_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댸"
+      ],
+      "file": "block/coal_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댹"
+      ],
+      "file": "block/iron_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댺"
+      ],
+      "file": "block/copper_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댻"
+      ],
+      "file": "block/lapis_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댼"
+      ],
+      "file": "block/redstone_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댽"
+      ],
+      "file": "block/gold_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "댾"
+      ],
+      "file": "block/diamond_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덀"
+      ],
+      "file": "block/emerald_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덁"
+      ],
+      "file": "block/amethyst_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덂"
+      ],
+      "file": "block/pink_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덃"
+      ],
+      "file": "block/red_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덄"
+      ],
+      "file": "block/blue_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덅"
+      ],
+      "file": "block/black_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덆"
+      ],
+      "file": "block/yellow_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덇"
+      ],
+      "file": "block/light_blue_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "덈"
+      ],
+      "file": "block/lime_glazed_terracotta.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
       "ascent": 24,
       "height": 80,
       "chars": [
@@ -243,42 +468,6 @@
       "chars": [
         "逃"
       ]
-    },
-    {
-      "ascent": 8,
-      "chars": [
-        "㖌"
-      ],
-      "file": "gamula/icons/towergen/deepslate_raw.png",
-      "height": 9,
-      "type": "bitmap"
-    },
-    {
-      "ascent": 8,
-      "chars": [
-        "뀊"
-      ],
-      "file": "gamula/icons/towergen/deepslate_1.png",
-      "height": 9,
-      "type": "bitmap"
-    },
-    {
-      "ascent": 8,
-      "chars": [
-        "㛎"
-      ],
-      "file": "gamula/icons/towergen/deepslate_2.png",
-      "height": 9,
-      "type": "bitmap"
-    },
-    {
-      "ascent": 8,
-      "chars": [
-        "㟑"
-      ],
-      "file": "gamula/icons/towergen/deepslate_3.png",
-      "height": 9,
-      "type": "bitmap"
     },
     {
       "file": "gamula/ui/gui/gui_blueprints.png",
