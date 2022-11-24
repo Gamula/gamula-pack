@@ -1613,6 +1613,15 @@
       "height": 9
     },
     {
+      "file": "gamula/ranks/title_seasonal.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "江"
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/ranks/title_smash.png",
       "ascent": 8,
       "type": "bitmap",
@@ -1645,6 +1654,15 @@
       "type": "bitmap",
       "chars": [
         "汉"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/ranks/title_vip.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "海"
       ],
       "height": 9
     },
