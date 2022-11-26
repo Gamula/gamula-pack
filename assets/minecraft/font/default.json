@@ -355,6 +355,15 @@
     {
       "ascent": 6,
       "chars": [
+        "然"
+      ],
+      "file": "gamula/icons/symbol_cosmetics_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "热"
       ],
       "file": "gamula/icons/symbol_twitter_icon.png",

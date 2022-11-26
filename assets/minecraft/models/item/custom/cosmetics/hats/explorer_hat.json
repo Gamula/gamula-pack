@@ -120,7 +120,7 @@
 		"head": {
 			"rotation": [5, 0, 0],
 			"translation": [0, 18.5, 1],
-			"scale": [1.8, 1.8, 1.8]
+			"scale": [1.87, 1.87, 1.87]
 		}
 	},
 	"groups": [
@@ -128,8 +128,6 @@
 			"name": "explorer_hat",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				0,
 				1,
@@ -137,8 +135,6 @@
 					"name": "hat_layer",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [2, 3, 4, 5, 6]
 				}
 			]
