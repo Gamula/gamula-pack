@@ -695,6 +695,33 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_tags_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "果"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_tags_global.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "林"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_tags_server.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "森"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/islands/gui_island_creation.png",
       "ascent": 29,
       "type": "bitmap",
@@ -1683,7 +1710,7 @@
     {"file":"gamula/ranks/tags/fire_top.png","ascent":8,"type":"bitmap","chars":["拉","拦","指","换","接","描","提","摇","擦","艺","节","芒","花","草","芽","苦","萍"],"height":9},
     {"file":"gamula/ranks/tags/ice_top.png","ascent":8,"type":"bitmap","chars":["药","茶","荡","菜","落","薄","什","化","仍","仅","仇","他","们","代","仙","件","价"],"height":9},
     {"file":"gamula/ranks/tags/matrix_top.png","ascent":8,"type":"bitmap","chars":["优","你","但","住"],"height":9},
-    {"file":"gamula/ranks/tags/nova_top.png","ascent":8,"type":"bitmap","chars":["位","低","伴","使"],"height":9},
+    {"file":"gamula/ranks/tags/nova_top.png","ascent":8,"type":"bitmap","chars":["递","位","低","伴","使"],"height":9},
     {"file":"gamula/ranks/tags/prison_top.png","ascent":8,"type":"bitmap","chars":["信","便","保","修","俩","倒","借","做","假","停"],"height":9},
     {"file":"gamula/ranks/tags/retro_top.png","ascent":8,"type":"bitmap","chars":["偷","偏","像","妖","行","彻"],"height":9},
     {"file":"gamula/ranks/tags/void_top.png","ascent":8,"type":"bitmap","chars":["她"],"height":9},
