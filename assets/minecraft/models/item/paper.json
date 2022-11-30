@@ -180,6 +180,7 @@
         {"predicate": {"custom_model_data": 20084}, "model": "item/custom/crops/tomato/tomato_stage_2"},
         {"predicate": {"custom_model_data": 20085}, "model": "item/custom/crops/tomato/tomato_stage_3"},
         {"predicate": {"custom_model_data": 20086}, "model": "item/custom/crops/tomato/tomato_stage_4"},
-        {"predicate": {"custom_model_data": 20087}, "model": "item/custom/crops/tomato/tomato"}
+        {"predicate": {"custom_model_data": 20087}, "model": "item/custom/crops/tomato/tomato"},
+        {"predicate": {"custom_model_data": 151},"model": "item/custom/icons/btn_check"},
     ]
 }
