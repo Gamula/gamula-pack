@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "gamula/ranks/tags/christmas/penguin"
+        "layer0": "gamula/titles/tags/christmas/penguin"
     }
 }

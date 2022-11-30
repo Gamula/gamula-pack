@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "gamula/ranks/title_vip_icon"
+        "layer0": "gamula/titles/title_vip_icon"
     }
 }
