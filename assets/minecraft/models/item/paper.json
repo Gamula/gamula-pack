@@ -24,6 +24,7 @@
         {"predicate": {"custom_model_data": 67},"model": "item/custom/icons/title_smash_icon"},
         {"predicate": {"custom_model_data": 68},"model": "item/custom/icons/title_twist_icon"},
         {"predicate": {"custom_model_data": 69},"model": "item/custom/icons/title_vip_icon"},
+        {"predicate": {"custom_model_data": 70},"model": "item/custom/icons/btn_check"},
         {"predicate": {"custom_model_data": 80},"model": "item/custom/discord/logo"},
         {"predicate": {"custom_model_data": 101},"model": "item/custom/crates/crimson_crate"},
         {"predicate": {"custom_model_data": 102},"model": "item/custom/crates/crystal_crate"},
@@ -181,6 +182,5 @@
         {"predicate": {"custom_model_data": 20085}, "model": "item/custom/crops/tomato/tomato_stage_3"},
         {"predicate": {"custom_model_data": 20086}, "model": "item/custom/crops/tomato/tomato_stage_4"},
         {"predicate": {"custom_model_data": 20087}, "model": "item/custom/crops/tomato/tomato"},
-        {"predicate": {"custom_model_data": 151},"model": "item/custom/icons/btn_check"},
     ]
 }
