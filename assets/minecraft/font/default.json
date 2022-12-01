@@ -66,6 +66,15 @@
     {
       "ascent": 8,
       "chars": [
+        " 턕"
+      ],
+      "file": "item/experience_bottle.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
         "댶"
       ],
       "file": "block/deepslate_diamond_ore.png",
@@ -903,6 +912,15 @@
     },
     {
       "file": "gamula/ui/gui/gui_streaks_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "턒"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_outposts_menu.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
