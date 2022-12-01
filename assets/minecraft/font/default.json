@@ -929,6 +929,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_stacked.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "턖"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_timeplayed_milestones.png",
       "ascent": 28,
       "type": "bitmap",
