@@ -911,7 +911,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_streaks_menu.png",
+      "file": "gamula/ui/gui/gui_streaks.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -920,7 +920,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_outposts_menu.png",
+      "file": "gamula/ui/gui/gui_outposts.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
