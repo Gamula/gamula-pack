@@ -632,11 +632,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/pshop/gui_pshop_mode_main.png",
+      "file": "gamula/ui/gui/pshop/gui_pshop_mode_display.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
-        "鱲"
+        "턘"
       ],
       "height": 256
     },
