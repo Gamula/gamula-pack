@@ -650,6 +650,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_harvester_tool.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "습"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/auction/gui_auction_categories.png",
       "ascent": 30,
       "type": "bitmap",
