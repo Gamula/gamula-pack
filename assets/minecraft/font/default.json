@@ -1154,7 +1154,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skills_top.png",
+      "file": "gamula/ui/gui/covenant_skills/gui_skills_level.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
