@@ -533,6 +533,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/banker/gui_banker_main.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "쇑"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/banker/gui_banker_display.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "쇒"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_casino_mines.png",
       "ascent": 28,
       "type": "bitmap",
