@@ -1145,6 +1145,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/covenant_skills/gui_skills_top.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "告"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/covenant_skills/gui_skills_top.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "叫"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_selection.png",
       "chars": [
         ""
