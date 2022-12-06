@@ -1181,15 +1181,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_selection.png",
-      "chars": [
-        ""
-      ],
-      "height": 255,
-      "ascent": 45,
-      "type": "bitmap"
-    },
-    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_tint.png",
       "chars": [
         ""
@@ -1250,123 +1241,6 @@
       ],
       "height": 256,
       "ascent": 29,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_trade.png",
-      "chars": [
-        ""
-      ],
-      "height": 255,
-      "ascent": 98,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png",
-      "chars": [
-        "쌃"
-      ],
-      "height": 23,
-      "ascent": -4,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_selected.png",
-      "chars": [
-        ""
-      ],
-      "height": 20,
-      "ascent": -94,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
-      "chars": [
-        "쌥"
-      ],
-      "height": 32,
-      "ascent": -40,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
-      "chars": [
-        "쌦"
-      ],
-      "height": 32,
-      "ascent": -58,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
-      "chars": [
-        "쌧"
-      ],
-      "height": 32,
-      "ascent": -76,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_slot_locked.png",
-      "chars": [
-        "쌨"
-      ],
-      "height": 32,
-      "ascent": -94,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
-      "chars": [
-        "쌉"
-      ],
-      "height": 32,
-      "ascent": -3,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
-      "chars": [
-        "쌊"
-      ],
-      "height": 32,
-      "ascent": -21,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
-      "chars": [
-        "쌋"
-      ],
-      "height": 32,
-      "ascent": -39,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
-      "chars": [
-        "쌌"
-      ],
-      "height": 32,
-      "ascent": -57,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
-      "chars": [
-        "쌍"
-      ],
-      "height": 32,
-      "ascent": -75,
-      "type": "bitmap"
-    },
-    {
-      "file": "gamula/ui/gui/cosmetics/ui_cosmetic_overlay_category_selected.png",
-      "chars": [
-        "쌎"
-      ],
-      "height": 32,
-      "ascent": -93,
       "type": "bitmap"
     },
     {
