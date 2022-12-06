@@ -1703,6 +1703,24 @@
       "height": 9
     },
     {
+      "file": "gamula/titles/title_inprogress.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "河"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_completed.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "湖"
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/titles/title_locked.png",
       "ascent": 8,
       "type": "bitmap",
