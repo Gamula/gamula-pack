@@ -1226,7 +1226,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_backbling.png",
+      "file": "gamula/ui/gui/cosmetics/gui_cosmetic_backpack.png",
       "chars": [
         "退"
       ],
