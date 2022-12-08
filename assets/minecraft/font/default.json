@@ -497,6 +497,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_boosters.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "喭"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_brewing.png",
       "ascent": 28,
       "type": "bitmap",
