@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"4": "gamula/furniture/christmas/santa_hat"
+		"4": "gamula/furniture/christmas/santa_hat",
+		"particle": "gamula/furniture/christmas/santa_hat"
 	},
 	"elements": [
 		{
@@ -93,10 +94,14 @@
 			"scale": [0.53, 0.53, 0.53]
 		},
 		"firstperson_righthand": {
-			"translation": [0, -8, 0]
+			"rotation": [0, 21, 0],
+			"translation": [-1.5, 4.25, -1.5],
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"firstperson_lefthand": {
-			"translation": [0, -8, 0]
+			"rotation": [0, 21, 0],
+			"translation": [-1.5, 4.25, -1.5],
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"ground": {
 			"translation": [0, 5.75, 0]

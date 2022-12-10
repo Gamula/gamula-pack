@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "gamula/furniture/medieval_royal/medievalroyal_chandelier"
+		"1": "gamula/furniture/medieval_royal/medievalroyal_chandelier",
+		"particle": "gamula/furniture/medieval_royal/medievalroyal_chandelier"
 	},
 	"elements": [
 		{

@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"3": "gamula/furniture/japanese/japanese_screen"
+		"3": "gamula/furniture/japanese/japanese_screen",
+		"particle": "gamula/furniture/japanese/japanese_screen"
 	},
 	"elements": [
 		{

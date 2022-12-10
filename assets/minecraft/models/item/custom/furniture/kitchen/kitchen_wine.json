@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "gamula/furniture/kitchen/kitchen_wine"
+		"2": "gamula/furniture/kitchen/kitchen_wine",
+		"particle": "gamula/furniture/kitchen/kitchen_wine"
 	},
 	"elements": [
 		{

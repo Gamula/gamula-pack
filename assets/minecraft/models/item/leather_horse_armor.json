@@ -1886,6 +1886,7 @@
         {"predicate": {"custom_model_data": 20071},"model": "item/custom/cosmetics/hats/nightvision"},
         {"predicate": {"custom_model_data": 20072},"model": "item/custom/cosmetics/hats/littleduck_hood"},
         {"predicate": {"custom_model_data": 20073},"model": "item/custom/cosmetics/hats/santa_hat"},
+        {"predicate": {"custom_model_data": 20074},"model": "item/custom/cosmetics/hats/snowy_antlers"},
         {"predicate": {"custom_model_data": 30001},"model": "item/custom/cosmetics/props/brown_bear_claw"},
         {"predicate": {"custom_model_data": 30002},"model": "item/custom/cosmetics/props/knight_sword"},
         {"predicate": {"custom_model_data": 30003},"model": "item/custom/cosmetics/props/krusty_krab_spatula"},
@@ -1897,6 +1898,7 @@
         {"predicate": {"custom_model_data": 30009},"model": "item/custom/cosmetics/props/devil_trident"},
         {"predicate": {"custom_model_data": 30010},"model": "item/custom/cosmetics/props/littleduck_flag"},
         {"predicate": {"custom_model_data": 30011},"model": "item/custom/cosmetics/props/littleduck_staff"},
+        {"predicate": {"custom_model_data": 30012},"model": "item/custom/cosmetics/props/candy_cane"},
         {"predicate": {"custom_model_data": 40000},"model": "item/custom/models/mso_angler_fish"},
         {"predicate": {"custom_model_data": 40001},"model": "item/custom/models/mso_barracuda"},
         {"predicate": {"custom_model_data": 40002},"model": "item/custom/models/mso_betta_fish1"},
@@ -1959,6 +1961,7 @@
         {"predicate": {"custom_model_data": 40060},"model": "item/custom/models/kite"},
         {"predicate": {"custom_model_data": 40061},"model": "item/custom/models/rubber_balloon"},
         {"predicate": {"custom_model_data": 40062},"model": "item/custom/models/shark_balloon"},
+        {"predicate": {"custom_model_data": 40063},"model": "item/custom/models/newyear_bottle"},
         {"predicate": {"custom_model_data": 50000},"model": "item/custom/icons/overlay_tone"},
         {"predicate": {"custom_model_data": 60000},"model": "item/custom/furniture/medieval_royal/medievalroyal_bed"},
         {"predicate": {"custom_model_data": 60001},"model": "item/custom/furniture/medieval_royal/medievalroyal_carpet"},
@@ -2082,6 +2085,6 @@
         {"predicate": {"custom_model_data": 60119},"model": "item/custom/furniture/christmas/candy_cane_block_overlay"},
         {"predicate": {"custom_model_data": 60120},"model": "item/custom/furniture/christmas/strung_tree_block_overlay"},
         {"predicate": {"custom_model_data": 60121},"model": "item/custom/furniture/christmas/santa_hat"},
-        {"predicate": {"custom_model_data": 60121},"model": "item/custom/furniture/christmas/santa_bag"}
+        {"predicate": {"custom_model_data": 60122},"model": "item/custom/furniture/christmas/santa_bag"}
     ]
 }

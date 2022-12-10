@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "gamula/furniture/christmas/candy_cane1",
+		"particle": "gamula/furniture/christmas/candy_cane1",
 		"10": "gamula/furniture/christmas/bow1"
 	},
 	"elements": [

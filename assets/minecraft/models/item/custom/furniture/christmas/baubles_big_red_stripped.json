@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "gamula/furniture/christmas/ground_bauble_big_red_stripped"
+		"5": "gamula/furniture/christmas/ground_bauble_big_red_stripped",
+		"particle": "gamula/furniture/christmas/ground_bauble_big_red_stripped"
 	},
 	"elements": [
 		{

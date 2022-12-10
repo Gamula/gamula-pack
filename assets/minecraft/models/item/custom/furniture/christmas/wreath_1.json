@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "gamula/furniture/christmas/bow1",
 		"3": "gamula/furniture/christmas/wreath_1",
-		"particle": "gamula/furniture/christmas/bow1"
+		"particle": "gamula/furniture/christmas/wreath_1"
 	},
 	"elements": [
 		{

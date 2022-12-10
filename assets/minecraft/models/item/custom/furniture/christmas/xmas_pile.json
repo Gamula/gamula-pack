@@ -10,7 +10,8 @@
 		"14": "gamula/furniture/christmas/present2",
 		"15": "gamula/furniture/christmas/present1",
 		"16": "gamula/furniture/christmas/present5",
-		"18": "gamula/furniture/christmas/present_small_redish"
+		"18": "gamula/furniture/christmas/present_small_redish",
+		"particle": "gamula/furniture/christmas/present_small_redish"
 	},
 	"elements": [
 		{

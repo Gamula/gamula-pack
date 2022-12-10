@@ -3,6 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"6": "gamula/furniture/christmas/candy_1",
+		"particle": "gamula/furniture/christmas/candy_1",
 		"10": "gamula/furniture/christmas/bow1"
 	},
 	"elements": [

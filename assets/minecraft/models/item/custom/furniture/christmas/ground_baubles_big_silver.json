@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "gamula/furniture/christmas/ground_bauble_big_silver",
-		"particle": "ground_bauble_big_green"
+		"particle": "gamula/furniture/christmas/ground_bauble_big_green"
 	},
 	"elements": [
 		{
