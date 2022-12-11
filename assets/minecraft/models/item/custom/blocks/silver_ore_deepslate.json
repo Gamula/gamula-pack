@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gamula/blocks/silver_ore_deepslate",
+    "particles": "gamula/blocks/silver_ore_deepslate"
+  }
+}

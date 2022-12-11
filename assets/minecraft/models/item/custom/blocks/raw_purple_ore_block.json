@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gamula/blocks/raw_purple_ore_block",
+    "particles": "gamula/blocks/raw_purple_ore_block"
+  }
+}

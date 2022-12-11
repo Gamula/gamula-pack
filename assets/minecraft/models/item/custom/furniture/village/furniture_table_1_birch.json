@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/custom/furniture/village/furniture_table_1_default",
+	"textures": {
+		"1": "gamula/furniture/village/furniture_table_1_birch",
+		"particle": "gamula/furniture/village/furniture_table_1"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -15.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}
