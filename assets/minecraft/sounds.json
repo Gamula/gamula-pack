@@ -1,804 +1,804 @@
 {
-	"littleroom.goblintektesla.idle1":{
+	"littleroom.goblintektesla.idle1": {
 		"sounds": [
-		   "littleroom/goblintektesla/idle1"
+			"littleroom/goblintektesla/idle1"
 		]
-    },
-    "littleroom.goblintektesla.idle2":{
+	},
+	"littleroom.goblintektesla.idle2": {
 		"sounds": [
-		   "littleroom/goblintektesla/idle2"
+			"littleroom/goblintektesla/idle2"
 		]
-    },
-    "littleroom.goblintektesla.idle3":{
+	},
+	"littleroom.goblintektesla.idle3": {
 		"sounds": [
-		   "littleroom/goblintektesla/idle3"
+			"littleroom/goblintektesla/idle3"
 		]
-    },
-    "littleroom.goblintektesla.zap":{
+	},
+	"littleroom.goblintektesla.zap": {
 		"sounds": [
-		   "littleroom/goblintektesla/zap"
+			"littleroom/goblintektesla/zap"
 		]
-    },
-	"littleroom.cannon.fire":{
+	},
+	"littleroom.cannon.fire": {
 		"sounds": [
-		   "littleroom/cannon/fire"
+			"littleroom/cannon/fire"
 		]
-   	},
-  	"littleroom.cannon.openhatch":{
+	},
+	"littleroom.cannon.openhatch": {
 		"sounds": [
-		   "littleroom/cannon/openhatch"
+			"littleroom/cannon/openhatch"
 		]
-   	},
-  	"littleroom.cannon.closehatch":{
+	},
+	"littleroom.cannon.closehatch": {
 		"sounds": [
-		   "littleroom/cannon/closehatch"
+			"littleroom/cannon/closehatch"
 		]
-   	},
-  	"littleroom.cannon.fuse":{
+	},
+	"littleroom.cannon.fuse": {
 		"sounds": [
-		   "littleroom/cannon/fuse"
+			"littleroom/cannon/fuse"
 		]
-   	},
-   "littleroom.cannon.ringing":{
+	},
+	"littleroom.cannon.ringing": {
 		"sounds": [
-		   "littleroom/cannon/ringing"
+			"littleroom/cannon/ringing"
 		]
-   	},
-	"littleroom.mist.traverse":{
+	},
+	"littleroom.mist.traverse": {
 		"sounds": [
-		   "littleroom/mist/traverse"
+			"littleroom/mist/traverse"
 		]
-    },
-	"littleroom.gigas.rave":{
+	},
+	"littleroom.gigas.rave": {
 		"sounds": [
-		   "littleroom/gigas/rave"
+			"littleroom/gigas/rave"
 		]
-    },
-    "littleroom.gigas.death":{
+	},
+	"littleroom.gigas.death": {
 		"sounds": [
-		   "littleroom/gigas/death"
+			"littleroom/gigas/death"
 		]
-    },
-    "littleroom.gigas.slam":{
+	},
+	"littleroom.gigas.slam": {
 		"sounds": [
-		   "littleroom/gigas/slam"
+			"littleroom/gigas/slam"
 		]
-    },
-    "littleroom.gigas.grab":{
+	},
+	"littleroom.gigas.grab": {
 		"sounds": [
-		   "littleroom/gigas/grab"
+			"littleroom/gigas/grab"
 		]
-    },
-    "littleroom.gigas.snip":{
+	},
+	"littleroom.gigas.snip": {
 		"sounds": [
-		   "littleroom/gigas/snip"
+			"littleroom/gigas/snip"
 		]
-    },
-    "littleroom.gigas.hurt":{
+	},
+	"littleroom.gigas.hurt": {
 		"sounds": [
-		   "littleroom/gigas/hurt"
+			"littleroom/gigas/hurt"
 		]
-    },
-	"littleroom.wolfebersahd.bodyimpact":{
+	},
+	"littleroom.wolfebersahd.bodyimpact": {
 		"sounds": [
-		   "littleroom/wolfebersahd/bodyimpact"
+			"littleroom/wolfebersahd/bodyimpact"
 		]
-    },
-    "littleroom.wolfebersahd.discord":{
+	},
+	"littleroom.wolfebersahd.discord": {
 		"sounds": [
-		   "littleroom/wolfebersahd/discord"
+			"littleroom/wolfebersahd/discord"
 		]
-    },
-    "littleroom.wolfebersahd.foley1":{
+	},
+	"littleroom.wolfebersahd.foley1": {
 		"sounds": [
-		   "littleroom/wolfebersahd/foley1"
+			"littleroom/wolfebersahd/foley1"
 		]
-    },
-    "littleroom.wolfebersahd.foley2":{
+	},
+	"littleroom.wolfebersahd.foley2": {
 		"sounds": [
-		   "littleroom/wolfebersahd/foley2"
+			"littleroom/wolfebersahd/foley2"
 		]
-    },
-    "littleroom.wolfebersahd.foley3":{
+	},
+	"littleroom.wolfebersahd.foley3": {
 		"sounds": [
-		   "littleroom/wolfebersahd/foley3"
+			"littleroom/wolfebersahd/foley3"
 		]
-    },
-    "littleroom.wolfebersahd.hammerhit":{
+	},
+	"littleroom.wolfebersahd.hammerhit": {
 		"sounds": [
-		   "littleroom/wolfebersahd/hammerhit"
+			"littleroom/wolfebersahd/hammerhit"
 		]
-    },
-    "littleroom.wolfebersahd.hammerswing":{
+	},
+	"littleroom.wolfebersahd.hammerswing": {
 		"sounds": [
-		   "littleroom/wolfebersahd/hammerswing"
+			"littleroom/wolfebersahd/hammerswing"
 		]
-    },
-    "littleroom.wolfebersahd.roar":{
+	},
+	"littleroom.wolfebersahd.roar": {
 		"sounds": [
-		   "littleroom/wolfebersahd/roar"
+			"littleroom/wolfebersahd/roar"
 		]
-    },
-    "littleroom.wolfebersahd.slash1":{
+	},
+	"littleroom.wolfebersahd.slash1": {
 		"sounds": [
-		   "littleroom/wolfebersahd/slash1"
+			"littleroom/wolfebersahd/slash1"
 		]
-    },
-    "littleroom.wolfebersahd.slash2":{
+	},
+	"littleroom.wolfebersahd.slash2": {
 		"sounds": [
-		   "littleroom/wolfebersahd/slash2"
+			"littleroom/wolfebersahd/slash2"
 		]
-    },
-    "littleroom.wolfebersahd.slash3":{
+	},
+	"littleroom.wolfebersahd.slash3": {
 		"sounds": [
-		   "littleroom/wolfebersahd/slash3"
+			"littleroom/wolfebersahd/slash3"
 		]
-    },
-	"littleroom.voras.death":{
+	},
+	"littleroom.voras.death": {
 		"sounds": [
-		   "littleroom/voras/death"
+			"littleroom/voras/death"
 		]
-    },
-    "littleroom.voras.eggsac_break":{
+	},
+	"littleroom.voras.eggsac_break": {
 		"sounds": [
-		   "littleroom/voras/eggsac_break"
+			"littleroom/voras/eggsac_break"
 		]
-    },
-    "littleroom.voras.leg_impact1":{
+	},
+	"littleroom.voras.leg_impact1": {
 		"sounds": [
-		   "littleroom/voras/leg_impact1"
+			"littleroom/voras/leg_impact1"
 		]
-    },
-    "littleroom.voras.leg_impact2":{
+	},
+	"littleroom.voras.leg_impact2": {
 		"sounds": [
-		   "littleroom/voras/leg_impact2"
+			"littleroom/voras/leg_impact2"
 		]
-    },
-    "littleroom.voras.leg_impact3":{
+	},
+	"littleroom.voras.leg_impact3": {
 		"sounds": [
-		   "littleroom/voras/leg_impact3"
+			"littleroom/voras/leg_impact3"
 		]
-    },
-    "littleroom.voras.leg_remove":{
+	},
+	"littleroom.voras.leg_remove": {
 		"sounds": [
-		   "littleroom/voras/leg_remove"
+			"littleroom/voras/leg_remove"
 		]
-    },
-    "littleroom.voras.rumble_loop_near":{
+	},
+	"littleroom.voras.rumble_loop_near": {
 		"sounds": [
-		   "littleroom/voras/rumble_loop_near"
+			"littleroom/voras/rumble_loop_near"
 		]
-    },
-    "littleroom.voras.rumble_loop_far":{
+	},
+	"littleroom.voras.rumble_loop_far": {
 		"sounds": [
-		   "littleroom/voras/rumble_loop_far"
+			"littleroom/voras/rumble_loop_far"
 		]
-    },
-    "littleroom.voras.magic_poof_large":{
+	},
+	"littleroom.voras.magic_poof_large": {
 		"sounds": [
-		   "littleroom/voras/magic_poof_large"
+			"littleroom/voras/magic_poof_large"
 		]
-    },
-    "littleroom.voras.magic_poof_small1":{
+	},
+	"littleroom.voras.magic_poof_small1": {
 		"sounds": [
-		   "littleroom/voras/magic_poof_small1"
+			"littleroom/voras/magic_poof_small1"
 		]
-    },
-    "littleroom.voras.magic_poof_small2":{
+	},
+	"littleroom.voras.magic_poof_small2": {
 		"sounds": [
-		   "littleroom/voras/magic_poof_small2"
+			"littleroom/voras/magic_poof_small2"
 		]
-    },
-    "littleroom.voras.voras_death_scream":{
+	},
+	"littleroom.voras.voras_death_scream": {
 		"sounds": [
-		   "littleroom/voras/voras_death_scream"
+			"littleroom/voras/voras_death_scream"
 		]
-    },
-    "littleroom.voras.voras_death_scream2":{
+	},
+	"littleroom.voras.voras_death_scream2": {
 		"sounds": [
-		   "littleroom/voras/voras_death_scream2"
+			"littleroom/voras/voras_death_scream2"
 		]
-    },
-    "littleroom.voras.voras_idle1":{
+	},
+	"littleroom.voras.voras_idle1": {
 		"sounds": [
-		   "littleroom/voras/voras_idle1"
+			"littleroom/voras/voras_idle1"
 		]
-    },
-    "littleroom.voras.voras_idle2":{
+	},
+	"littleroom.voras.voras_idle2": {
 		"sounds": [
-		   "littleroom/voras/voras_idle2"
+			"littleroom/voras/voras_idle2"
 		]
-    },
-    "littleroom.voras.voras_scream1":{
+	},
+	"littleroom.voras.voras_scream1": {
 		"sounds": [
-		   "littleroom/voras/voras_scream1"
+			"littleroom/voras/voras_scream1"
 		]
-    },
-    "littleroom.voras.voras_scream2":{
+	},
+	"littleroom.voras.voras_scream2": {
 		"sounds": [
-		   "littleroom/voras/voras_scream2"
+			"littleroom/voras/voras_scream2"
 		]
-    },
-    "littleroom.voras.voras_scream3":{
+	},
+	"littleroom.voras.voras_scream3": {
 		"sounds": [
-		   "littleroom/voras/voras_scream3"
+			"littleroom/voras/voras_scream3"
 		]
-    },
-    "littleroom.voras.voras_acid_burn":{
+	},
+	"littleroom.voras.voras_acid_burn": {
 		"sounds": [
-		   "littleroom/voras/voras_acid_burn"
+			"littleroom/voras/voras_acid_burn"
 		]
-    },
-    "littleroom.voras.eggsac_land":{
+	},
+	"littleroom.voras.eggsac_land": {
 		"sounds": [
-		   "littleroom/voras/eggsac_land"
+			"littleroom/voras/eggsac_land"
 		]
-    },
-    "littleroom.voras.voras_webs":{
+	},
+	"littleroom.voras.voras_webs": {
 		"sounds": [
-		   "littleroom/voras/voras_webs"
+			"littleroom/voras/voras_webs"
 		]
-    },
-	"littleroom.wilderness.bear_attack1":{
+	},
+	"littleroom.wilderness.bear_attack1": {
 		"sounds": [
-		   "littleroom/wilderness/bear_attack1"
+			"littleroom/wilderness/bear_attack1"
 		]
-    },
-    "littleroom.wilderness.bear_attack2":{
+	},
+	"littleroom.wilderness.bear_attack2": {
 		"sounds": [
-		   "littleroom/wilderness/bear_attack2"
+			"littleroom/wilderness/bear_attack2"
 		]
-    },
-    "littleroom.wilderness.bear_attack3":{
+	},
+	"littleroom.wilderness.bear_attack3": {
 		"sounds": [
-		   "littleroom/wilderness/bear_attack3"
+			"littleroom/wilderness/bear_attack3"
 		]
-    },
-    "littleroom.wilderness.bear_death":{
+	},
+	"littleroom.wilderness.bear_death": {
 		"sounds": [
-		   "littleroom/wilderness/bear_death"
+			"littleroom/wilderness/bear_death"
 		]
-    },
-    "littleroom.wilderness.bear_idle1":{
+	},
+	"littleroom.wilderness.bear_idle1": {
 		"sounds": [
-		   "littleroom/wilderness/bear_idle1"
+			"littleroom/wilderness/bear_idle1"
 		]
-    },
-    "littleroom.wilderness.bear_idle2":{
+	},
+	"littleroom.wilderness.bear_idle2": {
 		"sounds": [
-		   "littleroom/wilderness/bear_idle2"
+			"littleroom/wilderness/bear_idle2"
 		]
-    },
-    "littleroom.wilderness.bear_idle3":{
+	},
+	"littleroom.wilderness.bear_idle3": {
 		"sounds": [
-		   "littleroom/wilderness/bear_idle3"
+			"littleroom/wilderness/bear_idle3"
 		]
-    },
-    "littleroom.wilderness.bear_sleep":{
+	},
+	"littleroom.wilderness.bear_sleep": {
 		"sounds": [
-		   "littleroom/wilderness/bear_sleep"
+			"littleroom/wilderness/bear_sleep"
 		]
-    },
-    "littleroom.wilderness.bird_fly":{
+	},
+	"littleroom.wilderness.bird_fly": {
 		"sounds": [
-		   "littleroom/wilderness/bird_fly"
+			"littleroom/wilderness/bird_fly"
 		]
-    },
-    "littleroom.wilderness.bird_song":{
+	},
+	"littleroom.wilderness.bird_song": {
 		"sounds": [
-		   "littleroom/wilderness/bird_song"
+			"littleroom/wilderness/bird_song"
 		]
-    },
-    "littleroom.wilderness.bird_song2":{
+	},
+	"littleroom.wilderness.bird_song2": {
 		"sounds": [
-		   "littleroom/wilderness/bird_song2"
+			"littleroom/wilderness/bird_song2"
 		]
-    },
-    "littleroom.wilderness.bird_song3":{
+	},
+	"littleroom.wilderness.bird_song3": {
 		"sounds": [
-		   "littleroom/wilderness/bird_song3"
+			"littleroom/wilderness/bird_song3"
 		]
-    },
-    "littleroom.wilderness.bird_song4":{
+	},
+	"littleroom.wilderness.bird_song4": {
 		"sounds": [
-		   "littleroom/wilderness/bird_song4"
+			"littleroom/wilderness/bird_song4"
 		]
-    },
-    "littleroom.wilderness.elk_call1":{
+	},
+	"littleroom.wilderness.elk_call1": {
 		"sounds": [
-		   "littleroom/wilderness/elk_call1"
+			"littleroom/wilderness/elk_call1"
 		]
-    },
-    "littleroom.wilderness.elk_call2":{
+	},
+	"littleroom.wilderness.elk_call2": {
 		"sounds": [
-		   "littleroom/wilderness/elk_call2"
+			"littleroom/wilderness/elk_call2"
 		]
-    },
-    "littleroom.wilderness.frog_idle1":{
+	},
+	"littleroom.wilderness.frog_idle1": {
 		"sounds": [
-		   "littleroom/wilderness/frog_idle1"
+			"littleroom/wilderness/frog_idle1"
 		]
-    },
-    "littleroom.wilderness.frog_idle2":{
+	},
+	"littleroom.wilderness.frog_idle2": {
 		"sounds": [
-		   "littleroom/wilderness/frog_idle2"
+			"littleroom/wilderness/frog_idle2"
 		]
-    },
-    "littleroom.wilderness.owl_attack":{
+	},
+	"littleroom.wilderness.owl_attack": {
 		"sounds": [
-		   "littleroom/wilderness/owl_attack"
+			"littleroom/wilderness/owl_attack"
 		]
-    },
-    "littleroom.wilderness.owl_fly":{
+	},
+	"littleroom.wilderness.owl_fly": {
 		"sounds": [
-		   "littleroom/wilderness/owl_fly"
+			"littleroom/wilderness/owl_fly"
 		]
-    },
-    "littleroom.wilderness.owl_idle":{
+	},
+	"littleroom.wilderness.owl_idle": {
 		"sounds": [
-		   "littleroom/wilderness/owl_idle"
+			"littleroom/wilderness/owl_idle"
 		]
-    },
-    "littleroom.wilderness.raccoon_idle1":{
+	},
+	"littleroom.wilderness.raccoon_idle1": {
 		"sounds": [
-		   "littleroom/wilderness/raccoon_idle1"
+			"littleroom/wilderness/raccoon_idle1"
 		]
-    },
-    "littleroom.wilderness.raccoon_idle2":{
+	},
+	"littleroom.wilderness.raccoon_idle2": {
 		"sounds": [
-		   "littleroom/wilderness/raccoon_idle2"
+			"littleroom/wilderness/raccoon_idle2"
 		]
-    },
-    "littleroom.wilderness.skunk_spray":{
+	},
+	"littleroom.wilderness.skunk_spray": {
 		"sounds": [
-		   "littleroom/wilderness/skunk_spray"
+			"littleroom/wilderness/skunk_spray"
 		]
-    },
-    "littleroom.wilderness.squirrel_death":{
+	},
+	"littleroom.wilderness.squirrel_death": {
 		"sounds": [
-		   "littleroom/wilderness/squirrel_death"
+			"littleroom/wilderness/squirrel_death"
 		]
-    },
-    "littleroom.wilderness.squirrel_hurt":{
+	},
+	"littleroom.wilderness.squirrel_hurt": {
 		"sounds": [
-		   "littleroom/wilderness/squirrel_hurt"
+			"littleroom/wilderness/squirrel_hurt"
 		]
-    },
-    "littleroom.wilderness.squirrel_idle":{
+	},
+	"littleroom.wilderness.squirrel_idle": {
 		"sounds": [
-		   "littleroom/wilderness/squirrel_idle"
+			"littleroom/wilderness/squirrel_idle"
 		]
-    },
-	"littleroom.skog_death":{
+	},
+	"littleroom.skog_death": {
 		"sounds": [
-		   "littleroom/skog/skog_death"
+			"littleroom/skog/skog_death"
 		]
-    },
-    "littleroom.skog_losehand":{
+	},
+	"littleroom.skog_losehand": {
 		"sounds": [
-		   "littleroom/skog/skog_losehand"
+			"littleroom/skog/skog_losehand"
 		]
-    },
-    "littleroom.skog_movement_creak1":{
+	},
+	"littleroom.skog_movement_creak1": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_creak1"
+			"littleroom/skog/skog_movement_creak1"
 		]
-    },
-    "littleroom.skog_movement_creak2":{
+	},
+	"littleroom.skog_movement_creak2": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_creak2"
+			"littleroom/skog/skog_movement_creak2"
 		]
-    },
-    "littleroom.skog_movement_creak3":{
+	},
+	"littleroom.skog_movement_creak3": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_creak3"
+			"littleroom/skog/skog_movement_creak3"
 		]
-    },
-    "littleroom.skog_movement_leaves1":{
+	},
+	"littleroom.skog_movement_leaves1": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_leaves1"
+			"littleroom/skog/skog_movement_leaves1"
 		]
-    },
-    "littleroom.skog_movement_leaves2":{
+	},
+	"littleroom.skog_movement_leaves2": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_leaves2"
+			"littleroom/skog/skog_movement_leaves2"
 		]
-    },
-    "littleroom.skog_movement_leaves3":{
+	},
+	"littleroom.skog_movement_leaves3": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_leaves3"
+			"littleroom/skog/skog_movement_leaves3"
 		]
-    },
-    "littleroom.skog_movement_leaves4":{
+	},
+	"littleroom.skog_movement_leaves4": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_leaves4"
+			"littleroom/skog/skog_movement_leaves4"
 		]
-    },
-    "littleroom.skog_movement_leaves5":{
+	},
+	"littleroom.skog_movement_leaves5": {
 		"sounds": [
-		   "littleroom/skog/skog_movement_leaves5"
+			"littleroom/skog/skog_movement_leaves5"
 		]
-    },
-    "littleroom.skog_movement1":{
+	},
+	"littleroom.skog_movement1": {
 		"sounds": [
-		   "littleroom/skog/skog_movement1"
+			"littleroom/skog/skog_movement1"
 		]
-    },
-    "littleroom.skog_movement2":{
+	},
+	"littleroom.skog_movement2": {
 		"sounds": [
-		   "littleroom/skog/skog_movement2"
+			"littleroom/skog/skog_movement2"
 		]
-    },
-    "littleroom.skog_movement3":{
+	},
+	"littleroom.skog_movement3": {
 		"sounds": [
-		   "littleroom/skog/skog_movement3"
+			"littleroom/skog/skog_movement3"
 		]
-    },
-    "littleroom.skog_swing1":{
+	},
+	"littleroom.skog_swing1": {
 		"sounds": [
-		   "littleroom/skog/skog_swing1"
+			"littleroom/skog/skog_swing1"
 		]
-    },
-    "littleroom.skog_swing2":{
+	},
+	"littleroom.skog_swing2": {
 		"sounds": [
-		   "littleroom/skog/skog_swing2"
+			"littleroom/skog/skog_swing2"
 		]
-    },
-    "littleroom.chomp_spawn":{
+	},
+	"littleroom.chomp_spawn": {
 		"sounds": [
-		   "littleroom/skog/chomp_spawn"
+			"littleroom/skog/chomp_spawn"
 		]
-    },
-    "littleroom.chomp_chomp":{
+	},
+	"littleroom.chomp_chomp": {
 		"sounds": [
-		   "littleroom/skog/chomp_chomp"
+			"littleroom/skog/chomp_chomp"
 		]
-    },
-    "littleroom.sapling_fall1":{
+	},
+	"littleroom.sapling_fall1": {
 		"sounds": [
-		   "littleroom/skog/sapling_fall1"
+			"littleroom/skog/sapling_fall1"
 		]
-    },
-    "littleroom.sapling_fall2":{
+	},
+	"littleroom.sapling_fall2": {
 		"sounds": [
-		   "littleroom/skog/sapling_fall2"
+			"littleroom/skog/sapling_fall2"
 		]
-    },
-    "littleroom.sapling_fall3":{
+	},
+	"littleroom.sapling_fall3": {
 		"sounds": [
-		   "littleroom/skog/sapling_fall3"
+			"littleroom/skog/sapling_fall3"
 		]
-    },
-    "littleroom.skog_impact1":{
+	},
+	"littleroom.skog_impact1": {
 		"sounds": [
-		   "littleroom/skog/skog_impact1"
+			"littleroom/skog/skog_impact1"
 		]
-    },
-    "littleroom.skog_impact2":{
+	},
+	"littleroom.skog_impact2": {
 		"sounds": [
-		   "littleroom/skog/skog_impact2"
+			"littleroom/skog/skog_impact2"
 		]
-    },
-    "littleroom.skog_impact3":{
+	},
+	"littleroom.skog_impact3": {
 		"sounds": [
-		   "littleroom/skog/skog_impact3"
+			"littleroom/skog/skog_impact3"
 		]
-    },
-    "littleroom.skog_groan1":{
+	},
+	"littleroom.skog_groan1": {
 		"sounds": [
-		   "littleroom/skog/skog_groan1"
+			"littleroom/skog/skog_groan1"
 		]
-    },
-    "littleroom.skog_groan2":{
+	},
+	"littleroom.skog_groan2": {
 		"sounds": [
-		   "littleroom/skog/skog_groan2"
+			"littleroom/skog/skog_groan2"
 		]
-    },
-    "littleroom.skog_groan3":{
+	},
+	"littleroom.skog_groan3": {
 		"sounds": [
-		   "littleroom/skog/skog_groan3"
+			"littleroom/skog/skog_groan3"
 		]
-    },
-	"littleroom.capra.death":{
+	},
+	"littleroom.capra.death": {
 		"sounds": [
-		   "littleroom/capra/death"
+			"littleroom/capra/death"
 		]
-    },
-    "littleroom.capra.despair":{
+	},
+	"littleroom.capra.despair": {
 		"sounds": [
-		   "littleroom/capra/despair"
+			"littleroom/capra/despair"
 		]
-    },
-    "littleroom.capra.laugh":{
+	},
+	"littleroom.capra.laugh": {
 		"sounds": [
-		   "littleroom/capra/laugh"
+			"littleroom/capra/laugh"
 		]
-    },
-    "littleroom.capra.meteorimpact":{
+	},
+	"littleroom.capra.meteorimpact": {
 		"sounds": [
-		   "littleroom/capra/meteorimpact"
+			"littleroom/capra/meteorimpact"
 		]
-    },
-    "littleroom.capra.phillip":{
+	},
+	"littleroom.capra.phillip": {
 		"sounds": [
-		   "littleroom/capra/phillip"
+			"littleroom/capra/phillip"
 		]
-    },
-    "littleroom.capra.summon":{
+	},
+	"littleroom.capra.summon": {
 		"sounds": [
-		   "littleroom/capra/summon"
+			"littleroom/capra/summon"
 		]
-    },
-    "littleroom.capra.glide":{
+	},
+	"littleroom.capra.glide": {
 		"sounds": [
-		   "littleroom/capra/glide"
+			"littleroom/capra/glide"
 		]
-    },
-    "littleroom.capra.stun":{
+	},
+	"littleroom.capra.stun": {
 		"sounds": [
-		   "littleroom/capra/stun"
+			"littleroom/capra/stun"
 		]
-    },
-	"littleroom.kurrot.ground_smash":{
+	},
+	"littleroom.kurrot.ground_smash": {
 		"sounds": [
-		   "littleroom/kurrot/ground_smash"
+			"littleroom/kurrot/ground_smash"
 		]
-    },
-    "littleroom.kurrot.impact1":{
+	},
+	"littleroom.kurrot.impact1": {
 		"sounds": [
-		   "littleroom/kurrot/impact1"
+			"littleroom/kurrot/impact1"
 		]
-    },
-    "littleroom.kurrot.impact2":{
+	},
+	"littleroom.kurrot.impact2": {
 		"sounds": [
-		   "littleroom/kurrot/impact2"
+			"littleroom/kurrot/impact2"
 		]
-    },
-    "littleroom.kurrot.impact3":{
+	},
+	"littleroom.kurrot.impact3": {
 		"sounds": [
-		   "littleroom/kurrot/impact3"
+			"littleroom/kurrot/impact3"
 		]
-    },
-    "littleroom.kurrot.impact4":{
+	},
+	"littleroom.kurrot.impact4": {
 		"sounds": [
-		   "littleroom/kurrot/impact4"
+			"littleroom/kurrot/impact4"
 		]
-    },
-    "littleroom.kurrot.kur_axeland":{
+	},
+	"littleroom.kurrot.kur_axeland": {
 		"sounds": [
-		   "littleroom/kurrot/kur_axeland"
+			"littleroom/kurrot/kur_axeland"
 		]
-    },
-    "littleroom.kurrot.kur_death":{
+	},
+	"littleroom.kurrot.kur_death": {
 		"sounds": [
-		   "littleroom/kurrot/kur_death"
+			"littleroom/kurrot/kur_death"
 		]
-    },
-    "littleroom.kurrot.kur_jump":{
+	},
+	"littleroom.kurrot.kur_jump": {
 		"sounds": [
-		   "littleroom/kurrot/kur_jump"
+			"littleroom/kurrot/kur_jump"
 		]
-    },
-    "littleroom.kurrot.kur_land":{
+	},
+	"littleroom.kurrot.kur_land": {
 		"sounds": [
-		   "littleroom/kurrot/kur_land"
+			"littleroom/kurrot/kur_land"
 		]
-    },
-    "littleroom.kurrot.kur_vocals1":{
+	},
+	"littleroom.kurrot.kur_vocals1": {
 		"sounds": [
-		   "littleroom/kurrot/kur_vocals1"
+			"littleroom/kurrot/kur_vocals1"
 		]
-    },
-    "littleroom.kurrot.kur_vocals2":{
+	},
+	"littleroom.kurrot.kur_vocals2": {
 		"sounds": [
-		   "littleroom/kurrot/kur_vocals2"
+			"littleroom/kurrot/kur_vocals2"
 		]
-    },
-    "littleroom.kurrot.kur_vocals3":{
+	},
+	"littleroom.kurrot.kur_vocals3": {
 		"sounds": [
-		   "littleroom/kurrot/kur_vocals3"
+			"littleroom/kurrot/kur_vocals3"
 		]
-    },
-    "littleroom.kurrot.ranged_slash_impact1":{
+	},
+	"littleroom.kurrot.ranged_slash_impact1": {
 		"sounds": [
-		   "littleroom/kurrot/ranged_slash_impact1"
+			"littleroom/kurrot/ranged_slash_impact1"
 		]
-    },
-    "littleroom.kurrot.ranged_slash_impact2":{
+	},
+	"littleroom.kurrot.ranged_slash_impact2": {
 		"sounds": [
-		   "littleroom/kurrot/ranged_slash_impact2"
+			"littleroom/kurrot/ranged_slash_impact2"
 		]
-    },
-    "littleroom.kurrot.ranged_slash_swing1":{
+	},
+	"littleroom.kurrot.ranged_slash_swing1": {
 		"sounds": [
-		   "littleroom/kurrot/ranged_slash_swing1"
+			"littleroom/kurrot/ranged_slash_swing1"
 		]
-    },
-    "littleroom.kurrot.ranged_slash_swing2":{
+	},
+	"littleroom.kurrot.ranged_slash_swing2": {
 		"sounds": [
-		   "littleroom/kurrot/ranged_slash_swing2"
+			"littleroom/kurrot/ranged_slash_swing2"
 		]
-    },
-    "littleroom.kurrot.rot_shove":{
+	},
+	"littleroom.kurrot.rot_shove": {
 		"sounds": [
-		   "littleroom/kurrot/rot_shove"
+			"littleroom/kurrot/rot_shove"
 		]
-    },
-    "littleroom.kurrot.rot_squeal1":{
+	},
+	"littleroom.kurrot.rot_squeal1": {
 		"sounds": [
-		   "littleroom/kurrot/rot_squeal1"
+			"littleroom/kurrot/rot_squeal1"
 		]
-    },
-    "littleroom.kurrot.rot_squeal2":{
+	},
+	"littleroom.kurrot.rot_squeal2": {
 		"sounds": [
-		   "littleroom/kurrot/rot_squeal2"
+			"littleroom/kurrot/rot_squeal2"
 		]
-    },
-    "littleroom.kurrot.rot_squeal3":{
+	},
+	"littleroom.kurrot.rot_squeal3": {
 		"sounds": [
-		   "littleroom/kurrot/rot_squeal3"
+			"littleroom/kurrot/rot_squeal3"
 		]
-    },
-    "littleroom.kurrot.swing1":{
+	},
+	"littleroom.kurrot.swing1": {
 		"sounds": [
-		   "littleroom/kurrot/swing1"
+			"littleroom/kurrot/swing1"
 		]
-    },
-    "littleroom.kurrot.swing2":{
+	},
+	"littleroom.kurrot.swing2": {
 		"sounds": [
-		   "littleroom/kurrot/swing2"
+			"littleroom/kurrot/swing2"
 		]
-    },
-    "littleroom.kurrot.swing3":{
+	},
+	"littleroom.kurrot.swing3": {
 		"sounds": [
-		   "littleroom/kurrot/swing3"
+			"littleroom/kurrot/swing3"
 		]
-    },
-    "littleroom.kurrot.swing4":{
+	},
+	"littleroom.kurrot.swing4": {
 		"sounds": [
-		   "littleroom/kurrot/swing4"
+			"littleroom/kurrot/swing4"
 		]
-    },
-	"littleroom.direwolf.howl":{
+	},
+	"littleroom.direwolf.howl": {
 		"sounds": [
-		   "littleroom/direwolf/howl"
+			"littleroom/direwolf/howl"
 		]
-    },
-    "littleroom.direwolf.bite":{
+	},
+	"littleroom.direwolf.bite": {
 		"sounds": [
-		   "littleroom/direwolf/bite"
+			"littleroom/direwolf/bite"
 		]
-    },
-    "littleroom.direwolf.death":{
+	},
+	"littleroom.direwolf.death": {
 		"sounds": [
-		   "littleroom/direwolf/death"
+			"littleroom/direwolf/death"
 		]
-    },
-    "littleroom.direwolf.slash":{
+	},
+	"littleroom.direwolf.slash": {
 		"sounds": [
-		   "littleroom/direwolf/slash"
+			"littleroom/direwolf/slash"
 		]
-    },
-    "littleroom.direwolf.idle":{
+	},
+	"littleroom.direwolf.idle": {
 		"sounds": [
-		   "littleroom/direwolf/idle"
+			"littleroom/direwolf/idle"
 		]
-    },
-	"littleroom.deadbeard.barrel":{
+	},
+	"littleroom.deadbeard.barrel": {
 		"sounds": [
-		   "littleroom/deadbeard/barrel"
+			"littleroom/deadbeard/barrel"
 		]
-    },
-    "littleroom.deadbeard.birdman":{
+	},
+	"littleroom.deadbeard.birdman": {
 		"sounds": [
-		   "littleroom/deadbeard/birdman"
+			"littleroom/deadbeard/birdman"
 		]
-    },
-    "littleroom.deadbeard.death":{
+	},
+	"littleroom.deadbeard.death": {
 		"sounds": [
-		   "littleroom/deadbeard/death"
+			"littleroom/deadbeard/death"
 		]
-    },
-    "littleroom.deadbeard.hurt":{
+	},
+	"littleroom.deadbeard.hurt": {
 		"sounds": [
-		   "littleroom/deadbeard/hurt"
+			"littleroom/deadbeard/hurt"
 		]
-    },
-    "littleroom.deadbeard.laugh":{
+	},
+	"littleroom.deadbeard.laugh": {
 		"sounds": [
-		   "littleroom/deadbeard/laugh"
+			"littleroom/deadbeard/laugh"
 		]
-    },
-    "littleroom.deadbeard.parrot":{
+	},
+	"littleroom.deadbeard.parrot": {
 		"sounds": [
-		   "littleroom/deadbeard/parrot"
+			"littleroom/deadbeard/parrot"
 		]
-    },
-    "littleroom.deadbeard.ricochet":{
+	},
+	"littleroom.deadbeard.ricochet": {
 		"sounds": [
-		   "littleroom/deadbeard/ricochet"
+			"littleroom/deadbeard/ricochet"
 		]
-    },
-    "littleroom.deadbeard.shoot":{
+	},
+	"littleroom.deadbeard.shoot": {
 		"sounds": [
-		   "littleroom/deadbeard/shoot"
+			"littleroom/deadbeard/shoot"
 		]
-    },
-    "littleroom.deadbeard.swing":{
+	},
+	"littleroom.deadbeard.swing": {
 		"sounds": [
-		   "littleroom/deadbeard/swing"
+			"littleroom/deadbeard/swing"
 		]
-    },
-    "littleroom.deadbeard.yar":{
+	},
+	"littleroom.deadbeard.yar": {
 		"sounds": [
-		   "littleroom/deadbeard/yar"
+			"littleroom/deadbeard/yar"
 		]
-    },
-	"littleroom.cranegame.game1":{
+	},
+	"littleroom.cranegame.game1": {
 		"sounds": [
-		   "littleroom/cranegame/game1"
+			"littleroom/cranegame/game1"
 		]
-    },
-    "littleroom.cranegame.game2":{
+	},
+	"littleroom.cranegame.game2": {
 		"sounds": [
-		   "littleroom/cranegame/game2"
+			"littleroom/cranegame/game2"
 		]
-    },
-    "littleroom.cranegame.game3":{
+	},
+	"littleroom.cranegame.game3": {
 		"sounds": [
-		   "littleroom/cranegame/game3"
+			"littleroom/cranegame/game3"
 		]
-    },
-    "littleroom.cranegame.drop":{
+	},
+	"littleroom.cranegame.drop": {
 		"sounds": [
-		   "littleroom/cranegame/drop"
+			"littleroom/cranegame/drop"
 		]
-    },
-    "littleroom.cranegame.win":{
+	},
+	"littleroom.cranegame.win": {
 		"sounds": [
-		   "littleroom/cranegame/win"
+			"littleroom/cranegame/win"
 		]
-    },
-    "littleroom.cranegame.lose":{
+	},
+	"littleroom.cranegame.lose": {
 		"sounds": [
-		   "littleroom/cranegame/lose"
+			"littleroom/cranegame/lose"
 		]
-    },
-    "littleroom.cranegame.music_loop":{
+	},
+	"littleroom.cranegame.music_loop": {
 		"sounds": [
-		   "littleroom/cranegame/music_loop"
+			"littleroom/cranegame/music_loop"
 		]
-    },
-	"littleroom.axolotl.death":{
+	},
+	"littleroom.axolotl.death": {
 		"sounds": [
-		   "littleroom/axolotl/death"
+			"littleroom/axolotl/death"
 		]
-    },
-    "littleroom.axolotl.fire1":{
+	},
+	"littleroom.axolotl.fire1": {
 		"sounds": [
-		   "littleroom/axolotl/fire1"
+			"littleroom/axolotl/fire1"
 		]
-    },
-    "littleroom.axolotl.fire2":{
+	},
+	"littleroom.axolotl.fire2": {
 		"sounds": [
-		   "littleroom/axolotl/fire2"
+			"littleroom/axolotl/fire2"
 		]
-    },
-    "littleroom.axolotl.fire3":{
+	},
+	"littleroom.axolotl.fire3": {
 		"sounds": [
-		   "littleroom/axolotl/fire3"
+			"littleroom/axolotl/fire3"
 		]
-    },
-    "littleroom.axolotl.idle":{
+	},
+	"littleroom.axolotl.idle": {
 		"sounds": [
-		   "littleroom/axolotl/idle"
+			"littleroom/axolotl/idle"
 		]
-    },
-    "littleroom.axolotl.throwup":{
+	},
+	"littleroom.axolotl.throwup": {
 		"sounds": [
-		   "littleroom/axolotl/throwup"
+			"littleroom/axolotl/throwup"
 		]
-    },
+	},
 	"littleroom.amethystgolem.stomp": {
 		"sounds": [
 			"littleroom/amethystgolem/stomp"
@@ -873,5 +873,20 @@
 		"sounds": [
 			"littleroom/medusa/twinsnakes"
 		]
+	},
+	"block.wood.hit": {
+		"sounds": [],
+		"replace": true
+	},
+	"override.block.wood.hit": {
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4",
+			"step/wood5",
+			"step/wood6"
+		],
+		"subtitle": "subtitles.block.generic.hit"
 	}
 }
