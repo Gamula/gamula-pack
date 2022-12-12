@@ -2189,8 +2189,6 @@
 		{"predicate": {"custom_model_data": 60223},"model": "item/custom/furniture/village/house_mailbox_warped"},
 		{"predicate": {"custom_model_data": 60224},"model": "item/custom/furniture/village/food_melons_1"},
 		{"predicate": {"custom_model_data": 60225},"model": "item/custom/furniture/village/food_pumpkins_1"},
-		{"predicate": {"custom_model_data": 60226},"model": "item/custom/furniture/village/food_sack_1"},
-		{"predicate": {"custom_model_data": 60227},"model": "item/custom/furniture/village/food_sack_2"},
 		{"predicate": {"custom_model_data": 60228},"model": "item/custom/furniture/village/furniture_crate_closed_default"},
 		{"predicate": {"custom_model_data": 60229},"model": "item/custom/furniture/village/furniture_crate_closed_oak"},
 		{"predicate": {"custom_model_data": 60230},"model": "item/custom/furniture/village/furniture_crate_closed_dark_oak"},
