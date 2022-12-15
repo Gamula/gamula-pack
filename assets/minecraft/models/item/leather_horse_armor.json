@@ -2286,6 +2286,7 @@
 		{"predicate": {"custom_model_data": 60318},"model": "item/custom/furniture/village/furniture_table_2_acacia"},
 		{"predicate": {"custom_model_data": 60319},"model": "item/custom/furniture/village/furniture_table_2_spruce"},
 		{"predicate": {"custom_model_data": 60320},"model": "item/custom/furniture/village/furniture_table_2_crimson"},
-		{"predicate": {"custom_model_data": 60321},"model": "item/custom/furniture/village/furniture_table_2_warped"}
+		{"predicate": {"custom_model_data": 60321},"model": "item/custom/furniture/village/furniture_table_2_warped"},
+		{"predicate": {"custom_model_data": 60322},"model": "item/custom/furniture/christmas/icicle"}
     ]
 }
