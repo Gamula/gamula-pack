@@ -1280,6 +1280,15 @@
       "type": "bitmap"
     },
     {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_christmas.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "薌"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crate/gui_crate_opening_crimson.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1321,6 +1330,15 @@
       "type": "bitmap",
       "chars": [
         "⼓"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_christmas.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "薍"
       ],
       "height": 256
     },
