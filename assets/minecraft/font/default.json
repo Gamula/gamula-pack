@@ -956,7 +956,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui_dealer.png",
+      "file": "gamula/ui/gui/gui_dealer.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
