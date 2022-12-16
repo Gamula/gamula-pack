@@ -956,6 +956,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui_dealer.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "髚"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/tasks/gui_tasks_menu.png",
       "ascent": 29,
       "type": "bitmap",
