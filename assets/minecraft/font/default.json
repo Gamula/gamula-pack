@@ -650,6 +650,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/goobits/gui_goobits_misc_category.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "鮱"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/goobits/gui_goobits_selection.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "髙"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/pshop/gui_pshop_main.png",
       "ascent": 28,
       "type": "bitmap",
