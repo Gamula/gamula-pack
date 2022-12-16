@@ -623,7 +623,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_goobits_crates.png",
+      "file": "gamula/ui/gui/goobits/gui_goobits_crates.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -632,7 +632,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_goobits_ranks.png",
+      "file": "gamula/ui/gui/goobits/gui_goobits_ranks.png",
       "ascent": 30,
       "type": "bitmap",
       "chars": [
@@ -641,7 +641,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_goobits_shop.png",
+      "file": "gamula/ui/gui/goobits/gui_goobits_shop.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
