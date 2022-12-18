@@ -533,6 +533,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/quests/gui_quests.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "홳"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/quests/gui_quests_selector.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "홴"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_casino_limbo.png",
       "ascent": 28,
       "type": "bitmap",
