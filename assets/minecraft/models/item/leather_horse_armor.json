@@ -2287,6 +2287,20 @@
 		{"predicate": {"custom_model_data": 60319},"model": "item/custom/furniture/village/furniture_table_2_spruce"},
 		{"predicate": {"custom_model_data": 60320},"model": "item/custom/furniture/village/furniture_table_2_crimson"},
 		{"predicate": {"custom_model_data": 60321},"model": "item/custom/furniture/village/furniture_table_2_warped"},
-		{"predicate": {"custom_model_data": 60322},"model": "item/custom/furniture/christmas/icicle"}
+		{"predicate": {"custom_model_data": 60322},"model": "item/custom/furniture/christmas/icicle"},
+		{"predicate": {"custom_model_data": 60323},"model": "item/custom/furniture/cozy/cozy_armchair"},
+		{"predicate": {"custom_model_data": 60324},"model": "item/custom/furniture/cozy/cozy_bench"},
+		{"predicate": {"custom_model_data": 60325},"model": "item/custom/furniture/cozy/cozy_book"},
+		{"predicate": {"custom_model_data": 60326},"model": "item/custom/furniture/cozy/cozy_chair"},
+		{"predicate": {"custom_model_data": 60327},"model": "item/custom/furniture/cozy/cozy_fireplace"},
+		{"predicate": {"custom_model_data": 60328},"model": "item/custom/furniture/cozy/cozy_grandfatherclock"},
+		{"predicate": {"custom_model_data": 60329},"model": "item/custom/furniture/cozy/cozy_luggage"},
+		{"predicate": {"custom_model_data": 60330},"model": "item/custom/furniture/cozy/cozy_painting"},
+		{"predicate": {"custom_model_data": 60331},"model": "item/custom/furniture/cozy/cozy_piano"},
+		{"predicate": {"custom_model_data": 60332},"model": "item/custom/furniture/cozy/cozy_radiator"},
+		{"predicate": {"custom_model_data": 60333},"model": "item/custom/furniture/cozy/cozy_rug"},
+		{"predicate": {"custom_model_data": 60334},"model": "item/custom/furniture/cozy/cozy_sideboard"},
+		{"predicate": {"custom_model_data": 60335},"model": "item/custom/furniture/cozy/cozy_sofa"},
+		{"predicate": {"custom_model_data": 60336},"model": "item/custom/furniture/cozy/cozy_television"}
     ]
 }
