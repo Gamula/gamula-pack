@@ -2,7 +2,8 @@
 	"credit": "Made by LZLeon with Blockbench, Contact - Discord: LZBlocks#0261 - E-Mail: lzblocks@outlook.com",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "gamula/furniture/cozy/cozy_grandfatherclock"
+		"1": "gamula/furniture/cozy/cozy_grandfatherclock",
+		"particle": "gamula/furniture/cozy/cozy_grandfatherclock"
 	},
 	"elements": [
 		{

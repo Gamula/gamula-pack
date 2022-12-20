@@ -2,7 +2,8 @@
 	"credit": "Made by LZLeon with Blockbench, Contact - Discord: LZBlocks#0261 - E-Mail: lzblocks@outlook.com",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "gamula/furniture/cozy/cozy_television"
+		"1": "gamula/furniture/cozy/cozy_television",
+		"particle": "gamula/furniture/cozy/cozy_television"
 	},
 	"elements": [
 		{
