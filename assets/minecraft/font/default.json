@@ -1496,7 +1496,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/shop/gui_shop_food.png",
+      "file": "gamula/ui/gui/shop/gui_shop_spawners.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
