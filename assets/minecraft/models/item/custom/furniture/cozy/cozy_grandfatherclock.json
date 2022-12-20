@@ -190,7 +190,7 @@
 		},
 		"fixed": {
 			"rotation": [90, 0, -180],
-			"translation": [0, 0, -22],
+			"translation": [0, -4.5, -24],
 			"scale": [2, 2, 2]
 		}
 	}
