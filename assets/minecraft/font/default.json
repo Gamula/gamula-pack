@@ -1082,6 +1082,33 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/pet/gui_pet_list.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "풷"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/pet/gui_pet_stats.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "풹"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/pet/gui_pet_top.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "告"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_timeplayed_milestones.png",
       "ascent": 28,
       "type": "bitmap",
