@@ -1028,6 +1028,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gkits/gui_gkit_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "吃"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gkits/gui_gkit_preview.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "吹"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_missions.png",
       "ascent": 29,
       "type": "bitmap",

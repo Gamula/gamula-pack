@@ -10,8 +10,12 @@
         {"predicate": {"custom_model_data": 4}, "model": "item/custom/models/hook"},
         {"predicate": {"custom_model_data": 5}, "model": "item/custom/models/scythe"},
         {"predicate": {"custom_model_data": 6}, "model": "item/custom/models/gigasclaw"},
-        {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/enderdragon_sword"},
-        {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/littleduck_sword"},
-        {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/rubysword"}
+        {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/enderdragon_set/enderdragon_sword"},
+        {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/littleduck_set/littleduck_sword"},
+        {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/rubysword"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/models/darkqueen_set/sword_dark_queen"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/models/purpleworld_set/purpleworld_sword"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/custom/models/purpleworld_set/purpleworld_dagger"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/custom/models/ruby_set/sword_ruby_vol_1"}
     ]
 }

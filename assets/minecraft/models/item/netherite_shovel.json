@@ -4,7 +4,14 @@
         "layer0": "item/netherite_shovel"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/enderdragon_shovel"},
-        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/littleduck_shovel"}
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/enderdragon_set/enderdragon_shovel"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/littleduck_set/littleduck_shovel"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/custom/models/purpleworld_set/purpleworld_shovel"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/custom/models/3d_default_set/diamond/diamond_shovel"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/custom/models/3d_default_set/golden/golden_shovel"},
+        {"predicate": {"custom_model_data": 6}, "model": "item/custom/models/3d_default_set/iron/iron_shovel"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/3d_default_set/netherite/netherite_shovel"},
+        {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/3d_default_set/stone/stone_shovel"},
+        {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/3d_default_set/wooden/wooden_shovel"}
     ]
 }
