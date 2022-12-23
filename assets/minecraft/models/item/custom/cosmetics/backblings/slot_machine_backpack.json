@@ -621,8 +621,8 @@
 		},
 		"head": {
 			"rotation": [0, 180, 0],
-			"translation": [0, -55, 11.5],
-			"scale": [1.55, 1.55, 1.55]
+			"translation": [0, -53, 11.5],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
@@ -635,7 +635,6 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"boneType": "",
 			"children": [
 				0,
 				1,
@@ -665,14 +664,12 @@
 					"name": "group",
 					"origin": [10.9, 12.83579, 9.58579],
 					"color": 0,
-					"boneType": "",
 					"children": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
 				},
 				{
 					"name": "group",
 					"origin": [6.875, 10.96738, 6.87731],
 					"color": 0,
-					"boneType": "",
 					"children": [41, 42, 43]
 				},
 				44
