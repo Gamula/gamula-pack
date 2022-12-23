@@ -920,6 +920,51 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/islands/upgrades/gui_island_upgrade_boosters.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ㇰ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/upgrades/gui_island_upgrade_boosters_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ㇱ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/upgrades/gui_island_upgrade_boosters_money.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "ㇲ"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/upgrades/gui_island_upgrade_hoppers.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "七"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/upgrades/gui_island_upgrade_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "冷"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/profiles/gui_profile_main.png",
       "ascent": 29,
       "type": "bitmap",
