@@ -820,8 +820,8 @@
       ],
       "height": 256
     },
-      {
-      "file": "gamula/ui/gui/gui_mwof.png",
+    {
+      "file": "gamula/ui/gui/gui_wof.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
