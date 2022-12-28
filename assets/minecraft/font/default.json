@@ -820,6 +820,15 @@
       ],
       "height": 256
     },
+      {
+      "file": "gamula/ui/gui/gui_mwof.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "疝"
+      ],
+      "height": 256
+    },
     {
       "file": "gamula/ui/gui/gui_messages.png",
       "ascent": 29,
@@ -961,6 +970,15 @@
       "type": "bitmap",
       "chars": [
         "冷"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/upgrades/gui_island_upgrade_selection.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "疜"
       ],
       "height": 256
     },
