@@ -107,6 +107,7 @@
         {"predicate": {"custom_model_data": 10012}, "model": "item/custom/models/mythril_ore"},
         {"predicate": {"custom_model_data": 10013}, "model": "item/custom/models/mythril_ingot"},
         {"predicate": {"custom_model_data": 10014}, "model": "item/custom/models/mythril_helmet"},
+        {"predicate": {"custom_model_data": 10015}, "model": "item/custom/models/quest_items/fairy_energy_shard"},
         {"predicate": {"custom_model_data": 15000}, "model": "item/custom/models/customore_pack/blue_ore_ingot"},
         {"predicate": {"custom_model_data": 15001}, "model": "item/custom/models/customore_pack/blue_ore_nugget"},
         {"predicate": {"custom_model_data": 15002}, "model": "item/custom/models/customore_pack/green_ore_ingot"},

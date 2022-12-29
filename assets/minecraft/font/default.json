@@ -1667,6 +1667,15 @@
       "height": 256
     },
     {
+      "file": "gamula/titles/title_media.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "溪"
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/titles/title_admin.png",
       "ascent": 8,
       "type": "bitmap",
