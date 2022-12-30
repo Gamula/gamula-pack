@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	"layer0": "gamula/models/spawner_items/dyeable_frogspawn"
+	}
+}

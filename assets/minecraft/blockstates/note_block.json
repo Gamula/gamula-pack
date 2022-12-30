@@ -36,7 +36,6 @@
             "instrument=chime,note=6,powered=false":{"model":"item/custom/blocks/raw_red_ore_block"},
             "instrument=chime,note=7,powered=false":{"model":"item/custom/blocks/raw_silver_ore_block"},
             "instrument=chime,note=8,powered=false":{"model":"item/custom/blocks/raw_yellow_ore_block"},
-            "instrument=chime,note=9,powered=false":{"model":"item/custom/models/quest_items/fairy_cluster_block_energy"},
-            "instrument=chime,note=10,powered=false":{"model":"item/custom/models/quest_items/fairy_block_energy"}
+            "instrument=chime,note=9,powered=false":{"model":"item/custom/models/quest_items/fairy_block_energy"}
         }
     }
