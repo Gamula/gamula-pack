@@ -1,8 +1,8 @@
 {
 	"credit": "PLAYBOX Studios",
 	"textures": {
-		"0": "corn_seed",
-		"particle": "corn_seed"
+		"0": "gamula/crops/corn/corn_seeds",
+		"particle": "gamula/crops/corn/corn_seeds"
 	},
 	"elements": [
 		{
