@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/furniture/newyear/sparkle_anim_gray"
+	},
+	"display": {
+		"fixed": {
+			"scale": [4, 4, 4]
+		}
+	}
+}

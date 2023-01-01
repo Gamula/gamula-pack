@@ -219,6 +219,14 @@
         {"predicate": {"custom_model_data": 20084}, "model": "item/custom/crops/tomato/tomato_stage_2"},
         {"predicate": {"custom_model_data": 20085}, "model": "item/custom/crops/tomato/tomato_stage_3"},
         {"predicate": {"custom_model_data": 20086}, "model": "item/custom/crops/tomato/tomato_stage_4"},
-        {"predicate": {"custom_model_data": 20087}, "model": "item/custom/crops/tomato/tomato"}
+        {"predicate": {"custom_model_data": 20087}, "model": "item/custom/crops/tomato/tomato"},
+        {"predicate": {"custom_model_data": 60399},"model": "item/custom/furniture/newyear/firework_explosion_blue"},
+        {"predicate": {"custom_model_data": 60400},"model": "item/custom/furniture/newyear/firework_explosion_gray"},
+        {"predicate": {"custom_model_data": 60401},"model": "item/custom/furniture/newyear/firework_explosion_orange"},
+        {"predicate": {"custom_model_data": 60402},"model": "item/custom/furniture/newyear/firework_explosion_yellow"},
+        {"predicate": {"custom_model_data": 60403},"model": "item/custom/furniture/newyear/sparkle_anim_blue"},
+        {"predicate": {"custom_model_data": 60404},"model": "item/custom/furniture/newyear/sparkle_anim_gray"},
+        {"predicate": {"custom_model_data": 60405},"model": "item/custom/furniture/newyear/sparkle_anim_orange"},
+        {"predicate": {"custom_model_data": 60406},"model": "item/custom/furniture/newyear/sparkle_anim_yellow"}
     ]
 }

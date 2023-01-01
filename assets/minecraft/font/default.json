@@ -1433,7 +1433,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_christmas.png",
+      "file": "gamula/ui/gui/crate/gui_crate_opening_monthly.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1487,7 +1487,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_christmas.png",
+      "file": "gamula/ui/gui/crate/gui_crate_preview_monthly.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
