@@ -66,6 +66,15 @@
     {
       "ascent": 8,
       "chars": [
+        "㕒"
+      ],
+      "file": "item/firework_rocket.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
         "턕"
       ],
       "file": "item/experience_bottle.png",
