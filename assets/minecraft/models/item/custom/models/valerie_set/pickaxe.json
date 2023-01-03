@@ -3,7 +3,7 @@
 	"texture_size": [24, 24],
 	"textures": {
 		"1": "gamula/models/valerie_set/pickaxe",
-		"2": "gamula/models/valerie_set/:animations/animation_1",
+		"2": "gamula/models/valerie_set/animations/animation_1",
 		"particle": "gamula/models/valerie_set/animations/animation_1"
 	},
 	"elements": [
