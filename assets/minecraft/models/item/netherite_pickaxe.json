@@ -13,6 +13,6 @@
         {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/3d_default_set/netherite/netherite_pickaxe"},
         {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/3d_default_set/stone/stone_pickaxe"},
         {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/3d_default_set/wooden/wooden_pickaxe"},
-        {"predicate": {"custom_model_data": 10}, "model": "item/custom/models/valerie_set/pickaxeaxe"}
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/models/valerie_set/pickaxe"}
     ]
 }
