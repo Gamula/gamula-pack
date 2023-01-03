@@ -1001,47 +1001,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/skins/gui_skins_armor.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "未"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/skins/gui_skins_main.png",
+      "file": "gamula/ui/gui/skins/gui_skins_menu.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
         "末"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/skins/gui_skins_picker.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "术"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/skins/gui_skins_tools.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "机"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/skins/gui_skins_weapons.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "杀"
       ],
       "height": 256
     },
