@@ -2057,6 +2057,7 @@
         {"predicate": {"custom_model_data": 40070},"model": "item/custom/models/new_year_pouch_orange"},
         {"predicate": {"custom_model_data": 40071},"model": "item/custom/models/new_year_pouch_teal"},
         {"predicate": {"custom_model_data": 40072},"model": "item/custom/models/newyear_balloon"},
+        {"predicate": {"custom_model_data": 40073},"model": "item/custom/models/valerie_set/dragon_head"},
         {"predicate": {"custom_model_data": 42001},"model": "item/custom/models/quest_items/rubysword_hilt"},
         {"predicate": {"custom_model_data": 42002},"model": "item/custom/models/quest_items/rubysword_blade"},
         {"predicate": {"custom_model_data": 42003},"model": "item/custom/models/quest_items/rubysword_power"},

@@ -58,6 +58,8 @@
         {"predicate": {"custom_model_data": 26}, "model": "item/custom/rods/enderdragon_fishing_rod"},
         {"predicate": {"custom_model_data": 26, "cast": 1}, "model": "item/custom/rods/enderdragon_fishing_rod_cast"},
         {"predicate": {"custom_model_data": 27}, "model": "item/custom/rods/littleduck_fishing_rod"},
-        {"predicate": {"custom_model_data": 27, "cast": 1}, "model": "item/custom/rods/littleduck_fishing_rod_cast"}
+        {"predicate": {"custom_model_data": 27, "cast": 1}, "model": "item/custom/rods/littleduck_fishing_rod_cast"},
+        {"predicate": {"custom_model_data": 28}, "model": "item/custom/rods/valerie_set/fishing_rod"},
+        {"predicate": {"custom_model_data": 28, "cast": 1}, "model": "item/custom/rods/valerie_set/fishing_rod_cast"}
     ]
 }
