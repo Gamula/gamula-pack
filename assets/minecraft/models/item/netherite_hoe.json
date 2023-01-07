@@ -12,6 +12,8 @@
         {"predicate": {"custom_model_data": 6}, "model": "item/custom/models/3d_default_set/iron/iron_hoe"},
         {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/3d_default_set/netherite/netherite_hoe"},
         {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/3d_default_set/stone/stone_hoe"},
-        {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/3d_default_set/wooden/wooden_hoe"}
+        {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/3d_default_set/wooden/wooden_hoe"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/models/glitch_set/hoe"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/models/thunderbolt_set/hoe"}
     ]
 }

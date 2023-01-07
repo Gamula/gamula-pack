@@ -54,6 +54,14 @@
         {"predicate": {"custom_model_data": 7},"model": "item/custom/models/ruby_set/bow_ruby_vol_1"},
         {"predicate": {"custom_model_data": 7,"pulling": 1},"model": "item/custom/models/ruby_set/bow_ruby_vol_1_0"},
         {"predicate": {"custom_model_data": 7,"pulling": 1,"pull": 0.65},"model": "item/custom/models/ruby_set/bow_ruby_vol_1_1"},
-        {"predicate": {"custom_model_data": 7,"pulling": 1,"pull": 0.9},"model": "item/custom/models/ruby_set/bow_ruby_vol_1_2"}
+        {"predicate": {"custom_model_data": 7,"pulling": 1,"pull": 0.9},"model": "item/custom/models/ruby_set/bow_ruby_vol_1_2"},
+        {"predicate": {"custom_model_data": 8},"model": "item/custom/models/glitch_set/bow"},
+        {"predicate": {"custom_model_data": 8,"pulling": 1},"model": "item/custom/models/glitch_set/bow_0"},
+        {"predicate": {"custom_model_data": 8,"pulling": 1,"pull": 0.65},"model": "item/custom/models/glitch_set/bow_1"},
+        {"predicate": {"custom_model_data": 8,"pulling": 1,"pull": 0.9},"model": "item/custom/models/glitch_set/bow_2"},
+        {"predicate": {"custom_model_data": 9},"model": "item/custom/models/thunderbolt_set/bow"},
+        {"predicate": {"custom_model_data": 9,"pulling": 1},"model": "item/custom/models/thunderbolt_set/bow_0"},
+        {"predicate": {"custom_model_data": 9,"pulling": 1,"pull": 0.65},"model": "item/custom/models/thunderbolt_set/bow_1"},
+        {"predicate": {"custom_model_data": 9,"pulling": 1,"pull": 0.9},"model": "item/custom/models/thunderbolt_set/bow_2"}
     ]
 }

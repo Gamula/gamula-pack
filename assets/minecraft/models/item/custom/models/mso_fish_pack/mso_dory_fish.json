@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "gamula/models/mso_fish_pack/mso_dory_fish"
+		"0": "modelengine:entity/mso_dory_fish"
 	},
 	"elements": [
 		{

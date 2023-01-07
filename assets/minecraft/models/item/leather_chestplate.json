@@ -5,7 +5,7 @@
         "layer1": "item/leather_chestplate_overlay"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/armor/speedster_chestplate"},
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/armor/thunderbolt_chestplate"},
         {"predicate": {"custom_model_data": 2}, "model": "item/custom/armor/enderdragon_chestplate"},
         {"predicate": {"custom_model_data": 3}, "model": "item/custom/armor/jester_chestplate"}
     ]

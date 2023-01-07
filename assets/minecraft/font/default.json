@@ -337,6 +337,15 @@
     {
       "ascent": 6,
       "chars": [
+        "满"
+      ],
+      "file": "gamula/icons/symbol_cave_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "演"
       ],
       "file": "gamula/icons/symbol_crates_icon.png",
@@ -686,6 +695,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/goobits/gui_goobits_cosmetic_category.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "冬"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/goobits/gui_goobits_selection.png",
       "ascent": 29,
       "type": "bitmap",
@@ -1024,6 +1042,15 @@
       "type": "bitmap",
       "chars": [
         "让"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_gen_fishing.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "凉"
       ],
       "height": 256
     },
@@ -1900,6 +1927,7 @@
       ],
       "height": 9
     },
+    {"file":"gamula/titles/tags/whale.png","ascent":4,"type":"bitmap","chars":["蜂"],"height":5},
     {"file":"gamula/titles/tags/dragon.png","ascent":8,"type":"bitmap","chars":["蟹"],"height":9},
     {"file":"gamula/titles/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
     {"file":"gamula/titles/tags/air_top.png","ascent":8,"type":"bitmap","chars":["打","扔"],"height":9},

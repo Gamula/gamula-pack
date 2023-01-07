@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "gamula/models/mso_fish_pack/mso_giant_squid"
+		"0": "modelengine:entity/mso_giant_squid"
 	},
 	"elements": [
 		{
