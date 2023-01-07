@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "modelengine:entity/mso_nautilus"
+		"0": "modelengine:entity/nautilus"
 	},
 	"elements": [
 		{

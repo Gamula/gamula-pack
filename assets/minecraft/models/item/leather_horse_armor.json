@@ -1863,7 +1863,7 @@
         {"predicate": {"custom_model_data": 10054},"model": "item/custom/cosmetics/backblings/ice_cream_backpack"},
         {"predicate": {"custom_model_data": 10055},"model": "item/custom/cosmetics/backblings/newyear_bag"},
         {"predicate": {"custom_model_data": 10056},"model": "item/custom/models/glitch_set/wing"},
-        {"predicate": {"custom_model_data": 10057},"model": "item/custom/models/thunderbolt_set/wing"},
+        {"predicate": {"custom_model_data": 10057},"model": "item/custom/models/thunderbolt_set/wings"},
         {"predicate": {"custom_model_data": 20001},"model": "item/custom/cosmetics/hats/amethyst_crown"},
         {"predicate": {"custom_model_data": 20002},"model": "item/custom/cosmetics/hats/diamond_crown"},
         {"predicate": {"custom_model_data": 20003},"model": "item/custom/cosmetics/hats/emerald_crown"},

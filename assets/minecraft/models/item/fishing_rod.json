@@ -61,9 +61,9 @@
         {"predicate": {"custom_model_data": 27, "cast": 1}, "model": "item/custom/rods/littleduck_fishing_rod_cast"},
         {"predicate": {"custom_model_data": 28}, "model": "item/custom/rods/valerie_set/fishing_rod"},
         {"predicate": {"custom_model_data": 28, "cast": 1}, "model": "item/custom/rods/valerie_set/fishing_rod_cast"},
-        {"predicate": {"custom_model_data": 29}, "model": "item/custom/rods/glitch_set/fishing_rod"},
-        {"predicate": {"custom_model_data": 29, "cast": 1}, "model": "item/custom/rods/glitch_set/fishing_rod_cast"},
-        {"predicate": {"custom_model_data": 30}, "model": "item/custom/rods/thunderbolt_set/fishing_rod"},
-        {"predicate": {"custom_model_data": 30, "cast": 1}, "model": "item/custom/rods/thunderbolt_set/fishing_rod_cast"}
+        {"predicate": {"custom_model_data": 29}, "model": "item/custom/models/glitch_set/fishing_rod"},
+        {"predicate": {"custom_model_data": 29, "cast": 1}, "model": "item/custom/models/glitch_set/fishing_rod_cast"},
+        {"predicate": {"custom_model_data": 30}, "model": "item/custom/models/thunderbolt_set/fishing_rod"},
+        {"predicate": {"custom_model_data": 30, "cast": 1}, "model": "item/custom/models/thunderbolt_set/fishing_rod_cast"}
     ]
 }
