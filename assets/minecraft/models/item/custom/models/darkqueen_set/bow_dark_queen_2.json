@@ -1048,9 +1048,9 @@
 			"scale": [0.6875, 0.6875, 0.6875]
 		},
 		"gui": {
-			"rotation": [0, 0, 45],
-			"translation": [2.75, 1, 0],
-			"scale": [0.50898, 0.50898, 0.50898]
+			"rotation": [0, 0, 130],
+			"translation": [-0.75, 1.75, 0],
+			"scale": [0.45, 0.45, 0.45]
 		},
 		"fixed": {
 			"translation": [2, -3.75, -1.5],
@@ -1109,47 +1109,35 @@
 			"name": "group",
 			"origin": [0.83174, 19.81948, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [47, 48, 49, 50, 51, 52]
 		},
 		{
 			"name": "group",
 			"origin": [0.91781, 9.67359, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		},
 		{
 			"name": "group",
 			"origin": [0.57921, -0.28978, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [53, 54, 55, 56, 57, 58]
 		},
 		{
 			"name": "group",
 			"origin": [0.91781, 9.67359, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [59, 60, 61, 62, 63, 64]
 		},
 		{
 			"name": "group",
 			"origin": [0.91781, 9.67359, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "group",
 					"origin": [-1.91781, 8.34515, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]
 				}
 			]

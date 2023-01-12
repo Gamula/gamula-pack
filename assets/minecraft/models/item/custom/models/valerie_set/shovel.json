@@ -443,8 +443,8 @@
 			"translation": [0, 9.5, 0]
 		},
 		"gui": {
-			"rotation": [90, -45, 90],
-			"translation": [2, -2, 0],
+			"rotation": [90, -130, 90],
+			"translation": [-1.25, -2, 0],
 			"scale": [0.69141, 0.69141, 0.69141]
 		},
 		"head": {
