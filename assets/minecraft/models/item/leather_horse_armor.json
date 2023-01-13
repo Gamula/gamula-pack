@@ -2093,6 +2093,7 @@
         {"predicate": {"custom_model_data": 42003},"model": "item/custom/models/quest_items/rubysword_power"},
         {"predicate": {"custom_model_data": 42004},"model": "item/custom/models/quest_items/hydraulic_press"},
         {"predicate": {"custom_model_data": 42005},"model": "item/custom/models/quest_items/base_plate"},
+        {"predicate": {"custom_model_data": 42006},"model": "item/custom/models/quest_items/zahar_potion"},
         {"predicate": {"custom_model_data": 44001},"model": "item/custom/models/spawner_items/dyeable_blaze_rod"},
         {"predicate": {"custom_model_data": 44002},"model": "item/custom/models/spawner_items/dyeable_cod"},
         {"predicate": {"custom_model_data": 44003},"model": "item/custom/models/spawner_items/dyeable_frogspawn"},

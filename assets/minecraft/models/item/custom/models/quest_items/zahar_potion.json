@@ -1,0 +1,84 @@
+{
+	"credit": "gigachad drift baby",
+	"texture_size": [128, 128],
+	"textures": {
+		"2": "modelengine:entity/zahar"
+	},
+	"elements": [
+		{
+			"from": [6.5, 8.03573, 6.92062],
+			"to": [9.5, 9.03573, 9.92062],
+			"rotation": {"angle": 0, "axis": "x", "origin": [12.5, -1.76427, 8.82062]},
+			"faces": {
+				"north": {"uv": [5.8875, 6.6125, 6.2375, 6.5125], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [3.6375, 1.7375, 3.9875, 1.6375], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [3.2625, 1.7375, 3.6125, 1.6375], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [7.0125, 1.2375, 7.3625, 1.1375], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [0.0125, 12.8625, 0.3625, 12.5125], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [12.5125, 0.0125, 12.8625, 0.3625], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [7, 5.03573, 7.42062],
+			"to": [9, 8.03573, 9.42062],
+			"rotation": {"angle": 0, "axis": "x", "origin": [12.5, -1.76427, 8.82062]},
+			"faces": {
+				"north": {"uv": [12.7625, 4.7375, 12.9875, 4.3875], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [12.7625, 4.3625, 12.9875, 4.0125], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [12.7625, 3.9875, 12.9875, 3.6375], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [12.7625, 5.1125, 12.9875, 4.7625], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [12.7625, 12.7375, 12.9875, 12.5125], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [12.7625, 12.7625, 12.9875, 12.9875], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [5.5, 0.03573, 5.92062],
+			"to": [10.5, 5.03573, 10.92062],
+			"rotation": {"angle": 0, "axis": "x", "origin": [12.5, -1.76427, 8.82062]},
+			"faces": {
+				"north": {"uv": [11.5125, 8.6125, 12.1125, 8.0125], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [7.0125, 12.1125, 7.6125, 11.5125], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [11.5125, 3.4875, 12.1125, 2.8875], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [8.6375, 12.1125, 9.2375, 11.5125], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [9.2625, 12.1125, 9.8625, 11.5125], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [11.5125, 10.3875, 12.1125, 10.9875], "rotation": 180, "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, -1.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3, -1.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 5.5, -2.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 5.5, -2.25]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [0, 28, 0],
+			"translation": [0, 3, 0]
+		},
+		"fixed": {
+			"translation": [0, 7.25, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "potion",
+			"origin": [0.5, -1.76427, 0.18729],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
