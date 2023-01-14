@@ -549,6 +549,141 @@
 			"littleroom/amethystgolem/shardout"
 		]
 	},
+	"littleroom.zahar.abomination_grab": {
+		"sounds": [
+			"littleroom/zahar/abomination_grab"
+		]
+	},
+	"littleroom.zahar.abomination_impact1": {
+		"sounds": [
+			"littleroom/zahar/abomination_impact1"
+		]
+	},
+	"littleroom.zahar.abomination_impact2": {
+		"sounds": [
+			"littleroom/zahar/abomination_impact2"
+		]
+	},
+	"littleroom.zahar.abomination_scream1": {
+		"sounds": [
+			"littleroom/zahar/abomination_scream1"
+		]
+	},
+	"littleroom.zahar.abomination_scream2": {
+		"sounds": [
+			"littleroom/zahar/abomination_scream2"
+		]
+	},
+	"littleroom.zahar.abomination_scream3": {
+		"sounds": [
+			"littleroom/zahar/abomination_scream3"
+		]
+	},
+	"littleroom.zahar.abomination_spawn": {
+		"sounds": [
+			"littleroom/zahar/abomination_spawn"
+		]
+	},
+	"littleroom.zahar.bottle_foley1": {
+		"sounds": [
+			"littleroom/zahar/bottle_foley1"
+		]
+	},
+	"littleroom.zahar.bottle_foley2": {
+		"sounds": [
+			"littleroom/zahar/bottle_foley2"
+		]
+	},
+	"littleroom.zahar.bottle_foley3": {
+		"sounds": [
+			"littleroom/zahar/bottle_foley3"
+		]
+	},
+	"littleroom.zahar.bottle_slurp": {
+		"sounds": [
+			"littleroom/zahar/bottle_slurp"
+		]
+	},
+	"littleroom.zahar.cloth_foley1": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley1"
+		]
+	},
+	"littleroom.zahar.cloth_foley2": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley2"
+		]
+	},
+	"littleroom.zahar.cloth_foley3": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley3"
+		]
+	},
+	"littleroom.zahar.cloth_foley4": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley4"
+		]
+	},
+	"littleroom.zahar.cloth_foley5": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley5"
+		]
+	},
+	"littleroom.zahar.cloth_foley6": {
+		"sounds": [
+			"littleroom/zahar/cloth_foley6"
+		]
+	},
+	"littleroom.zahar.impact1": {
+		"sounds": [
+			"littleroom/zahar/impact1"
+		]
+	},
+	"littleroom.zahar.impact2": {
+		"sounds": [
+			"littleroom/zahar/impact2"
+		]
+	},
+	"littleroom.zahar.impact3": {
+		"sounds": [
+			"littleroom/zahar/impact3"
+		]
+	},
+	"littleroom.zahar.impact4": {
+		"sounds": [
+			"littleroom/zahar/impact4"
+		]
+	},
+	"littleroom.zahar.swing1": {
+		"sounds": [
+			"littleroom/zahar/swing1"
+		]
+	},
+	"littleroom.zahar.swing2": {
+		"sounds": [
+			"littleroom/zahar/swing2"
+		]
+	},
+	"littleroom.zahar.swing3": {
+		"sounds": [
+			"littleroom/zahar/swing3"
+		]
+	},
+	"littleroom.zahar.zahar_die": {
+		"sounds": [
+			"littleroom/zahar/zahar_die"
+		]
+	},
+	"littleroom.zahar.zahar_stun": {
+		"sounds": [
+			"littleroom/zahar/zahar_stun"
+		]
+	},
+	"littleroom.zahar.summon_circle": {
+		"sounds": [
+			"littleroom/zahar/summon_circle"
+		]
+	},
 	"block.wood.hit": {
 		"sounds": [],
 		"replace": true
