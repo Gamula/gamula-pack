@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/armor/thunderbolt_boots"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/armor/thunderbolt_boots"
+	},
+	"display": {
+		"gui": {
+			"scale": [1.4, 1, 1]
+		}
+	}
 }

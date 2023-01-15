@@ -101,8 +101,9 @@
 			"scale": [1.6, 1.6, 1.6]
 		},
 		"fixed": {
-			"translation": [4.5, 0, 0],
-			"scale": [0.57, 0.57, 0.57]
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
 		}
 	}
 }

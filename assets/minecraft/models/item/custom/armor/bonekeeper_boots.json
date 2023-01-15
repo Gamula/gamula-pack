@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/armor/bonekeeper_boots"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/armor/bonekeeper_boots"
+	},
+	"display": {
+		"gui": {
+			"scale": [1.325, 1.425, 1]
+		}
+	}
 }

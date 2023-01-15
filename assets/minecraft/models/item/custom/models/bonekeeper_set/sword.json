@@ -383,12 +383,12 @@
 			"translation": [0, 7.25, 4]
 		},
 		"firstperson_righthand": {
-			"rotation": [-15.14, 7.68, 2.07],
+			"rotation": [-15.14, 0, 2.07],
 			"translation": [1.5, 4.25, 0],
 			"scale": [0.78711, 0.78711, 0.78711]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-15.14, 7.68, 2.07],
+			"rotation": [-15.14, 0, 2.07],
 			"translation": [1.5, 4.25, 0],
 			"scale": [0.78711, 0.78711, 0.78711]
 		},

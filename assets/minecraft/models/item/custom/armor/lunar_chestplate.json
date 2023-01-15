@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/armor/lunar_chestplate"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/armor/lunar_chestplate"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.89, 0.89, 0.89]
+		}
+	}
 }

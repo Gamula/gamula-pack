@@ -126,8 +126,9 @@
 			"scale": [0.26, 0.26, 0.26]
 		},
 		"fixed": {
-			"translation": [0, 0, -16.25],
-			"scale": [2, 2, 2]
+			"rotation": [0, 0, -180],
+			"translation": [1.25, 20.25, -20],
+			"scale": [2.5, 2.5, 2.5]
 		}
 	},
 	"groups": [

@@ -291,7 +291,7 @@
 			"translation": [0, 7.5, 0]
 		},
 		"gui": {
-			"rotation": [0, 135, 0],
+			"rotation": [10, 160, 0],
 			"translation": [0, 1.5, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},

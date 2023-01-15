@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/armor/bonekeeper_chestplate"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/armor/bonekeeper_chestplate"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.92, 0.92, 0.92]
+		}
+	}
 }

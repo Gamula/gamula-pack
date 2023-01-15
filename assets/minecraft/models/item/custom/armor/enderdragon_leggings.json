@@ -1,6 +1,13 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/armor/enderdragon_leggings"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/armor/enderdragon_leggings"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, -0.75, 0],
+			"scale": [0.92, 0.92, 0.92]
+		}
+	}
 }

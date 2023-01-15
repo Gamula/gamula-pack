@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gamula/armor/enderdragon_helmet"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/armor/enderdragon_helmet"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.92, 0.92, 0.92]
+		}
+	}
 }

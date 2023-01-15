@@ -157,17 +157,21 @@
 			"translation": [0, 3, 1.5]
 		},
 		"firstperson_righthand": {
-			"translation": [-1.5, 4.5, 3]
+			"translation": [-1.5, 4.5, 3],
+			"scale": [1, 0.875, 1]
 		},
 		"firstperson_lefthand": {
-			"translation": [-1.5, 4.5, 3]
+			"translation": [-1.5, 4.5, 3],
+			"scale": [1, 0.875, 1]
 		},
 		"ground": {
-			"translation": [0, 7.5, 0]
+			"translation": [0, 4.75, 0],
+			"scale": [1, 0.875, 1]
 		},
 		"gui": {
 			"rotation": [90, -135, 90],
-			"translation": [-0.75, -0.75, -1]
+			"translation": [-0.75, -0.75, -1],
+			"scale": [1, 0.9, 1]
 		},
 		"head": {
 			"scale": [0, 0, 0]

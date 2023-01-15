@@ -527,8 +527,9 @@
 			"scale": [1.6, 1.6, 1.6]
 		},
 		"fixed": {
-			"translation": [0, 0, -16.75],
-			"scale": [2, 2, 2]
+			"rotation": [0, 0, -180],
+			"translation": [0, 0, -20.25],
+			"scale": [2.5, 2.5, 2.5]
 		}
 	},
 	"groups": [
