@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "elitecreature:classroom_furniture_v1/classroom_picture",
-		"particle": "elitecreature:classroom_furniture_v1/classroom_picture"
+		"0": "gamula/furniture/classroom/classroom_picture",
+		"particle": "gamula/furniture/classroom/classroom_picture"
 	},
 	"elements": [
 		{

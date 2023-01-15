@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "elitecreature:classroom_furniture_v1/classroom_television",
-		"particle": "elitecreature:classroom_furniture_v1/classroom_television"
+		"0": "gamula/furniture/classroom/classroom_television",
+		"particle": "gamula/furniture/classroom/classroom_television"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "elitecreature:nightclub_furniture_v2/nightclub_ice_bucket",
-		"particle": "elitecreature:nightclub_furniture_v2/nightclub_ice_bucket"
+		"0": "gamula/furniture/nightclub/nightclub_ice_bucket",
+		"particle": "gamula/furniture/nightclub/nightclub_ice_bucket"
 	},
 	"elements": [
 		{

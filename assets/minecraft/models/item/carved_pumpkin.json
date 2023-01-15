@@ -6,6 +6,8 @@
         {"predicate": {"custom_model_data": 3}, "model": "item/custom/models/direwolfheadforest"},
         {"predicate": {"custom_model_data": 4}, "model": "item/custom/models/direwolfheadtaiga"},
         {"predicate": {"custom_model_data": 5}, "model": "item/custom/models/direwolfheaddesert"},
-        {"predicate": {"custom_model_data": 6},"model": "item/custom/models/thunderbolt_set/helmet"}
+        {"predicate": {"custom_model_data": 6},"model": "item/custom/models/thunderbolt_set/helmet"},
+        {"predicate": {"custom_model_data": 7},"model": "item/custom/models/bonekeeper_set/helmet"},
+        {"predicate": {"custom_model_data": 8},"model": "item/custom/models/lunar_set/helmet"}
     ]
 }

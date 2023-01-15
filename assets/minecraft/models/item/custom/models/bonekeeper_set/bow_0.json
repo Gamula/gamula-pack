@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [28, 28],
 	"textures": {
-		"1": "bonekeeper_set:bonekeeper_set/bow",
-		"2": "bonekeeper_set:bonekeeper_set/animation_1",
-		"particle": "bonekeeper_set:bonekeeper_set/animation_1"
+		"1": "gamula/models/bonekeeper_set/bow",
+		"2": "gamula/models/bonekeeper_set/animation_1",
+		"particle": "gamula/models/bonekeeper_set/animation_1"
 	},
 	"elements": [
 		{
@@ -487,8 +487,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [90, -45, 90],
-			"translation": [1.25, 1.25, 0],
+			"rotation": [90, 45, 90],
+			"translation": [-1.25, 1.25, 0],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"head": {

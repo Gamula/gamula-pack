@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [8, 8],
 	"textures": {
-		"1": "bonekeeper_set:bonekeeper_set/pickaxe_animation",
-		"2": "bonekeeper_set:bonekeeper_set/pickaxe",
-		"3": "bonekeeper_set:bonekeeper_set/animation_1",
-		"particle": "bonekeeper_set:bonekeeper_set/pickaxe"
+		"1": "gamula/models/bonekeeper_set/pickaxe_animation",
+		"2": "gamula/models/bonekeeper_set/pickaxe",
+		"3": "gamula/models/bonekeeper_set/animation_1",
+		"particle": "gamula/models/bonekeeper_set/pickaxe"
 	},
 	"elements": [
 		{
@@ -385,8 +385,8 @@
 			"scale": [1.24297, 1.24297, 1.24297]
 		},
 		"gui": {
-			"rotation": [-90, 45, 90],
-			"translation": [0.75, -0.25, 0],
+			"rotation": [-90, 130, 90],
+			"translation": [-0.75, -0.25, 0],
 			"scale": [0.89063, 0.89063, 0.89063]
 		},
 		"head": {

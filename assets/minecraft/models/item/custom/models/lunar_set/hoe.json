@@ -2,10 +2,10 @@
 	"credit": "Made by PolygonMC",
 	"texture_size": [24, 24],
 	"textures": {
-		"0": "lunarset/animations/animations_2",
-		"3": "lunarset/animations/animations_1",
-		"4": "lunarset/hoe",
-		"particle": "lunarset/animations/animations_2"
+		"0": "gamula/models/lunar_set/animations_2",
+		"3": "gamula/models/lunar_set/animations_1",
+		"4": "gamula/models/lunar_set/hoe",
+		"particle": "gamula/models/lunar_set/animations_2"
 	},
 	"elements": [
 		{
@@ -324,8 +324,8 @@
 			"translation": [0, 10, 0]
 		},
 		"gui": {
-			"rotation": [-90, 45, 90],
-			"translation": [1.5, -0.5, 0],
+			"rotation": [90, -130, 90],
+			"translation": [-1.75, -0.75, 0],
 			"scale": [0.90234, 0.90234, 0.90234]
 		},
 		"head": {

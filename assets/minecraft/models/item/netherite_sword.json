@@ -19,6 +19,8 @@
         {"predicate": {"custom_model_data": 13}, "model": "item/custom/models/ruby_set/sword_ruby_vol_1"},
         {"predicate": {"custom_model_data": 14}, "model": "item/custom/models/valerie_set/sword"},
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/models/glitch_set/sword"},
-        {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/thunderbolt_set/sword"}
+        {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/thunderbolt_set/sword"},
+        {"predicate": {"custom_model_data": 17}, "model": "item/custom/models/bonekeeper_set/sword"},
+        {"predicate": {"custom_model_data": 18}, "model": "item/custom/models/lunar_set/sword"}
     ]
 }

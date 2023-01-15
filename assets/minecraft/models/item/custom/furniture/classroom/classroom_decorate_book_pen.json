@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "elitecreature:classroom_furniture_v1/classroom_decorate_book_pen",
-		"particle": "elitecreature:classroom_furniture_v1/classroom_decorate_book_pen"
+		"0": "gamula/furniture/classroom/classroom_decorate_book_pen",
+		"particle": "gamula/furniture/classroom/classroom_decorate_book_pen"
 	},
 	"elements": [
 		{

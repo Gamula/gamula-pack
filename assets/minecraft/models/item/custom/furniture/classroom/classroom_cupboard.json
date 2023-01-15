@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "elitecreature:classroom_furniture_v1/classroom_cupboard"
+		"1": "gamula/furniture/classroom/classroom_cupboard",
+		"particle": "gamula/furniture/classroom/classroom_cupboard"
 	},
 	"elements": [
 		{
