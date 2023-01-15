@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [12, 12],
 	"textures": {
-		"0": "bonekeeper_set:bonekeeper_set/key",
-		"particle": "bonekeeper_set:bonekeeper_set/key"
+		"0": "gamula/models/bonekeeper_set/key",
+		"particle": "gamula/models/bonekeeper_set/key"
 	},
 	"elements": [
 		{

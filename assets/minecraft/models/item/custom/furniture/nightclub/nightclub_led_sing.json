@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "elitecreature:nightclub_furniture_v2/nightclub_led_sing",
-		"1": "elitecreature:nightclub_furniture_v2/nightclub_led_sing_animation",
-		"particle": "elitecreature:nightclub_furniture_v2/nightclub_led_sing"
+		"0": "gamula/furniture/nightclub/nightclub_led_sing",
+		"1": "gamula/furniture/nightclub/nightclub_led_sing_animation",
+		"particle": "gamula/furniture/nightclub/nightclub_led_sing"
 	},
 	"elements": [
 		{

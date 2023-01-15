@@ -64,6 +64,10 @@
         {"predicate": {"custom_model_data": 29}, "model": "item/custom/models/glitch_set/fishing_rod"},
         {"predicate": {"custom_model_data": 29, "cast": 1}, "model": "item/custom/models/glitch_set/fishing_rod_cast"},
         {"predicate": {"custom_model_data": 30}, "model": "item/custom/models/thunderbolt_set/fishing_rod"},
-        {"predicate": {"custom_model_data": 30, "cast": 1}, "model": "item/custom/models/thunderbolt_set/fishing_rod_cast"}
+        {"predicate": {"custom_model_data": 30, "cast": 1}, "model": "item/custom/models/thunderbolt_set/fishing_rod_cast"},
+        {"predicate": {"custom_model_data": 31}, "model": "item/custom/models/bonekeeper_set/fishing_rod"},
+        {"predicate": {"custom_model_data": 31, "cast": 1}, "model": "item/custom/models/bonekeeper_set/fishing_rod_cast"},
+        {"predicate": {"custom_model_data": 32}, "model": "item/custom/models/lunar_set/fishing_rod"},
+        {"predicate": {"custom_model_data": 32, "cast": 1}, "model": "item/custom/models/lunar_set/fishing_rod_cast"}
     ]
 }

@@ -19,6 +19,8 @@
         {"predicate": {"custom_model_data": 13}, "model": "item/custom/models/3d_default_set/wooden/wooden_axe"},
         {"predicate": {"custom_model_data": 14}, "model": "item/custom/models/valerie_set/axe"},
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/models/glitch_set/axe"},
-        {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/thunderbolt_set/axe"}
+        {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/thunderbolt_set/axe"},
+        {"predicate": {"custom_model_data": 17}, "model": "item/custom/models/bonekeeper_set/axe"},
+        {"predicate": {"custom_model_data": 18}, "model": "item/custom/models/lunar_set/axe"}
     ]
 }

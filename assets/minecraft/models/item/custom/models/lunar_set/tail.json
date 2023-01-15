@@ -1,8 +1,8 @@
 {
 	"credit": "Made by PolygonMC",
 	"textures": {
-		"0": "lunarset/tail",
-		"particle": "lunarset/tail"
+		"0": "gamula/models/lunar_set/tail",
+		"particle": "gamula/models/lunar_set/tail"
 	},
 	"elements": [
 		{

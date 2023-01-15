@@ -2,9 +2,9 @@
 	"credit": "Made by PolygonMC",
 	"texture_size": [20, 20],
 	"textures": {
-		"0": "lunarset/animations/animations_2",
-		"2": "lunarset/crossbow",
-		"particle": "lunarset/animations/animations_2"
+		"0": "gamula/models/lunar_set/animations_2",
+		"2": "gamula/models/lunar_set/crossbow",
+		"particle": "gamula/models/lunar_set/animations_2"
 	},
 	"elements": [
 		{
