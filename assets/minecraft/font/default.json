@@ -1433,6 +1433,15 @@
       "type": "bitmap"
     },
     {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_hero.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "板"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crate/gui_crate_opening_monthly.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1483,6 +1492,15 @@
       "type": "bitmap",
       "chars": [
         "⼓"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_hero.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "枪"
       ],
       "height": 256
     },
@@ -1927,6 +1945,12 @@
       ],
       "height": 9
     },
+    {"file":"gamula/titles/tags/misc/hero/bat_hero.png","ascent":8,"type":"bitmap","chars":["境"],"height":9},
+    {"file":"gamula/titles/tags/misc/hero/bolt_hero.png","ascent":8,"type":"bitmap","chars":["增"],"height":9},
+    {"file":"gamula/titles/tags/misc/hero/captain_hero.png","ascent":8,"type":"bitmap","chars":["灯"],"height":9},
+    {"file":"gamula/titles/tags/misc/hero/dead_hero.png","ascent":8,"type":"bitmap","chars":["灰"],"height":9},
+    {"file":"gamula/titles/tags/misc/hero/green_hero.png","ascent":8,"type":"bitmap","chars":["灾"],"height":9},
+    {"file":"gamula/titles/tags/misc/hero/spider_hero.png","ascent":8,"type":"bitmap","chars":["灿"],"height":9},
     {"file":"gamula/titles/tags/misc/7.png","ascent":8,"type":"bitmap","chars":["地"],"height":9},
     {"file":"gamula/titles/tags/misc/avocado.png","ascent":8,"type":"bitmap","chars":["场"],"height":9},
     {"file":"gamula/titles/tags/misc/carrot.png","ascent":8,"type":"bitmap","chars":["块"],"height":9},
