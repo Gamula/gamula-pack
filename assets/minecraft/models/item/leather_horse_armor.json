@@ -2139,6 +2139,7 @@
         {"predicate": {"custom_model_data": 45009},"model": "item/custom/models/farm_items/dyeable_sugar_cane"},
         {"predicate": {"custom_model_data": 45010},"model": "item/custom/models/farm_items/dyeable_sweet_berries"},
         {"predicate": {"custom_model_data": 45011},"model": "item/custom/models/farm_items/dyeable_wheat"},
+        {"predicate": {"custom_model_data": 45012},"model": "item/custom/models/hero_set/baby_alien"},
         {"predicate": {"custom_model_data": 50000},"model": "item/custom/icons/overlay_tone"},
         {"predicate": {"custom_model_data": 60000},"model": "item/custom/furniture/medieval_royal/medievalroyal_bed"},
         {"predicate": {"custom_model_data": 60001},"model": "item/custom/furniture/medieval_royal/medievalroyal_carpet"},
