@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "gamula/crops/goldenhammer/goldenhammer_pot",
 		"1": "block/farmland",
-		"particle": "gamula/crops/incubator/goldenhammer_pot"
+		"particle": "gamula/crops/goldenhammer/goldenhammer_pot"
 	},
 	"elements": [
 		{
