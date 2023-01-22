@@ -192,11 +192,12 @@
 		},
 		"gui": {
 			"rotation": [0, -180, 0],
-			"translation": [0, -9.75, 0]
+			"translation": [0, -10, 0],
+			"scale": [1, 1.125, 1]
 		},
 		"head": {
-			"translation": [0, -12.5, 0],
-			"scale": [1.61, 1.61, 1.61]
+			"translation": [0, -13, 0],
+			"scale": [1.65, 1.65, 1.65]
 		},
 		"fixed": {
 			"translation": [0, -10, -0.75],
@@ -209,16 +210,12 @@
 			"name": "group",
 			"origin": [3.60617, -11.15417, 13.14022],
 			"color": 9,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [1, 2, 3, 4, 5]
 		},
 		{
 			"name": "group",
 			"origin": [3.60617, -11.15417, 13.14022],
 			"color": 9,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [6, 7, 8, 9, 10]
 		},
 		11

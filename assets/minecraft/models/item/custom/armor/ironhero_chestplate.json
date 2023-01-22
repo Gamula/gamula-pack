@@ -4,9 +4,11 @@
 	"textures": {
 		"layer0": "gamula/armor/ironhero_chestplate"
 	},
+	"gui_light": "front",
 	"display": {
 		"gui": {
-			"scale": [0.89, 0.89, 0.89]
+			"translation": [0, 0.25, 0],
+			"scale": [0.95, 0.95, 0.95]
 		}
 	}
 }
