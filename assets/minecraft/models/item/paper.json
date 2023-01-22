@@ -112,6 +112,7 @@
         {"predicate": {"custom_model_data": 1030},"model": "item/custom/icons/tags/dead_hero"},
         {"predicate": {"custom_model_data": 1031},"model": "item/custom/icons/tags/green_hero"},
         {"predicate": {"custom_model_data": 1032},"model": "item/custom/icons/tags/spider_hero"},
+        {"predicate": {"custom_model_data": 1033},"model": "item/custom/icons/tags/iron_hero"},
         {"predicate": {"custom_model_data": 10001}, "model": "item/custom/models/adventurerhelmet"},
         {"predicate": {"custom_model_data": 10002}, "model": "item/custom/models/kingsceptre"},
         {"predicate": {"custom_model_data": 10003}, "model": "item/custom/models/minerhelmet"},
