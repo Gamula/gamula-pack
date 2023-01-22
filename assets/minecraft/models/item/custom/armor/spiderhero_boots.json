@@ -4,9 +4,6 @@
 	"textures": {
 		"layer0": "gamula/armor/spiderhero_boots"
 	},
-	"display": {
-		"gui": {
-			"scale": [1.15, 1.15, 1]
-		}
-	}
+	"gui_light": "front",
+	"display": {}
 }

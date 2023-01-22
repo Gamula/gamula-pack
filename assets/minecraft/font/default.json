@@ -1945,6 +1945,7 @@
       ],
       "height": 9
     },
+    {"file":"gamula/titles/tags/misc/hero/iron_hero.png","ascent":8,"type":"bitmap","chars":["汽"],"height":9},
     {"file":"gamula/titles/tags/misc/hero/bat_hero.png","ascent":8,"type":"bitmap","chars":["境"],"height":9},
     {"file":"gamula/titles/tags/misc/hero/bolt_hero.png","ascent":8,"type":"bitmap","chars":["增"],"height":9},
     {"file":"gamula/titles/tags/misc/hero/captain_hero.png","ascent":8,"type":"bitmap","chars":["灯"],"height":9},
