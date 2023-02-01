@@ -857,6 +857,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_wof_valentine.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "浇"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_messages.png",
       "ascent": 29,
       "type": "bitmap",
@@ -1964,6 +1973,16 @@
     {"file":"gamula/titles/tags/misc/hourglass.png","ascent":8,"type":"bitmap","chars":["塔"],"height":9},
     {"file":"gamula/titles/tags/misc/stopwatch.png","ascent":8,"type":"bitmap","chars":["堆"],"height":9},
     {"file":"gamula/titles/tags/misc/sunglasses.png","ascent":8,"type":"bitmap","chars":["墙"],"height":9},
+    {"file":"gamula/titles/tags/valentine/heart_blue.png","ascent":8,"type":"bitmap","chars":["炉"],"height":9},
+    {"file":"gamula/titles/tags/valentine/heart_green.png","ascent":8,"type":"bitmap","chars":["炎"],"height":9},
+    {"file":"gamula/titles/tags/valentine/heart_orange.png","ascent":8,"type":"bitmap","chars":["炊"],"height":9},
+    {"file":"gamula/titles/tags/valentine/heart_pink.png","ascent":8,"type":"bitmap","chars":["炸"],"height":9},
+    {"file":"gamula/titles/tags/valentine/heart_purple.png","ascent":8,"type":"bitmap","chars":["烟"],"height":9},
+    {"file":"gamula/titles/tags/valentine/hearts.png","ascent":8,"type":"bitmap","chars":["烦"],"height":9},
+    {"file":"gamula/titles/tags/valentine/hearts_pink.png","ascent":8,"type":"bitmap","chars":["烧"],"height":9},
+    {"file":"gamula/titles/tags/valentine/rose.png","ascent":8,"type":"bitmap","chars":["烤"],"height":9},
+    {"file":"gamula/titles/tags/valentine/teddybear.png","ascent":8,"type":"bitmap","chars":["烛"],"height":9},
+    {"file":"gamula/titles/tags/valentine/wrapped_heart.png","ascent":8,"type":"bitmap","chars":["爆"],"height":9},
     {"file":"gamula/titles/tags/dragon.png","ascent":8,"type":"bitmap","chars":["蟹"],"height":9},
     {"file":"gamula/titles/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
     {"file":"gamula/titles/tags/air_top.png","ascent":8,"type":"bitmap","chars":["打","扔"],"height":9},
