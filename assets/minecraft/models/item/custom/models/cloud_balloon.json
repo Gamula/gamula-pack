@@ -328,7 +328,7 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"head": {
-			"translation": [0, -1, 0]
+			"translation": [0, -2, -1]
 		}
 	},
 	"groups": [
