@@ -22,6 +22,8 @@
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/thunderbolt_set/sword"},
         {"predicate": {"custom_model_data": 17}, "model": "item/custom/models/bonekeeper_set/sword"},
         {"predicate": {"custom_model_data": 18}, "model": "item/custom/models/lunar_set/sword"},
-        {"predicate": {"custom_model_data": 19}, "model": "item/custom/models/hero_set/bolthero_sword"}
+        {"predicate": {"custom_model_data": 19}, "model": "item/custom/models/hero_set/bolthero_sword"},
+        {"predicate": {"custom_model_data": 20}, "model": "item/custom/models/oni_set/sword"},
+        {"predicate": {"custom_model_data": 21}, "model": "item/custom/models/oni_set/big_sword"}
     ]
 }

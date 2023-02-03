@@ -13,6 +13,8 @@
         {"predicate": {"custom_model_data": 6}, "model": "item/custom/armor/ironhero_boots"},
         {"predicate": {"custom_model_data": 7}, "model": "item/custom/armor/bathero_boots"},
         {"predicate": {"custom_model_data": 8}, "model": "item/custom/armor/bolthero_boots"},
-        {"predicate": {"custom_model_data": 9}, "model": "item/custom/armor/spiderhero_boots"}
+        {"predicate": {"custom_model_data": 9}, "model": "item/custom/armor/spiderhero_boots"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/armor/oni_boots"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_boots"}
     ]
 }

@@ -13,6 +13,8 @@
         {"predicate": {"custom_model_data": 6}, "model": "item/custom/armor/ironhero_leggings"},
         {"predicate": {"custom_model_data": 7}, "model": "item/custom/armor/bathero_leggings"},
         {"predicate": {"custom_model_data": 8}, "model": "item/custom/armor/bolthero_leggings"},
-        {"predicate": {"custom_model_data": 9}, "model": "item/custom/armor/spiderhero_leggings"}
+        {"predicate": {"custom_model_data": 9}, "model": "item/custom/armor/spiderhero_leggings"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/armor/oni_leggings"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_leggings"}
     ]
 }

@@ -12,6 +12,7 @@
         {"predicate": {"custom_model_data": 9},"model": "item/custom/models/hero_set/ironhero_helmet"},
         {"predicate": {"custom_model_data": 10},"model": "item/custom/models/hero_set/bathero_helmet"},
         {"predicate": {"custom_model_data": 11},"model": "item/custom/models/hero_set/bolthero_helmet"},
-        {"predicate": {"custom_model_data": 12},"model": "item/custom/models/hero_set/spiderhero_helmet"}
+        {"predicate": {"custom_model_data": 12},"model": "item/custom/models/hero_set/spiderhero_helmet"},
+        {"predicate": {"custom_model_data": 13},"model": "item/custom/models/oni_set/helmet"}
     ]
 }
