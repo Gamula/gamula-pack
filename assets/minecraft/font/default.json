@@ -1442,6 +1442,15 @@
       "type": "bitmap"
     },
     {
+      "file": "gamula/ui/gui/crate/gui_crate_opening_valentines.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "沉"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crate/gui_crate_opening_hero.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1501,6 +1510,15 @@
       "type": "bitmap",
       "chars": [
         "⼓"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crate/gui_crate_preview_valentines.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "泡"
       ],
       "height": 256
     },
