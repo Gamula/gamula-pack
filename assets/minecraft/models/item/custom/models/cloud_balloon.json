@@ -326,6 +326,9 @@
 		"gui": {
 			"translation": [-0.25, -1.75, 0],
 			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [0, -1, 0]
 		}
 	},
 	"groups": [
@@ -333,11 +336,15 @@
 			"name": "cloud_balloon",
 			"origin": [0, 20, 0],
 			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "body",
 					"origin": [8, 8, 8],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 				}
 			]

@@ -194,8 +194,8 @@
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
-			"translation": [9.75, -4.25, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"translation": [-0.25, 9, 0],
+			"scale": [2, 2, 2]
 		},
 		"fixed": {
 			"translation": [0, -2, 0],

@@ -730,7 +730,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"head": {
-			"translation": [-10.75, -7.75, 1]
+			"translation": [0, -5.25, 10.25],
+			"scale": [2, 2, 2]
 		},
 		"fixed": {
 			"translation": [0, -4.5, 5.75]
@@ -741,107 +742,143 @@
 			"name": "whale",
 			"origin": [0, 10.35, 1.15],
 			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "Crown",
 					"origin": [0.02971, 16.0425, 2.24346],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 				},
 				{
 					"name": "coin",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [12]
 				},
 				{
 					"name": "coin15",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [13]
 				},
 				{
 					"name": "coin13",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [14]
 				},
 				{
 					"name": "coin14",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [15]
 				},
 				{
 					"name": "coin10",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [16]
 				},
 				{
 					"name": "coin11",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [17]
 				},
 				{
 					"name": "coin12",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [18]
 				},
 				{
 					"name": "coin7",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [19]
 				},
 				{
 					"name": "coin8",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [20]
 				},
 				{
 					"name": "coin9",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [21]
 				},
 				{
 					"name": "coin4",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [22]
 				},
 				{
 					"name": "coin5",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [23]
 				},
 				{
 					"name": "coin6",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [24]
 				},
 				{
 					"name": "coin2",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [25]
 				},
 				{
 					"name": "coin3",
 					"origin": [0, 14.59327, 2.1712],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [26]
 				},
 				{
 					"name": "head",
 					"origin": [0, 11.7645, 0],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [
 						27,
 						28,
@@ -849,6 +886,8 @@
 							"name": "mouth",
 							"origin": [0, 11.3278, -0.95643],
 							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
 							"children": [29, 30, 31, 32, 33]
 						},
 						34,
@@ -860,36 +899,48 @@
 					"name": "body1",
 					"origin": [0, 12.2544, 0],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [
 						37,
 						{
 							"name": "leftfin",
 							"origin": [-2.60112, 10.93224, 3.01484],
 							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
 							"children": [38, 39, 40]
 						},
 						{
 							"name": "rightfin",
 							"origin": [2.73812, 10.78219, 3.01484],
 							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
 							"children": [41, 42, 43]
 						},
 						{
 							"name": "body2",
 							"origin": [0, 12.33467, 8.50425],
 							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
 							"children": [
 								44,
 								{
 									"name": "body3",
 									"origin": [0, 12.59915, 12.06608],
 									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
 									"children": [
 										45,
 										{
 											"name": "tail",
 											"origin": [0, 12.83804, 15.76901],
 											"color": 0,
+											"nbt": "{}",
+											"armAnimationEnabled": false,
 											"children": [46, 47, 48, 49, 50, 51, 52]
 										}
 									]
