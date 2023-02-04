@@ -2,8 +2,8 @@
 	"credit": "MadewithBlockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "gamula/furniture/gym/gym_elilptical",
-		"particle": "gamula/furniture/gym/gym_elilptical"
+		"0": "gamula/furniture/gym/gym_elliptical",
+		"particle": "gamula/furniture/gym/gym_elliptical"
 	},
 	"elements": [
 		{
