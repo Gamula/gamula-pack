@@ -2660,7 +2660,7 @@
         {"predicate": {"custom_model_data": 60469},"model": "item/custom/furniture/gym/gym_sand_bag"},
         {"predicate": {"custom_model_data": 60470},"model": "item/custom/furniture/romantic/champagne_and_cups"},
         {"predicate": {"custom_model_data": 60471},"model": "item/custom/furniture/romantic/champagne_cup"},
-        {"predicate": {"custom_model_data": 60472},"model": "item/custom/furniture/romantic/chocolate_cup"},
+        {"predicate": {"custom_model_data": 60472},"model": "item/custom/furniture/romantic/chocolate_box"},
         {"predicate": {"custom_model_data": 60473},"model": "item/custom/furniture/romantic/flowers"},
         {"predicate": {"custom_model_data": 60474},"model": "item/custom/furniture/romantic/hanging_flowers"},
         {"predicate": {"custom_model_data": 60475},"model": "item/custom/furniture/romantic/hanging_flowers2"},
