@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/armor/sweetheart_chestplate"
+		"layer0": "gamula/armor/sweetheart_leggings"
 	},
 	"display": {
 		"gui": {
