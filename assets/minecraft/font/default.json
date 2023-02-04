@@ -1980,6 +1980,7 @@
     {"file":"gamula/titles/tags/misc/hero/dead_hero.png","ascent":8,"type":"bitmap","chars":["灰"],"height":9},
     {"file":"gamula/titles/tags/misc/hero/green_hero.png","ascent":8,"type":"bitmap","chars":["灾"],"height":9},
     {"file":"gamula/titles/tags/misc/hero/spider_hero.png","ascent":8,"type":"bitmap","chars":["灿"],"height":9},
+    {"file":"gamula/titles/tags/misc/golden_coin.png","ascent":8,"type":"bitmap","chars":["忆"],"height":9},
     {"file":"gamula/titles/tags/misc/7.png","ascent":8,"type":"bitmap","chars":["地"],"height":9},
     {"file":"gamula/titles/tags/misc/avocado.png","ascent":8,"type":"bitmap","chars":["场"],"height":9},
     {"file":"gamula/titles/tags/misc/carrot.png","ascent":8,"type":"bitmap","chars":["块"],"height":9},

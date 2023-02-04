@@ -126,6 +126,7 @@
         {"predicate": {"custom_model_data": 1042},"model": "item/custom/icons/tags/rose"},
         {"predicate": {"custom_model_data": 1043},"model": "item/custom/icons/tags/teddybear"},
         {"predicate": {"custom_model_data": 1044},"model": "item/custom/icons/tags/wrapped_heart"},
+        {"predicate": {"custom_model_data": 1045},"model": "item/custom/icons/tags/golden_coin"},
         {"predicate": {"custom_model_data": 10001}, "model": "item/custom/models/adventurerhelmet"},
         {"predicate": {"custom_model_data": 10002}, "model": "item/custom/models/kingsceptre"},
         {"predicate": {"custom_model_data": 10003}, "model": "item/custom/models/minerhelmet"},

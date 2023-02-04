@@ -147,12 +147,13 @@
 			"translation": [0.5, 1.25, 6.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [34, 177, 0],
-			"translation": [0, 8.5, 4.25]
+			"rotation": [-152.23, -3.5, 167.37],
+			"translation": [-3.75, 7, 5.5],
+			"scale": [0.51, 0.51, 0.51]
 		},
 		"firstperson_lefthand": {
 			"rotation": [30, 150, -27],
-			"translation": [-3.25, 7, 5.5],
+			"translation": [-5.5, 7, 5.5],
 			"scale": [0.51, 0.51, 0.51]
 		},
 		"ground": {

@@ -78,6 +78,10 @@
         {"predicate": {"custom_model_data": 13},"model": "item/custom/models/sweetheart_set/bow"},
         {"predicate": {"custom_model_data": 13,"pulling": 1},"model": "item/custom/models/sweetheart_set/bow_0"},
         {"predicate": {"custom_model_data": 13,"pulling": 1,"pull": 0.65},"model": "item/custom/models/sweetheart_set/bow_1"},
-        {"predicate": {"custom_model_data": 13,"pulling": 1,"pull": 0.9},"model": "item/custom/models/sweetheart_set/bow_2"}
+        {"predicate": {"custom_model_data": 13,"pulling": 1,"pull": 0.9},"model": "item/custom/models/sweetheart_set/bow_2"},
+        {"predicate": {"custom_model_data": 14},"model": "item/custom/models/seasonal_valentine/val_bow_1"},
+        {"predicate": {"custom_model_data": 14,"pulling": 1},"model": "item/custom/models/seasonal_valentine/val_bow_2"},
+        {"predicate": {"custom_model_data": 14,"pulling": 1,"pull": 0.65},"model": "item/custom/models/seasonal_valentine/val_bow_3"},
+        {"predicate": {"custom_model_data": 14,"pulling": 1,"pull": 0.9},"model": "item/custom/models/seasonal_valentine/val_bow_4"}
     ]
 }
