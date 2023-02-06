@@ -20,6 +20,8 @@
         {"predicate": {"custom_model_data": 20112}, "model": "item/custom/crops/skill_woodcutting/pot"},
         {"predicate": {"custom_model_data": 20118}, "model": "item/custom/crops/goldenhammer/pot"},
         {"predicate": {"custom_model_data": 20124}, "model": "item/custom/crops/incubator/pot"},
-        {"predicate": {"custom_model_data": 20130}, "model": "item/custom/crops/crate/pot"}
+        {"predicate": {"custom_model_data": 20130}, "model": "item/custom/crops/crate/pot"},
+        {"predicate": {"custom_model_data": 20135}, "model": "item/custom/crops/chocolate/pot"},
+        {"predicate": {"custom_model_data": 20140}, "model": "item/custom/crops/goldenrose/pot"}
     ]
 }
