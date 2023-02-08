@@ -1,0 +1,42 @@
+{
+	"credit": "gigachad drift baby",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "gamula/furniture/build/small_wall_flag",
+		"particle": "gamula/furniture/build/small_wall_flag"
+	},
+	"elements": [
+		{
+			"from": [2.5, 4, 8.5],
+			"to": [13.5, 32, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.75, 7], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 7], "texture": "#0"},
+				"south": {"uv": [0, 0, 2.75, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 7], "texture": "#0"},
+				"up": {"uv": [2.75, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [2.75, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 31, 8.001],
+			"to": [15, 32, 9.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 32, 7.501]},
+			"faces": {
+				"north": {"uv": [5.5, 0, 8.5, 0.25], "texture": "#0"},
+				"east": {"uv": [5.5, 1, 5.75, 1.25], "texture": "#0"},
+				"south": {"uv": [5.5, 0.25, 8.5, 0.5], "texture": "#0"},
+				"west": {"uv": [5.5, 1.25, 5.75, 1.5], "texture": "#0"},
+				"up": {"uv": [8.5, 0.75, 5.5, 0.5], "texture": "#0"},
+				"down": {"uv": [8.5, 0.75, 5.5, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"translation": [0, -35, -1.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}
