@@ -2699,6 +2699,7 @@
         {"predicate": {"custom_model_data": 60496},"model": "item/custom/furniture/romantic/teddy_bear_heart"},
         {"predicate": {"custom_model_data": 60497},"model": "item/custom/furniture/romantic/valentine_letter"},
         {"predicate": {"custom_model_data": 60498},"model": "item/custom/furniture/romantic/wine_cups"},
-        {"predicate": {"custom_model_data": 60499},"model": "item/custom/furniture/romantic/yellow_candle"}
+        {"predicate": {"custom_model_data": 60499},"model": "item/custom/furniture/romantic/yellow_candle"},
+        {"predicate": {"custom_model_data": 60500},"model": "item/custom/furniture/village/furniture_table_3_dark_oak"}
     ]
 }
