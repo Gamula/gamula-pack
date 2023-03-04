@@ -1,0 +1,29 @@
+{
+	"credit": "gigachad drift baby",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "gamula/furniture/build/obelisk_glyphs",
+		"particle": "gamula/furniture/build/obelisk_glyphs"
+	},
+	"elements": [
+		{
+			"from": [1, -16, -16],
+			"to": [1, 32, 32],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "texture": "#0"},
+				"east": {"uv": [3.375, 0, 12.63281, 9.25781], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 6], "texture": "#0"},
+				"west": {"uv": [12.625, 0, 3.375, 9.25], "texture": "#0"},
+				"up": {"uv": [0, 6, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 0, -15.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
