@@ -2176,6 +2176,7 @@
         {"predicate": {"custom_model_data": 44016},"model": "item/custom/models/spawner_items/dyeable_cooked_cod"},
         {"predicate": {"custom_model_data": 44017},"model": "item/custom/models/spawner_items/dyeable_iron_ingot"},
         {"predicate": {"custom_model_data": 44018},"model": "item/custom/models/spawner_items/dyeable_gunpowder"},
+        {"predicate": {"custom_model_data": 44019},"model": "item/custom/models/spawner_items/dyeable_sculk_catalyst"},
         {"predicate": {"custom_model_data": 45000},"model": "item/custom/models/farm_items/dyeable_bamboo"},
         {"predicate": {"custom_model_data": 45001},"model": "item/custom/models/farm_items/dyeable_beetroot"},
         {"predicate": {"custom_model_data": 45002},"model": "item/custom/models/farm_items/dyeable_cactus"},
