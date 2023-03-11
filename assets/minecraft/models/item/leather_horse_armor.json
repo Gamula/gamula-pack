@@ -1945,6 +1945,7 @@
         {"predicate": {"custom_model_data": 10061},"model": "item/custom/models/sweetheart_set/wings"},
         {"predicate": {"custom_model_data": 10062},"model": "item/custom/cosmetics/backblings/money_chain"},
         {"predicate": {"custom_model_data": 10063},"model": "item/custom/cosmetics/backblings/money_case"},
+        {"predicate": {"custom_model_data": 10064},"model": "item/custom/cosmetics/backblings/mvp_wings"},
         {"predicate": {"custom_model_data": 20001},"model": "item/custom/cosmetics/hats/amethyst_crown"},
         {"predicate": {"custom_model_data": 20002},"model": "item/custom/cosmetics/hats/diamond_crown"},
         {"predicate": {"custom_model_data": 20003},"model": "item/custom/cosmetics/hats/emerald_crown"},
