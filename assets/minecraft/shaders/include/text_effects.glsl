@@ -390,12 +390,12 @@ void apply_non_binary_pride() {
     #define TEXT_EFFECTS_CONFIG_START int applyTextEffects() { uint vertexColorId = colorId(textData.color.rgb * 0.25); if(textData.isShadow) { vertexColorId = colorId(textData.color.rgb);} switch(vertexColorId) { case 16777215u:
     #define TEXT_EFFECTS_CONFIG_END return 0; } return 0; }
 
-    #define TEXT_EFFECT(r, g, b) return 0; case ((uint(r/4) << 16) | (uint(g/4) << 8) | uint(b/4)):
+    #define TEXT_EFFECT(r, g, b) return 1; case ((uint(r/4) << 16) | (uint(g/4) << 8) | uint(b/4)):
 
 #else
     
     #define TEXT_EFFECTS_CONFIG_START bool shouldApplyTextEffects() { uint vertexColorId = colorId(textData.color.rgb * 0.25); if(textData.isShadow) { vertexColorId = colorId(textData.color.rgb);} switch(vertexColorId) { case 16777215u:
-    #define TEXT_EFFECTS_CONFIG_END return true; } return false; }
+    #define TEXT_EFFECTS_CONFIG_END return false; } return false; }
 
     #define TEXT_EFFECT(r, g, b) return true; case ((uint(r/4) << 16) | (uint(g/4) << 8) | uint(b/4)):
 #endif

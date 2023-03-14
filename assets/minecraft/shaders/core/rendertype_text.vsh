@@ -73,7 +73,7 @@ void main() {
             case 2: ipos3 = vec3(gl_Position.xy, 1.0); uvpos3 = vec3(UV0.xy, 1.0); break;
         }
 
-        gl_Position.xy += corner * 0.1;
+        gl_Position.xy += corner * 0.01;
     }
 
     screenPos = gl_Position;

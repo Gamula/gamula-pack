@@ -46,6 +46,8 @@ void main() {
     textData.topColor = vec4(0.0);
     textData.doTextureLookup = true;
 
+    bool didApply = false;
+
     if(isGui > 0.5) {
         textData.color = baseColor;
 
@@ -78,7 +80,7 @@ void main() {
             textData.position += vec2(-1.0, 1.0);
         }
 
-        applyTextEffects();
+        didApply = applyTextEffects() == 1;
 
         if(textData.uv.x < uvMin.x || textData.uv.y < uvMin.y || textData.uv.x > uvMax.x || textData.uv.y > uvMax.y) textData.doTextureLookup = false;
     }else{
@@ -89,7 +91,7 @@ void main() {
     vec4 textureSample = texture(Sampler0, textData.uv);
     if(!textData.doTextureLookup) textureSample = vec4(0.0);
 
-    fragColor = mix(vec4(textData.backColor.rgb, textData.backColor.a * textData.color.a), textureSample * textData.color, textureSample.a);
+    fragColor = mix(vec4(textData.backColor.rgb, textData.backColor.a * textData.color.a), textureSample * textData.color, didApply ? textureSample.a : 1);
     fragColor.rgb = mix(fragColor.rgb, textData.topColor.rgb, textData.topColor.a);
     fragColor *= ColorModulator;
 
