@@ -1,112 +1,42 @@
 {
+	"littleroom.pharaoh.attack":{
+		"sounds": [
+			"littleroom/pharaoh/attack"
+		]
+    },
+    "littleroom.pharaoh.death":{
+		"sounds": [
+			"littleroom/pharaoh/death"
+		]
+    },
+    "littleroom.pharaoh.idle":{
+		"sounds": [
+			"littleroom/pharaoh/idle"
+		]
+    },
+    "littleroom.pharaoh.plague":{
+		"sounds": [
+			"littleroom/pharaoh/plague"
+		]
+    },
+    "littleroom.rattler.rattle":{
+		"sounds": [
+			"littleroom/rattler/rattle"
+		]
+    },
+    "littleroom.rattler.strike":{
+		"sounds": [
+			"littleroom/rattler/strike"
+		]
+    },
+    "littleroom.dirtdevil.wind":{
+		"sounds": [
+			"littleroom/dirtdevil/wind"
+		]
+    },
 	"littleroom.mist.traverse": {
 		"sounds": [
 			"littleroom/mist/traverse"
-		]
-	},
-	"littleroom.voras.death": {
-		"sounds": [
-			"littleroom/voras/death"
-		]
-	},
-	"littleroom.voras.eggsac_break": {
-		"sounds": [
-			"littleroom/voras/eggsac_break"
-		]
-	},
-	"littleroom.voras.leg_impact1": {
-		"sounds": [
-			"littleroom/voras/leg_impact1"
-		]
-	},
-	"littleroom.voras.leg_impact2": {
-		"sounds": [
-			"littleroom/voras/leg_impact2"
-		]
-	},
-	"littleroom.voras.leg_impact3": {
-		"sounds": [
-			"littleroom/voras/leg_impact3"
-		]
-	},
-	"littleroom.voras.leg_remove": {
-		"sounds": [
-			"littleroom/voras/leg_remove"
-		]
-	},
-	"littleroom.voras.rumble_loop_near": {
-		"sounds": [
-			"littleroom/voras/rumble_loop_near"
-		]
-	},
-	"littleroom.voras.rumble_loop_far": {
-		"sounds": [
-			"littleroom/voras/rumble_loop_far"
-		]
-	},
-	"littleroom.voras.magic_poof_large": {
-		"sounds": [
-			"littleroom/voras/magic_poof_large"
-		]
-	},
-	"littleroom.voras.magic_poof_small1": {
-		"sounds": [
-			"littleroom/voras/magic_poof_small1"
-		]
-	},
-	"littleroom.voras.magic_poof_small2": {
-		"sounds": [
-			"littleroom/voras/magic_poof_small2"
-		]
-	},
-	"littleroom.voras.voras_death_scream": {
-		"sounds": [
-			"littleroom/voras/voras_death_scream"
-		]
-	},
-	"littleroom.voras.voras_death_scream2": {
-		"sounds": [
-			"littleroom/voras/voras_death_scream2"
-		]
-	},
-	"littleroom.voras.voras_idle1": {
-		"sounds": [
-			"littleroom/voras/voras_idle1"
-		]
-	},
-	"littleroom.voras.voras_idle2": {
-		"sounds": [
-			"littleroom/voras/voras_idle2"
-		]
-	},
-	"littleroom.voras.voras_scream1": {
-		"sounds": [
-			"littleroom/voras/voras_scream1"
-		]
-	},
-	"littleroom.voras.voras_scream2": {
-		"sounds": [
-			"littleroom/voras/voras_scream2"
-		]
-	},
-	"littleroom.voras.voras_scream3": {
-		"sounds": [
-			"littleroom/voras/voras_scream3"
-		]
-	},
-	"littleroom.voras.voras_acid_burn": {
-		"sounds": [
-			"littleroom/voras/voras_acid_burn"
-		]
-	},
-	"littleroom.voras.eggsac_land": {
-		"sounds": [
-			"littleroom/voras/eggsac_land"
-		]
-	},
-	"littleroom.voras.voras_webs": {
-		"sounds": [
-			"littleroom/voras/voras_webs"
 		]
 	},
 	"littleroom.wilderness.bear_attack1": {
@@ -237,176 +167,6 @@
 	"littleroom.wilderness.squirrel_idle": {
 		"sounds": [
 			"littleroom/wilderness/squirrel_idle"
-		]
-	},
-	"littleroom.skog_death": {
-		"sounds": [
-			"littleroom/skog/skog_death"
-		]
-	},
-	"littleroom.skog_losehand": {
-		"sounds": [
-			"littleroom/skog/skog_losehand"
-		]
-	},
-	"littleroom.skog_movement_creak1": {
-		"sounds": [
-			"littleroom/skog/skog_movement_creak1"
-		]
-	},
-	"littleroom.skog_movement_creak2": {
-		"sounds": [
-			"littleroom/skog/skog_movement_creak2"
-		]
-	},
-	"littleroom.skog_movement_creak3": {
-		"sounds": [
-			"littleroom/skog/skog_movement_creak3"
-		]
-	},
-	"littleroom.skog_movement_leaves1": {
-		"sounds": [
-			"littleroom/skog/skog_movement_leaves1"
-		]
-	},
-	"littleroom.skog_movement_leaves2": {
-		"sounds": [
-			"littleroom/skog/skog_movement_leaves2"
-		]
-	},
-	"littleroom.skog_movement_leaves3": {
-		"sounds": [
-			"littleroom/skog/skog_movement_leaves3"
-		]
-	},
-	"littleroom.skog_movement_leaves4": {
-		"sounds": [
-			"littleroom/skog/skog_movement_leaves4"
-		]
-	},
-	"littleroom.skog_movement_leaves5": {
-		"sounds": [
-			"littleroom/skog/skog_movement_leaves5"
-		]
-	},
-	"littleroom.skog_movement1": {
-		"sounds": [
-			"littleroom/skog/skog_movement1"
-		]
-	},
-	"littleroom.skog_movement2": {
-		"sounds": [
-			"littleroom/skog/skog_movement2"
-		]
-	},
-	"littleroom.skog_movement3": {
-		"sounds": [
-			"littleroom/skog/skog_movement3"
-		]
-	},
-	"littleroom.skog_swing1": {
-		"sounds": [
-			"littleroom/skog/skog_swing1"
-		]
-	},
-	"littleroom.skog_swing2": {
-		"sounds": [
-			"littleroom/skog/skog_swing2"
-		]
-	},
-	"littleroom.chomp_spawn": {
-		"sounds": [
-			"littleroom/skog/chomp_spawn"
-		]
-	},
-	"littleroom.chomp_chomp": {
-		"sounds": [
-			"littleroom/skog/chomp_chomp"
-		]
-	},
-	"littleroom.sapling_fall1": {
-		"sounds": [
-			"littleroom/skog/sapling_fall1"
-		]
-	},
-	"littleroom.sapling_fall2": {
-		"sounds": [
-			"littleroom/skog/sapling_fall2"
-		]
-	},
-	"littleroom.sapling_fall3": {
-		"sounds": [
-			"littleroom/skog/sapling_fall3"
-		]
-	},
-	"littleroom.skog_impact1": {
-		"sounds": [
-			"littleroom/skog/skog_impact1"
-		]
-	},
-	"littleroom.skog_impact2": {
-		"sounds": [
-			"littleroom/skog/skog_impact2"
-		]
-	},
-	"littleroom.skog_impact3": {
-		"sounds": [
-			"littleroom/skog/skog_impact3"
-		]
-	},
-	"littleroom.skog_groan1": {
-		"sounds": [
-			"littleroom/skog/skog_groan1"
-		]
-	},
-	"littleroom.skog_groan2": {
-		"sounds": [
-			"littleroom/skog/skog_groan2"
-		]
-	},
-	"littleroom.skog_groan3": {
-		"sounds": [
-			"littleroom/skog/skog_groan3"
-		]
-	},
-	"littleroom.capra.death": {
-		"sounds": [
-			"littleroom/capra/death"
-		]
-	},
-	"littleroom.capra.despair": {
-		"sounds": [
-			"littleroom/capra/despair"
-		]
-	},
-	"littleroom.capra.laugh": {
-		"sounds": [
-			"littleroom/capra/laugh"
-		]
-	},
-	"littleroom.capra.meteorimpact": {
-		"sounds": [
-			"littleroom/capra/meteorimpact"
-		]
-	},
-	"littleroom.capra.phillip": {
-		"sounds": [
-			"littleroom/capra/phillip"
-		]
-	},
-	"littleroom.capra.summon": {
-		"sounds": [
-			"littleroom/capra/summon"
-		]
-	},
-	"littleroom.capra.glide": {
-		"sounds": [
-			"littleroom/capra/glide"
-		]
-	},
-	"littleroom.capra.stun": {
-		"sounds": [
-			"littleroom/capra/stun"
 		]
 	},
 	"littleroom.direwolf.howl": {
@@ -549,139 +309,67 @@
 			"littleroom/amethystgolem/shardout"
 		]
 	},
-	"littleroom.zahar.abomination_grab": {
+	"samus.scorpion_attack": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_grab"
+			"samus/scorpion/scorpion_attack1",
+			"samus/scorpion/scorpion_attack2"
 		]
 	},
-	"littleroom.zahar.abomination_impact1": {
+	"samus.emerge_from_ground": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_impact1"
+			"samus/scorpion/emerge_from_ground"
 		]
 	},
-	"littleroom.zahar.abomination_impact2": {
+	"samus.jump_into_ground": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_impact2"
+			"samus/scorpion/jump_into_ground"
 		]
 	},
-	"littleroom.zahar.abomination_scream1": {
+	"samus.scorpion_eat": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_scream1"
+			"samus/scorpion/scorpion_eat1",
+			"samus/scorpion/scorpion_eat2"
 		]
 	},
-	"littleroom.zahar.abomination_scream2": {
+	"samus.scorpion_idle": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_scream2"
+			"samus/scorpion/scorpion_idle1",
+			"samus/scorpion/scorpion_idle2"
 		]
 	},
-	"littleroom.zahar.abomination_scream3": {
+	"samus.scorpion_poison": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_scream3"
+			"samus/scorpion/scorpion_poison"
 		]
 	},
-	"littleroom.zahar.abomination_spawn": {
+	"samus.scorpion_punch": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/abomination_spawn"
+			"samus/scorpion/scorpion_punch"
 		]
 	},
-	"littleroom.zahar.bottle_foley1": {
+	"samus.scorpion_sting": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/bottle_foley1"
+			"samus/scorpion/scorpion_sting"
 		]
 	},
-	"littleroom.zahar.bottle_foley2": {
+	"samus.scorpion_throw": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/bottle_foley2"
+			"samus/scorpion/scorpion_throw"
 		]
 	},
-	"littleroom.zahar.bottle_foley3": {
+	"samus.spit_venom": {
+		"category": "master",
 		"sounds": [
-			"littleroom/zahar/bottle_foley3"
-		]
-	},
-	"littleroom.zahar.bottle_slurp": {
-		"sounds": [
-			"littleroom/zahar/bottle_slurp"
-		]
-	},
-	"littleroom.zahar.cloth_foley1": {
-		"sounds": [
-			"littleroom/zahar/cloth_foley1"
-		]
-	},
-	"littleroom.zahar.cloth_foley2": {
-		"sounds": [
-			"littleroom/zahar/cloth_foley2"
-		]
-	},
-	"littleroom.zahar.cloth_foley3": {
-		"sounds": [
-			"littleroom/zahar/cloth_foley3"
-		]
-	},
-	"littleroom.zahar.cloth_foley4": {
-		"sounds": [
-			"littleroom/zahar/cloth_foley4"
-		]
-	},
-	"littleroom.zahar.cloth_foley5": {
-		"sounds": [
-			"littleroom/zahar/cloth_foley5"
-		]
-	},
-	"littleroom.zahar.cloth_foley6": {
-		"sounds": [
-			"littleroom/zahar/cloth_foley6"
-		]
-	},
-	"littleroom.zahar.impact1": {
-		"sounds": [
-			"littleroom/zahar/impact1"
-		]
-	},
-	"littleroom.zahar.impact2": {
-		"sounds": [
-			"littleroom/zahar/impact2"
-		]
-	},
-	"littleroom.zahar.impact3": {
-		"sounds": [
-			"littleroom/zahar/impact3"
-		]
-	},
-	"littleroom.zahar.impact4": {
-		"sounds": [
-			"littleroom/zahar/impact4"
-		]
-	},
-	"littleroom.zahar.swing1": {
-		"sounds": [
-			"littleroom/zahar/swing1"
-		]
-	},
-	"littleroom.zahar.swing2": {
-		"sounds": [
-			"littleroom/zahar/swing2"
-		]
-	},
-	"littleroom.zahar.swing3": {
-		"sounds": [
-			"littleroom/zahar/swing3"
-		]
-	},
-	"littleroom.zahar.zahar_die": {
-		"sounds": [
-			"littleroom/zahar/zahar_die"
-		]
-	},
-	"littleroom.zahar.zahar_stun": {
-		"sounds": [
-			"littleroom/zahar/zahar_stun"
-		]
-	},
-	"littleroom.zahar.summon_circle": {
-		"sounds": [
-			"littleroom/zahar/summon_circle"
+			"samus/scorpion/spit_venom"
 		]
 	},
 	"block.wood.hit": {
