@@ -1055,6 +1055,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_custom_rod.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "性"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gui_gen_fishing.png",
       "ascent": 29,
       "type": "bitmap",
