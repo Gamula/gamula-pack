@@ -9,6 +9,7 @@
         {"predicate": {"custom_model_data": 12}, "model": "item/custom/models/lr_anubis_laser"},
         {"predicate": {"custom_model_data": 13}, "model": "item/custom/models/lr_anubis_bullethell"},
         {"predicate": {"custom_model_data": 14}, "model": "item/custom/models/lr_anubisslasheffect"},
+        {"predicate": {"custom_model_data": 15}, "model": "item/custom/models/anubis_staff"},
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/antlers"},
         {"predicate": {"custom_model_data": 17}, "model": "item/custom/models/venison"},
         {"predicate": {"custom_model_data": 18}, "model": "item/custom/models/venison_cooked"},
@@ -37,11 +38,12 @@
         {"predicate": {"custom_model_data": 41}, "model": "item/custom/models/kur_slash_tiltright"},
         {"predicate": {"custom_model_data": 42}, "model": "item/custom/models/kur_glaive"},
         {"predicate": {"custom_model_data": 43}, "model": "item/custom/models/flintlock"},
-        {"predicate": {"custom_model_data": 44}, "model": "item/custom/models/petnet_blue"},
-        {"predicate": {"custom_model_data": 45}, "model": "item/custom/models/petnet_green"},
-        {"predicate": {"custom_model_data": 46}, "model": "item/custom/models/petnet_orange"},
-        {"predicate": {"custom_model_data": 47}, "model": "item/custom/models/petnet_pink"},
-        {"predicate": {"custom_model_data": 48}, "model": "item/custom/models/petnet_rainbow"},
-        {"predicate": {"custom_model_data": 49}, "model": "item/custom/models/petnet_yellow"}
+        {"predicate": {"custom_model_data": 44}, "model": "item/custom/models/quest_equipment/petnet_blue"},
+        {"predicate": {"custom_model_data": 45}, "model": "item/custom/models/quest_equipment/petnet_green"},
+        {"predicate": {"custom_model_data": 46}, "model": "item/custom/models/quest_equipment/petnet_orange"},
+        {"predicate": {"custom_model_data": 47}, "model": "item/custom/models/quest_equipment/petnet_pink"},
+        {"predicate": {"custom_model_data": 48}, "model": "item/custom/models/quest_equipment/petnet_rainbow"},
+        {"predicate": {"custom_model_data": 49}, "model": "item/custom/models/quest_equipment/petnet_yellow"},
+        {"predicate": {"custom_model_data": 50}, "model": "item/custom/models/quest_equipment/metal_detector"}
     ] 
 }

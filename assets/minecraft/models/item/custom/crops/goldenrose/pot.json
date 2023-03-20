@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "gamula/crops/goldenrose/goldenrose_pot",
 		"1": "block/farmland",
-		"particle": "gamula/crops/goldenhammer/goldenrose_pot"
+		"particle": "gamula/crops/goldenrose/goldenrose_pot"
 	},
 	"elements": [
 		{
