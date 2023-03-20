@@ -1,4 +1,64 @@
 {
+	"littleroom.tortus.death":{
+		"sounds": [
+			"littleroom/tortus/death"
+		]
+    },
+    "littleroom.tortus.emerge":{
+		"sounds": [
+			"littleroom/tortus/emerge"
+		]
+    },
+    "littleroom.tortus.idle1":{
+		"sounds": [
+			"littleroom/tortus/idle1"
+		]
+    },
+    "littleroom.tortus.idle2":{
+		"sounds": [
+			"littleroom/tortus/idle2"
+		]
+    },
+    "littleroom.tortus.idle3":{
+		"sounds": [
+			"littleroom/tortus/idle3"
+		]
+    },
+    "littleroom.tortus.impact":{
+		"sounds": [
+			"littleroom/tortus/impact"
+		]
+    },
+    "littleroom.tortus.impact2":{
+		"sounds": [
+			"littleroom/tortus/impact2"
+		]
+    },
+    "littleroom.tortus.impact3":{
+		"sounds": [
+			"littleroom/tortus/impact3"
+		]
+    },
+    "littleroom.tortus.impact4":{
+		"sounds": [
+			"littleroom/tortus/impact4"
+		]
+    },
+    "littleroom.tortus.swing1":{
+		"sounds": [
+			"littleroom/tortus/swing1"
+		]
+    },
+    "littleroom.tortus.swing2":{
+		"sounds": [
+			"littleroom/tortus/swing2"
+		]
+    },
+    "littleroom.tortus.spin":{
+		"sounds": [
+			"littleroom/tortus/spin"
+		]
+    },
 	"littleroom.pharaoh.attack":{
 		"sounds": [
 			"littleroom/pharaoh/attack"
