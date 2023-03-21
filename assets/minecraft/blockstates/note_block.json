@@ -48,6 +48,7 @@
             "instrument=chime,note=18,powered=false":{"model":"item/custom/crops/skill_woodcutting/pot"},
             "instrument=chime,note=19,powered=false":{"model":"item/custom/crops/skill_woodcutting/watered_pot"},
             "instrument=chime,note=20,powered=false":{"model":"item/custom/crops/incubator/pot"},
-            "instrument=chime,note=21,powered=false":{"model":"item/custom/crops/incubator/watered_pot"}
+            "instrument=chime,note=21,powered=false":{"model":"item/custom/crops/incubator/watered_pot"},
+            "instrument=chime,note=22,powered=false":{"model":"item/custom/blocks/coal_ore_deepslate"}
         }
     }

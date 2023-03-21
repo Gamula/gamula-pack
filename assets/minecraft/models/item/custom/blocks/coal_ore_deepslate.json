@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gamula/blocks/coal_ore_deepslate",
+    "particles": "gamula/blocks/coal_ore_deepslate"
+  }
+}
