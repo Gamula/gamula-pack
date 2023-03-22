@@ -2,9 +2,9 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "gamula/others/coalgenerator",
-		"1": "gamula/others/generator_smoke",
-		"particle": "gamula/others/coalgenerator"
+		"0": "Downloads/coalgenerator",
+		"1": "Downloads/generator_smoke",
+		"particle": "Downloads/coalgenerator"
 	},
 	"elements": [
 		{
@@ -947,29 +947,27 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"scale": [0.15, 0.15, 0.15]
+			"scale": [0.32, 0.32, 0.32]
 		},
 		"thirdperson_lefthand": {
-			"scale": [0.15, 0.15, 0.15]
+			"scale": [0.32, 0.32, 0.32]
 		},
 		"firstperson_righthand": {
-			"translation": [-0.75, 3.75, 0],
-			"scale": [0.15, 0.15, 0.15]
+			"scale": [0.36, 0.36, 0.36]
 		},
 		"firstperson_lefthand": {
-			"translation": [-0.75, 3.75, 0],
-			"scale": [0.15, 0.15, 0.15]
+			"scale": [0.36, 0.36, 0.36]
 		},
 		"ground": {
-			"translation": [0, 1.5, 0],
+			"translation": [0, 10.25, 0],
 			"scale": [0.21, 0.21, 0.21]
 		},
 		"gui": {
-			"scale": [0.2, 0.2, 0.2]
+			"scale": [0.33, 0.33, 0.33]
 		},
 		"head": {
 			"translation": [0, 1, 0],
-			"scale": [0.1, 0.1, 0.1]
+			"scale": [1.84, 1.84, 1.84]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
