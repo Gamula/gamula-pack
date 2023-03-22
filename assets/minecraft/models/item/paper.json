@@ -4,6 +4,9 @@
         "layer0": "item/paper"
     },
     "overrides": [
+        {"predicate": {"custom_model_data": 35},"model": "item/custom/icons/misc/mobcoin_coal"},
+        {"predicate": {"custom_model_data": 36},"model": "item/custom/icons/misc/mobcoin_gold"},
+        {"predicate": {"custom_model_data": 37},"model": "item/custom/icons/misc/mobcoin_emerald"},
         {"predicate": {"custom_model_data": 38},"model": "item/custom/icons/misc/coin_1"},
         {"predicate": {"custom_model_data": 39},"model": "item/custom/icons/misc/coin_2"},
         {"predicate": {"custom_model_data": 40},"model": "item/custom/icons/misc/coin_3"},
@@ -16,7 +19,6 @@
         {"predicate": {"custom_model_data": 47},"model": "item/custom/icons/misc/island_upgrade_1"},
         {"predicate": {"custom_model_data": 48},"model": "item/custom/icons/misc/island_upgrade_2"},
         {"predicate": {"custom_model_data": 49},"model": "item/custom/icons/misc/island_upgrade_3"},
-        {"predicate": {"custom_model_data": 50},"model": "item/custom/icons/misc/mobcoin_coin"},
         {"predicate": {"custom_model_data": 51},"model": "item/custom/icons/btn_cross"},
         {"predicate": {"custom_model_data": 52},"model": "item/custom/icons/btn_exclaimation"},
         {"predicate": {"custom_model_data": 53},"model": "item/custom/icons/btn_next"},
