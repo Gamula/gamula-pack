@@ -947,27 +947,27 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"scale": [0.32, 0.32, 0.32]
+			"scale": [0.15, 0.15, 0.15]
 		},
 		"thirdperson_lefthand": {
-			"scale": [0.32, 0.32, 0.32]
+			"scale": [0.15, 0.15, 0.15]
 		},
 		"firstperson_righthand": {
-			"scale": [0.36, 0.36, 0.36]
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"firstperson_lefthand": {
-			"scale": [0.36, 0.36, 0.36]
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"ground": {
-			"translation": [0, 10.25, 0],
+			"translation": [0, 2.5, 0],
 			"scale": [0.21, 0.21, 0.21]
 		},
 		"gui": {
-			"scale": [0.33, 0.33, 0.33]
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"head": {
 			"translation": [0, 1, 0],
-			"scale": [1.84, 1.84, 1.84]
+			"scale": [0.1, 0.1, 0.1]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
