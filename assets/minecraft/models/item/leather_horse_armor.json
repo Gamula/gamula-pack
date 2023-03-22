@@ -1622,6 +1622,7 @@
         {"predicate": {"custom_model_data": 50000},"model": "item/custom/icons/overlay_tone"},
         {"predicate": {"custom_model_data": 58000},"model": "item/custom/furniture/build/small_wall_flag"},
         {"predicate": {"custom_model_data": 58001},"model": "item/custom/furniture/build/obelisk_glyphs"},
+        {"predicate": {"custom_model_data": 58002},"model": "item/custom/furniture/build/vault_door"},
         {"predicate": {"custom_model_data": 60000},"model": "item/custom/furniture/medieval_royal/medievalroyal_bed"},
         {"predicate": {"custom_model_data": 60001},"model": "item/custom/furniture/medieval_royal/medievalroyal_carpet"},
         {"predicate": {"custom_model_data": 60002},"model": "item/custom/furniture/medieval_royal/medievalroyal_chandelier"},
