@@ -1973,6 +1973,33 @@
       "height": 9
     },
     {
+      "file": "gamula/titles/title_active.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "进"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_inactive.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "还"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_disabled.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "远"
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/titles/title_vip.png",
       "ascent": 8,
       "type": "bitmap",
