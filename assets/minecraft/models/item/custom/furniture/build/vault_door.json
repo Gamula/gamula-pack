@@ -454,7 +454,7 @@
 	"display": {
 		"fixed": {
 			"rotation": [0, -90, 0],
-			"translation": [0, 7.75, -9.75],
+			"translation": [0, 7.75, -11.75],
 			"scale": [2, 2, 2]
 		}
 	},
