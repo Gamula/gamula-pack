@@ -87,7 +87,7 @@ void main() {
             case 3: uvpos4 = vec3(UV0.xy, 1.0); break;
         }
 
-        gl_Position.xy += corner * 0.2;
+        gl_Position.xy += corner * 0.01;
     }
 
     screenPos = gl_Position;
