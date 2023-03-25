@@ -25,7 +25,7 @@ jobs:
 # squash build
     - name: Build (squash)
       if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
-      uses: ComunidadAylas/PackSquash-action@v3.0.2
+      uses: ComunidadAylas/PackSquash-action@v3
       with:
         artifact_name: gamula
         allow_optifine_mod: true
