@@ -597,6 +597,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/banker/gui_banker_mobcoin.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "思"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/banker/gui_banker_main.png",
       "ascent": 28,
       "type": "bitmap",
