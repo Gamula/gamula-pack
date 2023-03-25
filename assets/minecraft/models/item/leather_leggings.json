@@ -17,6 +17,7 @@
         {"predicate": {"custom_model_data": 10}, "model": "item/custom/armor/oni_leggings"},
         {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_leggings"},
         {"predicate": {"custom_model_data": 12}, "model": "item/custom/armor/saintpatrick_leggings"},
-        {"predicate": {"custom_model_data": 13}, "model": "item/custom/armor/buzzlightyear_leggings"}
+        {"predicate": {"custom_model_data": 13}, "model": "item/custom/armor/buzzlightyear_leggings"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/custom/armor/radioactive_leggings"}
     ]
 }
