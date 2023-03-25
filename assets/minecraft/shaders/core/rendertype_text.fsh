@@ -116,7 +116,7 @@ void main() {
         discard;
     }
     fragColor = linear_fog(fragColor, vertexDistance, FogStart, FogEnd, FogColor);
-    if(vertexOrigin > 2020.0 && isScoreboardNumber(fragColor) && abs(screenPos.x / screenPos.w - 0.9875) < 0.08) {	
+    if(vertexOrigin > 2020.0 && isScoreboardNumber(fragColor) && abs(screenPos.x / screenPos.w - 0.9875) < 0.08) {
         discard;
     }
 }
