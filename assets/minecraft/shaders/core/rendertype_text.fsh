@@ -13,11 +13,11 @@ uniform float GameTime;
 in float vertexDistance;
 in float vertexOrigin;
 in vec4 vertexColor;
-in vec4 baseColor;
+flat in vec4 baseColor;
 in vec2 corner;
-in float isGui;
+flat in float isGui;
 in vec4 screenPos;
-in float isShadow;
+flat in float isShadow;
 in vec2 texCoord0;
 
 in vec3 ipos1;
@@ -27,12 +27,23 @@ in vec3 ipos3;
 in vec3 uvpos1;
 in vec3 uvpos2;
 in vec3 uvpos3;
+in vec3 uvpos4;
 
 #define TEXT_EFFECTS_FSH
 #moj_import<text_effects.glsl>
-TEXT_EFFECTS_CONFIG_START
-#moj_import<text_effects_config.glsl>
-TEXT_EFFECTS_CONFIG_END
+
+int applyTextEffects() { 
+    uint vertexColorId = colorId(floor(round(textData.color.rgb * 255.0) / 4.0) / 255.0); 
+    if(textData.isShadow) { vertexColorId = colorId(textData.color.rgb);} 
+    switch(vertexColorId) { 
+        case 16777215u:
+
+    #moj_import<text_effects_config.glsl>
+    
+        return 1; 
+    } 
+    return 0;
+}
 
 out vec4 fragColor;
 
@@ -61,8 +72,14 @@ void main() {
         vec2 uvp1 = uvpos1.xy / uvpos1.z;
         vec2 uvp2 = uvpos2.xy / uvpos2.z;
         vec2 uvp3 = uvpos3.xy / uvpos3.z;
-        vec2 uvMin = min(uvp1.xy,min(uvp2.xy,uvp3.xy));
-        vec2 uvMax = max(uvp1.xy,max(uvp2.xy,uvp3.xy));
+        vec2 uvp4 = uvpos4.xy / uvpos4.z;
+
+        //uvp1 = clamp(uvp1, vec2(0.0), vec2(1.0));
+        //uvp2 = clamp(uvp2, vec2(0.0), vec2(1.0));
+        //uvp3 = clamp(uvp3, vec2(0.0), vec2(1.0));
+
+        vec2 uvMin = min(uvp1.xy,min(uvp2.xy,min(uvp3.xy, uvp4.xy)));
+        vec2 uvMax = max(uvp1.xy,max(uvp2.xy,max(uvp3.xy, uvp4.xy)));
         vec2 uvSize = uvMax - uvMin;
 
         textData.uvMin = uvMin;
@@ -82,7 +99,7 @@ void main() {
 
         didApply = applyTextEffects() == 1;
 
-        if(textData.uv.x < uvMin.x || textData.uv.y < uvMin.y || textData.uv.x > uvMax.x || textData.uv.y > uvMax.y) textData.doTextureLookup = false;
+        if(uvBoundsCheck(textData.uv, uvMin, uvMax)) textData.doTextureLookup = false;
     }else{
         textData.uv = texCoord0;
         textData.color = vertexColor;
@@ -99,7 +116,7 @@ void main() {
         discard;
     }
     fragColor = linear_fog(fragColor, vertexDistance, FogStart, FogEnd, FogColor);
-    if(vertexOrigin > 2020.0 && isScoreboardNumber(fragColor) && abs(screenPos.x / screenPos.w - 0.9875) < 0.08) {
+    if(vertexOrigin > 2020.0 && isScoreboardNumber(fragColor) && abs(screenPos.x / screenPos.w - 0.9875) < 0.08) {	
         discard;
     }
 }

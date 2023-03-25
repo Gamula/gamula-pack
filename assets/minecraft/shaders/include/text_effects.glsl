@@ -17,6 +17,11 @@ TextData textData;
 
 #define PI 3.14159265359
 #define TAU 6.28318530718
+#define EPSILON 0.0001
+
+bool uvBoundsCheck(vec2 uv, vec2 uvMin, vec2 uvMax) {
+    return uv.x < textData.uvMin.x + EPSILON || uv.y < textData.uvMin.y + EPSILON || uv.x > textData.uvMax.x - EPSILON || uv.y > textData.uvMax.y - EPSILON;
+}
 
 vec3 hsvToRgb(vec3 c) {
     vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
@@ -87,7 +92,7 @@ vec3 textSdf() {
     for(int x = -1; x <= 1; x++) {
         for(int y = -1; y <= 1; y++) {
             vec2 uv = textData.uv + vec2(x, y) * texelSize;
-            if(uv.x < textData.uvMin.x || uv.y < textData.uvMin.y || uv.x > textData.uvMax.x || uv.y > textData.uvMax.y) continue;
+            if(uvBoundsCheck(uv, textData.uvMin, textData.uvMax)) continue;
 
             vec4 s = texture(Sampler0, uv);
             if(s.a >= 0.1) {
@@ -129,8 +134,12 @@ void remove_text_shadow() {
     if(textData.isShadow) textData.color.a = 0.0;
 }
 
+void apply_waving_movement(float speed) {
+    textData.uv.y += sin(textData.characterPosition.x * 0.1 - GameTime * 7500.0 * speed) / 256.0;
+}
+
 void apply_waving_movement() {
-    textData.uv.y += sin(textData.characterPosition.x * 0.1 - GameTime * 7500.0) / 256.0;
+    apply_waving_movement(1.0);
 }
 
 void apply_shaking_movement() {
@@ -140,26 +149,44 @@ void apply_shaking_movement() {
     textData.uv += vec2(noiseX, noiseY) / 256.0;
 }
 
-void apply_iterating_movement() {
-    textData.uv.y += clamp(pow(sin(textData.characterPosition.x * 0.07 - GameTime * 6000.0), 40.0), 0.0, 1.0) / 256.0;
+void apply_iterating_movement(float speed, float space) {
+    float x = mod(textData.characterPosition.x * 0.4 - GameTime * 18000.0 * speed, (5.0 * space) * TAU);
+    if(x > TAU) x = TAU;
+    textData.uv.y += (-cos(x) * 0.5 + 0.5) / 256.0;
 }
 
-void apply_flipping_movement() {
-    float t = mod(textData.characterPosition.x * 0.1 - GameTime * 2400, 5.0);
+void apply_iterating_movement() {
+    apply_iterating_movement(1.0, 1.0);
+}
+
+void apply_flipping_movement(float speed, float space) {
+    float t = mod((textData.characterPosition.x * 0.4 - GameTime  * 18000.0 * speed) / TAU, 5.0 * space);
     textData.uv.x = textData.uvCenter.x + (textData.uv.x - textData.uvCenter.x) / (cos(TAU * min(t, 1.0)));
     textData.uv.y = textData.uvCenter.y + (textData.uv.y - textData.uvCenter.y) / (1.0 + 0.1 * sin(TAU * min(t, 1.0)));
 }
 
-void apply_skewing_movement() {
-    float t = GameTime * 1600.0;
+void apply_flipping_movement() {
+    apply_flipping_movement(1.0, 1.0);
+}
+
+void apply_skewing_movement(float speed) {
+    float t = GameTime * 1600.0 * speed;
 
     textData.uv.x = mix(textData.uv.x, textData.uv.x + sin(TAU * t * 0.5) / 256.0, 1.0 - textData.localPosition.y);
     textData.uv.y = mix(textData.uv.y, textData.uvMax.y, -(0.3 + 0.5 * cos(TAU * t)));
 }
 
-void apply_growing_movement() {
+void apply_skewing_movement() { 
+    apply_skewing_movement(1.0);
+}
+
+void apply_growing_movement(float speed) {
     vec2 offset = vec2(0.0, 5.0 / 256.0);
-    textData.uv = (textData.uv - textData.uvCenter - offset) * (sin(GameTime * 12800.0) * 0.15 + 0.85) + textData.uvCenter + offset;
+    textData.uv = (textData.uv - textData.uvCenter - offset) * (sin(GameTime * 12800.0 * speed) * 0.15 + 0.85) + textData.uvCenter + offset;
+}
+
+void apply_growing_movement() {
+    apply_growing_movement(1.0);
 }
 
 void apply_outline(vec3 color) {
@@ -176,7 +203,7 @@ void apply_outline(vec3 color) {
             if(x == 0 && y == 0) continue;
 
             vec2 uv = textData.uv + vec2(x, y) * texelSize;
-            if(uv.x < textData.uvMin.x || uv.y < textData.uvMin.y || uv.x > textData.uvMax.x || uv.y > textData.uvMax.y) continue;
+            if(uvBoundsCheck(uv, textData.uvMin, textData.uvMax)) continue;
 
             vec4 s = texture(Sampler0, uv);
             if(s.a >= 0.1) { textData.backColor = vec4(color, 1.0); return; }
@@ -195,7 +222,7 @@ void apply_thin_outline(vec3 color) {
             if(x == 0 && y == 0) continue;
 
             vec2 uv = textData.uv + vec2(x, y) * texelSize;
-            if(uv.x < textData.uvMin.x || uv.y < textData.uvMin.y || uv.x > textData.uvMax.x || uv.y > textData.uvMax.y) continue;
+            if(uvBoundsCheck(uv, textData.uvMin, textData.uvMax)) continue;
 
             vec4 s = texture(Sampler0, uv);
             if(s.a >= 0.1) { textData.backColor = vec4(color, 1.0); return; }
@@ -214,10 +241,14 @@ void apply_rainbow() {
     if(textData.isShadow) textData.color.rgb *= 0.25;
 }
 
-void apply_shimmer() {
+void apply_shimmer(float speed, float intensity) {
     if(textData.isShadow) return;
-    float f = textData.localPosition.x + textData.localPosition.y - GameTime * 6400.0;
-    if(mod(f, 5) < 0.75) textData.color.rgb = mix(textData.color.rgb, vec3(1.0), 0.5);
+    float f = textData.localPosition.x + textData.localPosition.y - GameTime * 6400.0 * speed;
+    if(mod(f, 5) < 0.75) textData.color.rgb = mix(textData.color.rgb, vec3(1.0), intensity);
+}
+
+void apply_shimmer(){
+    apply_shimmer(1.0, 0.5);
 }
 
 void apply_chromatic_abberation() {
@@ -228,12 +259,12 @@ void apply_chromatic_abberation() {
     vec2 uv = textData.uv + offset;
     vec4 s1 = texture(Sampler0, uv);
     s1.rgb *= s1.a;
-    if(uv.x < textData.uvMin.x || uv.y < textData.uvMin.y || uv.x > textData.uvMax.x || uv.y > textData.uvMax.y) s1 = vec4(0.0);
+    if(uvBoundsCheck(uv, textData.uvMin, textData.uvMax)) s1 = vec4(0.0);
 
     uv = textData.uv - offset;
     vec4 s2 = texture(Sampler0, uv);
     s2.rgb *= s2.a;
-    if(uv.x < textData.uvMin.x || uv.y < textData.uvMin.y || uv.x > textData.uvMax.x || uv.y > textData.uvMax.y) s2 = vec4(0.0);
+    if(uvBoundsCheck(uv, textData.uvMin, textData.uvMax)) s2 = vec4(0.0);
 
     textData.backColor = (s1 * vec4(1.0, 0.25, 0.0, 1.0)) + (s2 * vec4(0.0, 0.75, 1.0, 1.0));
     textData.backColor.rgb *= textData.color.rgb;
@@ -254,7 +285,7 @@ void apply_fire() {
 
     float h = fract(textData.uv.y * 256.0);
     vec2 uv = textData.uv + vec2(0.0, 1.0 / 256);
-    if(uv.x < textData.uvMin.x || uv.y < textData.uvMin.y || uv.x > textData.uvMax.x || uv.y > textData.uvMax.y) return;
+    if(uvBoundsCheck(uv, textData.uvMin, textData.uvMax)) return;
     vec4 s = texture(Sampler0, uv);
     if(s.a > 0.1) {
         float f = noise(textData.localPosition * 32.0 + vec2(0.0, GameTime * 6400.0)) * 0.5 + 0.5;
@@ -265,14 +296,30 @@ void apply_fire() {
     }
 }
 
-void apply_fade(vec3 color) {
+void apply_fade(float speed) {
+    textData.color.a = mix(textData.color.a, 0.0, sin(GameTime * 1200 * speed * PI) * 0.5 + 0.5);
+}
+
+void apply_fade() {
+    apply_fade(1.0);
+}
+
+void apply_fade(vec3 color, float speed) {
     if(textData.isShadow) color *= 0.25;
 
-    textData.color.rgb = mix(textData.color.rgb, color, sin(GameTime * 1200 * PI) * 0.5 + 0.5);
+    textData.color.rgb = mix(textData.color.rgb, color, sin(GameTime * 1200 * speed * PI) * 0.5 + 0.5);
+}
+
+void apply_fade(vec3 color) {
+    apply_fade(color, 1.0);
+}
+
+void apply_blinking(float speed){
+    if(sin(GameTime * 3200 * speed * PI) < 0.0) { textData.color.a = 0.0; textData.backColor.a = 0.0; textData.topColor.a = 0.0; }
 }
 
 void apply_blinking() {
-    if(sin(GameTime * 3200 * PI) < 0.0) { textData.color.a = 0.0; textData.backColor.a = 0.0; textData.topColor.a = 0.0; }
+    apply_blinking(1.0);
 }
 
 void apply_glowing() {
@@ -387,15 +434,10 @@ void apply_non_binary_pride() {
 
 #ifdef TEXT_EFFECTS_FSH
 
-    #define TEXT_EFFECTS_CONFIG_START int applyTextEffects() { uint vertexColorId = colorId(textData.color.rgb * 0.25); if(textData.isShadow) { vertexColorId = colorId(textData.color.rgb);} switch(vertexColorId) { case 16777215u:
-    #define TEXT_EFFECTS_CONFIG_END return 0; } return 0; }
-
     #define TEXT_EFFECT(r, g, b) return 1; case ((uint(r/4) << 16) | (uint(g/4) << 8) | uint(b/4)):
 
 #else
-    
-    #define TEXT_EFFECTS_CONFIG_START bool shouldApplyTextEffects() { uint vertexColorId = colorId(textData.color.rgb * 0.25); if(textData.isShadow) { vertexColorId = colorId(textData.color.rgb);} switch(vertexColorId) { case 16777215u:
-    #define TEXT_EFFECTS_CONFIG_END return false; } return false; }
 
     #define TEXT_EFFECT(r, g, b) return true; case ((uint(r/4) << 16) | (uint(g/4) << 8) | uint(b/4)):
+
 #endif
