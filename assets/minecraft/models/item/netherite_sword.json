@@ -26,6 +26,7 @@
         {"predicate": {"custom_model_data": 20}, "model": "item/custom/models/oni_set/sword"},
         {"predicate": {"custom_model_data": 21}, "model": "item/custom/models/oni_set/big_sword"},
         {"predicate": {"custom_model_data": 22}, "model": "item/custom/models/sweetheart_set/sword"},
-        {"predicate": {"custom_model_data": 23}, "model": "item/custom/models/seasonal_valentine/val_sword"}
+        {"predicate": {"custom_model_data": 23}, "model": "item/custom/models/seasonal_valentine/val_sword"},
+        {"predicate": {"custom_model_data": 24}, "model": "item/custom/models/saintpatrick_set/sword"}
     ]
 }

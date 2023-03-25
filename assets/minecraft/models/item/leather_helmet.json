@@ -8,6 +8,7 @@
         {"predicate": {"custom_model_data": 1}, "model": "item/custom/armor/speedster_helmet"},
         {"predicate": {"custom_model_data": 2}, "model": "item/custom/armor/enderdragon_helmet"},
         {"predicate": {"custom_model_data": 10}, "model": "item/custom/armor/oni_helmet"},
-        {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_helmet"}
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_helmet"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/custom/armor/saintpatrick_helmet"}
     ]
 }

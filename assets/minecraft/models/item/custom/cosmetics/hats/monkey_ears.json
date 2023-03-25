@@ -1,0 +1,68 @@
+{
+	"credit": "gigachad drift baby",
+	"textures": {
+		"1": "gamula/cosmetics/hats/monkey_ears"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [4, 5, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 5], "texture": "#1"},
+				"east": {"uv": [0, 5, 1, 10], "texture": "#1"},
+				"south": {"uv": [4, 0, 8, 5], "texture": "#1"},
+				"west": {"uv": [1, 5, 2, 10], "texture": "#1"},
+				"up": {"uv": [6, 6, 2, 5], "texture": "#1"},
+				"down": {"uv": [6, 6, 2, 7], "texture": "#1"}
+			}
+		},
+		{
+			"from": [12, 0, 8],
+			"to": [16, 5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [4, 0, 0, 5], "texture": "#1"},
+				"east": {"uv": [2, 5, 1, 10], "texture": "#1"},
+				"south": {"uv": [8, 0, 4, 5], "texture": "#1"},
+				"west": {"uv": [1, 5, 0, 10], "texture": "#1"},
+				"up": {"uv": [2, 6, 6, 5], "texture": "#1"},
+				"down": {"uv": [2, 6, 6, 7], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.75, 2.25],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.75, 2.25],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 76, -180],
+			"translation": [0, 7.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 76, -180],
+			"translation": [0, 7.25, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0.5, 3.75, 0]
+		},
+		"head": {
+			"translation": [0, 8.75, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -2]
+		}
+	}
+}
