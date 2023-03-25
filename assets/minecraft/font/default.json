@@ -254,6 +254,16 @@
       "type": "bitmap"
     },
     {
+      "ascent": 12,
+      "height": 80,
+      "chars": [
+        "念忽",
+        "忠怎"
+      ],
+      "file": "gamula/ui/ui_gamula_logo.png",
+      "type": "bitmap"
+    },
+    {
       "file": "gamula/ui/ui_exit_screen_gamula.png",
       "ascent": 128,
       "type": "bitmap",
@@ -844,6 +854,15 @@
       "type": "bitmap",
       "chars": [
         "误"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_shop_void.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "谈"
       ],
       "height": 256
     },
