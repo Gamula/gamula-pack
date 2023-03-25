@@ -1866,6 +1866,15 @@
       "height": 9
     },
     {
+      "file": "gamula/titles/title_adult.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "柳"
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/titles/title_glitch.png",
       "ascent": 8,
       "type": "bitmap",

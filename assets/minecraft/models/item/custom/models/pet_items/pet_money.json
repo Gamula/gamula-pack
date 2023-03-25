@@ -217,10 +217,12 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
+			"rotation": [35, 0, 0],
 			"translation": [-0.25, 0.25, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"thirdperson_lefthand": {
+			"rotation": [35, 0, 0],
 			"translation": [0.25, 0.25, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},

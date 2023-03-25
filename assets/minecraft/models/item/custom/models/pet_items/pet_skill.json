@@ -2,7 +2,8 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "modelengine:entity/pet_skill"
+		"1": "modelengine:entity/pet_skill",
+		"particle": "Downloads/pet_skill"
 	},
 	"elements": [
 		{
@@ -427,15 +428,15 @@
 		"thirdperson_righthand": {
 			"rotation": [54, 0, 0],
 			"translation": [0.25, 0, 0],
-			"scale": [0.3, 0.3, 0.3]
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [54, 0, 0],
 			"translation": [-0.25, 0, 0],
-			"scale": [0.3, 0.3, 0.3]
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {
-			"translation": [1.75, 0, 0],
+			"translation": [1, 0, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_lefthand": {
