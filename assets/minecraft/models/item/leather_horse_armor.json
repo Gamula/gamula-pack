@@ -1387,6 +1387,7 @@
         {"predicate": {"custom_model_data": 10063},"model": "item/custom/cosmetics/backblings/money_case"},
         {"predicate": {"custom_model_data": 10064},"model": "item/custom/cosmetics/backblings/mvp_wings"},
         {"predicate": {"custom_model_data": 10065},"model": "item/custom/models/saintpatrick_set/wings"},
+        {"predicate": {"custom_model_data": 10066},"model": "item/custom/cosmetics/backblings/islandtop_wings"},
         {"predicate": {"custom_model_data": 20001},"model": "item/custom/cosmetics/hats/amethyst_crown"},
         {"predicate": {"custom_model_data": 20002},"model": "item/custom/cosmetics/hats/diamond_crown"},
         {"predicate": {"custom_model_data": 20003},"model": "item/custom/cosmetics/hats/emerald_crown"},
