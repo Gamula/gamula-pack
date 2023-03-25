@@ -1749,6 +1749,7 @@
         {"predicate": {"custom_model_data": 60076},"model": "item/custom/furniture/japanese/ofuro"},
         {"predicate": {"custom_model_data": 60077},"model": "item/custom/furniture/japanese/teru_teru_bozu"},
         {"predicate": {"custom_model_data": 60078},"model": "item/custom/furniture/japanese/zabuton"},
+        {"predicate": {"custom_model_data": 60112},"model": "item/custom/models/sleigh"},
         {"predicate": {"custom_model_data": 60123},"model": "item/custom/furniture/village/cooking_cauldron_1_empty"},
         {"predicate": {"custom_model_data": 60124},"model": "item/custom/furniture/village/cooking_cauldron_1_water"},
         {"predicate": {"custom_model_data": 60125},"model": "item/custom/furniture/village/cooking_cauldron_1_witch"},

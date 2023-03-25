@@ -2,7 +2,8 @@
 	"credit": "MadewithBlockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "gamula/furniture/carribean/ship_wheel_table_texture"
+		"1": "gamula/furniture/carribean/ship_wheel_table_texture",
+		"particle": "gamula/furniture/carribean/ship_wheel_table_texture"
 	},
 	"elements": [
 		{
