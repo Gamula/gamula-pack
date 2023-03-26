@@ -146,15 +146,10 @@
         {"predicate": {"custom_model_data": 1057},"model": "item/custom/icons/tags/tulip"},
         {"predicate": {"custom_model_data": 10001}, "model": "item/custom/models/adventurerhelmet"},
         {"predicate": {"custom_model_data": 10002}, "model": "item/custom/models/kingsceptre"},
-        {"predicate": {"custom_model_data": 10003}, "model": "item/custom/models/minerhelmet"},
-        {"predicate": {"custom_model_data": 10004}, "model": "item/custom/models/minerpack"},
         {"predicate": {"custom_model_data": 10005}, "model": "item/custom/models/mug"},
         {"predicate": {"custom_model_data": 10006}, "model": "item/custom/models/medusa_head"},
         {"predicate": {"custom_model_data": 10007}, "model": "item/custom/models/amethystshard"},
-        {"predicate": {"custom_model_data": 10008}, "model": "item/custom/models/axolotl_hat"},
-        {"predicate": {"custom_model_data": 10009}, "model": "item/custom/models/fire_axolotl_hat"},
         {"predicate": {"custom_model_data": 10010}, "model": "item/custom/models/diverhelmet"},
-        {"predicate": {"custom_model_data": 10011}, "model": "item/custom/models/horns"},
         {"predicate": {"custom_model_data": 10012}, "model": "item/custom/models/mythril_ore"},
         {"predicate": {"custom_model_data": 10013}, "model": "item/custom/models/mythril_ingot"},
         {"predicate": {"custom_model_data": 10014}, "model": "item/custom/models/mythril_helmet"},
@@ -334,14 +329,6 @@
         {"predicate": {"custom_model_data": 20141}, "model": "item/custom/crops/goldenrose/seeds"},
         {"predicate": {"custom_model_data": 20142}, "model": "item/custom/crops/goldenrose/goldenrose_stage_1"},
         {"predicate": {"custom_model_data": 20143}, "model": "item/custom/crops/goldenrose/goldenrose_stage_2"},
-        {"predicate": {"custom_model_data": 20144}, "model": "item/custom/crops/goldenrose/goldenrose_stage_3"},
-        {"predicate": {"custom_model_data": 60399},"model": "item/custom/furniture/newyear/firework_explosion_blue"},
-        {"predicate": {"custom_model_data": 60400},"model": "item/custom/furniture/newyear/firework_explosion_gray"},
-        {"predicate": {"custom_model_data": 60401},"model": "item/custom/furniture/newyear/firework_explosion_orange"},
-        {"predicate": {"custom_model_data": 60402},"model": "item/custom/furniture/newyear/firework_explosion_yellow"},
-        {"predicate": {"custom_model_data": 60403},"model": "item/custom/furniture/newyear/sparkle_anim_blue"},
-        {"predicate": {"custom_model_data": 60404},"model": "item/custom/furniture/newyear/sparkle_anim_gray"},
-        {"predicate": {"custom_model_data": 60405},"model": "item/custom/furniture/newyear/sparkle_anim_orange"},
-        {"predicate": {"custom_model_data": 60406},"model": "item/custom/furniture/newyear/sparkle_anim_yellow"}
+        {"predicate": {"custom_model_data": 20144}, "model": "item/custom/crops/goldenrose/goldenrose_stage_3"}
     ]
 }

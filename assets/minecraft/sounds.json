@@ -94,16 +94,6 @@
 			"littleroom/anubis/anubisidle6"
 		]
     },
-    "littleroom.anubis.groundimpact1":{
-		"sounds": [
-			"littleroom/anubis/groundimpact1"
-		]
-    },
-    "littleroom.anubis.groundimpact2":{
-		"sounds": [
-			"littleroom/anubis/groundimpact2"
-		]
-    },
     "littleroom.anubis.impact1":{
 		"sounds": [
 			"littleroom/anubis/impact1"

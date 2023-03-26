@@ -17,10 +17,7 @@
         {"predicate": {"custom_model_data": 14}, "model": "item/custom/models/tarantula_display"},
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/models/ant_farm"},
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/skog_bonsai"},
-        {"predicate": {"custom_model_data": 17}, "model": "item/custom/models/skog_bonsai_birch"},
-        {"predicate": {"custom_model_data": 18}, "model": "item/custom/models/phoenix_egg"},
         {"predicate": {"custom_model_data": 19}, "model": "item/custom/models/pig"},
-        {"predicate": {"custom_model_data": 20}, "model": "item/custom/models/catapult"},
         {"predicate": {"custom_model_data": 22}, "model": "item/custom/models/ball_box"}
     ]
 }

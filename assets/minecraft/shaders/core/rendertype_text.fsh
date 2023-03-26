@@ -10,7 +10,7 @@ uniform float FogEnd;
 uniform vec4 FogColor;
 uniform float GameTime;
 
-in float vertexDistance;
+//in float vertexDistance;
 in float vertexOrigin;
 in vec4 vertexColor;
 flat in vec4 baseColor;
@@ -115,7 +115,7 @@ void main() {
     if(fragColor.a < 0.1) {
         discard;
     }
-    fragColor = linear_fog(fragColor, vertexDistance, FogStart, FogEnd, FogColor);
+    fragColor = linear_fog(fragColor, vertexOrigin, FogStart, FogEnd, FogColor);
     if(vertexOrigin > 2020.0 && isScoreboardNumber(fragColor) && abs(screenPos.x / screenPos.w - 0.9875) < 0.08) {
         discard;
     }

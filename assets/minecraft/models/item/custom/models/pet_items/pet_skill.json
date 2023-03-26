@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "modelengine:entity/pet_skill",
-		"particle": "Downloads/pet_skill"
+		"particle": "modelengine:entity/pet_skill"
 	},
 	"elements": [
 		{

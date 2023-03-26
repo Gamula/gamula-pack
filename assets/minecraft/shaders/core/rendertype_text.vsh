@@ -12,11 +12,11 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform mat3 IViewRotMat;
+//uniform mat3 IViewRotMat;
 uniform int FogShape;
 uniform float GameTime;
 
-out float vertexDistance;
+//out float vertexDistance;
 out float vertexOrigin;
 out vec4 vertexColor;
 flat out vec4 baseColor;
@@ -91,7 +91,7 @@ void main() {
     }
 
     screenPos = gl_Position;
-    vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
+    //vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
     vertexOrigin = length((ModelViewMat * vec4(Position, 1.0)).xyz);
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     baseColor = Color;
