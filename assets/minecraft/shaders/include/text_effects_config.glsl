@@ -46,12 +46,6 @@ TEXT_EFFECT(240, 240, 32) {
     apply_shimmer();
 }
 
-TEXT_EFFECT(240, 240, 34) {
-    override_text_color(rgb(255, 80, 63));
-    override_shadow_color(rgb(20, 80, 90));
-    apply_shimmer();
-}
-
 TEXT_EFFECT(240, 240, 36) {
     override_text_color(rgb(255, 255, 255));
     apply_chromatic_abberation();
@@ -125,4 +119,10 @@ TEXT_EFFECT(240, 240, 92) {
 
 TEXT_EFFECT(240, 240, 96) {
     apply_non_binary_pride();
+}
+
+TEXT_EFFECT(240, 240, 100) {
+    override_text_color(rgb(255, 80, 63));
+    override_shadow_color(rgb(20, 80, 90));
+    apply_shimmer();
 }
