@@ -2072,6 +2072,51 @@
       ],
       "height": 9
     },
+    {
+      "file": "gamula/titles/title_glitch_white.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "浴"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_glitch_cottoncandy.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "深"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_glitch_3d.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "游"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_glitch_yellow.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "渐"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/title_glitch_wave.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "温"
+      ],
+      "height": 9
+    },
     {"file":"gamula/titles/tags/spring/caterpillar.png","ascent":8,"type":"bitmap","chars":["怜"],"height":9},
     {"file":"gamula/titles/tags/spring/cherry_blossom.png","ascent":8,"type":"bitmap","chars":["恨"],"height":9},
     {"file":"gamula/titles/tags/spring/chick.png","ascent":8,"type":"bitmap","chars":["悄"],"height":9},
