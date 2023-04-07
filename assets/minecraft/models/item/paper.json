@@ -103,7 +103,7 @@
         {"predicate": {"custom_model_data": 214},"model": "item/custom/fishing/fire_eel"},
         {"predicate": {"custom_model_data": 215},"model": "item/custom/fishing/fish_bone"},
         {"predicate": {"custom_model_data": 216},"model": "item/custom/fishing/gemfish"},
-        {"predicate": {"custom_model_data": 217},"model": "item/custom/fishing/greenbarb"},
+        {"predicate": {"custom_model_data": 217},"model": "item/custom/fishing/green_barb"},
         {"predicate": {"custom_model_data": 218},"model": "item/custom/fishing/greenfish"},
         {"predicate": {"custom_model_data": 219},"model": "item/custom/fishing/icefish"},
         {"predicate": {"custom_model_data": 220},"model": "item/custom/fishing/jellyfish"},
