@@ -93,7 +93,7 @@
         {"predicate": {"custom_model_data": 204},"model": "item/custom/fishing/bream"},
         {"predicate": {"custom_model_data": 205},"model": "item/custom/fishing/bubblefish"},
         {"predicate": {"custom_model_data": 206},"model": "item/custom/fishing/catfish"},
-        {"predicate": {"custom_model_data": 207},"model": "item/custom/fishing/chromius"},
+        {"predicate": {"custom_model_data": 207},"model": "item/custom/fishing/chromis"},
         {"predicate": {"custom_model_data": 208},"model": "item/custom/fishing/common_fishing_bait"},
         {"predicate": {"custom_model_data": 209},"model": "item/custom/fishing/coralfish"},
         {"predicate": {"custom_model_data": 210},"model": "item/custom/fishing/corn_bait"},
