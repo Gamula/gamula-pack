@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"fishing_pack:item/lava_anthias"}}
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "gamula/fishing/lava_anthias"
+	}
+}

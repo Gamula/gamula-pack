@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"fishing_pack:item/pearl"}}
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "gamula/fishing/pearl"
+	}
+}

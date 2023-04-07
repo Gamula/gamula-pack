@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"fishing_pack:item/rosy_barb"}}
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "gamula/fishing/rosy_barb"
+	}
+}
