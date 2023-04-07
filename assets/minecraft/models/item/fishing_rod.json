@@ -17,7 +17,7 @@
         {"predicate": {"custom_model_data": 5, "cast": 1}, "model": "item/custom/rods/end_fishing_rod_cast"},
         {"predicate": {"custom_model_data": 6}, "model": "item/custom/rods/gemstone_fishing_rod"},
         {"predicate": {"custom_model_data": 6, "cast": 1}, "model": "item/custom/rods/gemstone_fishing_rod_cast"},
-        {"predicate": {"custom_model_data": 7}, "model": "item/custom/rods/copper_fishing_rod"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/custom/rods/golden_fishing_rod"},
         {"predicate": {"custom_model_data": 7, "cast": 1}, "model": "item/custom/rods/golden_fishing_rod_cast"},
         {"predicate": {"custom_model_data": 8}, "model": "item/custom/rods/ice_fishing_rod"},
         {"predicate": {"custom_model_data": 8, "cast": 1}, "model": "item/custom/rods/ice_fishing_rod_cast"},
