@@ -2117,6 +2117,11 @@
       ],
       "height": 9
     },
+    {"file":"gamula/titles/tags/easter/egg_1.png","ascent":8,"type":"bitmap","chars":["鈘"],"height":9},
+    {"file":"gamula/titles/tags/easter/egg_2.png","ascent":8,"type":"bitmap","chars":["鈙"],"height":9},
+    {"file":"gamula/titles/tags/easter/egg_3.png","ascent":8,"type":"bitmap","chars":["鈚"],"height":9},
+    {"file":"gamula/titles/tags/easter/egg_4.png","ascent":8,"type":"bitmap","chars":["鈛"],"height":9},
+    {"file":"gamula/titles/tags/easter/egg_5.png","ascent":8,"type":"bitmap","chars":["鈜"],"height":9},
     {"file":"gamula/titles/tags/spring/caterpillar.png","ascent":8,"type":"bitmap","chars":["怜"],"height":9},
     {"file":"gamula/titles/tags/spring/cherry_blossom.png","ascent":8,"type":"bitmap","chars":["恨"],"height":9},
     {"file":"gamula/titles/tags/spring/chick.png","ascent":8,"type":"bitmap","chars":["悄"],"height":9},
