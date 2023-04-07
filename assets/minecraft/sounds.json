@@ -1,4 +1,179 @@
 {
+	"littleroom.azriel.book_recall":{
+		"sounds": [
+			"littleroom/azriel/book_recall"
+		]
+    },
+	"littleroom.azriel.condemnation01":{
+		"sounds": [
+			"littleroom/azriel/condemnation01"
+		]
+    },
+	"littleroom.azriel.condemnation02":{
+		"sounds": [
+			"littleroom/azriel/condemnation02"
+		]
+    },
+	"littleroom.azriel.ground_impact01":{
+		"sounds": [
+			"littleroom/azriel/ground_impact01"
+		]
+    },
+	"littleroom.azriel.ground_impact02":{
+		"sounds": [
+			"littleroom/azriel/ground_impact02"
+		]
+    },
+	"littleroom.azriel.impact01":{
+		"sounds": [
+			"littleroom/azriel/impact01"
+		]
+    },
+	"littleroom.azriel.impact02":{
+		"sounds": [
+			"littleroom/azriel/impact02"
+		]
+    },
+	"littleroom.azriel.impact03":{
+		"sounds": [
+			"littleroom/azriel/impact03"
+		]
+    },
+	"littleroom.azriel.impact04":{
+		"sounds": [
+			"littleroom/azriel/impact04"
+		]
+    },
+	"littleroom.azriel.isolate":{
+		"sounds": [
+			"littleroom/azriel/isolate"
+		]
+    },
+	"littleroom.azriel.magic_impact01":{
+		"sounds": [
+			"littleroom/azriel/magic_impact01"
+		]
+    },
+	"littleroom.azriel.magic_impact02":{
+		"sounds": [
+			"littleroom/azriel/magic_impact02"
+		]
+    },
+	"littleroom.azriel.magic_impact03":{
+		"sounds": [
+			"littleroom/azriel/magic_impact03"
+		]
+    },
+	"littleroom.azriel.minion_death":{
+		"sounds": [
+			"littleroom/azriel/minion_death"
+		]
+    },
+	"littleroom.azriel.minion_spawn":{
+		"sounds": [
+			"littleroom/azriel/minion_spawn"
+		]
+    },
+	"littleroom.azriel.swordimpact01":{
+		"sounds": [
+			"littleroom/azriel/swordimpact01"
+		]
+    },
+	"littleroom.azriel.swordimpact02":{
+		"sounds": [
+			"littleroom/azriel/swordimpact02"
+		]
+    },
+	"littleroom.azriel.swordimpact03":{
+		"sounds": [
+			"littleroom/azriel/swordimpact03"
+		]
+    },
+	"littleroom.azriel.swordimpact04":{
+		"sounds": [
+			"littleroom/azriel/swordimpact04"
+		]
+    },
+	"littleroom.azriel.whoosh01":{
+		"sounds": [
+			"littleroom/azriel/whoosh01"
+		]
+    },
+	"littleroom.azriel.whoosh02":{
+		"sounds": [
+			"littleroom/azriel/whoosh02"
+		]
+    },
+	"littleroom.azriel.whoosh03":{
+		"sounds": [
+			"littleroom/azriel/whoosh03"
+		]
+    },
+	"littleroom.azriel.whoosh04":{
+		"sounds": [
+			"littleroom/azriel/whoosh04"
+		]
+    },
+	"littleroom.azriel.azriel_chant01":{
+		"sounds": [
+			"littleroom/azriel/azriel_chant01"
+		]
+    },
+	"littleroom.azriel.azriel_chant02":{
+		"sounds": [
+			"littleroom/azriel/azriel_chant02"
+		]
+    },
+	"littleroom.azriel.azriel_chant03":{
+		"sounds": [
+			"littleroom/azriel/azriel_chant03"
+		]
+    },
+	"littleroom.azriel.azriel_death":{
+		"sounds": [
+			"littleroom/azriel/azriel_death"
+		]
+    },
+	"littleroom.azriel.azriel_die01":{
+		"sounds": [
+			"littleroom/azriel/azriel_die01"
+		]
+    },
+	"littleroom.azriel.azriel_die02":{
+		"sounds": [
+			"littleroom/azriel/azriel_die02"
+		]
+    },
+	"littleroom.azriel.azriel_grunt01":{
+		"sounds": [
+			"littleroom/azriel/azriel_grunt01"
+		]
+    },
+	"littleroom.azriel.azriel_grunt02":{
+		"sounds": [
+			"littleroom/azriel/azriel_grunt02"
+		]
+    },
+	"littleroom.azriel.azriel_grunt03":{
+		"sounds": [
+			"littleroom/azriel/azriel_grunt03"
+		]
+    },
+	"littleroom.azriel.azriel_laugh01":{
+		"sounds": [
+			"littleroom/azriel/azriel_laugh01"
+		]
+    },
+	"littleroom.azriel.azriel_laugh02":{
+		"sounds": [
+			"littleroom/azriel/azriel_laugh02"
+		]
+    },
+	"littleroom.azriel.azriel_laugh03":{
+		"sounds": [
+			"littleroom/azriel/azriel_laugh03"
+		]
+    },
 	"littleroom.anubis.groundcrack1":{
 		"sounds": [
 			"littleroom/anubis/groundcrack1"
