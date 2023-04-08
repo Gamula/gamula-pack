@@ -1850,6 +1850,7 @@
         {"predicate": {"custom_model_data": 20106},"model": "item/custom/cosmetics/hats/bear_hat"},
         {"predicate": {"custom_model_data": 20107},"model": "item/custom/cosmetics/hats/frog_hat"},
         {"predicate": {"custom_model_data": 20108},"model": "item/custom/cosmetics/hats/rabbit_ears"},
+        {"predicate": {"custom_model_data": 20109},"model": "item/custom/cosmetics/hats/mrpotato_head"},
         {"predicate": {"custom_model_data": 30001},"model": "item/custom/cosmetics/props/brown_bear_claw"},
         {"predicate": {"custom_model_data": 30002},"model": "item/custom/cosmetics/props/knight_sword"},
         {"predicate": {"custom_model_data": 30003},"model": "item/custom/cosmetics/props/krusty_krab_spatula"},
