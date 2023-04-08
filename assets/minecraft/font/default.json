@@ -347,6 +347,15 @@
     {
       "ascent": 6,
       "chars": [
+        "简"
+      ],
+      "file": "gamula/icons/symbol_easter_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "ꌀ"
       ],
       "file": "gamula/icons/symbol_fishing_icon.png",
