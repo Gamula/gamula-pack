@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [24, 24],
 	"textures": {
-		"0": "gamula/cosmetics/hats/bear_hat",
-		"particle": "gamula/cosmetics/hats/bear_hat"
+		"0": "gamula/cosmetics/hats/bear_head",
+		"particle": "gamula/cosmetics/hats/bear_head"
 	},
 	"elements": [
 		{
