@@ -27,7 +27,7 @@ jobs:
       if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
       uses: ComunidadAylas/PackSquash-action@v3
       with:
-        packsquash_version: latest
+        packsquash_version: edge
         artifact_name: gamula
         allow_optifine_mod: true
         minify_shaders: false
