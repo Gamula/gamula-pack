@@ -597,15 +597,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_crafting.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼜"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/shop/fishing/gui_fisherman.png",
       "ascent": 28,
       "type": "bitmap",
