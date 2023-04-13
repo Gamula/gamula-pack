@@ -1281,7 +1281,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/cratess/gui_crate_opening_monthly.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
