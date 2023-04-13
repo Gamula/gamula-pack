@@ -259,7 +259,7 @@
         "⼉⽐",
         "⽑⽒"
       ],
-      "file": "gamula/ui/ui_gamula_logo.png",
+      "file": "gamula/ui/gui/exit/ui_logo.png",
       "type": "bitmap"
     },
     {
@@ -269,11 +269,11 @@
         "念忽",
         "忠怎"
       ],
-      "file": "gamula/ui/ui_gamula_logo.png",
+      "file": "gamula/ui/gui/exit/ui_logo.png",
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/ui_exit_screen_gamula.png",
+      "file": "gamula/ui/gui/exit/ui_exit_screen.png",
       "ascent": 128,
       "type": "bitmap",
       "chars": [
@@ -282,7 +282,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/ui_exit_screen_gamula_alt.png",
+      "file": "gamula/ui/gui/exit/ui_exit_screen_alt.png",
       "ascent": 32,
       "type": "bitmap",
       "chars": [
@@ -291,7 +291,7 @@
       "height": 53
     },
     {
-      "file": "gamula/ui/ui_exit_screen_gamula_disconnect.png",
+      "file": "gamula/ui/gui/exit/ui_exit_screen_disconnect.png",
       "ascent": 7,
       "type": "bitmap",
       "chars": [
@@ -300,7 +300,7 @@
       "height": 7
     },
     {
-      "file": "gamula/ui/ui_overlay_fade.png",
+      "file": "gamula/ui/gui/exit/ui_overlay_fade.png",
       "chars": [
         ""
       ],
@@ -534,47 +534,11 @@
       ]
     },
     {
-      "file": "gamula/ui/gui/gui_blueprints.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼙"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_boosters.png",
+      "file": "gamula/ui/gui/islands/boosters/gui_boosters.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
         "喭"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_brewing.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼚"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_calendar.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⋊"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_casino.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "㰎"
       ],
       "height": 256
     },
@@ -593,15 +557,6 @@
       "type": "bitmap",
       "chars": [
         "홴"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_casino_limbo.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "㰐"
       ],
       "height": 256
     },
@@ -642,15 +597,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_casino_mines.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "㰏"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/gui_crafting.png",
       "ascent": 29,
       "type": "bitmap",
@@ -660,25 +606,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_disenchanting.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼞"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_enchanting.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼟"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_fisherman.png",
+      "file": "gamula/ui/gui/shop/fishing/gui_fisherman.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -786,7 +714,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_harvester_tool.png",
+      "file": "gamula/ui/gui/tools/gui_harvester_tool.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -818,15 +746,6 @@
       "type": "bitmap",
       "chars": [
         "䶏"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/auction/gui_auction_expired.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼠"
       ],
       "height": 256
     },
@@ -876,7 +795,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_mobcoin.png",
+      "file": "gamula/ui/gui/shop/mobcoin/gui_mobcoin.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -885,7 +804,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_shop_void.png",
+      "file": "gamula/ui/gui/shop/gui_shop_void.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -894,7 +813,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_wof.png",
+      "file": "gamula/ui/gui/rewards/gui_wof.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -903,16 +822,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_wof_valentine.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "浇"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_messages.png",
+      "file": "gamula/ui/gui/cosmetics/messages/gui_messages.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -921,7 +831,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_tags_menu.png",
+      "file": "gamula/ui/gui/cosmetics/tags/gui_tags_menu.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -930,7 +840,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_tags_global.png",
+      "file": "gamula/ui/gui/cosmetics/tags/gui_tags_global.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -939,7 +849,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_tags_server.png",
+      "file": "gamula/ui/gui/cosmetics/tags/gui_tags_server.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1083,38 +993,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_dealer.png",
+      "file": "gamula/ui/gui/shop/dealer/gui_dealer.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
         "髚"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/tasks/gui_tasks_menu.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "让"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_custom_rod.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "性"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_gen_fishing.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "凉"
       ],
       "height": 256
     },
@@ -1173,16 +1056,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_missions.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼍"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_prefix.png",
+      "file": "gamula/ui/gui/cosmetics/prefix/gui_prefix.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1191,16 +1065,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_raids.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼥"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/gui_streaks.png",
+      "file": "gamula/ui/gui/rewards/gui_streaks.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1209,7 +1074,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_outposts.png",
+      "file": "gamula/ui/gui/pvp/gui_outposts.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1218,7 +1083,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_stacked.png",
+      "file": "gamula/ui/gui/islands/blocks/gui_stacked.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1254,7 +1119,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_timeplayed_milestones.png",
+      "file": "gamula/ui/gui/rewards/gui_timeplayed_milestones.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1272,70 +1137,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenant_lancers.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼩"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenant_swordsman.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⾡"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenant_viking.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⾢"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenants_generic.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼧"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenants_selection.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼈"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenants_shop.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼊"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_covenants_tasks.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⼋"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_alchemy.png",
+      "file": "gamula/ui/gui/skills/gui_skill_alchemy.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1344,7 +1146,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_combat.png",
+      "file": "gamula/ui/gui/skills/gui_skill_combat.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1353,25 +1155,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_crafting.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⾥"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_enchanting.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "⾦"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_farming.png",
+      "file": "gamula/ui/gui/skills/gui_skill_farming.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1380,7 +1164,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_fishing.png",
+      "file": "gamula/ui/gui/skills/gui_skill_fishing.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1389,7 +1173,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_mining.png",
+      "file": "gamula/ui/gui/skills/gui_skill_mining.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1398,7 +1182,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skill_woodcutting.png",
+      "file": "gamula/ui/gui/skills/gui_skill_woodcutting.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1407,7 +1191,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skills_generic.png",
+      "file": "gamula/ui/gui/skills/gui_skills_generic.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1416,7 +1200,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skills_top.png",
+      "file": "gamula/ui/gui/skills/gui_skills_top.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1425,7 +1209,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/covenant_skills/gui_skills_level.png",
+      "file": "gamula/ui/gui/skills/gui_skills_level.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1497,25 +1281,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_valentines.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "沉"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_hero.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "板"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_monthly.png",
+      "file": "gamula/ui/gui/cratess/gui_crate_opening_monthly.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1524,7 +1290,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_crimson.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_crimson.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1533,7 +1299,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_crystal.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_crystal.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1542,7 +1308,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_magma.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_magma.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1551,7 +1317,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_void.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_void.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1560,7 +1326,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_opening_vote.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_vote.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1569,34 +1335,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_valentines.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "泡"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_hero.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "枪"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_monthly.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "薍"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_crimson.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_crimson.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1605,7 +1344,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_crystal.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_crystal.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1614,7 +1353,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_magma.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_magma.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1623,7 +1362,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_void.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_void.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1632,7 +1371,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crate/gui_crate_preview_vote.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_vote.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
