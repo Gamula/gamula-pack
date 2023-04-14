@@ -320,15 +320,6 @@
     {
       "ascent": 7,
       "chars": [
-        "풮"
-      ],
-      "file": "gamula/icons/symbol_shield.png",
-      "height": 8,
-      "type": "bitmap"
-    },
-    {
-      "ascent": 7,
-      "chars": [
         "㮉"
       ],
       "file": "gamula/icons/symbol_goobits.png",
