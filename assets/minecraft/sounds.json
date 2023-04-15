@@ -829,6 +829,66 @@
 			"littleroom/amethystgolem/shardout"
 		]
 	},
+	   "littleroom.etherealreaver.dash":{
+		 "sounds": [
+			"littleroom/etherealreaver/dash"
+		 ]
+	},
+   "littleroom.etherealreaver.impact01":{
+		 "sounds": [
+			"littleroom/etherealreaver/impact01"
+		 ]
+	},
+   "littleroom.etherealreaver.impact02":{
+		 "sounds": [
+			"littleroom/etherealreaver/impact02"
+		 ]
+	},
+   "littleroom.etherealreaver.impact03":{
+		 "sounds": [
+			"littleroom/etherealreaver/impact03"
+		 ]
+	},
+   "littleroom.etherealreaver.impact04":{
+		 "sounds": [
+			"littleroom/etherealreaver/impact04"
+		 ]
+	},
+   "littleroom.etherealreaver.lost_souls":{
+		 "sounds": [
+			"littleroom/etherealreaver/lost_souls"
+		 ]
+	},
+   "littleroom.etherealreaver.swing1":{
+		 "sounds": [
+			"littleroom/etherealreaver/swing1"
+		 ]
+	},
+   "littleroom.etherealreaver.swing2":{
+		 "sounds": [
+			"littleroom/etherealreaver/swing2"
+		 ]
+	},
+   "littleroom.etherealreaver.swing3":{
+		 "sounds": [
+			"littleroom/etherealreaver/swing3"
+		 ]
+	},
+   "littleroom.etherealreaver.swing4":{
+		 "sounds": [
+			"littleroom/etherealreaver/swing4"
+		 ]
+	},
+   "littleroom.etherealreaver.swing5":{
+		 "sounds": [
+			"littleroom/etherealreaver/swing5"
+		 ]
+	},
+   "littleroom.etherealreaver.teleport":{
+		 "sounds": [
+			"littleroom/etherealreaver/teleport"
+		 ]
+	}
 	"samus.scorpion_attack": {
 		"category": "master",
 		"sounds": [
@@ -892,6 +952,7 @@
 			"samus/scorpion/spit_venom"
 		]
 	},
+
 	"block.wood.hit": {
 		"sounds": [],
 		"replace": true
