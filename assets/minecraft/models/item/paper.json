@@ -4,6 +4,7 @@
         "layer0": "item/paper"
     },
     "overrides": [
+        {"predicate": {"custom_model_data": 31},"model": "item/custom/icons/misc/banknote"},
         {"predicate": {"custom_model_data": 32},"model": "item/custom/others/coalgenerator"},
         {"predicate": {"custom_model_data": 33},"model": "item/custom/others/goldgenerator"},
         {"predicate": {"custom_model_data": 34},"model": "item/custom/others/emeraldgenerator"},

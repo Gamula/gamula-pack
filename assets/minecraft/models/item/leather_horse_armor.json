@@ -2182,6 +2182,8 @@
         {"predicate": {"custom_model_data": 45022},"model": "item/custom/models/seasonal_valentine/red_heart_balloon"},
         {"predicate": {"custom_model_data": 45023},"model": "item/custom/models/seasonal_valentine/group_heart_balloon"},
         {"predicate": {"custom_model_data": 45024},"model": "item/custom/models/seasonal_valentine/cupid"},
+        {"predicate": {"custom_model_data": 45025},"model": "item/custom/models/kriger_egg"},
+        {"predicate": {"custom_model_data": 45026},"model": "item/custom/models/skog_egg"},
         {"predicate": {"custom_model_data": 50000},"model": "item/custom/icons/overlay_tone"},
         {"predicate": {"custom_model_data": 58000},"model": "item/custom/furniture/build/small_wall_flag"},
         {"predicate": {"custom_model_data": 58001},"model": "item/custom/furniture/build/obelisk_glyphs"},
