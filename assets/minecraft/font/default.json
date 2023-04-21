@@ -253,6 +253,15 @@
       "type": "bitmap"
     },
     {
+      "ascent": 8,
+      "chars": [
+        "试"
+      ],
+      "file": "item/nautilus_shell.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
       "ascent": 24,
       "height": 80,
       "chars": [
@@ -1448,6 +1457,24 @@
       "type": "bitmap",
       "chars": [
         "⼤"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_exp.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "讨"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_deepsea.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "吧"
       ],
       "height": 256
     },
