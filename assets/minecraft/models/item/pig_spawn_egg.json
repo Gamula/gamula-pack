@@ -18,6 +18,13 @@
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/models/ant_farm"},
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/skog_bonsai"},
         {"predicate": {"custom_model_data": 19}, "model": "item/custom/models/pig"},
-        {"predicate": {"custom_model_data": 22}, "model": "item/custom/models/ball_box"}
+        {"predicate": {"custom_model_data": 22}, "model": "item/custom/models/ball_box"},
+        {"predicate": {"custom_model_data": 23},"model": "item/custom/models/magic_lantern/magic_lantern"},
+        {"predicate": {"custom_model_data": 24},"model": "item/custom/models/magic_lantern/magic_lantern_debris"},
+        {"predicate": {"custom_model_data": 25},"model": "item/custom/models/magic_lantern/magic_lantern_diamond"},
+        {"predicate": {"custom_model_data": 26},"model": "item/custom/models/magic_lantern/magic_lantern_emerald"},
+        {"predicate": {"custom_model_data": 27},"model": "item/custom/models/magic_lantern/magic_lantern_gold"},
+        {"predicate": {"custom_model_data": 28},"model": "item/custom/models/magic_lantern/magic_lantern_lapis"},
+        {"predicate": {"custom_model_data": 29},"model": "item/custom/models/magic_lantern/magic_lantern_redstone"}
     ]
 }
