@@ -1,4 +1,19 @@
 {
+	"littleroom.magiclantern.apply_element":{
+		"sounds": [
+		"littleroom/magiclantern/apply_element"
+		]
+    },
+    "littleroom.magiclantern.detect":{
+		"sounds": [
+		"littleroom/magiclantern/detect"
+		]
+    },
+    "littleroom.magiclantern.set_down":{
+		"sounds": [
+		"littleroom/magiclantern/set_down"
+		]
+    },
 	"littleroom.kriger.awaken":{
 		"sounds": [
 			"littleroom/kriger/awaken"
