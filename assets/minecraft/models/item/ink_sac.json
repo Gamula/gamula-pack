@@ -40,6 +40,7 @@
         {"predicate": {"custom_model_data": 49}, "model": "item/custom/models/quest_equipment/petnet_yellow"},
         {"predicate": {"custom_model_data": 50}, "model": "item/custom/models/quest_equipment/metal_detector"},
         {"predicate": {"custom_model_data": 52}, "model": "item/custom/models/ethereal_reaver_corruption"},
-        {"predicate": {"custom_model_data": 53}, "model": "item/custom/models/kriger_deathbreath"}
+        {"predicate": {"custom_model_data": 53}, "model": "item/custom/models/kriger_deathbreath"},
+        {"predicate": {"custom_model_data": 54},"model": "item/custom/models/magic_lantern/magic_lantern_redstone"}
     ] 
 }
