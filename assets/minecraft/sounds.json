@@ -1,4 +1,59 @@
 {
+	"littleroom.kraken.death":{
+		"sounds": [
+		"littleroom/kraken/death"
+		]
+    },
+	"littleroom.kraken.ink":{
+		"sounds": [
+		"littleroom/kraken/ink"
+		]
+    },
+	"littleroom.kraken.swing":{
+		"sounds": [
+		"littleroom/kraken/swing"
+		]
+    },
+	"littleroom.kraken.whirlpool":{
+		"sounds": [
+		"littleroom/kraken/whirlpool"
+		]
+    },
+	"littleroom.kraken.bite":{
+		"sounds": [
+		"littleroom/kraken/bite"
+		]
+    },
+	"littleroom.kraken.bite_hit":{
+		"sounds": [
+		"littleroom/kraken/bite_hit"
+		]
+    },
+	"littleroom.kraken.hurt":{
+		"sounds": [
+		"littleroom/kraken/hurt"
+		]
+    },
+	"littleroom.kraken.idle1":{
+		"sounds": [
+		"littleroom/kraken/idle1"
+		]
+    },
+	"littleroom.kraken.idle2":{
+		"sounds": [
+		"littleroom/kraken/idle2"
+		]
+    },
+	"littleroom.kraken.idle3":{
+		"sounds": [
+		"littleroom/kraken/idle3"
+		]
+    },
+	"littleroom.kraken.awaken":{
+		"sounds": [
+		"littleroom/kraken/awaken"
+		]
+    },
 	"littleroom.magiclantern.apply_element":{
 		"sounds": [
 		"littleroom/magiclantern/apply_element"
