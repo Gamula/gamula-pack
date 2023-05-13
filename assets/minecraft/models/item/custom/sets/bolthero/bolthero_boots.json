@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/bolthero/bolthero_boots"
+	},
+	"gui_light": "front",
+	"display": {}
+}

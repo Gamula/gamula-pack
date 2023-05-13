@@ -4,21 +4,15 @@
         "layer0": "item/netherite_hoe"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/models/enderdragon_set/enderdragon_hoe"},
-        {"predicate": {"custom_model_data": 2}, "model": "item/custom/models/littleduck_set/littleduck_hoe"},
-        {"predicate": {"custom_model_data": 3}, "model": "item/custom/models/purpleworld_set/purpleworld_hoe"},
-        {"predicate": {"custom_model_data": 4}, "model": "item/custom/models/3d_default_set/diamond/diamond_hoe"},
-        {"predicate": {"custom_model_data": 5}, "model": "item/custom/models/3d_default_set/golden/golden_hoe"},
-        {"predicate": {"custom_model_data": 6}, "model": "item/custom/models/3d_default_set/iron/iron_hoe"},
-        {"predicate": {"custom_model_data": 7}, "model": "item/custom/models/3d_default_set/netherite/netherite_hoe"},
-        {"predicate": {"custom_model_data": 8}, "model": "item/custom/models/3d_default_set/stone/stone_hoe"},
-        {"predicate": {"custom_model_data": 9}, "model": "item/custom/models/3d_default_set/wooden/wooden_hoe"},
-        {"predicate": {"custom_model_data": 10}, "model": "item/custom/models/glitch_set/hoe"},
-        {"predicate": {"custom_model_data": 11}, "model": "item/custom/models/thunderbolt_set/hoe"},
-        {"predicate": {"custom_model_data": 12}, "model": "item/custom/models/bonekeeper_set/hoe"},
-        {"predicate": {"custom_model_data": 13}, "model": "item/custom/models/lunar_set/hoe"},
-        {"predicate": {"custom_model_data": 14}, "model": "item/custom/models/oni_set/hoe"},
-        {"predicate": {"custom_model_data": 15}, "model": "item/custom/models/sweetheart_set/hoe"},
-        {"predicate": {"custom_model_data": 16}, "model": "item/custom/models/easter_set/hoe"}
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/sets/enderdragon/enderdragon_hoe"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/sets/littleduck/littleduck_hoe"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/custom/sets/purpleworld/purpleworld_hoe"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/sets/glitch/hoe"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/sets/thunderbolt/hoe"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/custom/sets/bonekeeper/hoe"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/custom/sets/lunar/hoe"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/custom/sets/oni/hoe"},
+        {"predicate": {"custom_model_data": 15}, "model": "item/custom/sets/sweetheart/hoe"},
+        {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/easter/hoe"}
     ]
 }

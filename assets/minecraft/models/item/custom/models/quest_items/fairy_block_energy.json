@@ -1,7 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"textures": {
-	"all": "gamula/models/quest_items/fairy_block_energy",
-	"particles": "gamula/models/quest_items/fairy_block_energy"
-	}
-}

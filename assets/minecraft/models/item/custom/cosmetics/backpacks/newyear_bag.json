@@ -1,0 +1,170 @@
+{
+	"credit": "Design by Tourne_Vis",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "gamula/cosmetics/backpacks/newyear_bag"
+	},
+	"elements": [
+		{
+			"name": "bouteille",
+			"from": [3.7, -2, 5.5],
+			"to": [9.7, 10, 11.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7, 4, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 4, 1.5, 7], "texture": "#0"},
+				"east": {"uv": [1.5, 4, 3, 7], "texture": "#0"},
+				"south": {"uv": [3, 4, 4.5, 7], "texture": "#0"},
+				"west": {"uv": [4.5, 4, 6, 7], "texture": "#0"},
+				"up": {"uv": [3.25, 8.5, 1.75, 7], "texture": "#0"},
+				"down": {"uv": [4.75, 7, 3.25, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bouteille",
+			"from": [3.2, 2, 5],
+			"to": [10.2, 7, 12],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7, 4, 8.5]},
+			"faces": {
+				"north": {"uv": [4.75, 7.75, 6.5, 9], "texture": "#0"},
+				"east": {"uv": [7.75, 6, 9.5, 7.25], "texture": "#0"},
+				"south": {"uv": [6.5, 7.75, 8.25, 9], "texture": "#0"},
+				"west": {"uv": [8.25, 0, 10, 1.25], "texture": "#0"},
+				"up": {"uv": [7.75, 7.75, 6, 6], "texture": "#0"},
+				"down": {"uv": [1.75, 7, 0, 8.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bouteille",
+			"from": [9.05, 9.7, 7],
+			"to": [12.05, 17.7, 10],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7, 14, 8.5]},
+			"faces": {
+				"north": {"uv": [8.25, 7.25, 9, 9.25], "texture": "#0"},
+				"east": {"uv": [1.75, 8.5, 2.5, 10.5], "texture": "#0"},
+				"south": {"uv": [2.5, 8.5, 3.25, 10.5], "texture": "#0"},
+				"west": {"uv": [3.25, 8.5, 4, 10.5], "texture": "#0"},
+				"up": {"uv": [5.5, 7.75, 4.75, 7], "texture": "#0"},
+				"down": {"uv": [1.75, 8.75, 1, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bouteille",
+			"from": [8.55, 15.7, 6.5],
+			"to": [12.55, 20.7, 10.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7, 14, 8.5]},
+			"faces": {
+				"north": {"uv": [3, 10.5, 4, 11.75], "texture": "#0"},
+				"east": {"uv": [2, 10.5, 3, 11.75], "texture": "#0"},
+				"south": {"uv": [1, 10.5, 2, 11.75], "texture": "#0"},
+				"west": {"uv": [0, 10.5, 1, 11.75], "texture": "#0"},
+				"up": {"uv": [2, 12.75, 1, 11.75], "texture": "#0"},
+				"down": {"uv": [1, 11.75, 0, 12.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sangle",
+			"from": [1.5, 10.4, 0.5],
+			"to": [12.5, 10.4, 6.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7, 4, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.75, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 1.5, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 2.75, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 1.5, 0], "texture": "#0"},
+				"up": {"uv": [8.25, 1.5, 5.5, 0], "texture": "#0"},
+				"down": {"uv": [8.25, 0, 5.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sangle",
+			"from": [12.5, 2.4, 0.5],
+			"to": [12.5, 10.4, 6.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7, 4, 8.5]},
+			"faces": {
+				"north": {"uv": [2, 12, 2, 14], "texture": "#0"},
+				"east": {"uv": [0, 12.75, 1.5, 14.75], "texture": "#0"},
+				"south": {"uv": [2, 14, 2, 16], "texture": "#0"},
+				"west": {"uv": [0, 12.75, 1.5, 14.75], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sangle",
+			"from": [1.5, 2.4, 0.5],
+			"to": [12.5, 10.4, 0.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7, 4, 8.5]},
+			"faces": {
+				"north": {"uv": [2.75, 0, 5.5, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [5.5, 0, 2.75, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"up": {"uv": [2.75, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [2.75, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sangle",
+			"from": [1.5, 2.4, 6.5],
+			"to": [12.5, 10.4, 6.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7, 4, 8.5]},
+			"faces": {
+				"north": {"uv": [2.75, 2, 0, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [0, 2, 2.75, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"up": {"uv": [2.75, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [2.75, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-8, 134, 33],
+			"translation": [0.5, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [7, 110, -36],
+			"translation": [-0.5, 0.25, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, -38, 33],
+			"translation": [1.25, 4.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -29, 0],
+			"translation": [1.25, 4.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [0, 24, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [-6, -16, -19],
+			"translation": [-0.25, -0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, -45, 8.25],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "bouteille",
+			"origin": [0, 16.5, 6],
+			"color": 0,
+			"boneType": "",
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "gamula/models/nightvision",
-		"particle": "gamula/models/nightvision"
+		"0": "gamula/cosmetics/hats/nightvision",
+		"particle": "gamula/cosmetics/hats/nightvision"
 	},
 	"elements": [
 		{

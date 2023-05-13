@@ -331,7 +331,7 @@
       "chars": [
         "㮉"
       ],
-      "file": "gamula/icons/symbol_goobits.png",
+      "file": "gamula/icons/symbols/symbol_goobits.png",
       "height": 8,
       "type": "bitmap"
     },
@@ -340,17 +340,8 @@
       "chars": [
         "鍑"
       ],
-      "file": "gamula/icons/symbol_streak.png",
+      "file": "gamula/icons/symbols/symbol_streak.png",
       "height": 9,
-      "type": "bitmap"
-    },
-    {
-      "ascent": 6,
-      "chars": [
-        "简"
-      ],
-      "file": "gamula/icons/symbol_easter_icon.png",
-      "height": 50,
       "type": "bitmap"
     },
     {
@@ -358,7 +349,7 @@
       "chars": [
         "ꌀ"
       ],
-      "file": "gamula/icons/symbol_fishing_icon.png",
+      "file": "gamula/icons/symbols/symbol_fishing_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -367,7 +358,7 @@
       "chars": [
         "满"
       ],
-      "file": "gamula/icons/symbol_cave_icon.png",
+      "file": "gamula/icons/symbols/symbol_cave_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -376,7 +367,7 @@
       "chars": [
         "演"
       ],
-      "file": "gamula/icons/symbol_crates_icon.png",
+      "file": "gamula/icons/symbols/symbol_crates_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -385,7 +376,7 @@
       "chars": [
         "激"
       ],
-      "file": "gamula/icons/symbol_discord_icon.png",
+      "file": "gamula/icons/symbols/symbol_discord_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -394,7 +385,7 @@
       "chars": [
         "瀑"
       ],
-      "file": "gamula/icons/symbol_goobits_icon.png",
+      "file": "gamula/icons/symbols/symbol_goobits_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -403,7 +394,7 @@
       "chars": [
         "点"
       ],
-      "file": "gamula/icons/symbol_info_icon.png",
+      "file": "gamula/icons/symbols/symbol_info_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -412,7 +403,7 @@
       "chars": [
         "然"
       ],
-      "file": "gamula/icons/symbol_cosmetics_icon.png",
+      "file": "gamula/icons/symbols/symbol_cosmetics_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -421,7 +412,7 @@
       "chars": [
         "热"
       ],
-      "file": "gamula/icons/symbol_twitter_icon.png",
+      "file": "gamula/icons/symbols/symbol_twitter_icon.png",
       "height": 50,
       "type": "bitmap"
     },
@@ -430,108 +421,9 @@
       "chars": [
         "烈"
       ],
-      "file": "gamula/icons/symbol_pvpwars_icon.png",
+      "file": "gamula/icons/symbols/symbol_pvpwars_icon.png",
       "height": 50,
       "type": "bitmap"
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/speech1.png",
-      "height": 180,
-      "ascent": 90,
-      "chars": [
-        "迷"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/speech2.png",
-      "height": 180,
-      "ascent": 90,
-      "chars": [
-        "迫"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/speech3.png",
-      "height": 180,
-      "ascent": 90,
-      "chars": [
-        "认"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/troll_elite.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "迅"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/troll_chief.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "返"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/troll_voodoo.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "连"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/adventurerhead.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "这"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/kinghead.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "运"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/minerhead.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "送"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/piratehead.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "选"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "gamula/icons/heads/tavernhead.png",
-      "height": 48,
-      "ascent": 24,
-      "chars": [
-        "逃"
-      ]
     },
     {
       "file": "gamula/ui/gui/islands/boosters/gui_boosters.png",
@@ -1524,7 +1416,7 @@
       "height": 256
     },
     {
-      "file": "gamula/titles/title_media.png",
+      "file": "gamula/titles/ranks/title_media.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1533,7 +1425,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_admin.png",
+      "file": "gamula/titles/ranks/title_admin.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1542,7 +1434,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_helper.png",
+      "file": "gamula/titles/ranks/title_helper.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1551,7 +1443,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_mod.png",
+      "file": "gamula/titles/ranks/title_mod.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1560,7 +1452,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_user.png",
+      "file": "gamula/titles/ranks/title_user.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1569,7 +1461,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_basic.png",
+      "file": "gamula/titles/tiers/title_basic.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1578,7 +1470,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_blitz.png",
+      "file": "gamula/titles/ranks/title_blitz.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1587,7 +1479,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_brawl.png",
+      "file": "gamula/titles/ranks/title_brawl.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1596,7 +1488,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_common.png",
+      "file": "gamula/titles/tiers/title_common.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1605,7 +1497,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_developer.png",
+      "file": "gamula/titles/ranks/title_developer.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1614,7 +1506,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_epic.png",
+      "file": "gamula/titles/tiers/title_epic.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1623,7 +1515,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_exotic.png",
+      "file": "gamula/titles/tiers/title_exotic.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1632,7 +1524,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_adult.png",
+      "file": "gamula/titles/pets/title_adult.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1641,7 +1533,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_glitch.png",
+      "file": "gamula/titles/ranks/title_glitch.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1650,7 +1542,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_legendary.png",
+      "file": "gamula/titles/tiers/title_legendary.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1659,7 +1551,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_inprogress.png",
+      "file": "gamula/titles/quests/title_inprogress.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1668,7 +1560,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_completed.png",
+      "file": "gamula/titles/quests/title_completed.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1677,7 +1569,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_locked.png",
+      "file": "gamula/titles/tiers/title_locked.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1686,7 +1578,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_mythic.png",
+      "file": "gamula/titles/tiers/title_mythic.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1695,7 +1587,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_owner.png",
+      "file": "gamula/titles/ranks/title_owner.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1704,7 +1596,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_paintable.png",
+      "file": "gamula/titles/tiers/title_paintable.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1713,7 +1605,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_puff.png",
+      "file": "gamula/titles/ranks/title_puff.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1722,7 +1614,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_rare.png",
+      "file": "gamula/titles/tiers/title_rare.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1731,7 +1623,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_seasonal.png",
+      "file": "gamula/titles/tiers/title_seasonal.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1740,7 +1632,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_smash.png",
+      "file": "gamula/titles/ranks/title_smash.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1749,7 +1641,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_srmod.png",
+      "file": "gamula/titles/ranks/title_srmod.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1758,7 +1650,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_twist.png",
+      "file": "gamula/titles/ranks/title_twist.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1767,7 +1659,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_unlocked.png",
+      "file": "gamula/titles/tiers/title_unlocked.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1776,7 +1668,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_active.png",
+      "file": "gamula/titles/pets/title_active.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1785,7 +1677,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_inactive.png",
+      "file": "gamula/titles/pets/title_inactive.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1794,7 +1686,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_disabled.png",
+      "file": "gamula/titles/pets/title_disabled.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1803,7 +1695,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_vip.png",
+      "file": "gamula/titles/ranks/title_vip.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1830,7 +1722,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_glitch_white.png",
+      "file": "gamula/titles/ranks/title_glitch_white.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1839,7 +1731,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_glitch_cottoncandy.png",
+      "file": "gamula/titles/ranks/title_glitch_cottoncandy.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1848,7 +1740,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_glitch_3d.png",
+      "file": "gamula/titles/ranks/title_glitch_3d.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1857,7 +1749,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_glitch_yellow.png",
+      "file": "gamula/titles/ranks/title_glitch_yellow.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1866,7 +1758,7 @@
       "height": 9
     },
     {
-      "file": "gamula/titles/title_glitch_wave.png",
+      "file": "gamula/titles/ranks/title_glitch_wave.png",
       "ascent": 8,
       "type": "bitmap",
       "chars": [
@@ -1922,8 +1814,8 @@
     {"file":"gamula/titles/tags/valentine/teddybear.png","ascent":8,"type":"bitmap","chars":["烛"],"height":9},
     {"file":"gamula/titles/tags/valentine/wrapped_heart.png","ascent":8,"type":"bitmap","chars":["爆"],"height":9},
     {"file":"gamula/titles/tags/dragon.png","ascent":8,"type":"bitmap","chars":["蟹"],"height":9},
-    {"file":"gamula/titles/title_origin_mvp.png","ascent":8,"type":"bitmap","chars":["汤"],"height":9},
-    {"file":"gamula/titles/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
+    {"file":"gamula/titles/tags/title_origin_mvp.png","ascent":8,"type":"bitmap","chars":["汤"],"height":9},
+    {"file":"gamula/titles/ranks/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
     {"file":"gamula/titles/tags/air_top.png","ascent":8,"type":"bitmap","chars":["打","扔"],"height":9},
     {"file":"gamula/titles/tags/comp_top.png","ascent":8,"type":"bitmap","chars":["扒","拖","托","扫","扣"],"height":9},
     {"file":"gamula/titles/tags/diamond_top.png","ascent":8,"type":"bitmap","chars":["抗","扛","把","抱","报","找","挤","技"],"height":9},
@@ -1937,7 +1829,7 @@
     {"file":"gamula/titles/tags/retro_top.png","ascent":8,"type":"bitmap","chars":["偷","偏","像","妖","行","彻"],"height":9},
     {"file":"gamula/titles/tags/void_top.png","ascent":8,"type":"bitmap","chars":["她"],"height":9},
     {"file":"gamula/titles/tags/xolar_top.png","ascent":8,"type":"bitmap","chars":["往","很","得","德","妈","奶"],"height":9},
-    {"file":"gamula/titles/title_rank_icon.png","ascent":8,"type":"bitmap","chars":["熊","熟","燕","煮","熬","焦","本"],"height":9},
+    {"file":"gamula/icons/ranks/title_rank_icon.png","ascent":8,"type":"bitmap","chars":["熊","熟","燕","煮","熬","焦","本"],"height":9},
     {"file":"gamula/titles/tags/christmas/christmas_sprite.png","ascent":8,"type":"bitmap","chars":["姐妹始姓", "娃娘婚婆", "娶婴嫁虹", "蚁虾蛇蝶"],"height":9},
     {"file":"gamula/ui/splits/black_pixel.png","chars":[""],"height":5,"ascent":-5000,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box.png","height":1500,"type":"bitmap"},{"ascent":10,"chars":[""],"file":"gamula/ui/splits/black_box.png","height":300,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box_30.png","height":1200,"type":"bitmap"},{"ascent":250,"chars":[""],"file":"gamula/ui/splits/black_box_70.png","height":1200,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-3,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-4,"ascent":-32678,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-5,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-6,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-7,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-8,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-9,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-10,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-18,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-34,"ascent":-32768,"type":"bitmap"},{"file":"gamula/ui/splits/pixel_largesplit.png","chars":[""],"height":-66,"ascent":-32768,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-8,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-9,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-10,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-18,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-34,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-66,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-130,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-258,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-514,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-1026,"type":"bitmap"},{"ascent":-32770,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":-32770,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":0,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":1,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":2,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":15,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":31,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":63,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":127,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":255,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":511,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":1023,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_split.png","height":32767,"type":"bitmap"},{"ascent":-32768,"chars":["ퟣ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-4,"type":"bitmap"},{"ascent":-32768,"chars":["ퟨ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-8,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-9,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-10,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-18,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-34,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-66,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-130,"type":"bitmap"},{"ascent":-32768,"chars":["ퟡ"],"file":"gamula/ui/splits/pixel_nosplit.png","height":-163,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-258,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-514,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":-1026,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":0,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":1,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":2,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":3,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":4,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":5,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":6,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":7,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":15,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":31,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":63,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":127,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":255,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":511,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":1023,"type":"bitmap"},{"ascent":-32768,"chars":[""],"file":"gamula/ui/splits/pixel_nosplit.png","height":32767,"type":"bitmap"}
   ]

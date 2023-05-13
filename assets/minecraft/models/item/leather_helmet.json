@@ -5,12 +5,11 @@
         "layer1": "item/leather_helmet_overlay"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/armor/speedster_helmet"},
-        {"predicate": {"custom_model_data": 2}, "model": "item/custom/armor/enderdragon_helmet"},
-        {"predicate": {"custom_model_data": 10}, "model": "item/custom/armor/oni_helmet"},
-        {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_helmet"},
-        {"predicate": {"custom_model_data": 12}, "model": "item/custom/armor/easter_helmet"},
-        {"predicate": {"custom_model_data": 13}, "model": "item/custom/armor/buzzlightyear_helmet"},
-        {"predicate": {"custom_model_data": 14}, "model": "item/custom/armor/radioactive_helmet"}
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/sets/enderdragon/enderdragon_helmet"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/sets/oni/oni_helmet"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/sets/sweetheart/sweetheart_helmet"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/custom/sets/easter/easter_helmet"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/custom/sets/buzzlightyear/buzzlightyear_helmet"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/custom/sets/radioactive/radioactive_helmet"}
     ]
 }

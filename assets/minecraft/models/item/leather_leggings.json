@@ -5,19 +5,18 @@
         "layer1": "item/leather_leggings_overlay"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/armor/thunderbolt_leggings"},
-        {"predicate": {"custom_model_data": 2}, "model": "item/custom/armor/enderdragon_leggings"},
-        {"predicate": {"custom_model_data": 3}, "model": "item/custom/armor/jester_leggings"},
-        {"predicate": {"custom_model_data": 4}, "model": "item/custom/armor/bonekeeper_leggings"},
-        {"predicate": {"custom_model_data": 5}, "model": "item/custom/armor/lunar_leggings"},
-        {"predicate": {"custom_model_data": 6}, "model": "item/custom/armor/ironhero_leggings"},
-        {"predicate": {"custom_model_data": 7}, "model": "item/custom/armor/bathero_leggings"},
-        {"predicate": {"custom_model_data": 8}, "model": "item/custom/armor/bolthero_leggings"},
-        {"predicate": {"custom_model_data": 9}, "model": "item/custom/armor/spiderhero_leggings"},
-        {"predicate": {"custom_model_data": 10}, "model": "item/custom/armor/oni_leggings"},
-        {"predicate": {"custom_model_data": 11}, "model": "item/custom/armor/sweetheart_leggings"},
-        {"predicate": {"custom_model_data": 12}, "model": "item/custom/armor/easter_leggings"},
-        {"predicate": {"custom_model_data": 13}, "model": "item/custom/armor/buzzlightyear_leggings"},
-        {"predicate": {"custom_model_data": 14}, "model": "item/custom/armor/radioactive_leggings"}
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/sets/thunderbolt/thunderbolt_leggings"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/custom/sets/enderdragon/enderdragon_leggings"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/custom/sets/bonekeeper/bonekeeper_leggings"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/custom/sets/lunar/lunar_leggings"},
+        {"predicate": {"custom_model_data": 6}, "model": "item/custom/sets/ironhero/ironhero_leggings"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/custom/sets/bathero/bathero_leggings"},
+        {"predicate": {"custom_model_data": 8}, "model": "item/custom/sets/bolthero/bolthero_leggings"},
+        {"predicate": {"custom_model_data": 9}, "model": "item/custom/sets/spiderhero/spiderhero_leggings"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom/sets/oni/oni_leggings"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom/sets/sweetheart/sweetheart_leggings"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/custom/sets/easter/easter_leggings"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/custom/sets/buzzlightyear/buzzlightyear_leggings"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/custom/sets/radioactive/radioactive_leggings"}
     ]
 }

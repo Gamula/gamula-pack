@@ -4,6 +4,6 @@
         "layer0": "item/ender_pearl"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 51},"model": "item/custom/icons/btn_invisible"}
+        {"predicate": {"custom_model_data": 51},"model": "item/custom/icons/buttons/btn_invisible"}
     ]
 }

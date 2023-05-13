@@ -2,6 +2,6 @@
     "variants":
         {
             "age=0":{"model":"block/twisting_vines"},
-            "age=25":{"model":"item/custom/icons/btn_invisible"}
+            "age=25":{"model":"item/custom/icons/buttons/btn_invisible"}
         }
     }
