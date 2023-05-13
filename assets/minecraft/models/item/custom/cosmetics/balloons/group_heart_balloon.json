@@ -2,8 +2,8 @@
 	"credit": "Made by Manning Design",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "gamula/cosmetics/balloons/bs_heart_balloons_texture",
-		"particle": "gamula/cosmetics/balloons/bs_heart_balloons_texture"
+		"0": "gamula/cosmetics/balloons/group_heart_balloon",
+		"particle": "gamula/cosmetics/balloons/group_heart_balloon"
 	},
 	"elements": [
 		{
