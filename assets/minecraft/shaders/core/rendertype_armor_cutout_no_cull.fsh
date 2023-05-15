@@ -19,14 +19,18 @@ uniform vec3 Light1_Direction;
 
 in float vertexDistance;
 in vec4 vertexColor;
+in vec4 lightColor;
 in vec2 texCoord0;
 in vec2 texCoord1;
 in vec4 normal;
 flat in vec4 tint;
 flat in vec3 vNormal;
 flat in vec4 texel;
+in vec3 screenLocation;
 
 out vec4 fragColor;
+
+#moj_import <portal.glsl>
 
 // PER LICENSE TERMS (commercial use): Credit to "Ancientkingg" for the base of this shader (several modifications made).
 void main()
@@ -134,8 +138,17 @@ void main()
         color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
     }
 
-    if (color.a < 0.1)
-    discard;
+    if (color.a < 0.1) discard;
+    if (int(color.a*255) == 253) {
+        vec2 screenSize = gl_FragCoord.xy / (screenLocation.xy/screenLocation.z*0.5+0.5);
+        color.rgb = COLORS[0] * vec3(0.463, 0.337, 0.647);
+        for (int i = 0; i < PORTAL_DEPTH; i++) {
+            vec4 proj = vec4(gl_FragCoord.xy/screenSize, 0, 1) * end_portal_layer(float(i + 1));
+            float pixel = hash12(floor(fract(proj.xy/proj.w)*256.0));
+            color.rgb += (step(0.95, pixel)* 0.2 + step(0.99, pixel) * 0.8) * (COLORS[i]);
+        }
+        color *= vertexColor * ColorModulator * 0.7 + 0.3;
+    }
 
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }
