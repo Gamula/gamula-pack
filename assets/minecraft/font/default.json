@@ -1263,6 +1263,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/enchanting/gui_reveal.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "퉘"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/enchanting/gui_runes.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "퉙"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/enchanting/gui_scrap.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "퉚"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/enchanting/gui_scriber.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "퉛"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/shop/gui_shop_blocks.png",
       "ascent": 29,
       "type": "bitmap",
