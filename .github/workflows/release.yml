@@ -1,12 +1,11 @@
 name: "Build & Release"
-on:  
-  push:
-    tags: ["**"]
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
 # clone
     - name: Clone
       uses: actions/checkout@v3
@@ -14,44 +13,36 @@ jobs:
         ref: dev
         fetch-depth: 0
 
-# fat build
-    - name: Build (fat)
-      if: "startsWith(github.event.head_commit.message, 'squash-skip:')"
-      uses: thedoctor0/zip-release@main
-      with:
-        type: zip
-        filename: gamula.zip
-        exclusions: "*.git* *notes* *packsquash_options.toml*"
-
-# squash build
-    - name: Shaders Workaround <prepare> (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+# shader workaround - prepare
+    - name: Shaders Workaround (prepare)
       run: |
         zip -r shaders.zip assets/minecraft/shaders
         rm -r assets/minecraft/shaders
-    - name: Build (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+# build -> fetch -> rename
+    - name: Build
       uses: ComunidadAylas/PackSquash-action@v3
       with:
         packsquash_version: latest
         artifact_name: gamula
         options_file: packsquash_options.toml
-    - name: Fetch (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+    - name: Fetch
       uses: actions/download-artifact@v3
       with:
         name: gamula
-    - name: Rename (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+    - name: Rename
       run: mv pack.zip gamula.zip
-    - name: Shaders Workaround <finalize> (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+# shader workaround - finalize
+    - name: Shaders Workaround (finalize)
       run: |
         unzip shaders.zip -d .
         rm shaders.zip
         zip -ur gamula.zip assets/minecraft/shaders
 
-# now release
+# release
     - name: Hash
       id: hash
       run: |
