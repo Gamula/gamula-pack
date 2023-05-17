@@ -55,6 +55,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         tag_name: v${{ github.run_number }}-dev
+        target_commitish: dev
         files: gamula.zip
         body: |
           **commit:** ${{ github.event.head_commit.message }}
