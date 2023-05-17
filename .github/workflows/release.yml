@@ -1,56 +1,48 @@
 name: "Build & Release"
-on:  
-  push:
-    tags: ["**"]
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
 # clone
     - name: Clone
       uses: actions/checkout@v3
       with:
+        ref: dev
         fetch-depth: 0
 
-# fat build
-    - name: Build (fat)
-      if: "startsWith(github.event.head_commit.message, 'squash-skip:')"
-      uses: thedoctor0/zip-release@main
-      with:
-        type: zip
-        filename: gamula.zip
-        exclusions: "*.git* *notes* *packsquash_options.toml*"
-
-# squash build
-    - name: Shaders Workaround <prepare> (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+# shader workaround - prepare
+    - name: Shaders Workaround (prepare)
       run: |
         zip -r shaders.zip assets/minecraft/shaders
         rm -r assets/minecraft/shaders
-    - name: Build (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+# build -> fetch -> rename
+    - name: Build
       uses: ComunidadAylas/PackSquash-action@v3
       with:
         packsquash_version: latest
         artifact_name: gamula
         options_file: packsquash_options.toml
-    - name: Fetch (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+    - name: Fetch
       uses: actions/download-artifact@v3
       with:
         name: gamula
-    - name: Rename (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+    - name: Rename
       run: mv pack.zip gamula.zip
-    - name: Shaders Workaround <finalize> (squash)
-      if: "!startsWith(github.event.head_commit.message, 'squash-skip:')"
+
+# shader workaround - finalize
+    - name: Shaders Workaround (finalize)
       run: |
         unzip shaders.zip -d .
         rm shaders.zip
         zip -ur gamula.zip assets/minecraft/shaders
 
-# now release
+# release
     - name: Hash
       id: hash
       run: |
@@ -59,11 +51,12 @@ jobs:
         echo "pack_hash=$HASH" >> $GITHUB_OUTPUT
     - name: Configure Git
       run: git config --global user.email "no-reply@github.com" && git config --global user.name "Github Actions"
-    - name: Release
-      uses: ncipollo/release-action@v1
+    - name: Tag & Release
+      uses: softprops/action-gh-release@v1
       with:
-        artifacts: gamula.zip
-        token: ${{ secrets.GITHUB_TOKEN }}
+        tag_name: v${{ github.run_number }}-stable
+        target_commitish: main
+        files: gamula.zip
         body: |
           **commit:** ${{ github.event.head_commit.message }}
           > hash: ${{ steps.hash.outputs.pack_hash }}
