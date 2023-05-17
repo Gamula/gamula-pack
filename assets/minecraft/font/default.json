@@ -1299,6 +1299,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/help/gui_help_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "爛"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/help/gui_help_islands.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "爜"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/help/gui_help_warps.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "爝"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/help/gui_help_comms.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "爞"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/shop/gui_shop_blocks.png",
       "ascent": 29,
       "type": "bitmap",
