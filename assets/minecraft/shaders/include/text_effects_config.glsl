@@ -126,3 +126,9 @@ TEXT_EFFECT(240, 240, 100) {
     override_shadow_color(rgb(20, 80, 90));
     apply_shimmer();
 }
+
+TEXT_EFFECT(240, 240, 104) {
+    override_text_color(rgb(124, 194, 222));
+    override_shadow_color(rgb(195, 163, 255));
+    apply_fade(rgb(243, 153, 255));
+}
