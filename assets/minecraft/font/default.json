@@ -1533,6 +1533,15 @@
       "height": 9
     },
     {
+      "file": "gamula/titles/ranks/title_npc.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/titles/ranks/title_user.png",
       "ascent": 8,
       "type": "bitmap",
