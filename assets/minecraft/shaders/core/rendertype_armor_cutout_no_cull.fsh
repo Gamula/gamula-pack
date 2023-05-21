@@ -129,9 +129,9 @@ void main()
 
         // If it's the first leather texture in the atlas (used for the vanilla leather texture, with no custom color specified)
         if (coords.x < (1 / armorAmount))
-        color = armor * vertexColor * ColorModulator;
+        color = armor * vertexColor;
         else // If it's a custom texture
-        color = armor * vtc * ColorModulator;
+        color = armor * vtc;
     }
     else // If it's another vanilla armor, for example diamond_layer_1.png or diamond_layer_2.png
     {
@@ -139,7 +139,7 @@ void main()
     }
 
     if (color.a < 0.1) discard;
-    if (int(color.a*255) == 253) {
+    if (int(color.a*255.5) == 253) {
         vec2 screenSize = gl_FragCoord.xy / (screenLocation.xy/screenLocation.z*0.5+0.5);
         color.rgb = COLORS[0] * vec3(0.463, 0.337, 0.647);
         for (int i = 0; i < PORTAL_DEPTH; i++) {
