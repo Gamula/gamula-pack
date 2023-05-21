@@ -3,7 +3,7 @@
 	"parent": "item/generated",
 	"textures": {
 		"layer0": "gamula/sets/bolthero/bolthero_leggings",
-		"layer1": "gamula/sets/bathero/bolthero_leggings"
+		"layer1": "gamula/sets/bolthero/bolthero_leggings"
 	},
 	"gui_light": "front",
 	"display": {
