@@ -2,6 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/easter/easter_boots"
+		"layer0": "gamula/sets/easter/easter_boots",
+		"layer1": "gamula/sets/easter/easter_boots"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.8, 1, 0.875]
+		}
 	}
 }

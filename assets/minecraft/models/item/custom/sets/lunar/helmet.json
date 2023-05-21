@@ -360,7 +360,7 @@
 		"gui": {
 			"rotation": [-180, 0, -180],
 			"translation": [0.25, 0, 0],
-			"scale": [1.2, 1.2, 1.2]
+			"scale": [1.2, 1.15, 1.2]
 		},
 		"head": {
 			"translation": [0, 1, -4.5],

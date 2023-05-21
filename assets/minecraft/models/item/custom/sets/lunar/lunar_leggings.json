@@ -2,11 +2,13 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/lunar/lunar_leggings"
+		"layer0": "gamula/sets/lunar/lunar_leggings",
+		"layer1": "gamula/sets/lunar/lunar_leggings"
 	},
 	"display": {
 		"gui": {
-			"scale": [0.89, 0.89, 0.89]
+			"translation": [0, 0.4, 0],
+			"scale": [0.9, 0.9, 0.9]
 		}
 	}
 }

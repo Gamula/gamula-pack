@@ -2,10 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/thunderbolt/thunderbolt_boots"
+		"layer0": "gamula/sets/thunderbolt/thunderbolt_boots",
+		"layer1": "gamula/sets/thunderbolt/thunderbolt_boots"
 	},
 	"display": {
 		"gui": {
+			"translation": [0, -0.25, 0],
 			"scale": [1.4, 1, 1]
 		}
 	}

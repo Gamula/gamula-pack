@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/spiderhero/spiderhero_boots"
+		"layer0": "gamula/sets/spiderhero/spiderhero_boots",
+		"layer1": "gamula/sets/spiderhero/spiderhero_boots"
 	},
 	"gui_light": "front",
 	"display": {}

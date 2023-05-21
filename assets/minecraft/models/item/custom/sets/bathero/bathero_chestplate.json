@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/bathero/bathero_chestplate"
+		"layer0": "gamula/sets/bathero/bathero_chestplate",
+		"layer1": "gamula/sets/bathero/bathero_chestplate"
 	},
 	"gui_light": "front",
 	"display": {

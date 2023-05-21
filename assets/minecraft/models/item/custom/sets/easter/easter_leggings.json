@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/easter/easter_leggings"
+		"layer0": "gamula/sets/easter/easter_leggings",
+		"layer1": "gamula/sets/easter/easter_leggings"
 	}
 }

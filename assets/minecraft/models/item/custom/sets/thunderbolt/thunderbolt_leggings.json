@@ -2,10 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/thunderbolt/thunderbolt_leggings"
+		"layer0": "gamula/sets/thunderbolt/thunderbolt_leggings",
+		"layer1": "gamula/sets/thunderbolt/thunderbolt_leggings"
 	},
 	"display": {
 		"gui": {
+			"translation": [0, 0.5, 0],
 			"scale": [0.9, 0.85352, 0.9]
 		}
 	}

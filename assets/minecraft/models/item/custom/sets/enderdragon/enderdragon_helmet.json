@@ -2,11 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/enderdragon/enderdragon_helmet"
+		"layer0": "gamula/sets/enderdragon/enderdragon_helmet",
+		"layer1": "gamula/sets/enderdragon/enderdragon_helmet"
 	},
 	"display": {
 		"gui": {
-			"scale": [0.92, 0.92, 0.92]
+			"scale": [0.92, 0.85, 0.92]
 		}
 	}
 }

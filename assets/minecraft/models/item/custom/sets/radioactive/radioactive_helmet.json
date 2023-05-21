@@ -2,11 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/radioactive/radioactive_helmet"
+		"layer0": "gamula/sets/radioactive/radioactive_helmet",
+		"layer1": "gamula/sets/radioactive/radioactive_helmet"
 	},
 	"display": {
 		"gui": {
-			"scale": [0.92, 0.92, 0.92]
+			"scale": [0.92, 1, 0.92]
 		}
 	}
 }
