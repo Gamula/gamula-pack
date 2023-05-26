@@ -133,3 +133,15 @@ TEXT_EFFECT(255, 255, 248) {
     apply_metalic(rgb(255, 255, 255), rgb(150, 163, 177) * 0.95);
     override_shadow_color(rgb(70, 70, 100));
 }
+
+TEXT_EFFECT(240, 240, 100) {
+    override_text_color(rgb(255, 80, 63));
+    override_shadow_color(rgb(20, 80, 90));
+    apply_shimmer();
+}
+
+TEXT_EFFECT(240, 240, 104) {
+    override_text_color(rgb(129, 189, 230));
+    override_shadow_color(rgb(96, 170, 219));
+    apply_fade(rgb(200, 136, 252));
+}
