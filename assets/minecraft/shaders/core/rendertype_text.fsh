@@ -13,7 +13,6 @@ uniform float FogStart;
 uniform float FogEnd;
 uniform vec4 FogColor;
 uniform float GameTime;
-uniform vec2 ScreenSize;
 
 in float vertexDistance;
 in vec4 vertexColor;

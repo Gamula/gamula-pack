@@ -18,7 +18,6 @@ uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
 uniform mat3 IViewRotMat;
 uniform float GameTime;
-uniform vec2 ScreenSize;
 
 out float vertexDistance;
 out vec4 vertexColor;
