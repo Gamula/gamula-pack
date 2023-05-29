@@ -489,11 +489,29 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/shop/fishing/gui_fisherman.png",
-      "ascent": 28,
+      "file": "gamula/ui/fishing/gui_fisherman.png",
+      "ascent": 29,
       "type": "bitmap",
       "chars": [
         "鱲"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/fishing/gui_fishing.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "靿"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/fishing/gui_baits_preview.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "鞟"
       ],
       "height": 256
     },
