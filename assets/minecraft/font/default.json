@@ -489,7 +489,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/fishing/gui_fisherman.png",
+      "file": "gamula/ui/gui/fishing/gui_fisherman.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
