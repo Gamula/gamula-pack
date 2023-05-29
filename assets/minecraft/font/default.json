@@ -1326,6 +1326,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/help/gui_help_sail.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "长"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/help/gui_help_comms.png",
       "ascent": 29,
       "type": "bitmap",
