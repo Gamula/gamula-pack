@@ -1,7 +1,1 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "gamula/blocks/yellow_ore",
-    "particles": "gamula/blocks/yellow_ore"
-  }
-}
+{"parent":"block/cube_all","textures":{"all":"gamula/blocks/yellow_ore","particles":"gamula/blocks/yellow_ore"}}
