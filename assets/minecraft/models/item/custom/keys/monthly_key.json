@@ -217,7 +217,23 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [81.25, 0, 0],
-			"translation": [0, -4.25, 2.5]
+			"translation": [0, 0.5, 3.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [81, 0, 0],
+			"translation": [0.25, 0, 3.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0.75, 3.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 4.25, 0]
+		},
+		"ground": {
+			"translation": [0, 0, 3.5]
+		},
+		"fixed": {
+			"translation": [0.5, 0, -1.25]
 		}
 	}
 }

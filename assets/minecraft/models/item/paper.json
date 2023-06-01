@@ -337,6 +337,12 @@
         {"predicate": {"custom_model_data": 20146}, "model": "item/custom/crops/lighthouse/lighthouse_seeds"},
         {"predicate": {"custom_model_data": 20147}, "model": "item/custom/crops/lighthouse/lighthouse_stage_1"},
         {"predicate": {"custom_model_data": 20148}, "model": "item/custom/crops/lighthouse/lighthouse_stage_2"},
-        {"predicate": {"custom_model_data": 20149}, "model": "item/custom/crops/lighthouse/lighthouse_stage_3"}
+        {"predicate": {"custom_model_data": 20149}, "model": "item/custom/crops/lighthouse/lighthouse_stage_3"},
+        {"predicate": {"custom_model_data": 20150}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_pot"},
+        {"predicate": {"custom_model_data": 20151}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_seeds"},
+        {"predicate": {"custom_model_data": 20152}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_stage_1"},
+        {"predicate": {"custom_model_data": 20153}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_stage_2"},
+        {"predicate": {"custom_model_data": 20154}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_stage_3"},
+        {"predicate": {"custom_model_data": 20154}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_stage_4"}
     ]
 }
