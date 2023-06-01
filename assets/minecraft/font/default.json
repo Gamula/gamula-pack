@@ -329,6 +329,15 @@
     {
       "ascent": 7,
       "chars": [
+        ""
+      ],
+      "file": "gamula/icons/symbols/symbol_gg.png",
+      "height": 8,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 7,
+      "chars": [
         "㮉"
       ],
       "file": "gamula/icons/symbols/symbol_goobits.png",
