@@ -232,6 +232,11 @@
 		"ground": {
 			"translation": [0, 0, 3.5]
 		},
+		"gui": {
+			"rotation": [0, -93, -7],
+			"translation": [-3.75, 1.25, 0],
+			"scale": [1.21, 0.96, 0.99]
+		},
 		"fixed": {
 			"translation": [0.5, 0, -1.25]
 		}

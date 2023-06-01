@@ -18,7 +18,8 @@
         {"predicate": {"custom_model_data": 20130}, "model": "item/custom/crops/crate/pot"},
         {"predicate": {"custom_model_data": 20135}, "model": "item/custom/crops/chocolate/pot"},
         {"predicate": {"custom_model_data": 20140}, "model": "item/custom/crops/goldenrose/pot"},
-        {"predicate": {"custom_model_data": 20141}, "model": "item/custom/crops/lighthouse/lighthouse_pot"},
-        {"predicate": {"custom_model_data": 20142}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_pot"}
+        {"predicate": {"custom_model_data": 20145}, "model": "item/custom/crops/lighthouse/lighthouse_pot"},
+        {"predicate": {"custom_model_data": 20150}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_pot"},
+        {"predicate": {"custom_model_data": 20155}, "model": "item/custom/crops/sandcastle/sandcastle_pot"}
     ]
 }
