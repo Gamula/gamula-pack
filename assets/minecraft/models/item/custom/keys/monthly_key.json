@@ -233,9 +233,9 @@
 			"translation": [0, 0, 3.5]
 		},
 		"gui": {
-			"rotation": [0, -93, -7],
-			"translation": [-3.75, 1.25, 0],
-			"scale": [1.21, 0.96, 0.99]
+			"rotation": [45, -45, 45],
+			"translation": [-4.5, 0.25, 0],
+			"scale": [0.85, 1.2, 1.2]
 		},
 		"fixed": {
 			"translation": [0.5, 0, -1.25]
