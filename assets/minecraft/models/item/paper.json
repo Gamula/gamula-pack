@@ -333,10 +333,10 @@
         {"predicate": {"custom_model_data": 20142}, "model": "item/custom/crops/goldenrose/goldenrose_stage_1"},
         {"predicate": {"custom_model_data": 20143}, "model": "item/custom/crops/goldenrose/goldenrose_stage_2"},
         {"predicate": {"custom_model_data": 20144}, "model": "item/custom/crops/goldenrose/goldenrose_stage_3"},
-        {"predicate": {"custom_model_data": 20145}, "model": "item/custom/crops/lighhouse/lighhouse_pot"},
-        {"predicate": {"custom_model_data": 20146}, "model": "item/custom/crops/lighhouse/lighhouse_seeds"},
-        {"predicate": {"custom_model_data": 20147}, "model": "item/custom/crops/lighhouse/lighhouse_stage_1"},
-        {"predicate": {"custom_model_data": 20148}, "model": "item/custom/crops/lighhouse/lighhouse_stage_2"},
-        {"predicate": {"custom_model_data": 20149}, "model": "item/custom/crops/lighhouse/lighhouse_stage_3"}
+        {"predicate": {"custom_model_data": 20145}, "model": "item/custom/crops/lighthouse/lighthouse_pot"},
+        {"predicate": {"custom_model_data": 20146}, "model": "item/custom/crops/lighthouse/lighthouse_seeds"},
+        {"predicate": {"custom_model_data": 20147}, "model": "item/custom/crops/lighthouse/lighthouse_stage_1"},
+        {"predicate": {"custom_model_data": 20148}, "model": "item/custom/crops/lighthouse/lighthouse_stage_2"},
+        {"predicate": {"custom_model_data": 20149}, "model": "item/custom/crops/lighthouse/lighthouse_stage_3"}
     ]
 }
