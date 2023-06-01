@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "gamula/blocks/blue_ore_nugget"
-    }
-  }
