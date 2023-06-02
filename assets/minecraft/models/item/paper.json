@@ -371,4 +371,5 @@
         {"predicate": {"custom_model_data": 20158}, "model":"item/custom/crops/sandcastle/sandcastle_stage_1"},
         {"predicate": {"custom_model_data": 20159}, "model":"item/custom/crops/sandcastle/sandcastle_stage_2"},
         {"predicate": {"custom_model_data": 20160}, "model":"item/custom/crops/sandcastle/sandcastle_stage_3"}
-    
+    ]
+}
