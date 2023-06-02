@@ -20,6 +20,6 @@
         {"predicate": {"custom_model_data": 20140}, "model": "item/custom/crops/goldenrose/pot"},
         {"predicate": {"custom_model_data": 20145}, "model": "item/custom/crops/lighthouse/lighthouse_pot"},
         {"predicate": {"custom_model_data": 20150}, "model": "item/custom/crops/goldenwatermelon/goldenwatermelonseed_pot"},
-        {"predicate": {"custom_model_data": 20155}, "model": "item/custom/crops/sandcastle/sandcastle_pot"}
+        {"predicate": {"custom_model_data": 20156}, "model": "item/custom/crops/sandcastle/sandcastle_pot"}
     ]
 }
