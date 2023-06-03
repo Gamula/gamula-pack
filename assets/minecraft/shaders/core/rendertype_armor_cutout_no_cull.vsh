@@ -30,6 +30,9 @@ out vec4 overlayColor;
 out vec2 uv;
 out vec4 normal;
 out vec3 screenLocation;
+flat out vec2 size;
+flat out int n;
+flat out int i;
 
 int toint(vec3 c) {
     ivec3 v = ivec3(c*255);
@@ -49,17 +52,17 @@ void main() {
     screenLocation = gl_Position.xyw;
 
     //number of armors from texture size
-    vec2 size = textureSize(Sampler0, 0);
-    int n = int(2*size.y/size.x);
+    size = textureSize(Sampler0, 0);
+    n = int(2*size.y/size.x);
+    i = toint(Color.rgb);
     //if theres more than 1 custom armor
     if (n > 1) {
         //divide uv by number of armors, it is now on the first armor
         uv.y /= n;
         //if color index is within number of armors
-        int i = toint(Color.rgb);
         if (i < n) {
             //move uv down to index
-            uv.y += i*size.x/size.y/2.;
+            uv.y += (1+i)*size.x/size.y/2.;
             //remove tint color
             tintColor = vec4(1);
         }
