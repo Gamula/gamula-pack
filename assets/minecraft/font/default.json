@@ -723,6 +723,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/shop/gui_shop_mining.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "籽"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_pve.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "籾"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/rewards/gui_wof.png",
       "ascent": 29,
       "type": "bitmap",
