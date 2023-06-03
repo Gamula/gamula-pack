@@ -30,6 +30,15 @@
     {
       "ascent": 8,
       "chars": [
+        "粀"
+      ],
+      "file": "gamula/blocks/raw_red_ore.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
         "댲"
       ],
       "file": "block/deepslate_copper_ore.png",
@@ -78,6 +87,15 @@
         "턕"
       ],
       "file": "item/experience_bottle.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "籿"
+      ],
+      "file": "item/bone.png",
       "height": 9,
       "type": "bitmap"
     },
