@@ -1121,6 +1121,7 @@
         {"predicate": {"custom_model_data": 30039},"model": "item/custom/cosmetics/props/neo_firefighter_offhand"},
         {"predicate": {"custom_model_data": 30039},"model": "item/custom/cosmetics/props/gameboy"},
         {"predicate": {"custom_model_data": 30040},"model": "item/custom/cosmetics/props/radar"},
+        {"predicate": {"custom_model_data": 30040},"model": "item/custom/cosmetics/props/light_saber_blue"},
         {"predicate": {"custom_model_data": 40058},"model": "item/custom/cosmetics/balloons/beach_ball_balloon"},
         {"predicate": {"custom_model_data": 40059},"model": "item/custom/cosmetics/balloons/cloud_balloon"},
         {"predicate": {"custom_model_data": 40060},"model": "item/custom/cosmetics/balloons/kite"},
