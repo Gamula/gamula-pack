@@ -984,15 +984,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/poweredspawner/gui_poweredspawner.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "沟"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/pvp/gui_outposts.png",
       "ascent": 29,
       "type": "bitmap",
