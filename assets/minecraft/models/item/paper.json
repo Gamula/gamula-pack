@@ -234,6 +234,7 @@
         {"predicate": {"custom_model_data": 15021}, "model":"item/custom/blocks/silver_ore_nugget"},
         {"predicate": {"custom_model_data": 15022}, "model":"item/custom/blocks/yellow_ore_ingot"},
         {"predicate": {"custom_model_data": 15023}, "model":"item/custom/blocks/yellow_ore_nugget"},
+        {"predicate": {"custom_model_data": 15024}, "model":"item/custom/blocks/yellow_ore_block"},
         {"predicate": {"custom_model_data": 19000}, "model":"item/custom/pets/pet_cobblestone"},
         {"predicate": {"custom_model_data": 19001}, "model":"item/custom/pets/pet_experience"},
         {"predicate": {"custom_model_data": 19002}, "model":"item/custom/pets/pet_lucky"},
