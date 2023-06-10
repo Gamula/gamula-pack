@@ -24,7 +24,6 @@ jobs:
     - name: Build
       uses: ComunidadAylas/PackSquash-action@v3
       with:
-        packsquash_version: latest
         artifact_name: gamula
         options_file: packsquash_options.toml
     - name: Fetch
