@@ -35,27 +35,27 @@ void main() {
     vec2 anim = vec2(0);
     vec4 overlay = vec4(0);
     switch (int(color.a*255.5)) {
-        case 249:
+        case 249: //stars
             anim = vec2(time*3)/size;
             overlay = texture(Sampler0, mod(uv + anim, vec2(0.25, 0.5/n)));
             color.rgb = mix(color.rgb, overlay.rgb, overlay.a);
             break;
-        case 250:
+        case 250: //water
             anim = vec2(sin(time/2)*20, -time*3)/size;
             overlay = texture(Sampler0, mod(uv + anim, vec2(0.25, 0.5/n)) + vec2(0.25, 0));
             color.rgb = mix(color.rgb, overlay.rgb, overlay.a);
             break;
-        case 251:
+        case 251: //arrow
             anim = vec2(0, -time*10)/size;
             overlay = texture(Sampler0, mod(uv + anim, vec2(0.25, 0.5/n)) + vec2(0.5, 0));
             color.rgb = mix(color.rgb, overlay.rgb, overlay.a);
             break;
-        case 252:
+        case 252: //lightning
             anim = floor(vec2(floor(time/2)*vec2(123.4567, 567.89123)))/size;
             overlay = texture(Sampler0, mod(uv + anim, vec2(0.25, 0.5/n)) + vec2(0.75, 0));
             color.rgb = color.rgb += overlay.rgb * (1-fract(time/2));
             break;
-        case 253:
+        case 253: //portal
             vec2 screenSize = gl_FragCoord.xy / (screenLocation.xy/screenLocation.z*0.5+0.5);
             color.rgb = COLORS[0] * vec3(0.463, 0.337, 0.647);
             for (int i = 0; i < PORTAL_DEPTH; i++) {

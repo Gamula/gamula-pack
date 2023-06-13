@@ -65,6 +65,9 @@ void main() {
             uv.y += (1+i)*size.x/size.y/2.;
             //remove tint color
             tintColor = vec4(1);
+        } else {
+            //move uv down for non tint
+            uv.y += size.x/size.y/2.;
         }
     }
 }
