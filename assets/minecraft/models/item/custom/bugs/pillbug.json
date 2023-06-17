@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "littleroom_bugpack:pillbug"
+    "layer0": "gamula/bugs/pillbug"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "littleroom_bugpack:worm"
+    "layer0": "gamula/bugs/worm"
   }
 }
