@@ -15,12 +15,16 @@
         {"predicate": {"custom_model_data": 32}, "model": "item/custom/bugs/praying_mantis"},
         {"predicate": {"custom_model_data": 33}, "model": "item/custom/bugs/firefly"},
         {"predicate": {"custom_model_data": 38}, "model": "item/custom/bugs/tarantula"},
+        {"predicate": {"custom_model_data": 39}, "model": "item/custom/bugs/centipede"},
+        {"predicate": {"custom_model_data": 40}, "model": "item/custom/bugs/pillbug"},
+        {"predicate": {"custom_model_data": 41}, "model": "item/custom/bugs/worm"},
         {"predicate": {"custom_model_data": 44}, "model": "item/custom/bugs/nets/petnet_blue"},
         {"predicate": {"custom_model_data": 45}, "model": "item/custom/bugs/nets/petnet_green"},
         {"predicate": {"custom_model_data": 46}, "model": "item/custom/bugs/nets/petnet_orange"},
         {"predicate": {"custom_model_data": 47}, "model": "item/custom/bugs/nets/petnet_pink"},
         {"predicate": {"custom_model_data": 48}, "model": "item/custom/bugs/nets/petnet_rainbow"},
         {"predicate": {"custom_model_data": 49}, "model": "item/custom/bugs/nets/petnet_yellow"},
-        {"predicate": {"custom_model_data": 54},"model": "item/custom/diving/magic_lantern/magic_lantern_redstone"}
+        {"predicate": {"custom_model_data": 54},"model": "item/custom/diving/magic_lantern/magic_lantern_redstone"},
+        {"predicate": {"custom_model_data": 55},"model": "item/custom/detect/metal_detector"}
     ] 
 }
