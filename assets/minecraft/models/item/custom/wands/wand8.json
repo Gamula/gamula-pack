@@ -2,7 +2,8 @@
 	"credit": "Made by Elo106",
 	"texture_size": [32, 32],
 	"textures": {
-		"9": "gamula/wands/wand8"
+		"9": "gamula/wands/wand8",
+		"particle": "gamula/wands/wand8"
 	},
 	"elements": [
 		{
