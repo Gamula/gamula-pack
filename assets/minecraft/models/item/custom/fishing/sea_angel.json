@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "gamula/fishing/sea_angel",
-		"1": "gamula/fishing/sea_angel_e"
+		"0": "gamula/fishing/sea_angel"
 	},
 	"elements": [
 		{
@@ -164,19 +163,6 @@
 				"up": {"uv": [4, 2.5, 6.5, 5], "texture": "#0"},
 				"down": {"uv": [4, 2.5, 6.5, 0], "texture": "#0"}
 			}
-		},
-		{
-			"from": [-4, 0, -3],
-			"to": [4, 15, 3],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 0, -3]},
-			"faces": {
-				"north": {"uv": [0, 0, 4, 7.5], "texture": "#1"},
-				"east": {"uv": [0, 0, 3, 7.5], "texture": "#1"},
-				"south": {"uv": [0, 0, 4, 7.5], "texture": "#1"},
-				"west": {"uv": [0, 0, 3, 7.5], "texture": "#1"},
-				"up": {"uv": [0, 0, 4, 3], "texture": "#1"},
-				"down": {"uv": [0, 0, 4, 3], "texture": "#1"}
-			}
 		}
 	],
 	"display": {
@@ -240,12 +226,6 @@
 				},
 				11
 			]
-		},
-		{
-			"name": "hitbox",
-			"origin": [0, 7.5, 0],
-			"color": 0,
-			"children": [12]
 		}
 	]
 }
