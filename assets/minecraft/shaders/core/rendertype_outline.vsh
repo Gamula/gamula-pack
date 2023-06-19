@@ -17,10 +17,11 @@ void main() {
     vertexColor = Color;
     uv = UV0;
 
-    //we assume if y >= 2x it is an armor and divide uv
+    //we assume if y >= 8x it is an armor and add 1 + divide uv
     //cannot pass tint color here so it's the only option
     vec2 size = textureSize(Sampler0, 0);
-    if (size.y >= 2*size.x) {
+    if (size.y >= 8*size.x) {
+        uv.y += 1;
         uv.y /= 2.*size.y/size.x;
     }
 }
