@@ -18,6 +18,7 @@
         {"predicate": {"custom_model_data": 39}, "model": "item/custom/bugs/centipede"},
         {"predicate": {"custom_model_data": 40}, "model": "item/custom/bugs/pillbug"},
         {"predicate": {"custom_model_data": 41}, "model": "item/custom/bugs/worm"},
+        {"predicate": {"custom_model_data": 42}, "model": "item/custom/bugs/jellyfish/jellyfish"},
         {"predicate": {"custom_model_data": 44}, "model": "item/custom/bugs/nets/petnet_blue"},
         {"predicate": {"custom_model_data": 45}, "model": "item/custom/bugs/nets/petnet_green"},
         {"predicate": {"custom_model_data": 46}, "model": "item/custom/bugs/nets/petnet_orange"},
