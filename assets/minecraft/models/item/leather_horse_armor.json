@@ -2323,6 +2323,7 @@
         {"predicate": {"custom_model_data": 60517},"model": "item/custom/furniture/carribean/sunset_painting"},
         {"predicate": {"custom_model_data": 60518},"model": "item/custom/furniture/carribean/swim_ring_decoration"},
         {"predicate": {"custom_model_data": 60519},"model": "item/custom/furniture/carribean/umbrella"},
-        {"predicate": {"custom_model_data": 60520},"model": "item/custom/furniture/carribean/welcome_flower"}
+        {"predicate": {"custom_model_data": 60520},"model": "item/custom/furniture/carribean/welcome_flower"},
+        {"predicate": {"custom_model_data": 70000},"model": "item/custom/bugs/jellyfish"}
 ]
 }
