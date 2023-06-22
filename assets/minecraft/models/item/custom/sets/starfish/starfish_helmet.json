@@ -2,8 +2,8 @@
 	"credit": "Made by PolygonMC",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "gamula/sets/starfish/starfish_helemt",
-		"particle": "gamula/sets/starfish/starfish_helemt"
+		"0": "gamula/sets/starfish/starfish_helmet",
+		"particle": "gamula/sets/starfish/starfish_helmet"
 	},
 	"elements": [
 		{
@@ -66,34 +66,36 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [56.25, 0, 0],
-			"translation": [0, 4.75, 3.25],
-			"scale": [0.60156, 0.60156, 0.60156]
+			"translation": [0, 3.25, 2],
+			"scale": [0.45, 0.45, 0.45]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [56.25, 0, 0],
-			"translation": [0, 4.75, 3.25],
-			"scale": [0.60156, 0.60156, 0.60156]
+			"translation": [0, 3.25, 2],
+			"scale": [0.45, 0.45, 0.45]
 		},
 		"firstperson_righthand": {
-			"rotation": [156.75, 0, -180],
-			"translation": [-0.25, 6, -3],
-			"scale": [0.88086, 0.88086, 0.88086]
+			"rotation": [150.75, 0, -180],
+			"translation": [-2.5, 5.75, 2],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [156.75, 0, -180],
-			"translation": [-0.25, 6, -3],
-			"scale": [0.88086, 0.88086, 0.88086]
+			"rotation": [150.75, 0, -180],
+			"translation": [-2.5, 5.75, 2],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
-			"translation": [0, 7.5, 0]
+			"translation": [0, 0.5, 0],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
 			"rotation": [0, 159, 0],
-			"translation": [0, 0.5, 0]
+			"translation": [0, 0.5, 0],
+			"scale": [0.65, 0.65, 0.65]
 		},
 		"head": {
 			"translation": [0, 7.5, 0],
-			"scale": [1.75977, 1.75977, 1.75977]
+			"scale": [1.75977, 1.9, 1.75977]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
