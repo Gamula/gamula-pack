@@ -22,7 +22,7 @@ jobs:
 
 # build -> fetch -> rename
     - name: Build
-      uses: ComunidadAylas/PackSquash-action@v3
+      uses: frog-commits/PackSquash-action@v4
       with:
         packsquash_version: latest-unstable
         artifact_name: gamula

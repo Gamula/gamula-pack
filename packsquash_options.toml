@@ -35,7 +35,7 @@ maximum_width_and_height = 8_192
 skip_alpha_optimizations = true
 
 ["**/*.{fsh,vsh,glsl}"]
-minify_shader = false
+shader_source_transformation_strategy = "keep_as_is"
 
 ["**/*.lang"]
 minify_legacy_language = true
