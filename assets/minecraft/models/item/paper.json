@@ -80,6 +80,7 @@
         {"predicate": {"custom_model_data": 141},"model": "item/custom/cosmetics/sprays/sus_dead"},
         {"predicate": {"custom_model_data": 142},"model": "item/custom/cosmetics/sprays/pvpwars"},
         {"predicate": {"custom_model_data": 143},"model": "item/custom/keys/monthly_key"},
+        {"predicate": {"custom_model_data": 144},"model": "item/custom/keys/burger_key"},
         {"predicate": {"custom_model_data": 200},"model": "item/custom/fishing/anthias"},
         {"predicate": {"custom_model_data": 201},"model": "item/custom/fishing/blazorb_jellyfish"},
         {"predicate": {"custom_model_data": 202},"model": "item/custom/fishing/blue_eel"},

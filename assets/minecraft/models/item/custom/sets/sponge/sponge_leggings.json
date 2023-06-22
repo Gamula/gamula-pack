@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/sponge/sponge_leggings",
+		"layer1": "gamula/sets/sponge/sponge_leggings"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 1, 0],
+			"scale": [1, 1, 0.85]
+		}
+	}
+}

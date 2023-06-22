@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/sponge/sponge_boots",
+		"layer1": "gamula/sets/sponge/sponge_boots"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 1, 0],
+			"scale": [1, 1.05, 0.875]
+		}
+	}
+}
