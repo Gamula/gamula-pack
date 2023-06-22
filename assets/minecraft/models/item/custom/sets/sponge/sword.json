@@ -193,29 +193,29 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [100, 0, 0],
-			"translation": [-2.75, 5, 0]
+			"translation": [-2.75, 5, 1.5],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"firstperson_lefthand": {
 			"rotation": [100, 0, 0],
-			"translation": [-2.75, 5, 0]
+			"translation": [-2.75, 5, 1.5],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"ground": {
 			"rotation": [135, 0, 0],
-			"translation": [0, 11.5, -1],
-			"scale": [1.43555, 1.43555, 1.43555]
+			"translation": [0, 2.5, -1]
 		},
 		"gui": {
 			"rotation": [90, 45, 90],
-			"translation": [1.75, 0.5, 0],
+			"translation": [1, 0.5, 0],
 			"scale": [1.38281, 1.38281, 1.38281]
 		},
 		"head": {
 			"rotation": [90, 45, 90],
-			"translation": [2, 0, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [2, 0, 0]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
+			"rotation": [90, 0, 0],
 			"translation": [0, 0, -22],
 			"scale": [3.26563, 3.26563, 3.26563]
 		}
