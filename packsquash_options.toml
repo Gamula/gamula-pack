@@ -1,4 +1,5 @@
 pack_directory = "."
+output_file_path = "gamula.zip"
 skip_pack_icon = false
 validate_pack_metadata_file = true
 recompress_compressed_files = false
@@ -19,12 +20,7 @@ percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
 never_store_squash_times = false
 
 ["**/*.{og[ga],mp3,wav,flac}"]
-transcode_ogg = false
-channels = 2
-sampling_frequency = 44100
-target_pitch = 1
-minimum_bitrate = 48000
-maximum_bitrate = 96000
+transcode_ogg = true
 
 ["**/*.{json,jsonc,mcmeta,mcmetac,jpm,jpmc,jem,jemc,bbmodel,bbmodelc}"]
 minify_json = true

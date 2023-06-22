@@ -24,14 +24,13 @@ jobs:
     - name: Build
       uses: ComunidadAylas/PackSquash-action@v3
       with:
+        packsquash_version: latest-unstable
         artifact_name: gamula
-        options_file: packsquash_options.toml
+        options: packsquash_options.toml
     - name: Fetch
       uses: actions/download-artifact@v3
       with:
         name: gamula
-    - name: Rename
-      run: mv pack.zip gamula.zip
 
 # shader workaround - finalize
     - name: Shaders Workaround (finalize)
