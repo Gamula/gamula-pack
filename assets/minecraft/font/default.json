@@ -2054,6 +2054,60 @@
       "height": 9,
       "type": "bitmap"
     },
+    {
+      "file": "gamula/titles/tags/spongebob/sponge.png",
+      "chars": [
+        "㴹"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/starfish.png",
+      "chars": [
+        "㴺"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/squid.png",
+      "chars": [
+        "㴻"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/squirrel.png",
+      "chars": [
+        "㴼"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/crab.png",
+      "chars": [
+        "㴽"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/plankton.png",
+      "chars": [
+        "㴾"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
     {"file":"gamula/titles/tags/easter/egg_1.png","ascent":8,"type":"bitmap","chars":["鈘"],"height":9},
     {"file":"gamula/titles/tags/easter/egg_2.png","ascent":8,"type":"bitmap","chars":["鈙"],"height":9},
     {"file":"gamula/titles/tags/easter/egg_3.png","ascent":8,"type":"bitmap","chars":["鈚"],"height":9},
