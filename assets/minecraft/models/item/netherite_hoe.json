@@ -13,6 +13,8 @@
         {"predicate": {"custom_model_data": 13}, "model": "item/custom/sets/lunar/hoe"},
         {"predicate": {"custom_model_data": 14}, "model": "item/custom/sets/oni/hoe"},
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/sets/sweetheart/hoe"},
-        {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/easter/hoe"}
+        {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/easter/hoe"},
+        {"predicate": {"custom_model_data": 17}, "model": "item/custom/sets/sponge/hoe"},
+        {"predicate": {"custom_model_data": 18}, "model": "item/custom/sets/starfish/hoe"}
     ]
 }

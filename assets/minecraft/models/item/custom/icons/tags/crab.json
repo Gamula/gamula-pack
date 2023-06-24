@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/titles/tags/spongebob/crab"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.68, 0.97, 0.94]
+		}
+	}
+}

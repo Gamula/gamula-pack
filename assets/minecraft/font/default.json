@@ -39,6 +39,15 @@
     {
       "ascent": 8,
       "chars": [
+        "㰿"
+      ],
+      "file": "gamula/icons/misc/jelly.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
         "댲"
       ],
       "file": "block/deepslate_copper_ore.png",
@@ -732,29 +741,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/shop/gui_shop_void.png",
+      "file": "gamula/ui/gui/shop/gui_shop_one.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
         "谈"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/shop/gui_shop_mining.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "籽"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/shop/gui_shop_pve.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "籾"
       ],
       "height": 256
     },
@@ -1272,6 +1263,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_burger.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㮙"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_void.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1313,6 +1313,15 @@
       "type": "bitmap",
       "chars": [
         "⼖"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_burger.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㰟"
       ],
       "height": 256
     },
@@ -1551,7 +1560,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/shop/gui_shop_deepsea.png",
+      "file": "gamula/ui/gui/shop/gui_shop_three.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1576,7 +1585,7 @@
         "ꀕ"
       ],
       "height": 256
-    },
+  },
     {
       "file": "gamula/ui/gui/shop/gui_shop_more.png",
       "ascent": 29,
@@ -2040,6 +2049,60 @@
       "file": "gamula/titles/tags/summer/sunburned_emoji.png",
       "chars": [
         "繴"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/sponge.png",
+      "chars": [
+        "㴹"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/starfish.png",
+      "chars": [
+        "㴺"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/squid.png",
+      "chars": [
+        "㴻"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/squirrel.png",
+      "chars": [
+        "㴼"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/crab.png",
+      "chars": [
+        "㴽"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/spongebob/plankton.png",
+      "chars": [
+        "㴾"
       ],
       "ascent": 8,
       "height": 9,

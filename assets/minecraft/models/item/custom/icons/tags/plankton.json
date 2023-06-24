@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/titles/tags/spongebob/plankton"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.7, 0.95, 0.7]
+		}
+	}
+}
