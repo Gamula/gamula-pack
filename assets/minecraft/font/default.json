@@ -39,6 +39,15 @@
     {
       "ascent": 8,
       "chars": [
+        "㰿"
+      ],
+      "file": "gamula/icons/misc/jelly.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
         "댲"
       ],
       "file": "block/deepslate_copper_ore.png",
@@ -732,29 +741,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/shop/gui_shop_void.png",
+      "file": "gamula/ui/gui/shop/gui_shop_one.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
         "谈"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/shop/gui_shop_mining.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "籽"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/shop/gui_shop_pve.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "籾"
       ],
       "height": 256
     },
@@ -1569,7 +1560,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/shop/gui_shop_deepsea.png",
+      "file": "gamula/ui/gui/shop/gui_shop_three.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1594,7 +1585,7 @@
         "ꀕ"
       ],
       "height": 256
-    },
+  },
     {
       "file": "gamula/ui/gui/shop/gui_shop_more.png",
       "ascent": 29,
