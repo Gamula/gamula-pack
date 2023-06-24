@@ -5,8 +5,11 @@
 		"layer0": "gamula/titles/tags/spongebob/starfish"
 	},
 	"display": {
+		"thirdperson_lefthand": {
+			"scale": [0.75, 0.75, 0.75]
+		},
 		"gui": {
-			"scale": [0.75, 0.95, 0.75]
+			"scale": [0.75, 0.97, 0.75]
 		}
 	}
 }
