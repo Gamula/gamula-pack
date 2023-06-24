@@ -1272,6 +1272,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_burger.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㮙"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_void.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1313,6 +1322,15 @@
       "type": "bitmap",
       "chars": [
         "⼖"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_burger.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "㰟"
       ],
       "height": 256
     },
