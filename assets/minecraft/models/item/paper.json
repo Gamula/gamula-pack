@@ -252,6 +252,7 @@
         {"predicate": {"custom_model_data": 19006}, "model":"item/custom/pets/pet_chainsaw"},
         {"predicate": {"custom_model_data": 19007}, "model":"item/custom/pets/pet_penguin"},
         {"predicate": {"custom_model_data": 19008}, "model":"item/custom/pets/pet_snail"},
+        {"predicate": {"custom_model_data": 19009}, "model":"item/custom/pets/pet_karen"},
         {"predicate": {"custom_model_data": 20000}, "model":"item/custom/crops/pot"},
         {"predicate": {"custom_model_data": 20001}, "model":"item/custom/crops/tem_seed"},
         {"predicate": {"custom_model_data": 20002}, "model":"item/custom/crops/watered_pot"},
