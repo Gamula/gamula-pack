@@ -2166,7 +2166,7 @@
     {"file":"gamula/titles/tags/emerald_top.png","ascent":8,"type":"bitmap","chars":["根","格","桥","桃","柴","桶","棵","楼"],"height":9},
     {"file":"gamula/titles/tags/faction_top.png","ascent":8,"type":"bitmap","chars":["护","投","抓","抢"],"height":9},
     {"file":"gamula/titles/tags/fire_top.png","ascent":8,"type":"bitmap","chars":["拉","拦","指","换","接","描","提","摇","擦","艺","节","芒","花","草","芽","苦","萍","妇"],"height":9},
-    {"file":"gamula/icons/symbols/symbol_emoji.png","ascent":8,"type":"bitmap","chars":["뮦","뮧","뮨","뮩","뮪","뮫","뮬","뮭","뮮","뮯","뮰","뮱","뮲","뮳","뮴"],"height":9},
+    {"file":"gamula/icons/symbols/symbol_emoji.png","ascent":8,"type":"bitmap","chars":["뮦","뮧","뮨","뮩","뮪","뮫","뮬","뮭","뮮","뮯","뮰","뮱","뮲","뮳","뮴","뮵"],"height":9},
     {"file":"gamula/titles/tags/ice_top.png","ascent":8,"type":"bitmap","chars":["药","茶","荡","菜","落","薄","什","化","仍","仅","仇","他","们","代","仙","件","价","如"],"height":9},
     {"file":"gamula/titles/tags/matrix_top.png","ascent":8,"type":"bitmap","chars":["优","你","但","住"],"height":9},
     {"file":"gamula/titles/tags/nova_top.png","ascent":8,"type":"bitmap","chars":["递","位","低","伴","使"],"height":9},
