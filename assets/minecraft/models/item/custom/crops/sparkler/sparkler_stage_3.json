@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gamula/crops/sparkler/sparkler",
-		"1": "gamula/crops/sparkler/sparklereffectt",
-		"particle": "gamula/crops/sparkler/sparkler"
+		"0": "gamula/cosmetics/props/sparkler",
+		"1": "gamula/cosmetics/props/sparkler_effect",
+		"particle": "gamula/cosmetics/props/sparkler"
 	},
 	"elements": [
 		{
@@ -65,13 +65,16 @@
 			"scale": [0.67, 0.67, 0.67]
 		},
 		"gui": {
-			"rotation": [0, 0, -46]
+			"translation": [0, 0.25, 0],
+			"scale": [0.65, 0.65, 0.65]
 		},
 		"head": {
 			"scale": [0, 0, 0]
 		},
 		"fixed": {
-			"rotation": [0, 0, 46]
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16.25],
+			"scale": [2, 2, 2]
 		}
 	}
 }

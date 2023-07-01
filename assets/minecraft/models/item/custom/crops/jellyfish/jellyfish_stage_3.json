@@ -719,6 +719,23 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [0, 24, 0],
+			"translation": [5, -3, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"head": {
+			"rotation": [0, 0, 90],
+			"translation": [0.25, 2.75, -0.75],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [16.25, 16.25, -16],
+			"scale": [2, 2, 2]
+		}
+	},
 	"groups": [
 		{
 			"name": "tank",

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gamula/crops/sparkler/sparkler",
-		"particle": "gamula/crops/sparkler/sparkler"
+		"0": "gamula/cosmetics/props/sparkler",
+		"particle": "gamula/cosmetics/props/sparkler"
 	},
 	"elements": [
 		{
@@ -21,31 +21,36 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 3, 1.25]
+			"rotation": [-12.75, 0, 0],
+			"translation": [0, 10, -2]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 3, 1.25]
+			"rotation": [-12.75, 0, 0],
+			"translation": [0, 10, -2]
 		},
 		"firstperson_righthand": {
 			"rotation": [-12.75, 0, 0],
-			"translation": [0, 2.75, 0]
+			"translation": [0, 12.25, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-12.75, 0, 0],
-			"translation": [0, 2.75, 0]
+			"translation": [0, 12.25, 0]
 		},
 		"ground": {
 			"translation": [0, 8.75, 0],
 			"scale": [0.67, 0.67, 0.67]
 		},
 		"gui": {
-			"rotation": [0, 0, -46]
+			"translation": [0, 4.25, 0],
+			"scale": [0.65, 0.65, 0.65]
 		},
 		"head": {
 			"scale": [0, 0, 0]
 		},
 		"fixed": {
-			"rotation": [0, 0, 46]
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16.25],
+			"scale": [2, 2, 2]
 		}
 	}
 }

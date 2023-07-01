@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gamula/cosmetics/props/sparkler",
-		"1": "gamula/cosmetics/props/sparklereffectt",
+		"1": "gamula/cosmetics/props/sparkler_effect",
 		"particle": "gamula/cosmetics/props/sparkler"
 	},
 	"elements": [
