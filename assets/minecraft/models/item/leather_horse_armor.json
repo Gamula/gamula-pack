@@ -1419,6 +1419,8 @@
         {"predicate": {"custom_model_data": 45029},"model": "item/custom/cosmetics/balloons/flying_dutchman_balloon"},
         {"predicate": {"custom_model_data": 45030},"model": "item/custom/cosmetics/balloons/burgermobile"},
         {"predicate": {"custom_model_data": 45031},"model": "item/custom/cosmetics/balloons/bubble_balloon"},
+        {"predicate": {"custom_model_data": 45032},"model": "item/custom/cosmetics/balloons/mort"},
+        {"predicate": {"custom_model_data": 45033},"model": "item/custom/cosmetics/balloons/fireworkballoon"},
         {"predicate": {"custom_model_data": 50000},"model": "item/custom/icons/overlay_tone"},
         {"predicate": {"custom_model_data": 58000},"model": "item/custom/furniture/build/small_wall_flag"},
         {"predicate": {"custom_model_data": 58001},"model": "item/custom/furniture/build/obelisk_glyphs"},
