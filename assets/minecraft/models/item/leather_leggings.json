@@ -19,6 +19,7 @@
         {"predicate": {"custom_model_data": 13}, "model": "item/custom/sets/buzzlightyear/buzzlightyear_leggings"},
         {"predicate": {"custom_model_data": 14}, "model": "item/custom/sets/radioactive/radioactive_leggings"},
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/sets/sponge/sponge_leggings"},
-        {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/starfish/starfish_leggings"}
+        {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/starfish/starfish_leggings"},
+        {"predicate": {"custom_model_data": 17}, "model": "item/custom/sets/lion/lion_leggings"}
     ]
 }
