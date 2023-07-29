@@ -2108,6 +2108,51 @@
       "height": 9,
       "type": "bitmap"
     },
+    {
+      "file": "gamula/titles/tags/mario/bullet.png",
+      "chars": [
+        "쭝"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/ghost.png",
+      "chars": [
+        "쭞"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/lucky.png",
+      "chars": [
+        "쭟"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/piranaplant.png",
+      "chars": [
+        "쭠"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/star.png",
+      "chars": [
+        "쭡"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
     {"file":"gamula/titles/tags/easter/egg_1.png","ascent":8,"type":"bitmap","chars":["鈘"],"height":9},
     {"file":"gamula/titles/tags/easter/egg_2.png","ascent":8,"type":"bitmap","chars":["鈙"],"height":9},
     {"file":"gamula/titles/tags/easter/egg_3.png","ascent":8,"type":"bitmap","chars":["鈚"],"height":9},
