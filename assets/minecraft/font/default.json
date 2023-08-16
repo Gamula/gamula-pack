@@ -1155,6 +1155,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/robots/gui_robots_main.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "算"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/robots/gui_robots_upgrades.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "旦"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/robots/gui_robots_settings.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "早"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/robots/gui_robots_storage.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "旧"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_tint.png",
       "chars": [
         ""
