@@ -1155,7 +1155,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/robots/gui_robots_menu.png",
+      "file": "gamula/ui/gui/robots/gui_robot_menu.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1164,7 +1164,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/robots/gui_robots_upgrades.png",
+      "file": "gamula/ui/gui/robots/gui_robot_upgrades.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1173,7 +1173,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/robots/gui_robots_settings.png",
+      "file": "gamula/ui/gui/robots/gui_robot_settings.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1182,7 +1182,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/robots/gui_robots_storage.png",
+      "file": "gamula/ui/gui/robots/gui_robot_storage.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
