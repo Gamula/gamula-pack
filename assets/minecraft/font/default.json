@@ -1164,7 +1164,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/robots/gui_robot_upgrades.png",
+      "file": "gamula/ui/gui/robots/gui_robot_upgrade.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
