@@ -22,6 +22,7 @@
         {"predicate": {"custom_model_data": 22}, "model": "item/custom/sets/sweetheart/sword"},
         {"predicate": {"custom_model_data": 24}, "model": "item/custom/sets/easter/sword"},
         {"predicate": {"custom_model_data": 25}, "model": "item/custom/sets/sponge/sword"},
-        {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/starfish/sword"}
+        {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/starfish/sword"},
+        {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/ares/ares_greatsword"}
     ]
 }
