@@ -1,1 +1,14 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"gamula/sets/ares/ares_leggings","layer1":"gamula/sets/ares/ares_leggings"}}
+{
+	"credit": "gigachad drift baby",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer1": "gamula/sets/ares/ares_leggings"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, -1.25, 0],
+			"scale": [0.875, 0.875, 1]
+		}
+	}
+}
