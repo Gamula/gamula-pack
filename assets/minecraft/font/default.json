@@ -1029,6 +1029,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/islands/blocks/gui_spawner_stacked.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "显"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/blocks/gui_spawner_upgrade.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "星"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/pet/gui_pet_list.png",
       "ascent": 29,
       "type": "bitmap",
