@@ -2,7 +2,8 @@
 	"credit": "gigachad drift baby",
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer1": "gamula/sets/ares/ares_boots"
+		"layer1": "gamula/sets/ares/ares_boots",
+		"layer0": "gamula/sets/ares/ares_boots"
 	},
 	"gui_light": "front",
 	"display": {
