@@ -2,7 +2,7 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "modelengine:entity/zeus_balloon"
+		"0": "modelengine:entity/zeus"
 	},
 	"elements": [
 		{
