@@ -41,7 +41,7 @@
       "chars": [
         "㰿"
       ],
-      "file": "gamula/icons/misc/jelly.png",
+      "file": "gamula/icons/misc/mario.png",
       "height": 9,
       "type": "bitmap"
     },
@@ -1029,6 +1029,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/islands/blocks/gui_spawner_stacked.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "显"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/blocks/gui_spawner_upgrade.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "星"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/pet/gui_pet_list.png",
       "ascent": 29,
       "type": "bitmap",
@@ -1155,6 +1173,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/robots/gui_robot_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "算"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/robots/gui_robot_upgrade.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "旦"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/robots/gui_robot_settings.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "早"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/robots/gui_robot_storage.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "旧"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_tint.png",
       "chars": [
         ""
@@ -1263,7 +1317,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_burger.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_lucky.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1317,7 +1371,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_burger.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_lucky.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -2103,6 +2157,51 @@
       "file": "gamula/titles/tags/spongebob/plankton.png",
       "chars": [
         "㴾"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/bullet.png",
+      "chars": [
+        "쭝"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/ghost.png",
+      "chars": [
+        "쭞"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/lucky.png",
+      "chars": [
+        "쭟"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/piranaplant.png",
+      "chars": [
+        "쭠"
+      ],
+      "ascent": 8,
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "gamula/titles/tags/mario/star.png",
+      "chars": [
+        "쭡"
       ],
       "ascent": 8,
       "height": 9,
