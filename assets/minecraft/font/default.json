@@ -455,6 +455,15 @@
     {
       "ascent": 6,
       "chars": [
+        "煎"
+      ],
+      "file": "gamula/icons/symbols/symbol_envoy_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "烈"
       ],
       "file": "gamula/icons/symbols/symbol_pvpwars_icon.png",
@@ -1317,7 +1326,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_lucky.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_tree.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1371,7 +1380,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_lucky.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_tree.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1511,6 +1520,15 @@
       "type": "bitmap",
       "chars": [
         "爟"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/shop/gui_shop_outpost.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "杂"
       ],
       "height": 256
     },

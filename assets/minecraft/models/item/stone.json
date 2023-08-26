@@ -25,6 +25,13 @@
         {"predicate": {"custom_model_data": 20167}, "model": "item/custom/crops/grill/grill_pot"},
         {"predicate": {"custom_model_data": 20172}, "model": "item/custom/crops/jellyfish/jellyfish_pot"},
         {"predicate": {"custom_model_data": 20177}, "model": "item/custom/crops/rocketpop/rocketpop_pot"},
-        {"predicate": {"custom_model_data": 20182}, "model": "item/custom/crops/sparkler/sparkler_pot"}
+        {"predicate": {"custom_model_data": 20182}, "model": "item/custom/crops/sparkler/sparkler_pot"},
+        {"predicate": {"custom_model_data": 25000}, "model": "item/custom/blocks/wood/dark_oak_block_2"},
+        {"predicate": {"custom_model_data": 25001}, "model": "item/custom/blocks/wood/jungle_block_8"},
+        {"predicate": {"custom_model_data": 25002}, "model": "item/custom/blocks/wood/spruce_block_5"},
+        {"predicate": {"custom_model_data": 25003}, "model": "item/custom/blocks/wood/mangrove_block_1"},
+        {"predicate": {"custom_model_data": 25004}, "model": "item/custom/blocks/wood/birch_block_6"},
+        {"predicate": {"custom_model_data": 25005}, "model": "item/custom/blocks/wood/cherry_block_4"},
+        {"predicate": {"custom_model_data": 25006}, "model": "item/custom/blocks/wood/oak_block_9"}
     ]
 }
