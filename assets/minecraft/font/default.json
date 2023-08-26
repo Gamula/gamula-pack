@@ -1326,7 +1326,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_lucky.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_tree.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1380,7 +1380,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_lucky.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_tree.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
