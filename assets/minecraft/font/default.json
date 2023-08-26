@@ -1524,6 +1524,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/shop/gui_shop_outpost.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "杂"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/shop/gui_shop_blocks.png",
       "ascent": 29,
       "type": "bitmap",
