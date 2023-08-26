@@ -455,6 +455,15 @@
     {
       "ascent": 6,
       "chars": [
+        "煎"
+      ],
+      "file": "gamula/icons/symbols/symbol_envoy_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "烈"
       ],
       "file": "gamula/icons/symbols/symbol_pvpwars_icon.png",
