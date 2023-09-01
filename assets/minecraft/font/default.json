@@ -826,6 +826,15 @@
       "ascent": 29,
       "type": "bitmap",
       "chars": [
+        "冽"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/islands/gui_island_top_value_old.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
         "课"
       ],
       "height": 256
