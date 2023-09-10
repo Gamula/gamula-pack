@@ -1497,6 +1497,8 @@
         {"predicate":{"custom_model_data":1491},"model":"modelengine:zeus_balloon/cloud3"},
         {"predicate":{"custom_model_data":1492},"model":"modelengine:zeus_balloon/cloud1"},
         {"predicate":{"custom_model_data":1493},"model":"modelengine:zeus_balloon/cloud5"},
+        {"predicate":{"custom_model_data":1494},"model":"modelengine:zzzblue_dodgeball/bone"},
+        {"predicate":{"custom_model_data":1495},"model":"modelengine:zzzred_dodgeball/bone"},
         {"predicate": {"custom_model_data": 10001},"model": "item/custom/cosmetics/backpacks/basic_backpack"},
         {"predicate": {"custom_model_data": 10002},"model": "item/custom/cosmetics/backpacks/brown_bear_tail"},
         {"predicate": {"custom_model_data": 10003},"model": "item/custom/cosmetics/backpacks/burger_suit"},
