@@ -2,7 +2,7 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "block/guido"
+		"0": "modelengine:entity/npc_guido"
 	},
 	"elements": [
 		{
@@ -1618,19 +1618,6 @@
 				"up": {"uv": [10.25, 10.0625, 10.5, 10], "texture": "#0"},
 				"down": {"uv": [10.25, 10.125, 10.5, 10.1875], "texture": "#0"}
 			}
-		},
-		{
-			"from": [-15.05, 0.46147, 16.064],
-			"to": [-0.75, 19.31147, 30.364],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-7.9, -0.18853, 23.214]},
-			"faces": {
-				"north": {"uv": [13.25, 0, 16, 3.625], "texture": "#0"},
-				"east": {"uv": [13.25, 0, 16, 3.625], "texture": "#0"},
-				"south": {"uv": [13.25, 0, 16, 3.625], "texture": "#0"},
-				"west": {"uv": [13.25, 0, 16, 3.625], "texture": "#0"},
-				"up": {"uv": [13.25, 0, 16, 2.75], "texture": "#0"},
-				"down": {"uv": [13.25, 0, 16, 2.75], "texture": "#0"}
-			}
 		}
 	],
 	"gui_light": "front",
@@ -1846,13 +1833,6 @@
 					"children": [110, 111, 112, 113, 114, 115, 116, 117]
 				}
 			]
-		},
-		{
-			"name": "hitbox",
-			"origin": [8, 15.5, 8],
-			"color": 0,
-			"nbt": "{}",
-			"children": [118]
 		},
 		{
 			"name": "tag_name",

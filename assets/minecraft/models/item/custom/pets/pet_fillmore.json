@@ -2,7 +2,7 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "block/fillmore"
+		"0": "modelengine:entity/npc_fillmore"
 	},
 	"elements": [
 		{
@@ -1199,19 +1199,6 @@
 				"up": {"uv": [6.375, 6.75, 6.3125, 6.8125], "texture": "#0"},
 				"down": {"uv": [6.8125, 6.375, 6.75, 6.3125], "texture": "#0"}
 			}
-		},
-		{
-			"from": [-16, 0.35, 12],
-			"to": [4, 16.85, 32],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 0.35, 25.1]},
-			"faces": {
-				"north": {"uv": [13.5, 0, 16, 2.0625], "texture": "#0"},
-				"east": {"uv": [13.5, 0, 16, 2.0625], "texture": "#0"},
-				"south": {"uv": [13.5, 0, 16, 2.0625], "texture": "#0"},
-				"west": {"uv": [13.5, 0, 16, 2.0625], "texture": "#0"},
-				"up": {"uv": [13.5, 0, 16, 2.5], "texture": "#0"},
-				"down": {"uv": [13.5, 0, 16, 2.5], "texture": "#0"}
-			}
 		}
 	],
 	"display": {
@@ -1353,13 +1340,6 @@
 					"children": [79, 80, 81, 82, 83, 84, 85, 86]
 				}
 			]
-		},
-		{
-			"name": "hitbox",
-			"origin": [8, 17.5, 8],
-			"color": 0,
-			"nbt": "{}",
-			"children": [87]
 		},
 		{
 			"name": "tag_name",

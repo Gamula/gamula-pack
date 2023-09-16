@@ -2,7 +2,7 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [128, 128],
 	"textures": {
-		"3": "block/nocsy_chibi_fox"
+		"3": "modelengine:entity/pet_chewy"
 	},
 	"elements": [
 		{
@@ -960,13 +960,6 @@
 		}
 	},
 	"groups": [
-		{
-			"name": "hitbox",
-			"origin": [8, 11, 3],
-			"color": 0,
-			"nbt": "{}",
-			"children": [0]
-		},
 		{
 			"name": "body",
 			"origin": [-8, 4.09288, 23.05907],
