@@ -1872,6 +1872,7 @@
         {"predicate": {"custom_model_data": 45037},"model": "item/custom/cosmetics/balloons/zeus"},
         {"predicate": {"custom_model_data": 45038},"model": "item/custom/cosmetics/balloons/schoolbus_balloon"},
         {"predicate": {"custom_model_data": 45039},"model": "item/custom/cosmetics/balloons/mcqueen_balloon"},
+        {"predicate": {"custom_model_data": 45040},"model": "item/custom/cosmetics/balloons/tractor_balloon"},
         {"predicate": {"custom_model_data": 50000},"model": "item/custom/icons/overlay_tone"},
         {"predicate": {"custom_model_data": 58000},"model": "item/custom/furniture/build/small_wall_flag"},
         {"predicate": {"custom_model_data": 58001},"model": "item/custom/furniture/build/obelisk_glyphs"},
