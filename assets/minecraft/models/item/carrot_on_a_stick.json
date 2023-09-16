@@ -5,8 +5,6 @@
     },
     "overrides": [
         {"predicate": {"custom_model_data":1}, "model": "item/custom/diving/harpoon/harpoon"},
-        {"predicate": {"custom_model_data":2}, "model": "item/custom/diving/harpoon/harpoon_fire"},
-        {"predicate": {"custom_model_data":3}, "model": "item/custom/event/dodgeball/red_dodgeball"},
-        {"predicate": {"custom_model_data":4}, "model": "item/custom/event/dodgeball/blue_dodgeball"}
+        {"predicate": {"custom_model_data":2}, "model": "item/custom/diving/harpoon/harpoon_fire"}
         ]
 }
