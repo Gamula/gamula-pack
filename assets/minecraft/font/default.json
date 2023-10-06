@@ -786,6 +786,24 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/cosmetics/messages/gui_trails.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "急"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/messages/gui_effects.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "怒"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/cosmetics/tags/gui_tags_menu.png",
       "ascent": 29,
       "type": "bitmap",
@@ -1326,6 +1344,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_rank.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "恶"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_crimson.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1394,6 +1421,15 @@
       "type": "bitmap",
       "chars": [
         "⼔"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_rank.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "恐"
       ],
       "height": 256
     },

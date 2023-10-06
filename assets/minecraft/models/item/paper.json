@@ -41,6 +41,8 @@
         {"predicate": {"custom_model_data": 80},"model": "item/custom/discord/logo"},
         {"predicate": {"custom_model_data": 81},"model": "item/custom/others/star_pass"},
         {"predicate": {"custom_model_data": 82},"model": "item/custom/others/route_66"},
+        {"predicate": {"custom_model_data": 99},"model": "item/custom/crates/rank_crate"},
+        {"predicate": {"custom_model_data": 100},"model": "item/custom/keys/rank_key"},
         {"predicate": {"custom_model_data": 101},"model": "item/custom/crates/crimson_crate"},
         {"predicate": {"custom_model_data": 102},"model": "item/custom/crates/crystal_crate"},
         {"predicate": {"custom_model_data": 103},"model": "item/custom/crates/magma_crate"},
