@@ -464,6 +464,15 @@
     {
       "ascent": 6,
       "chars": [
+        "达"
+      ],
+      "file": "gamula/icons/symbols/symbol_sale_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "烈"
       ],
       "file": "gamula/icons/symbols/symbol_pvpwars_icon.png",
@@ -2042,6 +2051,15 @@
       "type": "bitmap",
       "chars": [
         "洗"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/tags/misc/greek.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "诗"
       ],
       "height": 9
     },
