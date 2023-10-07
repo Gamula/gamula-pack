@@ -464,6 +464,15 @@
     {
       "ascent": 6,
       "chars": [
+        "达"
+      ],
+      "file": "gamula/icons/symbols/symbol_sale_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "烈"
       ],
       "file": "gamula/icons/symbols/symbol_pvpwars_icon.png",
@@ -782,6 +791,24 @@
       "type": "bitmap",
       "chars": [
         "롗"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/messages/gui_trails.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "急"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/cosmetics/messages/gui_effects.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "怒"
       ],
       "height": 256
     },
@@ -1326,6 +1353,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_rank.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "恶"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_crimson.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1394,6 +1430,15 @@
       "type": "bitmap",
       "chars": [
         "⼔"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_rank.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "恐"
       ],
       "height": 256
     },
@@ -2006,6 +2051,15 @@
       "type": "bitmap",
       "chars": [
         "洗"
+      ],
+      "height": 9
+    },
+    {
+      "file": "gamula/titles/tags/misc/greek.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "诗"
       ],
       "height": 9
     },
