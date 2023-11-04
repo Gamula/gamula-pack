@@ -2394,6 +2394,7 @@
     {"file":"gamula/titles/ranks/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
     {"file":"gamula/titles/ranks/title_owner.png","ascent":8,"type":"bitmap","chars":["","","","","","","","ల"],"height":9},
     {"file":"gamula/titles/ranks/title_developer.png","ascent":8,"type":"bitmap","chars":["","","",""],"height":9},
+    {"file":"gamula/titles/ranks/title_partner.png","ascent":8,"type":"bitmap","chars":["冻"],"height":9},
     {"file":"gamula/titles/ranks/title_manager.png","ascent":8,"type":"bitmap","chars":["浓","淡"],"height":9},
     {"file":"gamula/titles/tags/air_top.png","ascent":8,"type":"bitmap","chars":["打","扔"],"height":9},
     {"file":"gamula/titles/tags/comp_top.png","ascent":8,"type":"bitmap","chars":["扒","拖","托","扫","扣"],"height":9},
