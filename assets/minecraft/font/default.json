@@ -489,6 +489,33 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/quests/gui_gravestone.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "准"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/quests/gui_gravestone_inventory.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "决"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/quests/gui_crafting.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "减"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/quests/gui_quests.png",
       "ascent": 28,
       "type": "bitmap",

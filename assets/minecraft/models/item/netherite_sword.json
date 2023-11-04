@@ -24,6 +24,7 @@
         {"predicate": {"custom_model_data": 25}, "model": "item/custom/sets/sponge/sword"},
         {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/starfish/sword"},
         {"predicate": {"custom_model_data": 27}, "model": "item/custom/sets/ares/ares_greatsword"},
-        {"predicate": {"custom_model_data": 28}, "model": "item/custom/sets/zeus/zeus_sword"}
+        {"predicate": {"custom_model_data": 28}, "model": "item/custom/sets/zeus/zeus_sword"},
+        {"predicate": {"custom_model_data": 29}, "model": "item/custom/sets/halloween/skull_staff"}
     ]
 }

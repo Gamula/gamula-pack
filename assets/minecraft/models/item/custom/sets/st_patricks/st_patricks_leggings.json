@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/st_patricks/st_patricks_leggings",
+		"layer1": "gamula/sets/st_patricks/st_patricks_leggings"
+	}
+}

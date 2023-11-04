@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/skills/mining_chestplate_icon",
+		"layer1": "gamula/sets/skills/mining_chestplate_icon"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 0.25, 0],
+			"scale": [0.75, 0.9, 0.75]
+		}
+	}
+}

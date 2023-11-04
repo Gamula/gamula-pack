@@ -13,6 +13,16 @@
         {"predicate": {"custom_model_data": 15},"model": "item/custom/sets/starfish/starfish_helmet"},
         {"predicate": {"custom_model_data": 16},"model": "item/custom/sets/lion/lion_helmet"},
         {"predicate": {"custom_model_data": 17},"model": "item/custom/sets/ares/ares_helmet"},
-        {"predicate": {"custom_model_data": 18},"model": "item/custom/sets/zeus/zeus_helmet"}
+        {"predicate": {"custom_model_data": 18},"model": "item/custom/sets/zeus/zeus_helmet"},
+        {"predicate": {"custom_model_data": 20},"model": "item/custom/sets/skills/farming_helmet"},
+        {"predicate": {"custom_model_data": 21},"model": "item/custom/sets/skills/mining_helmet"},
+        {"predicate": {"custom_model_data": 22},"model": "item/custom/sets/skills/fishing_helmet"},
+        {"predicate": {"custom_model_data": 23},"model": "item/custom/sets/fiendskull/fiendskull_helmet"},
+        {"predicate": {"custom_model_data": 24},"model": "item/custom/sets/st_patricks/st_patricks_helmet"},
+        {"predicate": {"custom_model_data": 25},"model": "item/custom/sets/steampunk/experience_helmet"},
+        {"predicate": {"custom_model_data": 26},"model": "item/custom/sets/steampunk/mobcoin_helmet"},
+        {"predicate": {"custom_model_data": 27},"model": "item/custom/sets/inferno/inferno_helmet"},
+        {"predicate": {"custom_model_data": 28},"model": "item/custom/sets/thor/thor_helmet"},
+        {"predicate": {"custom_model_data": 29},"model": "item/custom/sets/scarecrow/scarecrow_helmet"}
     ]
 }

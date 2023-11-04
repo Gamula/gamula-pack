@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/steampunk/mobcoin_boots",
+		"layer1": "gamula/sets/steampunk/mobcoin_boots"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.8, 1, 0.875]
+		}
+	}
+}
