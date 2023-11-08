@@ -525,6 +525,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/quests/gui_recipes.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "遥"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/quests/gui_quests_selector.png",
       "ascent": 29,
       "type": "bitmap",
@@ -1389,6 +1398,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_set.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "快"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_crimson.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1466,6 +1484,15 @@
       "type": "bitmap",
       "chars": [
         "恐"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_set.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "慢"
       ],
       "height": 256
     },
