@@ -16,6 +16,7 @@
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/sweetheart/pickaxe"},
         {"predicate": {"custom_model_data": 17}, "model": "item/custom/sets/easter/pickaxe"},
         {"predicate": {"custom_model_data": 18}, "model": "item/custom/sets/sponge/pickaxe"},
-        {"predicate": {"custom_model_data": 19}, "model": "item/custom/sets/starfish/pickaxe"}
+        {"predicate": {"custom_model_data": 19}, "model": "item/custom/sets/starfish/pickaxe"},
+        {"predicate": {"custom_model_data": 20}, "model": "item/custom/sets/pilgrim/pickaxe"}
     ]
 }

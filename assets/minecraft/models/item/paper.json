@@ -41,6 +41,8 @@
         {"predicate": {"custom_model_data": 80},"model": "item/custom/discord/logo"},
         {"predicate": {"custom_model_data": 81},"model": "item/custom/others/star_pass"},
         {"predicate": {"custom_model_data": 82},"model": "item/custom/others/route_66"},
+        {"predicate": {"custom_model_data": 93},"model": "item/custom/keys/turkey_key"},
+        {"predicate": {"custom_model_data": 94},"model": "item/custom/crates/turkey_crate"},
         {"predicate": {"custom_model_data": 95},"model": "item/custom/keys/halloween_key"},
         {"predicate": {"custom_model_data": 96},"model": "item/custom/crates/halloween_crate"},
         {"predicate": {"custom_model_data": 97},"model": "item/custom/keys/set_key"},

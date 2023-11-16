@@ -15,6 +15,7 @@
         {"predicate": {"custom_model_data": 15}, "model": "item/custom/sets/sweetheart/hoe"},
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/easter/hoe"},
         {"predicate": {"custom_model_data": 17}, "model": "item/custom/sets/sponge/hoe"},
-        {"predicate": {"custom_model_data": 18}, "model": "item/custom/sets/starfish/hoe"}
+        {"predicate": {"custom_model_data": 18}, "model": "item/custom/sets/starfish/hoe"},
+        {"predicate": {"custom_model_data": 19}, "model": "item/custom/sets/pilgrim/hoe"}
     ]
 }

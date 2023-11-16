@@ -1380,6 +1380,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_thanksgiving.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "清"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_cars.png",
       "ascent": 28,
       "type": "bitmap",

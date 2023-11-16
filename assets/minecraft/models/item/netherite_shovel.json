@@ -16,6 +16,7 @@
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/sets/sweetheart/shovel"},
         {"predicate": {"custom_model_data": 17}, "model": "item/custom/sets/easter/shovel"},
         {"predicate": {"custom_model_data": 18}, "model": "item/custom/sets/sponge/shovel"},
-        {"predicate": {"custom_model_data": 19}, "model": "item/custom/sets/starfish/shovel"}
+        {"predicate": {"custom_model_data": 19}, "model": "item/custom/sets/starfish/shovel"},
+        {"predicate": {"custom_model_data": 20}, "model": "item/custom/sets/pilgrim/shovel"}
     ]
 }
