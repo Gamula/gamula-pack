@@ -302,6 +302,7 @@
         {"predicate": {"custom_model_data": 19010}, "model":"item/custom/pets/pet_guido"},
         {"predicate": {"custom_model_data": 19011}, "model":"item/custom/pets/pet_fillmore"},
         {"predicate": {"custom_model_data": 19012}, "model":"item/custom/pets/pet_chewy"},
+        {"predicate": {"custom_model_data": 19013}, "model":"item/custom/pets/pet_transmutation"},
         {"predicate": {"custom_model_data": 20000}, "model":"item/custom/crops/pot"},
         {"predicate": {"custom_model_data": 20001}, "model":"item/custom/crops/tem_seed"},
         {"predicate": {"custom_model_data": 20002}, "model":"item/custom/crops/watered_pot"},
