@@ -33,6 +33,8 @@
         {"predicate": {"custom_model_data": 27}, "model": "item/custom/sets/inferno/inferno_leggings"},
         {"predicate": {"custom_model_data": 28}, "model": "item/custom/sets/thor/thor_leggings"},
         {"predicate": {"custom_model_data": 29}, "model": "item/custom/sets/scarecrow/scarecrow_leggings"},
-        {"predicate": {"custom_model_data": 30}, "model": "item/custom/sets/pilgrim/pilgrim_leggings"}
+        {"predicate": {"custom_model_data": 30}, "model": "item/custom/sets/pilgrim/pilgrim_leggings"},
+        {"predicate": {"custom_model_data": 31}, "model": "item/custom/sets/santa/santa_leggings"},
+        {"predicate": {"custom_model_data": 32}, "model": "item/custom/sets/winter/winter_leggings"}
     ]
 }

@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/santa/santa_chestplate",
+		"layer1": "gamula/sets/santa/santa_chestplate"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 0.25, 0],
+			"scale": [0.75, 0.9, 0.75]
+		}
+	}
+}

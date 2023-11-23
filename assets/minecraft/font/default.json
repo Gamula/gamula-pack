@@ -1407,6 +1407,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_elf.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "懂"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_set.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1493,6 +1502,15 @@
       "type": "bitmap",
       "chars": [
         "恐"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_elf.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "忍"
       ],
       "height": 256
     },
