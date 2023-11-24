@@ -2,7 +2,7 @@
 	"credit": "gigachad drift baby",
 	"texture_size": [64, 64],
 	"textures": {
-		"11": "block/pet_snowman"
+		"11": "modelengine:entity/pet_snowman"
 	},
 	"elements": [
 		{
