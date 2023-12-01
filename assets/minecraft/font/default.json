@@ -473,6 +473,15 @@
     {
       "ascent": 6,
       "chars": [
+        "恋"
+      ],
+      "file": "gamula/icons/symbols/symbol_gingerbread_icon.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 6,
+      "chars": [
         "烈"
       ],
       "file": "gamula/icons/symbols/symbol_pvpwars_icon.png",
@@ -1385,6 +1394,15 @@
       "type": "bitmap",
       "chars": [
         "清"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_christmas.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "您"
       ],
       "height": 256
     },
