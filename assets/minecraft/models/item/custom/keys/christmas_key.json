@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gamula/keys/base_key_texture",
-		"2": "block/xm2_present",
+		"2": "gamula/keys/christmas_key",
 		"particle": "gamula/keys/base_key_texture"
 	},
 	"elements": [
