@@ -2,13 +2,13 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
+		"layer0": "gamula/sets/gingerbread/gingerbread_boots",
 		"layer1": "gamula/sets/gingerbread/gingerbread_boots"
 	},
-	"gui_light": "front",
 	"display": {
 		"gui": {
-			"translation": [0, 0.15, 0],
-			"scale": [0.92, 0.86922, 0.92]
+			"translation": [0, 0.25, 0],
+			"scale": [0.75, 0.9, 0.75]
 		}
 	}
 }
