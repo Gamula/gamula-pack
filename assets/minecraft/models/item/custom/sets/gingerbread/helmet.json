@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer1": "gamula/sets/gingerbread/gingerbread_helmet"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [0.92, 0.85, 0.92]
+		}
+	}
+}

@@ -1308,6 +1308,33 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/advent/gui_advent.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "智"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/advent/gui_advent_free.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "晶"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/advent/gui_advent_premium.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "暗"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_tint.png",
       "chars": [
         ""
