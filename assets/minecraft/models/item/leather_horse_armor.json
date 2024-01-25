@@ -2360,6 +2360,8 @@
         {"predicate": {"custom_model_data": 10103},"model": "item/custom/cosmetics/backpacks/scarf_body"},
         {"predicate": {"custom_model_data": 10104},"model": "item/custom/cosmetics/backpacks/snowman_body"},
         {"predicate": {"custom_model_data": 10105},"model": "item/custom/cosmetics/backpacks/sugar_body"},
+        {"predicate": {"custom_model_data": 10106},"model": "item/custom/sets/valentines/wings"},
+        {"predicate": {"custom_model_data": 10107},"model": "item/custom/sets/valentines/bouquet"},
         {"predicate": {"custom_model_data": 20001},"model": "item/custom/cosmetics/hats/amethyst_crown"},
         {"predicate": {"custom_model_data": 20002},"model": "item/custom/cosmetics/hats/diamond_crown"},
         {"predicate": {"custom_model_data": 20003},"model": "item/custom/cosmetics/hats/emerald_crown"},

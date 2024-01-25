@@ -21,6 +21,7 @@
         {"predicate": {"custom_model_data": 23}, "model": "item/custom/sets/sponge/axe"},
         {"predicate": {"custom_model_data": 24}, "model": "item/custom/sets/starfish/axe"},
         {"predicate": {"custom_model_data": 25}, "model": "item/custom/sets/pilgrim/axe"},
-        {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/winter/axe"}
+        {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/winter/axe"},
+        {"predicate": {"custom_model_data": 27}, "model": "item/custom/sets/valentines/axe"}
     ]
 }

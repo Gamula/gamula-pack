@@ -26,6 +26,7 @@
         {"predicate": {"custom_model_data": 29},"model": "item/custom/sets/scarecrow/scarecrow_helmet"},
         {"predicate": {"custom_model_data": 30},"model": "item/custom/sets/pilgrim/pilgrim_helmet"},
         {"predicate": {"custom_model_data": 31},"model": "item/custom/sets/santa/santa_helmet"},
-        {"predicate": {"custom_model_data": 32},"model": "item/custom/sets/winter/winter_helmet"}
+        {"predicate": {"custom_model_data": 32},"model": "item/custom/sets/winter/winter_helmet"},
+        {"predicate": {"custom_model_data": 34},"model": "item/custom/sets/valentines/valentines_helmet"}
     ]
 }
