@@ -19,6 +19,7 @@
         {"predicate": {"custom_model_data": 19}, "model": "item/custom/sets/starfish/shovel"},
         {"predicate": {"custom_model_data": 20}, "model": "item/custom/sets/pilgrim/shovel"},
         {"predicate": {"custom_model_data": 21}, "model": "item/custom/sets/winter/shovel"},
-        {"predicate": {"custom_model_data": 22}, "model": "item/custom/sets/valentines/shovel"}
+        {"predicate": {"custom_model_data": 22}, "model": "item/custom/sets/valentines/shovel"},
+        {"predicate": {"custom_model_data": 23}, "model": "item/custom/sets/alien/shovel"}
     ]
 }

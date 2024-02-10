@@ -45,6 +45,8 @@
         {"predicate": {"custom_model_data": 80},"model": "item/custom/discord/logo"},
         {"predicate": {"custom_model_data": 81},"model": "item/custom/others/star_pass"},
         {"predicate": {"custom_model_data": 82},"model": "item/custom/others/route_66"},
+        {"predicate": {"custom_model_data": 88},"model": "item/custom/sets/alien/chest"},
+        {"predicate": {"custom_model_data": 89},"model": "item/custom/sets/alien/key"},
         {"predicate": {"custom_model_data": 90},"model": "item/custom/keys/valentines_key"},
         {"predicate": {"custom_model_data": 91},"model": "item/custom/keys/elf_key"},
         {"predicate": {"custom_model_data": 92},"model": "item/custom/crates/valentines_crate"},

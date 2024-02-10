@@ -30,6 +30,8 @@
         {"predicate": {"custom_model_data": 31}, "model": "item/custom/sets/pilgrim/pitchfork"},
         {"predicate": {"custom_model_data": 32}, "model": "item/custom/sets/winter/sword"},
         {"predicate": {"custom_model_data": 33}, "model": "item/custom/sets/valentines/sword"},
-        {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/valentines/scythe"}
+        {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/valentines/scythe"},
+        {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/alien/scythe"},
+        {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/alien/sword"}
     ]
 }

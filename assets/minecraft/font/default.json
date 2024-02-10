@@ -1434,7 +1434,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_cars.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_cosmic.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1524,7 +1524,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_cars.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_cosmic.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
