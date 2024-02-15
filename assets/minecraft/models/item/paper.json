@@ -314,6 +314,7 @@
         {"predicate": {"custom_model_data": 19012}, "model":"item/custom/pets/pet_chewy"},
         {"predicate": {"custom_model_data": 19013}, "model":"item/custom/pets/pet_transmutation"},
         {"predicate": {"custom_model_data": 19014}, "model":"item/custom/pets/pet_snowman"},
+        {"predicate": {"custom_model_data": 19015}, "model":"item/custom/pets/pet_dupe"},
         {"predicate": {"custom_model_data": 20000}, "model":"item/custom/crops/pot"},
         {"predicate": {"custom_model_data": 20001}, "model":"item/custom/crops/tem_seed"},
         {"predicate": {"custom_model_data": 20002}, "model":"item/custom/crops/watered_pot"},
