@@ -11,7 +11,7 @@ jobs:
     - name: Clone
       uses: actions/checkout@v3
       with:
-        ref: main
+        ref: prison
         fetch-depth: 0
 
 # shader workaround - prepare
@@ -51,8 +51,8 @@ jobs:
     - name: Tag & Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: v${{ github.run_number }}-stable
-        target_commitish: main
+        tag_name: v${{ github.run_number }}-dev
+        target_commitish: prison
         files: gamula.zip
         body: |
           **commit:** ${{ github.event.head_commit.message }}
