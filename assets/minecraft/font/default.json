@@ -1614,61 +1614,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/enchanting/gui_reveal.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "퉘"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/enchanting/gui_runes.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "퉙"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/enchanting/gui_scrap.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "퉚"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/enchanting/gui_scriber.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "퉛"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/enchanting/gui_enchant_view.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "봟"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/enchanting/gui_enchant_list.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "봿"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/enchanting/gui_runes_list.png",
+      "file": "gamula/ui/gui/enchanting/gui_enchants.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [

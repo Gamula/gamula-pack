@@ -20,6 +20,13 @@
         {"predicate": {"custom_model_data": 20}, "model": "item/custom/sets/pilgrim/pickaxe"},
         {"predicate": {"custom_model_data": 21}, "model": "item/custom/sets/winter/pickaxe"},
         {"predicate": {"custom_model_data": 22}, "model": "item/custom/sets/valentines/pickaxe"},
-        {"predicate": {"custom_model_data": 23}, "model": "item/custom/sets/alien/pickaxe"}
+        {"predicate": {"custom_model_data": 23}, "model": "item/custom/sets/alien/pickaxe"},
+        {"predicate": {"custom_model_data": 1000}, "model": "item/custom/pickaxes/dragon_pickaxe"},
+        {"predicate": {"custom_model_data": 1001}, "model": "item/custom/pickaxes/drill_pickaxe"},
+        {"predicate": {"custom_model_data": 1002}, "model": "item/custom/pickaxes/electricity_pickaxe"},
+        {"predicate": {"custom_model_data": 1003}, "model": "item/custom/pickaxes/hulk_pickaxe"},
+        {"predicate": {"custom_model_data": 1004}, "model": "item/custom/pickaxes/music_pickaxe"},
+        {"predicate": {"custom_model_data": 1005}, "model": "item/custom/pickaxes/rainbow_pickaxe"},
+        {"predicate": {"custom_model_data": 1006}, "model": "item/custom/pickaxes/unicorn_pickaxe"}
     ]
 }
