@@ -51,7 +51,7 @@ jobs:
     - name: Tag & Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: v${{ github.run_number }}-dev
+        tag_name: v${{ github.run_number }}-prison
         target_commitish: prison
         files: gamula.zip
         body: |
