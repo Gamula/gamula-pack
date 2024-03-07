@@ -1623,6 +1623,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/enchanting/gui_enchants_amount.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "퉙"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/help/gui_help_menu.png",
       "ascent": 29,
       "type": "bitmap",
