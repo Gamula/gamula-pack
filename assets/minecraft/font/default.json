@@ -1074,7 +1074,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/collectors/gui_collectors_menu.png",
+      "file": "gamula/ui/gui/collectors/gui_collector_menu.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
