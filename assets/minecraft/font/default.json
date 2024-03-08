@@ -1074,6 +1074,51 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/collectors/gui_collectors_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "眉"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/collectors/gui_collector_upgrades.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "盼"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/collectors/gui_collectors_upgrade_range.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "眨"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/collectors/gui_collectors_upgrade_slots.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "眼"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/collectors/gui_collectors_upgrade_storage.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "睡"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/gkits/gui_gkit_main.png",
       "ascent": 29,
       "type": "bitmap",
