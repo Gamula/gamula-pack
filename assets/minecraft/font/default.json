@@ -1092,7 +1092,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/collectors/gui_collectors_upgrade_range.png",
+      "file": "gamula/ui/gui/collectors/gui_collector_upgrade_range.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1101,7 +1101,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/collectors/gui_collectors_upgrade_slots.png",
+      "file": "gamula/ui/gui/collectors/gui_collector_upgrade_slots.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1110,7 +1110,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/collectors/gui_collectors_upgrade_storage.png",
+      "file": "gamula/ui/gui/collectors/gui_collector_upgrade_storage.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
