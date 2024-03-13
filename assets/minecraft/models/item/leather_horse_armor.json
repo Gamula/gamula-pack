@@ -2887,6 +2887,7 @@
         {"predicate": {"custom_model_data": 20145},"model": "item/custom/cosmetics/hats/gift_hat_2"},
         {"predicate": {"custom_model_data": 20146},"model": "item/custom/cosmetics/hats/santa_hat_2023"},
         {"predicate": {"custom_model_data": 20147},"model": "item/custom/cosmetics/hats/snowman_hat"},
+        {"predicate": {"custom_model_data": 20148},"model": "item/custom/cosmetics/hats/old_straw_hat"},
         {"predicate": {"custom_model_data": 30001},"model": "item/custom/cosmetics/props/brown_bear_claw"},
         {"predicate": {"custom_model_data": 30002},"model": "item/custom/cosmetics/props/knight_sword"},
         {"predicate": {"custom_model_data": 30003},"model": "item/custom/cosmetics/props/krusty_krab_spatula"},
