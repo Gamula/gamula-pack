@@ -1479,6 +1479,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_st_patrick_day.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "有"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_cosmic.png",
       "ascent": 28,
       "type": "bitmap",
