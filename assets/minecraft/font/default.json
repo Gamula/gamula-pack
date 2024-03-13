@@ -1704,15 +1704,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/enchanting/gui_runes_list.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "孿"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/help/gui_help_menu.png",
       "ascent": 29,
       "type": "bitmap",
