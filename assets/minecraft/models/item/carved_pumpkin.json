@@ -28,6 +28,7 @@
         {"predicate": {"custom_model_data": 31},"model": "item/custom/sets/santa/santa_helmet"},
         {"predicate": {"custom_model_data": 32},"model": "item/custom/sets/winter/winter_helmet"},
         {"predicate": {"custom_model_data": 34},"model": "item/custom/sets/valentines/valentines_helmet"},
-        {"predicate": {"custom_model_data": 35},"model": "item/custom/sets/alien/helmet"}
+        {"predicate": {"custom_model_data": 35},"model": "item/custom/sets/alien/helmet"},
+        {"predicate": {"custom_model_data": 36},"model": "item/custom/sets/shogun/shogun_helmet"}
     ]
 }

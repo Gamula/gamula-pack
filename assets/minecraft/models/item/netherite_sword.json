@@ -32,6 +32,11 @@
         {"predicate": {"custom_model_data": 33}, "model": "item/custom/sets/valentines/sword"},
         {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/valentines/scythe"},
         {"predicate": {"custom_model_data": 35}, "model": "item/custom/sets/alien/scythe"},
-        {"predicate": {"custom_model_data": 36}, "model": "item/custom/sets/alien/sword"}
+        {"predicate": {"custom_model_data": 36}, "model": "item/custom/sets/alien/sword"},
+        {"predicate": {"custom_model_data": 37}, "model": "item/custom/sets/shogun/shogun_sword"},
+        {"predicate": {"custom_model_data": 38}, "model": "item/custom/sets/shogun/shogun_tanto"},
+        {"predicate": {"custom_model_data": 39}, "model": "item/custom/sets/shogun/shogun_staff"},
+        {"predicate": {"custom_model_data": 40}, "model": "item/custom/sets/shogun/shogun_spear"},
+        {"predicate": {"custom_model_data": 41}, "model": "item/custom/sets/shogun/shogun_scythe"}
     ]
 }

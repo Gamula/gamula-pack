@@ -23,6 +23,8 @@
         {"predicate": {"custom_model_data": 25}, "model": "item/custom/sets/pilgrim/axe"},
         {"predicate": {"custom_model_data": 26}, "model": "item/custom/sets/winter/axe"},
         {"predicate": {"custom_model_data": 27}, "model": "item/custom/sets/valentines/axe"},
-        {"predicate": {"custom_model_data": 28}, "model": "item/custom/sets/alien/axe"}
+        {"predicate": {"custom_model_data": 28}, "model": "item/custom/sets/alien/axe"},
+        {"predicate": {"custom_model_data": 29}, "model": "item/custom/sets/shogun/shogun_axe"},
+        {"predicate": {"custom_model_data": 30}, "model": "item/custom/sets/shogun/shogun_hammer"}
     ]
 }

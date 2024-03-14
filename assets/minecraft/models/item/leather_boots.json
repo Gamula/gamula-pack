@@ -38,6 +38,7 @@
         {"predicate": {"custom_model_data": 32}, "model": "item/custom/sets/winter/winter_boots"},
         {"predicate": {"custom_model_data": 33}, "model": "item/custom/sets/gingerbread/boots"},
         {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/valentines/valentines_boots"},
-        {"predicate": {"custom_model_data": 35}, "model": "item/custom/sets/alien/boots"}
+        {"predicate": {"custom_model_data": 35}, "model": "item/custom/sets/alien/boots"},
+        {"predicate": {"custom_model_data": 36}, "model": "item/custom/sets/shogun/shogun_boots"}
     ]
 }
