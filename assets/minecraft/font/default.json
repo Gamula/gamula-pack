@@ -723,6 +723,60 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_main.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "腿"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_solo.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "腹"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_duo.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "臂"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_select.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "岁"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_preview.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "岛"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_spectate.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "岸"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/auction/gui_auction_categories.png",
       "ascent": 30,
       "type": "bitmap",
