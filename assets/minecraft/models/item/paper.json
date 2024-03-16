@@ -152,6 +152,7 @@
         {"predicate": {"custom_model_data": 246},"model": "item/custom/sets/valentines/chest"},
         {"predicate": {"custom_model_data": 247},"model": "item/custom/keys/easter_key"},
         {"predicate": {"custom_model_data": 248},"model": "item/custom/crates/easter_crate"},
+        {"predicate": {"custom_model_data": 249},"model": "item/custom/crates/battlebox_crate"},
         {"predicate": {"custom_model_data": 1000},"model": "item/custom/icons/tags/candy_cane"},
         {"predicate": {"custom_model_data": 1001},"model": "item/custom/icons/tags/christmas_tree"},
         {"predicate": {"custom_model_data": 1002},"model": "item/custom/icons/tags/elf"},
