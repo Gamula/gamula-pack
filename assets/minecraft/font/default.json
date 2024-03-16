@@ -354,10 +354,11 @@
       "height": 7
     },
     {
-      "ascent": 24,
-      "height": 24,
+      "ascent": 12,
+      "height": 50,
       "chars": [
-        "胃"
+        "胃脑",
+        "胸脏"
       ],
       "file": "gamula/titles/hologram/battlebox.png",
       "type": "bitmap"
