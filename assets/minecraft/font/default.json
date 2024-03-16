@@ -1542,6 +1542,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_easter.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "肌"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_cosmic.png",
       "ascent": 28,
       "type": "bitmap",
