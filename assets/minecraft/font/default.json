@@ -2082,6 +2082,15 @@
       "height": 9
     },
     {
+      "file": "gamula/titles/tiers/title_divine.png",
+      "ascent": 8,
+      "type": "bitmap",
+      "chars": [
+        "肚"
+      ],
+      "height": 9
+    },
+    {
       "file": "gamula/titles/pets/title_adult.png",
       "ascent": 8,
       "type": "bitmap",
