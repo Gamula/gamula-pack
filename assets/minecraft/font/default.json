@@ -1417,33 +1417,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/advent/gui_advent.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "智"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/advent/gui_advent_free.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "晶"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/advent/gui_advent_premium.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "暗"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/cosmetics/gui_cosmetic_tint.png",
       "chars": [
         ""
@@ -1525,20 +1498,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_thanksgiving.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_admin.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
-        "清"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_valentines.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "您"
+        "朋"
       ],
       "height": 256
     },
@@ -1561,38 +1525,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_cosmic.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "沙"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_rank.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
         "恶"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_elf.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "懂"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_set.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "快"
       ],
       "height": 256
     },
@@ -1624,15 +1561,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_tree.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "㮙"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_void.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1647,15 +1575,6 @@
       "type": "bitmap",
       "chars": [
         "⼓"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_cosmic.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "法"
       ],
       "height": 256
     },
@@ -1678,24 +1597,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_elf.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "忍"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_set.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "慢"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/crates/gui_crate_preview_crystal.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1710,15 +1611,6 @@
       "type": "bitmap",
       "chars": [
         "⼖"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_tree.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "㰟"
       ],
       "height": 256
     },
