@@ -1,6 +1,294 @@
 {
   "providers": [
     {
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_1.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∀"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_2.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∁"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_3.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∂"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_4.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∃"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_5.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∄"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_6.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∅"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_7.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∆"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_8.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∇"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_9.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∈"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_10.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∉"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_11.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∊"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_12.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_13.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∌"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_14.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∍"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_15.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∎"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_16.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∏"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_17.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∐"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_18.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∑"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_19.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∓"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_20.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∔"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/level_tag_up.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∰"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_100.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_90.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∜"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_80.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∝"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_70.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∞"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_60.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∟"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_50.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∠"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_40.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∡"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_30.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∢"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_20.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∤"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/hp_10.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"∥"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gamula/event/pokemon/type_tag_fire.png",
+			"height": 30,
+			"ascent": 18,
+			"chars": [
+				"⊆"
+			]
+		},
+    {
       "ascent": 8,
       "chars": [
         "댯"
