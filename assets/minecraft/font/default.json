@@ -1813,6 +1813,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_pokemon.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "脸"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_rank.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1872,6 +1881,15 @@
       "type": "bitmap",
       "chars": [
         "⼔"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_pokemon.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "脱"
       ],
       "height": 256
     },
