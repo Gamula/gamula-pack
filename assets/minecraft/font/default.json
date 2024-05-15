@@ -832,6 +832,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/quests/gui_quests_period_select.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "峡"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/quests/gui_recipes.png",
       "ascent": 28,
       "type": "bitmap",
