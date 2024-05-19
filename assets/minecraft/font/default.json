@@ -1084,6 +1084,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/battlebox/gui_battlebox_select_back.png",
+      "ascent": 30,
+      "type": "bitmap",
+      "chars": [
+        "朗"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/auction/gui_auction_categories.png",
       "ascent": 30,
       "type": "bitmap",
@@ -1786,7 +1795,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_may.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
