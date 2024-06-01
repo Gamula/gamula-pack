@@ -159,6 +159,7 @@
         {"predicate": {"custom_model_data": 253},"model": "item/custom/keys/pokeball_key"},
         {"predicate": {"custom_model_data": 254},"model": "item/custom/keys/may_key"},
         {"predicate": {"custom_model_data": 255},"model": "item/custom/crates/may_crate"},
+        {"predicate": {"custom_model_data": 256},"model": "item/custom/crates/june_key"},
         {"predicate": {"custom_model_data": 1000},"model": "item/custom/icons/tags/candy_cane"},
         {"predicate": {"custom_model_data": 1001},"model": "item/custom/icons/tags/christmas_tree"},
         {"predicate": {"custom_model_data": 1002},"model": "item/custom/icons/tags/elf"},
