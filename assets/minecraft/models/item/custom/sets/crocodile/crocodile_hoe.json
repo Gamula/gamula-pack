@@ -6,7 +6,7 @@
     ],
     "textures": {
         "1": "gamula/others/little_crocodile",
-        "3": "gamula/sets/crocodile/hoe"
+        "3": "gamula/sets/crocodile/crocodile_hoe"
     },
     "elements": [
         {

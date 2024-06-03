@@ -6,7 +6,7 @@
     ],
     "textures": {
         "1": "gamula/others/little_crocodile",
-        "3": "gamula/sets/crocodile/fishing_rod"
+        "3": "gamula/rods/crocodile_fishing_rod"
     },
     "elements": [
         {

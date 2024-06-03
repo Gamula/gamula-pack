@@ -6,8 +6,8 @@
     ],
     "textures": {
         "1": "gamula/others/little_crocodile",
-        "2": "gamula/sets/crocodile/pickaxe",
-        "particle": "gamula/sets/crocodile/pickaxe"
+        "2": "gamula/sets/crocodile/crocodile_pickaxe",
+        "particle": "gamula/sets/crocodile/crocodile_pickaxe"
     },
     "elements": [
         {

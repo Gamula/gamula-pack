@@ -6,8 +6,8 @@
     ],
     "textures": {
         "1": "gamula/others/little_crocodile",
-        "4": "gamula/sets/crocodile/shovel",
-        "particle": "gamula/sets/crocodile/shovel"
+        "4": "gamula/sets/crocodile/crocodile_shovel",
+        "particle": "gamula/sets/crocodile/crocodile_shovel"
     },
     "elements": [
         {
