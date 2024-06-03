@@ -21,6 +21,7 @@
         {"predicate": {"custom_model_data": 21}, "model": "item/custom/sets/winter/pickaxe"},
         {"predicate": {"custom_model_data": 22}, "model": "item/custom/sets/valentines/pickaxe"},
         {"predicate": {"custom_model_data": 23}, "model": "item/custom/sets/alien/pickaxe"},
-        {"predicate": {"custom_model_data": 24}, "model": "item/custom/sets/shogun/shogun_pickaxe"}
+        {"predicate": {"custom_model_data": 24}, "model": "item/custom/sets/shogun/shogun_pickaxe"},
+        {"predicate": {"custom_model_data": 25}, "model": "item/custom/sets/crocodile/crocodile_pickaxe"}
     ]
 }

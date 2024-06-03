@@ -1,9 +1,9 @@
 {
     "credit": "Made with Blockbench",
     "textures": {
-        "1": "gamula/others/little_crocodile",
-        "2": "gamula/sets/crocodile/bow",
-        "particle": "gamula/sets/crocodile/bow"
+        "1": "littlecrocodileset/little_crocodile",
+        "2": "littlecrocodileset/bow",
+        "particle": "littlecrocodileset/bow"
     },
     "elements": [
         {

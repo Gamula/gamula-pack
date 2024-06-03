@@ -15,6 +15,7 @@
         {"predicate": {"custom_model_data": 21}, "model": "item/custom/sets/skills/mining_helmet"},
         {"predicate": {"custom_model_data": 22}, "model": "item/custom/sets/skills/fishing_helmet"},
         {"predicate": {"custom_model_data": 23}, "model": "item/custom/sets/fiendskull/fiendskull_helmet"},
-        {"predicate": {"custom_model_data": 33}, "model": "item/custom/sets/gingerbread/helmet"}
+        {"predicate": {"custom_model_data": 33}, "model": "item/custom/sets/gingerbread/helmet"},
+        {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/crocodile/crocodile_helmet"}
     ]
 }

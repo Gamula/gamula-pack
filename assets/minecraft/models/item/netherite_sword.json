@@ -37,6 +37,8 @@
         {"predicate": {"custom_model_data": 38}, "model": "item/custom/sets/shogun/shogun_tanto"},
         {"predicate": {"custom_model_data": 39}, "model": "item/custom/sets/shogun/shogun_staff"},
         {"predicate": {"custom_model_data": 40}, "model": "item/custom/sets/shogun/shogun_spear"},
-        {"predicate": {"custom_model_data": 41}, "model": "item/custom/sets/shogun/shogun_scythe"}
+        {"predicate": {"custom_model_data": 41}, "model": "item/custom/sets/shogun/shogun_scythe"},
+        {"predicate": {"custom_model_data": 42}, "model": "item/custom/sets/crocodile/crocodile_spear"},
+        {"predicate": {"custom_model_data": 43}, "model": "item/custom/sets/crocodile/crocodile_scythe"}
     ]
 }

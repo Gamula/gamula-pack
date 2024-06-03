@@ -39,6 +39,7 @@
         {"predicate": {"custom_model_data": 33}, "model": "item/custom/sets/gingerbread/chestplate"},
         {"predicate": {"custom_model_data": 34}, "model": "item/custom/sets/valentines/valentines_chestplate"},
         {"predicate": {"custom_model_data": 35}, "model": "item/custom/sets/alien/chestplate"},
-        {"predicate": {"custom_model_data": 36}, "model": "item/custom/sets/shogun/shogun_chestplate"}
+        {"predicate": {"custom_model_data": 36}, "model": "item/custom/sets/shogun/shogun_chestplate"},
+        {"predicate": {"custom_model_data": 37}, "model": "item/custom/sets/crocodile/crocodile_chestplate"}
     ]
 }

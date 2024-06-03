@@ -70,6 +70,9 @@
         {"predicate": {"custom_model_data": 15},"model": "item/custom/sets/easter/bow"},
         {"predicate": {"custom_model_data": 15,"pulling": 1},"model": "item/custom/sets/easter/bow_0"},
         {"predicate": {"custom_model_data": 15,"pulling": 1,"pull": 0.65},"model": "item/custom/sets/easter/bow_1"},
-        {"predicate": {"custom_model_data": 15,"pulling": 1,"pull": 0.9},"model": "item/custom/sets/easter/bow_2"}
+        {"predicate": {"custom_model_data": 15,"pulling": 1,"pull": 0.9},"model": "item/custom/sets/easter/bow_2"},
+        {"predicate": {"custom_model_data": 16,"pulling": 1},"model": "item/custom/sets/crocodile/crocodile_bow_0"},
+        {"predicate": {"custom_model_data": 16,"pulling": 1,"pull": 0.65},"model": "item/custom/sets/crocodile/crocodile_bow_1"},
+        {"predicate": {"custom_model_data": 16,"pulling": 1,"pull": 0.9},"model": "item/custom/sets/crocodile/crocodile_bow_2"}
     ]
 }

@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gamula/sets/crocodile/crocodile_helmet",
+		"layer1": "gamula/sets/crocodile/crocodile_helmet"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}
