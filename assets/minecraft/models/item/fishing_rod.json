@@ -37,7 +37,7 @@
         {"predicate": {"custom_model_data": 15, "cast": 1}, "model": "item/custom/rods/sculk_fishing_rod_cast"},
         {"predicate": {"custom_model_data": 16}, "model": "item/custom/rods/slime_fishing_rod"},
         {"predicate": {"custom_model_data": 16, "cast": 1}, "model": "item/custom/rods/slime_fishing_rod_cast"},
-        {"predicate": {"custom_model_data": 17}, "model": "item/custom/crocodile/crocodile_fishing_rod"},
-        {"predicate": {"custom_model_data": 17, "cast": 1}, "model": "item/custom/crocodile/crocodile_fishing_rod_cast"}
+        {"predicate": {"custom_model_data": 18}, "model": "item/custom/rods/crocodile_fishing_rod"},
+        {"predicate": {"custom_model_data": 18, "cast": 1}, "model": "item/custom/rods/crocodile_fishing_rod_cast"}
     ]
 }
