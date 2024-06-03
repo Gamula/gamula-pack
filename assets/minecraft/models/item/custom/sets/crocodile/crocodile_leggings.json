@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gamula/sets/buzzlightyear/crocodile_leggings",
-		"layer1": "gamula/sets/buzzlightyear/crocodile_leggings"
+		"layer0": "gamula/sets/crocodile/crocodile_leggings",
+		"layer1": "gamula/sets/crocodile/crocodile_leggings"
 	},
 	"display": {
 		"gui": {
