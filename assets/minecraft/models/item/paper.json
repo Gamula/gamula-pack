@@ -482,6 +482,8 @@
         {"predicate": {"custom_model_data": 20183}, "model":"item/custom/crops/sparkler/sparkler_seeds"},
         {"predicate": {"custom_model_data": 20184}, "model":"item/custom/crops/sparkler/sparkler_stage_1"},
         {"predicate": {"custom_model_data": 20185}, "model":"item/custom/crops/sparkler/sparkler_stage_2"},
-        {"predicate": {"custom_model_data": 20186}, "model":"item/custom/crops/sparkler/sparkler_stage_3"}
+        {"predicate": {"custom_model_data": 20186}, "model":"item/custom/crops/sparkler/sparkler_stage_3"},
+        {"predicate": {"custom_model_data": 20187}, "model":"item/custom/cannons/mob_cannon"},
+        {"predicate": {"custom_model_data": 20188}, "model":"item/custom/cannons/farm_cannon"}
     ]
 }
