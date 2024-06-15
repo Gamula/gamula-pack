@@ -2209,6 +2209,33 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/gui_casino.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "那"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_casino_limbo.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "阳"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/gui_casino_mines.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        "阵"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/titles/ranks/title_media.png",
       "ascent": 8,
       "type": "bitmap",
