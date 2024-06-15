@@ -2209,7 +2209,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_casino.png",
+      "file": "gamula/ui/gui/wager/gui_casino.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -2218,7 +2218,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_casino_limbo.png",
+      "file": "gamula/ui/gui/wager/gui_casino_limbo.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -2227,7 +2227,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/gui_casino_mines.png",
+      "file": "gamula/ui/gui/wager/gui_casino_mines.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
