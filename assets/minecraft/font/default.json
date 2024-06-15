@@ -2209,7 +2209,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/wager/gui_casino.png",
+      "file": "gamula/ui/gui/wager/gui_wager_main.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
