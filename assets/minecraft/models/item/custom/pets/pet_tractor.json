@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "modelengine:entity/pet_tractor"
+		"0": "block/cowtruck"
 	},
 	"elements": [
 		{
@@ -1500,6 +1500,35 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [7.75, 0, -7.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-7.5, 0, -7],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [3.5, 3.75, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-12, 3.75, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [16.25, 4.25, -15]
+		},
+		"gui": {
+			"rotation": [0, 111, 0],
+			"translation": [-14, -0.25, 1.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"translation": [14.5, 0.75, -21.25]
+		}
+	},
 	"groups": [
 		{
 			"name": "all",
