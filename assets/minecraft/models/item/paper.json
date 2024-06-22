@@ -326,6 +326,7 @@
         {"predicate": {"custom_model_data": 19014}, "model":"item/custom/pets/pet_snowman"},
         {"predicate": {"custom_model_data": 19015}, "model":"item/custom/pets/pet_dupe"},
         {"predicate": {"custom_model_data": 19016}, "model":"item/custom/pets/pet_ditto"},
+        {"predicate": {"custom_model_data": 19017}, "model":"item/custom/pets/pet_tractor"},
         {"predicate": {"custom_model_data": 20000}, "model":"item/custom/crops/pot"},
         {"predicate": {"custom_model_data": 20001}, "model":"item/custom/crops/tem_seed"},
         {"predicate": {"custom_model_data": 20002}, "model":"item/custom/crops/watered_pot"},
