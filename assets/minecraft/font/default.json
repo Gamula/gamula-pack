@@ -1687,6 +1687,42 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/prizes/gui_prizes_farming.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "钟"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/prizes/gui_prizes_grinding.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "钢"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/prizes/gui_prizes_mining.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "钱"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/prizes/gui_prizes_menu.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "钓"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/robots/gui_robot_menu.png",
       "ascent": 29,
       "type": "bitmap",
