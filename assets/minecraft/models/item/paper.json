@@ -42,6 +42,7 @@
         {"predicate": {"custom_model_data": 68},"model": "item/custom/icons/ranks/title_twist_icon"},
         {"predicate": {"custom_model_data": 69},"model": "item/custom/icons/ranks/title_vip_icon"},
         {"predicate": {"custom_model_data": 70},"model": "item/custom/icons/buttons/btn_check"},
+        {"predicate": {"custom_model_data": 71},"model": "item/custom/icons/ranks/title_virus_icon"},
         {"predicate": {"custom_model_data": 80},"model": "item/custom/discord/logo"},
         {"predicate": {"custom_model_data": 81},"model": "item/custom/others/star_pass"},
         {"predicate": {"custom_model_data": 82},"model": "item/custom/others/route_66"},
