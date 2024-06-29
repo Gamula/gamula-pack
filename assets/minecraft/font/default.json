@@ -318,7 +318,9 @@
     {
       "ascent": 8,
       "chars": [
-        "狼"
+        "狼",
+        "猫",
+        "穷"
       ],
       "file": "block/magma.png",
       "height": 9,
