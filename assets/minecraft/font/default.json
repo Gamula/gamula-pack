@@ -300,6 +300,33 @@
     {
       "ascent": 8,
       "chars": [
+        "猴"
+      ],
+      "file": "block/end_stone_bricks.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "狮"
+      ],
+      "file": "block/end_stone.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
+        "狼"
+      ],
+      "file": "block/magma_block.png",
+      "height": 9,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 8,
+      "chars": [
         "댰"
       ],
       "file": "block/deepslate_coal_ore.png",
