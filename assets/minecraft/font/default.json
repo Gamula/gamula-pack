@@ -320,7 +320,7 @@
       "chars": [
         "狼"
       ],
-      "file": "block/magma_block.png",
+      "file": "block/magma.png",
       "height": 9,
       "type": "bitmap"
     },
