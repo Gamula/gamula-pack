@@ -2908,7 +2908,7 @@
     {"file":"gamula/titles/tags/dragon.png","ascent":8,"type":"bitmap","chars":["蟹"],"height":9},
     {"file":"gamula/titles/tags/title_origin_mvp.png","ascent":8,"type":"bitmap","chars":["汤"],"height":9},
     {"file":"gamula/titles/ranks/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
-    {"file":"gamula/titles/ranks/title_virus_prefix.png","ascent":8,"type":"bitmap","chars":["键","错","犯","狂","狗","狐","独"],"height":9},
+    {"file":"gamula/titles/ranks/title_virus_prefix.png","ascent":8,"type":"bitmap","chars":["键","错","犯","狂","狗","狐","独", "狠"],"height":9},
     {"file":"gamula/titles/ranks/title_owner.png","ascent":8,"type":"bitmap","chars":["","","","","","","","ల"],"height":9},
     {"file":"gamula/titles/ranks/title_developer.png","ascent":8,"type":"bitmap","chars":["","","",""],"height":9},
     {"file":"gamula/titles/ranks/title_partner.png","ascent":8,"type":"bitmap","chars":["冻"],"height":9},
