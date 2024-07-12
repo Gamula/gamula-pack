@@ -588,33 +588,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/fishing/gui_fisherman.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "鱲"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/fishing/gui_fishing.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "靿"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/fishing/gui_baits_preview.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "鞟"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/gui_hub_selector.png",
       "ascent": 29,
       "type": "bitmap",
@@ -710,15 +683,6 @@
       "type": "bitmap",
       "chars": [
         "턘"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/tools/gui_harvester_tool.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "습"
       ],
       "height": 256
     },
@@ -1277,33 +1241,6 @@
       "type": "bitmap",
       "chars": [
         "旧"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/advent/gui_advent.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "智"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/advent/gui_advent_free.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "晶"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/advent/gui_advent_premium.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "暗"
       ],
       "height": 256
     },
