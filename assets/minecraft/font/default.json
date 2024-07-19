@@ -1725,6 +1725,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/bounty/gui_bounties_top.png",
+      "ascent": 29,
+      "type": "bitmap",
+      "chars": [
+        "铁"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/ui/gui/prizes/gui_prizes_grinding.png",
       "ascent": 29,
       "type": "bitmap",
