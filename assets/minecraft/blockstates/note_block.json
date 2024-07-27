@@ -43,6 +43,7 @@
             "instrument=chime,note=22,powered=false":{"model":"item/custom/blocks/coal_ore_deepslate"},
             "instrument=bass,note=1,powered=false":{"model":"item/custom/blocks/wood/dark_oak_block_2"},
             "instrument=bass,note=2,powered=false":{"model":"item/custom/blocks/wood/jungle_block_8"},
-            "instrument=bass,note=3,powered=false":{"model":"item/custom/blocks/wood/spruce_block_5"}
+            "instrument=bass,note=3,powered=false":{"model":"item/custom/blocks/wood/spruce_block_5"},
+            "instrument=snare,note=1,powered=false":{"model":"item/custom/blocks/ichest/ichest"}
         }
     }

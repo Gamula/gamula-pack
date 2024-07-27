@@ -1473,7 +1473,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/collectors/gui_collector_menu.png",
+      "file": "gamula/ui/gui/ichest/gui_ichest_menu.png",
       "ascent": 29,
       "type": "bitmap",
       "chars": [
@@ -1482,20 +1482,11 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/collectors/gui_collector_upgrades.png",
+      "file": "gamula/ui/gui/ichest/gui_ichest_upgrades.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
         "盼"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/collectors/gui_collector_upgrade_range.png",
-      "ascent": 29,
-      "type": "bitmap",
-      "chars": [
-        "眨"
       ],
       "height": 256
     },
@@ -1869,7 +1860,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_may.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_august.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
