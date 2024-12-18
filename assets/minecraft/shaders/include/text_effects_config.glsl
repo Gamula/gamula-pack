@@ -145,3 +145,8 @@ TEXT_EFFECT(240, 240, 104) {
     override_shadow_color(rgb(96, 170, 219));
     apply_fade(rgb(200, 136, 252));
 }
+
+TEXT_EFFECT(240, 240, 108) {
+    apply_waving_movement();
+    apply_gradient(rgb(255, 235, 120), rgb(255, 82, 82));
+}
