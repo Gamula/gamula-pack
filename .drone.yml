@@ -21,7 +21,7 @@ steps:
   - name: login-ghcr
     image: docker
     commands:
-      - echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USERNAME" --password-stdin
+      - echo "$GHCR_TOKEN" | docker login ghcr.io -u saifsuleman --password-stdin
 
   # Build with PackSquash
   - name: build-pack
