@@ -8,30 +8,28 @@ trigger:
 
 steps:
   # Clone the repository
-  - name: clone
+  - name: clone-repo
     image: alpine/git
     commands:
       - git clone --branch main --depth 1 ${DRONE_REPO} .
 
   # Shaders workaround - prepare
-  - name: shaders-prepare
+  - name: shaders-workaround-prepare
     image: alpine
     commands:
       - zip -r shaders.zip assets/minecraft/shaders
       - rm -r assets/minecraft/shaders
 
   # Build with PackSquash
-  - name: build
+  - name: build-pack
     image: ghcr.io/comunidadaylas/packsquash-action:v4
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
 
-  # Download artifact (not directly required in Drone; managed by `build` step)
-
   # Shaders workaround - finalize
-  - name: shaders-finalize
+  - name: shaders-workaround-finalize
     image: alpine
     commands:
       - unzip shaders.zip -d .
@@ -39,7 +37,7 @@ steps:
       - zip -ur gamula.zip assets/minecraft/shaders
 
   # Hash the output file
-  - name: hash
+  - name: hash-output
     image: alpine
     commands:
       - HASH=$(shasum gamula.zip | cut -d " " -f 1)
@@ -47,14 +45,14 @@ steps:
       - echo "pack_hash=$HASH" >> .drone.env
 
   # Configure Git for tagging
-  - name: configure-git
+  - name: configure-git-user
     image: alpine/git
     commands:
       - git config --global user.email "no-reply@github.com"
       - git config --global user.name "Drone CI"
 
   # Tag and release
-  - name: release
+  - name: release-to-github
     image: plugins/github-release
     settings:
       api_key:
