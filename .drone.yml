@@ -29,6 +29,7 @@ steps:
   # Build with PackSquash.
   - name: build-pack
     image: docker
+    privileged: true
     volumes:
     - name: dind
       path: /var/run/docker.sock
