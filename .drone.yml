@@ -26,7 +26,7 @@ steps:
       GHCR_TOKEN:
         from_secret: GHCR_TOKEN
     commands:
-      - 'echo "tok: ${GHCR_TOKEN} ${#GHCR_TOKEN}"'
+      - 'echo "username: ${GHCR_USERNAME} tok: ${GHCR_TOKEN} ${#GHCR_TOKEN}"'
       - echo "$GHCR_TOKEN" | docker login ghcr.io -u saifsuleman --password-stdin
 
   # Build with PackSquash
