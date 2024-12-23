@@ -18,7 +18,7 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
-  # Build with PackSquash
+  # Build with PackSquash.
   - name: build-pack
     image: ghcr.io/comunidadaylas/packsquash:master
     environment:
