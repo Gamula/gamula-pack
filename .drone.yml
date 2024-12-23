@@ -23,6 +23,8 @@ steps:
     image: ghcr.io/comunidadaylas/packsquash:master
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
+    commands:
+    - packsquash.toml
     image_pull_secrets:
     - dockerconfigjson
 
