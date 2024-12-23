@@ -23,12 +23,14 @@ steps:
     image: ghcr.io/comunidadaylas/packsquash-action:master
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
-      REGISTRY_USERNAME:
+      DOCKER_USERNAME:
         from_secret: GHCR_USERNAME
-      REGISTRY_PASSWORD:
-        from_secret: GHCR_TOKEN
+      DOCKER_PASSWORD:
+        from_secret; GHCR_TOKEN
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
+    image_pull_secrets:
+    - dockerconfig
 
   # Shaders workaround - finalize
   - name: shaders-workaround-finalize
@@ -78,5 +80,5 @@ steps:
                 "draft": false,
                 "prerelease": false
               }' \
-          https://api.github.com/repos/Gamula/modules/releases
+          https://api.github.com/repos/Gamula/gamula-pack/releases
 
