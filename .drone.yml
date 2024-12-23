@@ -20,11 +20,10 @@ steps:
 
   # Build with PackSquash
   - name: build-pack
-    image: ghcr.io/comunidadaylas/packsquash-action:v4
+    image: docker://ghcr.io/comunidadaylas/packsquash-action:v4
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
     commands:
-      - echo $GHCR_TOKEN | docker login ghcr.io -u saifsuleman --password-stdin
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
 
   # Shaders workaround - finalize
