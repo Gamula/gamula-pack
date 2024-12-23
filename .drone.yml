@@ -31,6 +31,8 @@ steps:
       PACKSQUASH_OPTIONS: packsquash_options.toml
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
+    image_pull_secrets:
+    - dockerconfigjson
 
   # Shaders workaround - finalize
   - name: shaders-workaround-finalize
