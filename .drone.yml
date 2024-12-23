@@ -7,12 +7,6 @@ trigger:
     - push
 
 steps:
-  # Validate packsquash options
-  - name: validate-packsquash-options
-    image: alpine
-    commands:
-      - '[ ! -f packsquash_options.toml ] && echo "packsquash_options.toml not found!" && exit 1'
-
   # Shaders workaround - prepare
   - name: shaders-workaround-prepare
     image: alpine
