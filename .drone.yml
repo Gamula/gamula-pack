@@ -5,15 +5,6 @@ name: Build & Release
 trigger:
   event:
     - push
-services:
-  - name: docker
-    image: docker:20.10.16-dind
-
-volumes:
-  - name: docker-socket
-    host:
-      path: /var/run/docker.sock
-
 steps:
   # Shaders workaround - prepare
   - name: shaders-workaround-prepare
