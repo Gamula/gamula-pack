@@ -18,30 +18,27 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
-  - name: login-ghcr
-    image: docker
+  - name: print-token
+    image: alpine
     environment:
       GHCR_USERNAME:
         from_secret: GHCR_USERNAME
       GHCR_TOKEN:
         from_secret: GHCR_TOKEN
     commands:
-      - 'echo "username: ${GHCR_USERNAME} tok: ${GHCR_TOKEN} ${#GHCR_TOKEN}"'
-      - echo "$GHCR_TOKEN" | docker login ghcr.io -u saifsuleman --password-stdin
+    - echo "$GHCR_USERNAME $GHCR_TOKEN"
 
   # Build with PackSquash
   - name: build-pack
     image: ghcr.io/comunidadaylas/packsquash-action:master
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
-      DOCKER_USERNAME:
+      GHCR_USERNAME:
         from_secret: GHCR_USERNAME
-      DOCKER_PASSWORD:
-        from_secret; GHCR_TOKEN
+      GHCR_TOKEN:
+        from_secret: GHCR_TOKEN
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
-    image_pull_secrets:
-    - dockerconfig
 
   # Shaders workaround - finalize
   - name: shaders-workaround-finalize
