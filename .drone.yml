@@ -1,0 +1,68 @@
+kind: pipeline
+type: docker
+name: Build & Release
+
+trigger:
+  event:
+    - push
+
+steps:
+  # Clone the repository
+  - name: clone
+    image: alpine/git
+    commands:
+      - git clone --branch main --depth 1 ${DRONE_REPO} .
+
+  # Shaders workaround - prepare
+  - name: shaders-prepare
+    image: alpine
+    commands:
+      - zip -r shaders.zip assets/minecraft/shaders
+      - rm -r assets/minecraft/shaders
+
+  # Build with PackSquash
+  - name: build
+    image: ghcr.io/comunidadaylas/packsquash-action:v4
+    environment:
+      PACKSQUASH_OPTIONS: packsquash_options.toml
+    commands:
+      - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
+
+  # Download artifact (not directly required in Drone; managed by `build` step)
+
+  # Shaders workaround - finalize
+  - name: shaders-finalize
+    image: alpine
+    commands:
+      - unzip shaders.zip -d .
+      - rm shaders.zip
+      - zip -ur gamula.zip assets/minecraft/shaders
+
+  # Hash the output file
+  - name: hash
+    image: alpine
+    commands:
+      - HASH=$(shasum gamula.zip | cut -d " " -f 1)
+      - echo "Exporting pack hash to $HASH"
+      - echo "pack_hash=$HASH" >> .drone.env
+
+  # Configure Git for tagging
+  - name: configure-git
+    image: alpine/git
+    commands:
+      - git config --global user.email "no-reply@github.com"
+      - git config --global user.name "Drone CI"
+
+  # Tag and release
+  - name: release
+    image: plugins/github-release
+    settings:
+      api_key:
+        from_secret: GITHUB_TOKEN
+      files: gamula.zip
+      tag_name: v${DRONE_BUILD_NUMBER}-stable
+      commitish: main
+      notes: |
+        **commit:** ${DRONE_COMMIT_MESSAGE}
+        > hash: ${pack_hash}
+
