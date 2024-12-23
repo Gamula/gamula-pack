@@ -18,6 +18,11 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
+  - name: wtf
+    image: alpine
+    commands:
+    - docker images
+
   # Build with PackSquash
   - name: build-pack
     image: pvpwars/packsquash
