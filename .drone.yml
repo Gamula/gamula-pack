@@ -1,10 +1,19 @@
 kind: pipeline
 type: docker
 name: Build & Release
-
 trigger:
   event:
     - push
+services:
+  - name: docker
+    image: docker:20.10-dind
+    privileged: true
+volumes:
+  - name: dind
+    temp: {}
+  - name: pack-volume
+    host:
+      path: /tmp/pack
 steps:
   # Shaders workaround - prepare
   - name: shaders-workaround-prepare
@@ -20,6 +29,14 @@ steps:
   # Build with PackSquash.
   - name: build-pack
     image: docker
+    volumes:
+    - name: dind
+      path: /var/run/docker.sock
+    - name: pack-volume
+      path: /tmp/pack
+    environment:
+      DOCKER_HOST: tcp://docker:2375
+      DOCKER_TLS_CERTDIR: ""
     commands:
     - docker run -v "$(pwd):$(pwd)" --workdir "$(pwd)" ghcr.io/comunidadaylas/packsquash:latest packsquash_options.toml
     image_pull_secrets:
