@@ -30,13 +30,13 @@ steps:
 
   # Build with PackSquash
   - name: build-pack
-    image: ghcr.io/comunidadaylas/packsquash-action:master
+    image: plugins/docker
+    settings:
+      repo: comunidadaylas/packsquash-action
+      tags: master
+      skip_pull: true
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
-      GHCR_USERNAME:
-        from_secret: GHCR_USERNAME
-      GHCR_TOKEN:
-        from_secret: GHCR_TOKEN
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
 
