@@ -25,7 +25,7 @@ steps:
 
   # Build with PackSquash
   - name: build-pack
-    image: pvpwars/packsquash
+    image: ghcr.io/comunidadaylas/packsquash:master
     pull: never
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
