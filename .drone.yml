@@ -23,8 +23,6 @@ steps:
     image: ghcr.io/comunidadaylas/packsquash:master
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
-    commands:
-      - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
     image_pull_secrets:
     - dockerconfigjson
 
