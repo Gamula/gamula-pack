@@ -18,6 +18,14 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
+  - name: docker-login
+    image: plugins/docker
+    settings:
+      username:
+        from_secret: GHCR_USERNAME
+      password:
+        from_secret: GHCR_TOKEN
+
   # Build with PackSquash
   - name: build-pack
     image: ghcr.io/comunidadaylas/packsquash-action:v4
