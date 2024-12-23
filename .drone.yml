@@ -20,8 +20,10 @@ steps:
 
   # Build with PackSquash
   - name: build-pack
-    image: docker://ghcr.io/comunidadaylas/packsquash-action:v4
+    image: ghcr.io/comunidadaylas/packsquash-action:v4
     environment:
+      DOCKER_USERNAME: $${GHCR_USERNAME}
+      DOCKER_PASSWORD: $${GHCR_TOKEN}
       PACKSQUASH_OPTIONS: packsquash_options.toml
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
