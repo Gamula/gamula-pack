@@ -18,23 +18,9 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
-  - name: print-token
-    image: alpine
-    environment:
-      GHCR_USERNAME:
-        from_secret: GHCR_USERNAME
-      GHCR_TOKEN:
-        from_secret: GHCR_TOKEN
-    commands:
-    - echo "$GHCR_USERNAME $GHCR_TOKEN"
-
   # Build with PackSquash
   - name: build-pack
-    image: plugins/docker
-    settings:
-      repo: comunidadaylas/packsquash-action
-      tags: master
-      skip_pull: true
+    image: pvpwars/packsquash
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
     commands:
