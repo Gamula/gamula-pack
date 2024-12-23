@@ -20,7 +20,7 @@ steps:
 
   # Build with PackSquash
   - name: build-pack
-    image: ghcr.io/comunidadaylas/packsquash-action:master
+    image: ghcr.io/comunidadaylas/packsquash-action
     environment:
       DOCKER_USERNAME: $${GHCR_USERNAME}
       DOCKER_PASSWORD: $${GHCR_TOKEN}
