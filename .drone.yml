@@ -21,9 +21,12 @@ steps:
   # Build with PackSquash
   - name: build-pack
     image: ghcr.io/comunidadaylas/packsquash-action:master
-    pull: if-not-exists
     environment:
       PACKSQUASH_OPTIONS: packsquash_options.toml
+      REGISTRY_USERNAME:
+        from_secret: GHCR_USERNAME
+      REGISTRY_PASSWORD:
+        from_secret: GHCR_TOKEN
     commands:
       - packsquash --options $PACKSQUASH_OPTIONS --output gamula.zip
 
