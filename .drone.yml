@@ -23,6 +23,7 @@ steps:
   - name: imlosingit
     image: ubuntu
     commands:
+    - apt -y install util-linux
     - ls
     - whereami
 
