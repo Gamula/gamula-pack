@@ -11,6 +11,10 @@ services:
     volumes:
     - name: sock
       path: /var/run/docker.sock
+volumes:
+  - name: sock
+    host:
+      path: /var/run/docker.sock
 steps:
   # Shaders workaround - prepare
   - name: shaders-workaround-prepare
