@@ -71,4 +71,64 @@ steps:
                 "prerelease": false
               }' \
           https://api.github.com/repos/Gamula/gamula-pack/releases
+when:
+  branch:
+    - main
+# -------------------------------------------
+kind: pipeline
+type: docker
+name: Build (Development)
+trigger:
+  event:
+    - push
+steps:
+  # Shaders workaround - prepare
+  - name: shaders-workaround-prepare
+    image: alpine
+    commands:
+      - apk add --no-cache zip
+      - zip -r gamula.zip .
+
+  # Hash the output file
+  - name: hash-output
+    image: alpine
+    commands:
+      - apk add --no-cache bash coreutils
+      - HASH=$(sha256sum gamula.zip | cut -d " " -f 1)
+      - echo "Exporting pack hash to $HASH"
+      - echo "pack_hash=$HASH" >> .drone.env
+
+  # Configure Git for tagging
+  - name: configure-git-user
+    image: alpine/git
+    commands:
+      - git config --local user.email "no-reply@github.com"
+      - git config --local user.name "Drone CI"
+
+  # Tag and release
+  - name: release-to-github
+    image: alpine
+    environment:
+      GITHUB_TOKEN:
+        from_secret: GITHUB_TOKEN
+    commands:
+      - apk add --no-cache curl jq
+      - |
+        curl -X POST \
+          -H "Authorization: token ${GITHUB_TOKEN}" \
+          -H "Content-Type: application/json" \
+          -d '{
+                "tag_name": "v${DRONE_BUILD_NUMBER}-stable",
+                "target_commitish": "main",
+                "name": "Release v${DRONE_BUILD_NUMBER}-stable",
+                "body": "commit: ${DRONE_COMMIT_MESSAGE}\nhash: ${pack_hash}",
+                "draft": false,
+                "prerelease": false
+              }' \
+          https://api.github.com/repos/Gamula/gamula-pack/releases
+when:
+  branch:
+    - main
+
+
 
