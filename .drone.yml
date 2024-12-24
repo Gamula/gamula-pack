@@ -63,7 +63,7 @@ steps:
     commands:
       - apk add --no-cache bash coreutils
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
-      - HASH=$(sha256sum "$ZIP_FILE" | cut -d " " -f 1)
+      - HASH=$(sha1sum "$ZIP_FILE" | cut -d " " -f 1)
       - echo "pack_hash=$HASH" >> .drone.env
 
   # Deploy Resource Pack using sshpass + sftp (for all branches)j
