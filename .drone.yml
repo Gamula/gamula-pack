@@ -65,33 +65,34 @@ steps:
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - HASH=$(sha256sum "$ZIP_FILE" | cut -d " " -f 1)
       - echo "pack_hash=$HASH"
-
-  # Deploy Resource Pack using sshpass + sftp (for all branches)j
-  - name: deploy-resource-pack
-    image: alpine
-    environment:
-      SFTP_HOST:
-        from_secret: SFTP_HOST
-      SFTP_USERNAME:
-        from_secret: SFTP_USERNAME
-      SFTP_PASSWORD:
-        from_secret: SFTP_PASSWORD
-    commands:
-      - apk add --no-cache openssh sshpass
-      - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
-      - echo "Uploading $ZIP_FILE to $SFTP_HOST via SFTP"
-      - |
-        sshpass -p "$SFTP_PASSWORD" sftp -oBatchMode=no -o StrictHostKeyChecking=no -b - $SFTP_USERNAME@$SFTP_HOST <<EOF
-        put $ZIP_FILE
-        bye
-        EOF
-
+  #
+  # # Deploy Resource Pack using sshpass + sftp (for all branches)j
+  # - name: deploy-resource-pack
+  #   image: alpine
+  #   environment:
+  #     SFTP_HOST:
+  #       from_secret: SFTP_HOST
+  #     SFTP_USERNAME:
+  #       from_secret: SFTP_USERNAME
+  #     SFTP_PASSWORD:
+  #       from_secret: SFTP_PASSWORD
+  #   commands:
+  #     - apk add --no-cache openssh sshpass
+  #     - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
+  #     - echo "Uploading $ZIP_FILE to $SFTP_HOST via SFTP"
+  #     - |
+  #       sshpass -p "$SFTP_PASSWORD" sftp -oBatchMode=no -o StrictHostKeyChecking=no -b - $SFTP_USERNAME@$SFTP_HOST <<EOF
+  #       put $ZIP_FILE
+  #       bye
+  #       EOF
+  #
   - name: notify-discord
-    image: httplab/drone-discord
+    image: appleboy/drone-discord
     settings:
-      webhook:
-        from_secret: discord_webhook
-    when:
-      status:
-        - failure
-        - success
+      webhook_id:
+        from_secret: discord_id
+      webhook_token:
+        from_secret: discord_token
+      when:
+        status: [ success, failure, changed ]
+
