@@ -27,7 +27,7 @@ steps:
     - name: sock
       path: /var/run/docker.sock
     commands:
-    - docker run -v "$(pwd):/workspace" -w /workspace alpine ls
+    - docker run -v "$(pwd):/workspace" -w /workspace alpine ls && echo wtf
     image_pull_secrets:
     - dockerconfigjson
 
