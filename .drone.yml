@@ -21,9 +21,8 @@ steps:
         fi
 
   - name: imlosingit
-    image: alpine
+    image: ubuntu
     commands:
-    - apt -y install util-linux
     - ls
     - whereami
 
