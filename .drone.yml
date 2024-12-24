@@ -4,10 +4,6 @@ name: Build & Release
 trigger:
   event:
     - push
-volumes:
-  - name: sock
-    host:
-      path: /var/run/docker.sock
 steps:
   # Shaders workaround - prepare
   - name: shaders-workaround-prepare
@@ -22,18 +18,9 @@ steps:
 
   # Build with PackSquash.
   - name: build-pack
-    image: docker
-    privileged: true
-    volumes:
-    - name: sock
-      path: /var/run/docker.sock
+    image: alpine
     commands:
-    - chmod -R 755 $PWD
-    - echo "$PWD"
-    - ls
-    - docker run -v "$PWD:/workspace" -w /workspace alpine ls -a /workspace
-    image_pull_secrets:
-    - dockerconfigjson
+    - ./bin/packsquash packsquash_options.yml
 
   # Shaders workaround - finalize
   - name: shaders-workaround-finalize
