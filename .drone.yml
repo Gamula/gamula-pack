@@ -112,21 +112,24 @@ steps:
           STATUS_MESSAGE="Failure ❌"
         fi
 
-        # Get the pack_hash from the environment or set a default value
-        PACK_HASH=${pack_hash:-"Not available"}
+        # Get GitHub user avatar URL and commit author info (optional fallback)
+        GITHUB_USER_AVATAR="https://avatars.githubusercontent.com/${DRONE_COMMIT_AUTHOR}" # GitHub avatar URL
+        GITHUB_USER_NAME="${DRONE_COMMIT_AUTHOR:-unknown}"
 
         # Build the default description message
-        DESCRIPTION="<@${DRONE_COMMIT_AUTHOR}> pushed to ${DRONE_BRANCH}.\\nBuild #$DRONE_BUILD_NUMBER - Status: $STATUS_MESSAGE\\nHash: $PACK_HASH"
+        DESCRIPTION="${GITHUB_USER_NAME} pushed to ${DRONE_BRANCH}.\\n[View Build #$DRONE_BUILD_NUMBER](${DRONE_BUILD_LINK})\\nStatus: $STATUS_MESSAGE"
 
         # Append the environment variables if they exist
         if [ -n "$ENV_PRETTY" ]; then
           DESCRIPTION="${DESCRIPTION}\\n\\n**Environment Variables:**\\n$ENV_PRETTY"
         fi
 
-        # Build the JSON payload (inline, single-line)
-        PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"title\": \"gamula-pack [$DRONE_BRANCH]\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+        # Build the JSON payload with GitHub user icon and username
+        PAYLOAD="{\"username\": \"${GITHUB_USER_NAME}\", \"avatar_url\": \"$GITHUB_USER_AVATAR\", \"embeds\": [{\"title\": \"$DRONE_BRANCH\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+
+        # Echo the full payload for debugging
+        echo "Payload: $PAYLOAD"
 
         # Send the payload to Discord
-        echo "Payload: $PAYLOAD"
         curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK_URL"
 
