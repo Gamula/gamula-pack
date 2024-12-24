@@ -86,13 +86,32 @@ steps:
   #       bye
   #       EOF
   #
-  - name: notify-discord
-    image: appleboy/drone-discord
-    settings:
-      webhook_id:
-        from_secret: discord_id
-      webhook_token:
-        from_secret: discord_token
-      when:
-        status: [ success, failure, changed ]
+
+  - name: discord-notification
+    image: alpine
+    environment:
+      DISCORD_WEBHOOK_URL:
+        from_secret: discord_webhook_url
+    commands:
+      - apk add --no-cache curl jq
+      - |
+        # Load .drone.env file and pretty-print its contents
+        ENV_CONTENT=$(cat .drone.env | jq -R -s -c 'split("\n") | map(select(length > 0))')
+        ENV_PRETTY=$(echo "$ENV_CONTENT" | jq -r '. | map("- " + .) | join("\\n")')
+
+        # Determine the color based on the build status
+        if [ "$DRONE_BUILD_STATUS" = "success" ]; then
+          COLOR=65280 # Green
+          STATUS_MESSAGE="Success ✅"
+        else
+          COLOR=16711680 # Red
+          STATUS_MESSAGE="Failure ❌"
+        fi
+
+        # Build the JSON payload (inline, single-line)
+        PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"title\": \"gamula-pack [$DRONE_BRANCH]\", \"description\": \"Build #$DRONE_BUILD_NUMBER - Status: $STATUS_MESSAGE\\nHash: $pack_hash\\n\\n**Environment Variables:**\\n$ENV_PRETTY\", \"color\": $COLOR}]}"
+
+        # Send the payload to Discord
+        echo "Payload: $PAYLOAD"
+        curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK_URL"
 
