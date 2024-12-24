@@ -8,12 +8,9 @@ services:
   - name: docker
     image: docker:20.10-dind
     privileged: true
-volumes:
-  - name: dind
-    temp: {}
-  - name: pack-volume
-    host:
-      path: /tmp/pack
+    volumes:
+    - name: sock
+      path: /var/run
 steps:
   # Shaders workaround - prepare
   - name: shaders-workaround-prepare
@@ -31,15 +28,10 @@ steps:
     image: docker
     privileged: true
     volumes:
-    - name: dind
-      path: /var/run/docker.sock
-    - name: pack-volume
-      path: /tmp/pack
-    environment:
-      DOCKER_HOST: tcp://docker:2375
-      DOCKER_TLS_CERTDIR: ""
+    - name: sock
+      path: /var/run
     commands:
-    - docker run -v "$(pwd):$(pwd)" --workdir "$(pwd)" ghcr.io/comunidadaylas/packsquash:latest packsquash_options.toml
+    - docker run -v ghcr.io/comunidadaylas/packsquash:master packsquash_options.toml
     image_pull_secrets:
     - dockerconfigjson
 
