@@ -23,9 +23,8 @@ steps:
   - name: imlosingit
     image: ubuntu
     commands:
-    - apt -y install util-linux
     - ls
-    - whereami
+    - echo "$PWD"
 
   # Build with PackSquash.
   - name: ls
