@@ -28,7 +28,7 @@ if [ -n "$ENV_PRETTY" ]; then
 fi
 
 # Build the JSON payload (inline, single-line)
-PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"title\": \"gamula-pack [$DRONE_BRANCH]\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"title\": \"gamula-pack [hi?]\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
 
 # Send the payload to Discord
 echo "Payload: $PAYLOAD"
