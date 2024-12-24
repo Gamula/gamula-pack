@@ -86,3 +86,20 @@ steps:
         bye
         EOF
 
+  - name: notify-discord
+    image: appleboy/drone-discord
+    settings:
+      webhook_id:
+        from_secret: discord_id
+      webhook_token:
+        from_secret: discord_token
+      message: >
+        {{#success build.status}}✅{{else}}❌{{/success}}  Resource Pack
+        - Commit [[{{commit.sha}}]({{commit.link}})]
+        - Author `[{{commit.author}} / {{commit.email}}]`
+        - Message: {{commit.message}}
+        - Drone build [[#{{build.number}}]({{build.link}})] reported `[{{uppercase build.status}}]`
+          at `[{{datetime build.finished "2006.01.02 15:04" ""}}]`
+      when:
+        status: [ success, failure, changed ]
+
