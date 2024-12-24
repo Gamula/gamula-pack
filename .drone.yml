@@ -4,13 +4,6 @@ name: Build & Release
 trigger:
   event:
     - push
-services:
-  - name: docker
-    image: docker:20.10-dind
-    privileged: true
-    volumes:
-    - name: sock
-      path: /var/run/docker.sock
 volumes:
   - name: sock
     host:
@@ -26,8 +19,6 @@ steps:
           zip -r shaders.zip assets/minecraft/shaders
           rm -r assets/minecraft/shaders
         fi
-
-
   # Build with PackSquash.
   - name: ls
     image: docker
