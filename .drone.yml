@@ -112,24 +112,28 @@ steps:
           STATUS_MESSAGE="Failure ❌"
         fi
 
-        # Get GitHub user avatar URL and commit author info (optional fallback)
-        GITHUB_USER_AVATAR="https://avatars.githubusercontent.com/${DRONE_COMMIT_AUTHOR}" # GitHub avatar URL
-        GITHUB_USER_NAME="${DRONE_COMMIT_AUTHOR}"
+        # GitHub user avatar and name
+        {GITHUB_USER_AVATAR}="https://avatars.githubusercontent.com/${DRONE_COMMIT_AUTHOR}" # GitHub avatar URL
+        {GITHUB_USER_NAME}="${DRONE_COMMIT_AUTHOR}"
 
-        echo "user: $GITHUB_USER_NAME"
+        # Get the pack_hash from the environment or set a default value
+        PACK_HASH=${pack_hash:-"Not available"}
 
         # Build the default description message
-        DESCRIPTION="${GITHUB_USER_NAME} pushed to ${DRONE_BRANCH}.\\n[View Build #$DRONE_BUILD_NUMBER](${DRONE_BUILD_LINK})\\nStatus: $STATUS_MESSAGE"
+        DESCRIPTION="${GITHUB_USER_NAME} pushed to ${DRONE_BRANCH}.\\nBuild #$DRONE_BUILD_NUMBER - Status: $STATUS_MESSAGE\\nHash: $PACK_HASH"
 
         # Append the environment variables if they exist
         if [ -n "$ENV_PRETTY" ]; then
           DESCRIPTION="${DESCRIPTION}\\n\\n**Environment Variables:**\\n$ENV_PRETTY"
         fi
 
-        # Build the JSON payload with GitHub user icon and username
-        PAYLOAD="{\"username\": \"$GITHUB_USER_NAME\", \"avatar_url\": \"$GITHUB_USER_AVATAR\", \"embeds\": [{\"title\": \"$DRONE_BRANCH\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+        # Construct the title as a clickable link
+        TITLE="[Build #$DRONE_BUILD_NUMBER [${DRONE_BRANCH}]](${DRONE_BUILD_LINK})"
 
-        # Echo the full payload for debugging
+        # Build the JSON payload with GitHub user as the embed author
+        PAYLOAD="{\"username\": \"${GITHUB_USER_NAME}\", \"avatar_url\": \"${GITHUB_USER_AVATAR}\", \"embeds\": [{\"author\": {\"name\": \"${GITHUB_USER_NAME}\", \"icon_url\": \"${GITHUB_USER_AVATAR}\"}, \"title\": \"$TITLE\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+
+        # Debugging: Print the payload
         echo "Payload: $PAYLOAD"
 
         # Send the payload to Discord
