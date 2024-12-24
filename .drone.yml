@@ -1,13 +1,16 @@
 kind: pipeline
 type: docker
-name: Build & Release
+name: Build & Deploy
 trigger:
   event:
     - push
 steps:
-  # Shaders workaround - prepare
+  # Shaders workaround - prepare (only for main)
   - name: shaders-workaround-prepare
     image: alpine
+    when:
+      branch:
+        - main
     commands:
       - apk add --no-cache zip
       - |
@@ -16,15 +19,21 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
-  # Build with PackSquash.
-  - name: build-pack
+  # Build with PackSquash (only for main)
+  - name: build-with-packsquash
     image: alpine
+    when:
+      branch:
+        - main
     commands:
-    - ./bin/packsquash packsquash_options.toml
+      - ./bin/packsquash packsquash_options.toml
 
-  # Shaders workaround - finalize
+  # Shaders workaround - finalize (only for main)
   - name: shaders-workaround-finalize
     image: alpine
+    when:
+      branch:
+        - main
     commands:
       - apk add --no-cache unzip zip
       - |
@@ -34,62 +43,19 @@ steps:
           zip -ur gamula.zip assets/minecraft/shaders
         fi
 
-  # Hash the output file
-  - name: hash-output
-    image: alpine
-    commands:
-      - apk add --no-cache bash coreutils
-      - HASH=$(sha256sum gamula.zip | cut -d " " -f 1)
-      - echo "Exporting pack hash to $HASH"
-      - echo "pack_hash=$HASH" >> .drone.env
-
-  # Configure Git for tagging
-  - name: configure-git-user
-    image: alpine/git
-    commands:
-      - git config --local user.email "no-reply@github.com"
-      - git config --local user.name "Drone CI"
-
-  # Tag and release
-  - name: release-to-github
-    image: alpine
-    environment:
-      GITHUB_TOKEN:
-        from_secret: GITHUB_TOKEN
-    commands:
-      - apk add --no-cache curl jq
-      - |
-        curl -X POST \
-          -H "Authorization: token ${GITHUB_TOKEN}" \
-          -H "Content-Type: application/json" \
-          -d '{
-                "tag_name": "v${DRONE_BUILD_NUMBER}-stable",
-                "target_commitish": "main",
-                "name": "Release v${DRONE_BUILD_NUMBER}-stable",
-                "body": "commit: ${DRONE_COMMIT_MESSAGE}\nhash: ${pack_hash}",
-                "draft": false,
-                "prerelease": false
-              }' \
-          https://api.github.com/repos/Gamula/gamula-pack/releases
-when:
-  branch:
-    - main
-# -------------------------------------------
-kind: pipeline
-type: docker
-name: Build (Development)
-trigger:
-  event:
-    - push
-steps:
-  # Shaders workaround - prepare
-  - name: shaders-workaround-prepare
+  # Build pack (for all branches, ensures the same ZIP naming)
+  - name: build-pack
     image: alpine
     commands:
       - apk add --no-cache zip
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - echo "Creating $ZIP_FILE"
-      - zip -r "$ZIP_FILE" .
+      - |
+        if [ "$DRONE_BRANCH" == "main" ]; then
+          mv gamula.zip "$ZIP_FILE"
+        else
+          zip -r "$ZIP_FILE" .
+        fi
 
   # Hash the output file
   - name: hash-output
@@ -98,10 +64,9 @@ steps:
       - apk add --no-cache bash coreutils
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - HASH=$(sha256sum "$ZIP_FILE" | cut -d " " -f 1)
-      - echo "Exporting pack hash to $HASH"
-      - echo "pack_hash=$HASH" >> .drone.env
+      - echo "pack_hash=$HASH"
 
-  # Deploy Resource Pack using sshpass + sftp
+  # Deploy Resource Pack using sshpass + sftp (for all branches)j
   - name: deploy-resource-pack
     image: alpine
     environment:
@@ -120,9 +85,4 @@ steps:
         put $ZIP_FILE
         bye
         EOF
-
-when:
-  branch:
-    exclude:
-      - main
 
