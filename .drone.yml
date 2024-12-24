@@ -101,14 +101,7 @@ steps:
       - echo "Exporting pack hash to $HASH"
       - echo "pack_hash=$HASH" >> .drone.env
 
-  # Configure Git for tagging
-  - name: configure-git-user
-    image: alpine/git
-    commands:
-      - git config --local user.email "no-reply@github.com"
-      - git config --local user.name "Drone CI"
-
-  # Deploy Resource Pack using sftp
+  # Deploy Resource Pack using sshpass + sftp
   - name: deploy-resource-pack
     image: alpine
     environment:
@@ -119,11 +112,11 @@ steps:
       SFTP_PASSWORD:
         from_secret: SFTP_PASSWORD
     commands:
-      - apk add --no-cache openssh
+      - apk add --no-cache openssh sshpass
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - echo "Uploading $ZIP_FILE to $SFTP_HOST via SFTP"
       - |
-        sftp -oBatchMode=no -b - $SFTP_USERNAME@$SFTP_HOST <<EOF
+        sshpass -p "$SFTP_PASSWORD" sftp -oBatchMode=no -o StrictHostKeyChecking=no -b - $SFTP_USERNAME@$SFTP_HOST <<EOF
         put $ZIP_FILE
         bye
         EOF
@@ -132,5 +125,4 @@ when:
   branch:
     exclude:
       - main
-
 
