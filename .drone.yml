@@ -19,6 +19,13 @@ steps:
           zip -r shaders.zip assets/minecraft/shaders
           rm -r assets/minecraft/shaders
         fi
+
+  - name: imlosingit
+    image: alpine
+    commands:
+    - ls
+    - whereami
+
   # Build with PackSquash.
   - name: ls
     image: docker
