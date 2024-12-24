@@ -128,7 +128,7 @@ steps:
         TITLE="Build #$DRONE_BUILD_NUMBER [${DRONE_BRANCH}]"
 
         # Build the JSON payload with GitHub user as the embed author
-        PAYLOAD="{\"username\": \"$GITHUB_USER_NAME\", \"avatar_url\": \"$GITHUB_USER_AVATAR\", \"embeds\": [{\"author\": {\"name\": \"$GITHUB_USER_NAME\", \"icon_url\": \"$GITHUB_USER_AVATAR\"}, \"title\": \"$TITLE\", \"url\": \"${DRONE_BUILD_LINK}\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+        PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"author\": {\"name\": \"$GITHUB_USER_NAME\", \"icon_url\": \"$GITHUB_USER_AVATAR\"}, \"title\": \"$TITLE\", \"url\": \"${DRONE_BUILD_LINK}\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
 
         # Debugging: Print the payload
         echo "Payload: $PAYLOAD"
