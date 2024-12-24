@@ -27,6 +27,19 @@ steps:
           rm -r assets/minecraft/shaders
         fi
 
+
+  # Build with PackSquash.
+  - name: ls
+    image: docker
+    privileged: true
+    volumes:
+    - name: sock
+      path: /var/run/docker.sock
+    commands:
+    - docker run -v "$(pwd):/workspace" -w /workspace alpine ls
+    image_pull_secrets:
+    - dockerconfigjson
+
   # Build with PackSquash.
   - name: build-pack
     image: docker
