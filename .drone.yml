@@ -20,7 +20,7 @@ steps:
   - name: build-pack
     image: alpine
     commands:
-    - ./bin/packsquash packsquash_options.yml
+    - ./bin/packsquash packsquash_options.toml
 
   # Shaders workaround - finalize
   - name: shaders-workaround-finalize
