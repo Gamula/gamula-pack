@@ -123,11 +123,8 @@ steps:
           DESCRIPTION="${DESCRIPTION}\\n\\n**Environment Variables:**\\n$ENV_PRETTY"
         fi
 
-        # Escape the DESCRIPTION for JSON format
-        ESCAPED_DESCRIPTION=$(echo "$DESCRIPTION" | jq -sRr @uri)
-
         # Build the JSON payload (inline, single-line)
-        PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"title\": \"gamula-pack [$DRONE_BRANCH]\", \"description\": \"$ESCAPED_DESCRIPTION\", \"color\": $COLOR}]}"
+        PAYLOAD="{\"username\": \"Drone\", \"avatar_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodFcGcfo72oDYs4w0NRBccDQ5L08m8VDnGg&s\", \"embeds\": [{\"title\": \"gamula-pack [$DRONE_BRANCH]\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
 
         # Send the payload to Discord
         echo "Payload: $PAYLOAD"
