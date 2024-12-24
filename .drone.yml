@@ -30,7 +30,7 @@ steps:
     commands:
     - echo "$PWD"
     - ls
-    - docker run -v "$(pwd):/workspace" -w /workspace ghcr.io/comunidadaylas/packsquash:master packsquash_options.toml
+    - docker run -v "/drone/src:/workspace" -w /workspace ghcr.io/comunidadaylas/packsquash:master packsquash_options.toml
     image_pull_secrets:
     - dockerconfigjson
 
