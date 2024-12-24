@@ -28,9 +28,10 @@ steps:
     - name: sock
       path: /var/run/docker.sock
     commands:
+    - chmod -R 755 $PWD
     - echo "$PWD"
     - ls
-    - docker run -v "/drone/src:/workspace" -w /workspace alpine cat /workspace/packsquash_options.toml
+    - docker run -v "$PWD:/workspace" -w /workspace alpine cat /workspace/packsquash_options.toml
     - docker run -v "/drone/src:/workspace" -w /workspace ghcr.io/comunidadaylas/packsquash:master packsquash_options.toml
     image_pull_secrets:
     - dockerconfigjson
