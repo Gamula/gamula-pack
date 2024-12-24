@@ -114,7 +114,9 @@ steps:
 
         # Get GitHub user avatar URL and commit author info (optional fallback)
         GITHUB_USER_AVATAR="https://avatars.githubusercontent.com/${DRONE_COMMIT_AUTHOR}" # GitHub avatar URL
-        GITHUB_USER_NAME="${DRONE_COMMIT_AUTHOR:-unknown}"
+        GITHUB_USER_NAME="${DRONE_COMMIT_AUTHOR}"
+
+        echo "user: $GITHUB_USER_NAME"
 
         # Build the default description message
         DESCRIPTION="${GITHUB_USER_NAME} pushed to ${DRONE_BRANCH}.\\n[View Build #$DRONE_BUILD_NUMBER](${DRONE_BUILD_LINK})\\nStatus: $STATUS_MESSAGE"
