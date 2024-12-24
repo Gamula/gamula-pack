@@ -108,23 +108,29 @@ steps:
       - git config --local user.email "no-reply@github.com"
       - git config --local user.name "Drone CI"
 
-  # Deploy Resource Pack
-  - name: Deploy Resource Pack
-    image: appleboy/drone-scp
-    settings:
-      host:
+  # Deploy Resource Pack using sftp
+  - name: deploy-resource-pack
+    image: alpine
+    environment:
+      SFTP_HOST:
         from_secret: SFTP_HOST
-      username:
+      SFTP_USERNAME:
         from_secret: SFTP_USERNAME
-      password:
+      SFTP_PASSWORD:
         from_secret: SFTP_PASSWORD
-      port: 21
-      target: gamula-${DRONE_BUILD_NUMBER}.zip
-      source:
-        - gamula-${DRONE_BUILD_NUMBER}.zip
+    commands:
+      - apk add --no-cache openssh
+      - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
+      - echo "Uploading $ZIP_FILE to $SFTP_HOST via SFTP"
+      - |
+        sftp -oBatchMode=no -b - $SFTP_USERNAME@$SFTP_HOST <<EOF
+        put $ZIP_FILE
+        bye
+        EOF
 
 when:
   branch:
     exclude:
       - main
+
 
