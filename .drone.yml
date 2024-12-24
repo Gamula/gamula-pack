@@ -127,7 +127,7 @@ steps:
         fi
 
         # Build the JSON payload with GitHub user icon and username
-        PAYLOAD="{\"username\": \"${GITHUB_USER_NAME}\", \"avatar_url\": \"$GITHUB_USER_AVATAR\", \"embeds\": [{\"title\": \"$DRONE_BRANCH\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
+        PAYLOAD="{\"username\": \"$GITHUB_USER_NAME\", \"avatar_url\": \"$GITHUB_USER_AVATAR\", \"embeds\": [{\"title\": \"$DRONE_BRANCH\", \"description\": \"$DESCRIPTION\", \"color\": $COLOR}]}"
 
         # Echo the full payload for debugging
         echo "Payload: $PAYLOAD"
