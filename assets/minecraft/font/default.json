@@ -2301,6 +2301,78 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_one.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_two.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_three.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_four.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_five.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_six.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_seven.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/bazaar/bazaar_menu_selected_eight.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/titles/ranks/title_media.png",
       "ascent": 8,
       "type": "bitmap",
