@@ -2373,6 +2373,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/sets/set_menu.png",
+      "ascent": 28,
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/titles/ranks/title_media.png",
       "ascent": 8,
       "type": "bitmap",
