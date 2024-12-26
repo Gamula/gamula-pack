@@ -2391,6 +2391,15 @@
       "height": 256
     },
     {
+      "file": "gamula/ui/gui/island_crafter/gui_island_crafter_menu.png",
+      "ascent": 25,
+      "type": "bitmap",
+      "chars": [
+        "塚"
+      ],
+      "height": 256
+    },
+    {
       "file": "gamula/titles/ranks/title_media.png",
       "ascent": 8,
       "type": "bitmap",
