@@ -150,3 +150,13 @@ TEXT_EFFECT(240, 240, 108) {
     apply_waving_movement();
     apply_gradient(rgb(255, 235, 120), rgb(255, 82, 82));
 }
+
+TEXT_EFFECT(240, 240, 112) {
+    apply_rainbow();
+    apply_outline(rgb(255, 255, 255));
+}
+
+TEXT_EFFECT(240, 240, 116) {
+    apply_rainbow();
+    apply_outline(rgb(0, 0, 0));
+}
