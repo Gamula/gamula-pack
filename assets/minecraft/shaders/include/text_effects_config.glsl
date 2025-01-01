@@ -160,3 +160,7 @@ TEXT_EFFECT(240, 240, 116) {
     apply_rainbow();
     apply_outline(rgb(0, 0, 0));
 }
+
+TEXT_EFFECT(240, 240, 120) {
+    apply_random_fade()
+}
