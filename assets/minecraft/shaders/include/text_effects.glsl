@@ -72,6 +72,33 @@ void override_shadow_color(vec4 color) {
     }
 }
 
+void apply_random_fade() {
+    textData.shouldScale = true;
+
+    float seed = textData.position.x + textData.position.y + GameTime * 300.0;
+
+    vec3 baseColor;
+    float phase = mod(floor(seed), 4.0);
+    if (phase == 0.0) {
+        baseColor = vec3(1.0, 0.0, 0.0);
+    } else if (phase == 1.0) {
+        baseColor = vec3(1.0);
+    } else if (phase == 2.0) {
+        baseColor = vec3(0.5);
+    } else {
+        baseColor = vec3(0.0);
+    }
+
+    float fade = abs(sin(GameTime * 2.0 + seed)); 
+    vec3 nextColor = mix(baseColor, vec3(1.0 - baseColor), fade); 
+
+    textData.color.rgb = nextColor;
+
+    if (textData.isShadow) {
+        textData.color.rgb *= 0.25;
+    }
+}
+
 void override_shadow_color(vec3 color) {
     override_shadow_color(vec4(color, 1.0));
 }
