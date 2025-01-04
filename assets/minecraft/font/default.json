@@ -1896,7 +1896,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_enchanted.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_enchantment.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1941,7 +1941,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_enchanted.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_enchantment.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
