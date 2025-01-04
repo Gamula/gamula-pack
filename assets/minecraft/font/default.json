@@ -1905,15 +1905,6 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_crystal.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼐"
-      ],
-      "height": 256
-    },
-    {
       "file": "gamula/ui/gui/crates/gui_crate_opening_magma.png",
       "ascent": 28,
       "type": "bitmap",
@@ -1964,15 +1955,6 @@
       "type": "bitmap",
       "chars": [
         "恐"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_crystal.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "⼕"
       ],
       "height": 256
     },
