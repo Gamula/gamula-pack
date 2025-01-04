@@ -826,7 +826,7 @@
     },
     {
       "file": "gamula/ui/gui/quests/gui_gravestone.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "准"
@@ -835,7 +835,7 @@
     },
     {
       "file": "gamula/ui/gui/quests/gui_gravestone_inventory.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "决"
@@ -844,7 +844,7 @@
     },
     {
       "file": "gamula/ui/gui/quests/gui_crafting.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "减"
@@ -853,7 +853,7 @@
     },
     {
       "file": "gamula/ui/gui/quests/gui_quests.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "홳"
@@ -862,7 +862,7 @@
     },
     {
       "file": "gamula/ui/gui/quests/gui_quests_period_select.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "峡"
@@ -871,7 +871,7 @@
     },
     {
       "file": "gamula/ui/gui/quests/gui_recipes.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "遥"
@@ -889,7 +889,7 @@
     },
     {
       "file": "gamula/ui/gui/banker/gui_banker_mobcoin.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "思"
@@ -898,7 +898,7 @@
     },
     {
       "file": "gamula/ui/gui/banker/gui_banker_main.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "쇑"
@@ -907,7 +907,7 @@
     },
     {
       "file": "gamula/ui/gui/banker/gui_banker_display.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "쇒"
@@ -988,7 +988,7 @@
     },
     {
       "file": "gamula/ui/gui/goobits/gui_goobits_misc_category.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "鮱"
@@ -997,7 +997,7 @@
     },
     {
       "file": "gamula/ui/gui/goobits/gui_goobits_cosmetic_category.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "冬"
@@ -1015,7 +1015,7 @@
     },
     {
       "file": "gamula/ui/gui/pshop/gui_pshop_main.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "턗"
@@ -1042,7 +1042,7 @@
     },
     {
       "file": "gamula/ui/gui/pshop/gui_pshop_mode_display.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "턘"
@@ -1141,7 +1141,7 @@
     },
     {
       "file": "gamula/ui/gui/auction/gui_auction_confirm_sell.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "䶏"
@@ -1447,7 +1447,7 @@
     },
     {
       "file": "gamula/ui/gui/towergens/gui_towergens_menu_upgrades.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "큕"
@@ -1483,7 +1483,7 @@
     },
     {
       "file": "gamula/ui/gui/ichest/gui_ichest_upgrades.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "盼"
@@ -1609,7 +1609,7 @@
     },
     {
       "file": "gamula/ui/gui/rewards/gui_timeplayed_milestones.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "㠏"
@@ -1681,7 +1681,7 @@
     },
     {
       "file": "gamula/ui/gui/skills/gui_skills_generic.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼨"
@@ -1861,7 +1861,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_opening_monthly.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "薌"
@@ -1870,7 +1870,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_opening_enchantment.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼏"
@@ -1879,7 +1879,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_opening_magma.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼑"
@@ -1888,7 +1888,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_opening_thunder.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼒"
@@ -1897,7 +1897,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_opening_vote.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼓"
@@ -1906,7 +1906,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_preview_enchantment.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼔"
@@ -1915,7 +1915,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_preview_magma.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼖"
@@ -1924,7 +1924,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_preview_thunder.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼗"
@@ -1933,7 +1933,7 @@
     },
     {
       "file": "gamula/ui/gui/crates/gui_crate_preview_vote.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "⼘"
@@ -2194,7 +2194,7 @@
     },
     {
       "file": "gamula/ui/gui/wager/gui_wager_main.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "那"
@@ -2203,7 +2203,7 @@
     },
     {
       "file": "gamula/ui/gui/wager/gui_casino_limbo.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "阳"
@@ -2212,7 +2212,7 @@
     },
     {
       "file": "gamula/ui/gui/wager/gui_casino_mines.png",
-      "ascent": 28,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "阵"
