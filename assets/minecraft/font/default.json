@@ -2332,7 +2332,7 @@
       "ascent": 25,
       "type": "bitmap",
       "chars": [
-        ""
+        "✐"
       ],
       "height": 256
     },
@@ -2386,7 +2386,7 @@
       "ascent": 25,
       "type": "bitmap",
       "chars": [
-        ""
+        "✜"
       ],
       "height": 256
     },
