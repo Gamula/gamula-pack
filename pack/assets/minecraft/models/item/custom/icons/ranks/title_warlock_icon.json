@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "gamula/icons/ranks/title_glitch_icon"
+        "layer0": "gamula/icons/ranks/title_warlock_icon"
     }
 }
