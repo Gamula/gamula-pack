@@ -1860,7 +1860,7 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_august.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1874,24 +1874,6 @@
       "type": "bitmap",
       "chars": [
         "朋"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_st_patrick_day.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "有"
-      ],
-      "height": 256
-    },
-    {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly_easter.png",
-      "ascent": 28,
-      "type": "bitmap",
-      "chars": [
-        "肌"
       ],
       "height": 256
     },
@@ -1914,7 +1896,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_crimson.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_enchanted.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1932,7 +1914,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_toybox.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_magma.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1941,7 +1923,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_void.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_thunder.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1959,7 +1941,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_crimson.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_enchanted.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -1995,7 +1977,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_toybox.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_magma.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
@@ -2004,7 +1986,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_void.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_thunder.png",
       "ascent": 28,
       "type": "bitmap",
       "chars": [
