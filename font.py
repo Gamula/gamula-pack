@@ -1,6 +1,6 @@
 import json
 
-FONT_FILE = "./assets/minecraft/font/default.json"
+FONT_FILE = "./pack/assets/minecraft/font/default.json"
 
 def read_font_file(file_path):
     """
@@ -37,7 +37,7 @@ def read_font_file(file_path):
         print(f"Error reading font file: {e}")
         return set()
 
-def find_unused_characters(used_characters, begin_ord=10000, count=20):
+def find_unused_characters(used_characters, begin_ord=20000, count=20):
     """
     Finds the first `count` unused characters starting from `start_char`.
 
