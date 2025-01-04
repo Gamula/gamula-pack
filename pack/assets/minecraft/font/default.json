@@ -2345,6 +2345,9 @@
       ],
       "height": 9
     },
+    { "file": "gamula/titles/tiers/tier_1.png", "ascent": 8, "type": "bitmap", "chars": ["両"], "height": 9 },
+    { "file": "gamula/titles/tiers/tier_2.png", "ascent": 8, "type": "bitmap", "chars": ["丢"], "height": 9 },
+    { "file": "gamula/titles/tiers/tier_3.png", "ascent": 8, "type": "bitmap", "chars": ["丣"], "height": 9 },
     {
       "file": "gamula/titles/ranks/title_mod.png",
       "ascent": 8,
