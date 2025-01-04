@@ -13,6 +13,7 @@ steps:
         - main
     commands:
       - apk add --no-cache zip
+      - cd pack
       - |
         if [ -d "assets/minecraft/shaders" ]; then
           zip -r shaders.zip assets/minecraft/shaders
@@ -36,6 +37,7 @@ steps:
         - main
     commands:
       - apk add --no-cache unzip zip
+      - cd pack
       - |
         if [ -f "shaders.zip" ]; then
           unzip shaders.zip -d .
@@ -48,6 +50,7 @@ steps:
     image: alpine
     commands:
       - apk add --no-cache zip
+      - cd pack
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - echo "Creating $ZIP_FILE"
       - |
@@ -62,6 +65,7 @@ steps:
     image: alpine
     commands:
       - apk add --no-cache bash coreutils
+      - cd pack
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - HASH=$(sha1sum "$ZIP_FILE" | cut -d " " -f 1)
       - echo "pack_hash=$HASH" >> .drone.env
@@ -78,6 +82,7 @@ steps:
         from_secret: SFTP_PASSWORD
     commands:
       - apk add --no-cache openssh sshpass
+      - cd pack
       - ZIP_FILE="gamula-${DRONE_BUILD_NUMBER}.zip"
       - echo "Uploading $ZIP_FILE to $SFTP_HOST via SFTP"
       - |
@@ -94,6 +99,7 @@ steps:
         from_secret: discord_webhook_url
     commands:
       - apk add --no-cache curl jq
+      - cd pack
       - |
         # Check if .drone.env exists, then load it and pretty-print its contents
         if [ -f ".drone.env" ]; then

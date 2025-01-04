@@ -1,5 +1,5 @@
-pack_directory = "."
-output_file_path = "gamula.zip"
+pack_directory = "pack/"
+output_file_path = "pack/gamula.zip"
 skip_pack_icon = false
 validate_pack_metadata_file = true
 recompress_compressed_files = false
