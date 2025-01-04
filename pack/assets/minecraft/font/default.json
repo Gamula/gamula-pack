@@ -2068,7 +2068,7 @@
     },
     {
       "file": "gamula/ui/gui/shop/gui_shop_confirm.png",
-      "ascent": 30,
+      "ascent": 25,
       "type": "bitmap",
       "chars": [
         "ퟥ"
