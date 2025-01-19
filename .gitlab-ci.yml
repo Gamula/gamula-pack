@@ -19,7 +19,7 @@ build-pack:
         mv pack.zip "$ZIP_FILE"
       else
         zip -r "$ZIP_FILE" .
-    - echo "ZIP file created: $ZIP_FILE"
+    - 'echo "ZIP file created: $ZIP_FILE"'
   artifacts:
     paths:
       - pack/$ZIP_FILE
