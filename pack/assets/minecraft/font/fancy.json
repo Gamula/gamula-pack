@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 5
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "gamula:ui/fonts/fancy.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                " !\"#$%&'()*+,-./",
+                "0123456789:;<=>?",
+                "@ABCDEFGHIJKLMNO",
+                "PQRSTUVWXYZ[\\]^_",
+                "`abcdefghijklmno",
+                "pqrstuvwxyz{|}~\u0000",
+                "¢«»‘’“”•∞▶◀％\u0000\u0000\u0000\u0000"
+            ]
+        }
+    ]
+}
