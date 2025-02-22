@@ -2327,36 +2327,9 @@
       ],
       "height": 9
     },
-    {
-      "file": "gamula/titles/ranks/title_admin.png",
-      "ascent": 8,
-      "type": "bitmap",
-      "chars": [
-        ""
-      ],
-      "height": 9
-    },
-    {
-      "file": "gamula/titles/ranks/title_helper.png",
-      "ascent": 8,
-      "type": "bitmap",
-      "chars": [
-        ""
-      ],
-      "height": 9
-    },
     { "file": "gamula/titles/tiers/tier_1.png", "ascent": 8, "type": "bitmap", "chars": ["両"], "height": 9 },
     { "file": "gamula/titles/tiers/tier_2.png", "ascent": 8, "type": "bitmap", "chars": ["丢"], "height": 9 },
     { "file": "gamula/titles/tiers/tier_3.png", "ascent": 8, "type": "bitmap", "chars": ["丣"], "height": 9 },
-    {
-      "file": "gamula/titles/ranks/title_mod.png",
-      "ascent": 8,
-      "type": "bitmap",
-      "chars": [
-        ""
-      ],
-      "height": 9
-    },
     {
       "file": "gamula/titles/ranks/title_npc.png",
       "ascent": 8,
@@ -2543,15 +2516,6 @@
       "type": "bitmap",
       "chars": [
         "ర"
-      ],
-      "height": 9
-    },
-    {
-      "file": "gamula/titles/ranks/title_srmod.png",
-      "ascent": 8,
-      "type": "bitmap",
-      "chars": [
-        "ఱ"
       ],
       "height": 9
     },
@@ -2879,6 +2843,22 @@
       "height": 9,
       "type": "bitmap"
     },
+    {
+      "type": "bitmap",
+      "file": "gamula/titles/ranks/title_staff.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "",
+        "浓",
+        "",
+        "",
+        "",
+        "ఱ",
+        "",
+        ""
+      ]
+  },
     {"file":"gamula/titles/tags/easter/egg_1.png","ascent":8,"type":"bitmap","chars":["鈘"],"height":9},
     {"file":"gamula/titles/tags/easter/egg_2.png","ascent":8,"type":"bitmap","chars":["鈙"],"height":9},
     {"file":"gamula/titles/tags/easter/egg_3.png","ascent":8,"type":"bitmap","chars":["鈚"],"height":9},
@@ -2930,10 +2910,7 @@
     {"file":"gamula/titles/tags/title_origin_mvp.png","ascent":8,"type":"bitmap","chars":["汤"],"height":9},
     {"file":"gamula/titles/ranks/title_glitch_prefix.png","ascent":8,"type":"bitmap","chars":["想","意","感","愿","笑","第","笨"],"height":9},
     {"file":"gamula/titles/ranks/title_virus_prefix.png","ascent":8,"type":"bitmap","chars":["键","错","犯","狂","狗","狐","独", "狠"],"height":9},
-    {"file":"gamula/titles/ranks/title_owner.png","ascent":8,"type":"bitmap","chars":["","","","","","","","ల"],"height":9},
-    {"file":"gamula/titles/ranks/title_developer.png","ascent":8,"type":"bitmap","chars":["","","",""],"height":9},
     {"file":"gamula/titles/ranks/title_partner.png","ascent":8,"type":"bitmap","chars":["冻"],"height":9},
-    {"file":"gamula/titles/ranks/title_manager.png","ascent":8,"type":"bitmap","chars":["浓","淡"],"height":9},
     {"file":"gamula/titles/tags/air_top.png","ascent":8,"type":"bitmap","chars":["打","扔"],"height":9},
     {"file":"gamula/titles/tags/comp_top.png","ascent":8,"type":"bitmap","chars":["扒","拖","托","扫","扣"],"height":9},
     {"file":"gamula/titles/tags/diamond_top.png","ascent":8,"type":"bitmap","chars":["抗","扛","把","抱","报","找","挤","技"],"height":9},
