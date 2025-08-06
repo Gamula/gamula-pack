@@ -1869,7 +1869,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_enchantment.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_common.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
@@ -1878,7 +1878,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_magma.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_rare.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
@@ -1887,7 +1887,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_thunder.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_epic.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
@@ -1905,7 +1905,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_enchantment.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_common.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
@@ -1914,7 +1914,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_magma.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_rare.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
@@ -1923,7 +1923,7 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_thunder.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_epic.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
