@@ -1860,11 +1860,11 @@
       "type": "bitmap"
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_vote.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
-        "薌"
+        "⼓"
       ],
       "height": 256
     },
@@ -1896,11 +1896,38 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_opening_vote.png",
+      "file": "gamula/ui/gui/crates/gui_crate_opening_legendary.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
-        "⼓"
+        "⼕"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_mythical.png",
+      "ascent": 25,
+      "type": "bitmap",
+      "chars": [
+        "⼙"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_opening_monthly.png",
+      "ascent": 25,
+      "type": "bitmap",
+      "chars": [
+        "薌"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_vote.png",
+      "ascent": 25,
+      "type": "bitmap",
+      "chars": [
+        "⼘"
       ],
       "height": 256
     },
@@ -1932,11 +1959,20 @@
       "height": 256
     },
     {
-      "file": "gamula/ui/gui/crates/gui_crate_preview_vote.png",
+      "file": "gamula/ui/gui/crates/gui_crate_preview_legendary.png",
       "ascent": 25,
       "type": "bitmap",
       "chars": [
-        "⼘"
+        "⼠"
+      ],
+      "height": 256
+    },
+    {
+      "file": "gamula/ui/gui/crates/gui_crate_preview_mythical.png",
+      "ascent": 25,
+      "type": "bitmap",
+      "chars": [
+        "⼢"
       ],
       "height": 256
     },
